@@ -47,4 +47,5 @@ public class Constants {
 
     public static final String INTENT_TITLE = "title";
     public static final String INTENT_URL = "url";
+    public static final String EMPTY_STRING = "";
 }

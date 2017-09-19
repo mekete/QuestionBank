@@ -7,9 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import net.kerod.android.questionbank.QuestionActivity;
 import net.kerod.android.questionbank.R;
-import net.kerod.android.questionbank.manager.SettingManager;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 

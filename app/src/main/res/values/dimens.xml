@@ -82,6 +82,7 @@
     <dimen name="simple_activity_larger_padding">200dp</dimen>
     <dimen name="google_map_control_bottom_padding">200dp</dimen>
     <dimen name="action_button_height">20dp</dimen>
+    <dimen name="profile_user_photo_size">200dp</dimen>
 
 
 </resources>

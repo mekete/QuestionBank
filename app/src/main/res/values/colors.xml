@@ -13,6 +13,7 @@
 
     <!-- blue grey -->
     <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryLight">#FF6593A9</color>
     <color name="colorPrimaryTranslucent">#99607d8b</color>
     <color name="colorPrimaryTransparent">#55607d8b</color>
     <color name="colorPrimaryDark">#455a64</color>
@@ -55,6 +56,7 @@
 
      <color name="white">#FFFFFF</color>
     <color name="brokenWhite">#FAFAFA</color>
+    <color name="colorBrokenWhite">#FAFAFA</color>
     <color name="brokenWhiteTranslucent">#ddFAFAFA</color>
     <color name="darkWhite">#F0F0F0</color>
     <color name="revealBackground">#cc000000</color>
@@ -102,6 +104,11 @@
     <color name="blue_grey_900">#263238</color>
 <!--slide intro -->
 
+    <color name="colorError">#FFD5007C</color>
+    <color name="colorWarning">#B99D02</color>
+    <color name="colorInfo">@color/colorPrimary</color>
+    <color name="colorSuccess">#0ea923</color>
+    <!---->
     <color name="first_slide_background">#E91E63</color>
     <color name="first_slide_buttons">#880E4F</color>
 

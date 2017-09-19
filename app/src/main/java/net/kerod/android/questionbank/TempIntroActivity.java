@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Toast;
 
-import net.kerod.android.questionbank.manager.SettingManager;
+import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.widget.CustomSlide;
 import net.kerod.android.questionbank.widget.EditProfileSlide;
 import net.kerod.android.questionbank.widget.LoginSlide;
@@ -91,7 +91,7 @@ public class TempIntroActivity extends MaterialIntroActivity {
     @Override
     public void onFinish() {
         super.onFinish();
-        SettingManager.setFirstTimeLaunch(false);
+        SettingsManager.setFirstTimeLaunch(false);
         Toast.makeText(this, "Try this library in your project! :)", Toast.LENGTH_SHORT).show();
     }
 }

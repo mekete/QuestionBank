@@ -112,7 +112,7 @@ public class ArcProgress extends View {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeCap(Paint.Cap.ROUND);
 //        try{
-//            if(SettingManager.isSecondsShownInProgress()) {
+//            if(SettingsManager.isSecondsShownInProgress()) {
 //                condensedFont = Typeface.createFromAsset(getContext().getAssets(), "fonts/AntonioCondensedRegular.ttf");
 //            }
 //        }catch(Exception ex  ){}

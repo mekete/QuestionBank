@@ -125,7 +125,7 @@ public class ExamListActivity extends AppCompatActivity {
                         Exam exam = snapshot.getValue(Exam.class);
                         exam.setUid(snapshot.getKey());
                         //
-//                        String classGroup = SettingManager.getClassGroup();
+//                        String classGroup = SettingsManager.getClassGroup();
 //                        if (!Constants.CLASS_UNDEFINED.equals(classGroup)) {
 //                            if (
 //                                    (Constants.CLASS_HIGH_SCHOOL.equals(classGroup)  && classGroup.equals(exam.getGrade())) ||

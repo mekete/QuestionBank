@@ -1,17 +1,17 @@
 package net.kerod.android.questionbank.manager;
+
 import android.content.Context;
 import android.preference.PreferenceManager;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
-
 import net.kerod.android.questionbank.R;
+import net.kerod.android.questionbank.model.AppUser;
 import net.kerod.android.questionbank.utility.Constants;
 
 import java.util.Date;
 
-import static android.R.attr.value;
-
-public class SettingManager {
+public class SettingsManager {
     private static Context context = ApplicationManager.getAppContext();
 
     public static void setAvatarIndex(int value) {
@@ -146,5 +146,75 @@ public class SettingManager {
 
     // -------------------------------------------------------------------------
 
+
+    public static void setUserUid(String value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(context.getString(R.string.pref_key_user_uid), value).commit();
+    }
+
+    public static String getUserUid() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getString(context.getString(R.string.pref_key_user_uid), Constants.EMPTY_STRING);
+    }
+
+    @Nullable
+    public static String getUserRole() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getString(context.getString(R.string.pref_key_user_role), AppUser.USER_ROLE_APP_USER);
+    }
+
+    public static void setUserRole(String value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(context.getString(R.string.pref_key_user_role), value).commit();
+    }
+
+    // -------------------------------------------------------------------------
+
+    public static void setAntibiogramPreparedDate(String value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(context.getString(R.string.pref_key_antibiogram_prepared_date), value).commit();
+    }
+
+    public static String getAntibiogramPreparedDate() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getString(context.getString(R.string.pref_key_antibiogram_prepared_date), Constants.EMPTY_STRING);
+    }
+
+
+
+    public static boolean isPermissionRequested(String permission) {
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(permission, false);
+
+    }
+
+
+    public static void setPermissionRequested(String permission, boolean value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(permission, value).commit();
+    }
+
+    public static int getVersionCode() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getInt(context.getString(R.string.pref_key_version_code), -1);
+    }
+
+    public static void setVersionCode(int value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putInt(context.getString(R.string.pref_key_version_code), value).commit();
+    }
+
+    public static boolean isAgreedTermsOfService() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(context.getString(R.string.pref_key_agreed_terms_of_service), false);
+    }
+
+    public static void setAgreedTermsOfService(boolean value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_agreed_terms_of_service), value).commit();
+    }
+
+    public static boolean isFirstTimeToViewAntibiogram() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(context.getString(R.string.pref_key_first_to_view_antibiogram), true);
+    }
+
+    public static void setFirstTimeToViewAntibiogram(boolean value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_first_to_view_antibiogram), value).commit();
+    }
+
+
+
+
+    // -------------------------------------------------------------------------
+
 }
+
 

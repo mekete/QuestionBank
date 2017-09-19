@@ -5,7 +5,8 @@
     android:id="@+id/content_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorWhiteTranslucent"    android:orientation="vertical"
+    android:background="#bbffffff"
+    android:orientation="vertical"
 
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -18,10 +19,10 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
-        app:layout_marginTopPercent="5%">
+        app:layout_marginTopPercent="5%"
+        app:layout_widthPercent="85%">
 
         <TextView
             android:id="@+id/txtv_main_title"
@@ -29,8 +30,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:padding="5dp"
-            android:text="@string/question_bank"
+            android:text="@string/login"
             android:textAllCaps="true"
             android:textColor="#222"
             android:textSize="24sp"
@@ -41,8 +43,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/made_by_kerod"
-            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/card_margin"
+            android:gravity="center"
+            android:text="@string/login_with_facebook_or_g_mail"
+            android:textAllCaps="false"
             android:textColor="#222" />
 
 
@@ -58,7 +62,7 @@
         android:orientation="horizontal"
         android:weightSum="2"
         app:layout_heightPercent="8%"
-        app:layout_marginTopPercent="25%"
+        app:layout_marginTopPercent="20%"
         app:layout_widthPercent="80%">
 
         <Button
@@ -89,6 +93,19 @@
             tools:ignore="RtlHardcoded" />
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="--- OR ---"
+        android:textAllCaps="true"
+        android:textColor="#222"
+        android:textSize="20sp"
+        app:layout_marginTopPercent="32%"
+        app:layout_widthPercent="80%" />
+
 
     <LinearLayout
         android:id="@+id/lnrl_email_input"
@@ -100,12 +117,12 @@
         app:layout_widthPercent="80%">
 
         <!--<android.support.design.widget.TextInputLayout-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:theme="@style/EditTextHint">-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/EditTextHint">-->
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/txtv_login_email"
@@ -118,7 +135,7 @@
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <EditText
                 android:id="@+id/txtv_login_password"
@@ -131,29 +148,30 @@
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <EditText
-                android:visibility="gone"
                 android:id="@+id/txtv_login_repeat_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="@string/repeat_password"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:visibility="gone" />
         </android.support.design.widget.TextInputLayout>
 
 
     </LinearLayout>
 
 
-    <TextView
+    <Button
         android:id="@+id/btnn_forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/lnrl_email_input"
         android:paddingTop="@dimen/card_margin"
         android:text="@string/forgot_password"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="#555"
         app:layout_marginLeftPercent="10%" />
 
@@ -181,8 +199,8 @@
 
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        app:layout_marginTopPercent="90%"
+        android:orientation="vertical"
+        app:layout_marginTopPercent="85%"
         app:layout_widthPercent="90%">
 
         <TextView
@@ -191,16 +209,18 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Don't have account? "
-            android:textAllCaps="true"
+            android:textAllCaps="false"
             android:textColor="#222"
             app:layout_marginTopPercent="90%" />
 
         <TextView
-            android:id="@+id/txtv_register_login"
-            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/card_margin"
+            android:id="@+id/txtv_log_in_or_sign_up"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_centerHorizontal="true"
-            android:text="@string/register_now"
+            android:text="@string/sign_up_now"
             android:textAllCaps="true"
             android:textColor="@color/colorPrimary" />
     </LinearLayout>
@@ -211,5 +231,5 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/brokenWhite" />
+        android:textColor="@color/colorBrokenWhite" />
 </android.support.percent.PercentRelativeLayout>

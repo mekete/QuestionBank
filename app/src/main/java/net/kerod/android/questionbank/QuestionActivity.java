@@ -60,7 +60,7 @@ import com.yalantis.contextmenu.lib.interfaces.OnMenuItemClickListener;
 
 import net.kerod.android.questionbank.adapter.QuestionAdapter;
 import net.kerod.android.questionbank.manager.ApplicationManager;
-import net.kerod.android.questionbank.manager.SettingManager;
+import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
 import net.kerod.android.questionbank.model.Instruction;
 import net.kerod.android.questionbank.model.Question;
@@ -303,7 +303,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 Log.e(TAG, "START OF SECTION ::: : "+currentQuestion.getQuestionNumber()+"\n:::: "+currentQuestion.getStartOfSection() );
             }
             if (currentQuestion.getQuestionNumber()==12 || currentQuestion.getStartOfSection()) {
-                CustomView.makeSnackbar(v, "Read instruction for this question.", Snackbar.LENGTH_LONG).setAction("Read now", new View.OnClickListener() {
+                CustomView.makeSnackBar(v, "Read instruction for this question.", CustomView.SnackBarStyle.INFO).setAction("Read now", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         String instructionUid = currentQuestion.getInstructionCode();
@@ -341,7 +341,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         int color = correctAttempt ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
         colorizeAttempt(webViewArray, clickedIndex, correctAttempt);
         showFab(color);
-        if(SettingManager.isVibrateOnWrongAttempt() && !correctAttempt){
+        if(SettingsManager.isVibrateOnWrongAttempt() && !correctAttempt){
             Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vibe.vibrate(VIBRATION_DURATION_IN_MILLS);
         }
@@ -435,13 +435,13 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 if (markedFavorite != null) {
                     Log.e(TAG, ">>>>>>> jjj Check Attempr: ");
                     attempt.setMarkedAsFavorite(markedFavorite);
-                    CustomView.makeSnackbar(view, "The question is tagged as favorite.", Snackbar.LENGTH_LONG).show();
+                    CustomView.makeSnackBar(view, "The question is tagged as favorite.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (markedVague != null) {
                     Log.e(TAG, ">>>>>>> kkk Check Attempr: ");
                     attempt.setMarkedAsError(markedVague);
                     //Snackbar.make(view, "The question is tagged as vague.", Snackbar.LENGTH_LONG).show();
-                    CustomView.makeSnackbar(view, "The question is tagged as vague.", Snackbar.LENGTH_LONG).show();
+                    CustomView.makeSnackBar(view, "The question is tagged as vague.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (remark != null) {
                     Log.e(TAG, ">>>>>>> mmm Check Attempr: ");
@@ -637,12 +637,12 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
         View headerView = mNavigationView.inflateHeaderView(R.layout.drawer_question_header);
         CircleImageView imgvUserProfile = (CircleImageView) headerView.findViewById(R.id.imgv_user_photo);
-         imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingManager.getAvatarIndex()] );
+         imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingsManager.getAvatarIndex()] );
 
         TextView txtvUserName = (TextView) headerView.findViewById(R.id.txtv_user_name);
         TextView txtvUserEmail = (TextView) headerView.findViewById(R.id.txtv_user_email);
-        txtvUserName.setText(SettingManager.getDisplayName());
-        txtvUserEmail.setText(SettingManager.getEmail());
+        txtvUserName.setText(SettingsManager.getDisplayName());
+        txtvUserEmail.setText(SettingsManager.getEmail());
         //
         imgvUserProfile.setOnClickListener(actionEDitProfile );
         txtvUserName.setOnClickListener(actionEDitProfile );

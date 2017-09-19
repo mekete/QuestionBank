@@ -44,7 +44,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.firebase.database.DatabaseReference;
 
 import net.kerod.android.questionbank.R;
-import net.kerod.android.questionbank.manager.SettingManager;
+import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.AppUser;
 
 import agency.tango.materialintroscreen.SlideFragment;
@@ -234,7 +234,7 @@ public class LoginSlide extends SlideFragment {
     }
 
     private void initEmailLogin(View view) {
-        mTxtvLoginOrRegister = (TextView) view.findViewById(R.id.txtv_register_login);
+        mTxtvLoginOrRegister = null;//(TextView) view.findViewById(R.id.txtv_register_login);
         mTxtvDontHaveAccount = (TextView) view.findViewById(R.id.txtv_dont_have_account);
         mEmailField = (EditText) view.findViewById(R.id.txtv_login_email);
         mPasswordField = (EditText) view.findViewById(R.id.txtv_login_password);
@@ -337,16 +337,16 @@ public class LoginSlide extends SlideFragment {
             // updateUI(true);
             Log.e(TAG, "\n\n\n>>>>>>>>handleSignInResult>>>>>>>>>>>>> 4444:" + result.isSuccess());
             //now we set
-            SettingManager.setEmail(acct.getEmail());
-            SettingManager.setDisplayName(acct.getGivenName());
-            SettingManager.setFirstName(acct.getGivenName());
-            SettingManager.setLastName(acct.getFamilyName());
+            SettingsManager.setEmail(acct.getEmail());
+            SettingsManager.setDisplayName(acct.getGivenName());
+            SettingsManager.setFirstName(acct.getGivenName());
+            SettingsManager.setLastName(acct.getFamilyName());
             //
 
 
         } else {
             //Toast.makeText(getActivity(), "auth_failed", Toast.LENGTH_SHORT).show();
-            CustomView.makeSnackbar(mParentView, "Sorry, Google log in failed", Snackbar.LENGTH_LONG).show();
+            CustomView.makeSnackBar(mParentView, "Sorry, Google log in failed", CustomView.SnackBarStyle.WARNING).show();
         }
     }
 
@@ -435,7 +435,7 @@ public class LoginSlide extends SlideFragment {
     private void emailRegister(String email, String password) {
         Log.d(TAG, "createAccount:" + email);
         if (!validateEmailPassword()) {
-            CustomView.makeSnackbar(mParentView, mSignUpErrorMessage, Snackbar.LENGTH_LONG).show();
+            CustomView.makeSnackBar(mParentView, mSignUpErrorMessage, CustomView.SnackBarStyle.WARNING).show();
             return;
         }
 
@@ -453,7 +453,8 @@ public class LoginSlide extends SlideFragment {
                         if (!task.isSuccessful()) {
                             Log.e(TAG, "\n\n\n\nonComplete::: email login failed:::: " + task.getException());
                             //Toast.makeText(getActivity(), "auth_failed", Toast.LENGTH_SHORT).show();
-                            CustomView.makeSnackbar(mParentView, "Auth failed", Snackbar.LENGTH_LONG).show();
+                            CustomView.makeSnackBar(
+                                    mParentView, "Auth failed", CustomView.SnackBarStyle.ERROR).show();
                         }
                         hideProgressDialog();
                     }
@@ -463,7 +464,7 @@ public class LoginSlide extends SlideFragment {
     private void emailSignIn(String email, String password) {
         Log.d(TAG, "signIn:" + email);
         if (!validateEmailPassword()) {
-            CustomView.makeSnackbar(mParentView, mSignUpErrorMessage, Snackbar.LENGTH_LONG).show();
+            CustomView.makeSnackBar(mParentView, mSignUpErrorMessage, CustomView.SnackBarStyle.WARNING).show();
             return;
         }
 
@@ -482,7 +483,7 @@ public class LoginSlide extends SlideFragment {
                             mStatusTextView.setText("auth_failed");
                             Log.w(TAG, "signInWithEmail:failed", task.getException());
                             Toast.makeText(getActivity(), "auth_failed", Toast.LENGTH_SHORT).show();
-                            CustomView.makeSnackbar(mParentView, "Auth failed", Snackbar.LENGTH_LONG).show();
+                            CustomView.makeSnackBar(mParentView, "Auth failed", CustomView.SnackBarStyle.WARNING).show();
                         }
                         hideProgressDialog();
                     }

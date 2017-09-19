@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.RadioGroup;
 
 import net.kerod.android.questionbank.adapter.AvatarAdapter;
-import net.kerod.android.questionbank.manager.SettingManager;
+import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.utility.Constants;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -43,12 +43,12 @@ public class EditAccountActivity extends AppCompatActivity {
         mTxteName = (EditText) findViewById(R.id.txtv_display_name);
         mTxteEmail = (EditText) findViewById(R.id.txtv_email);
         mBtnnSave = (Button) findViewById(R.id.btnn_update);
-         mTxteName.setText(SettingManager.getFirstName());
-        mTxteEmail.setText(SettingManager.getEmail());
+         mTxteName.setText(SettingsManager.getFirstName());
+        mTxteEmail.setText(SettingsManager.getEmail());
         mBtnnSave.setOnClickListener(actionSave);
         //
         mRadioGroup = (RadioGroup) findViewById(R.id.radg_class_group);
-        String classGroup = SettingManager.getClassGroup();
+        String classGroup = SettingsManager.getClassGroup();
         if (Constants.CLASS_HIGH_SCHOOL.equals(classGroup)) {
             mRadioGroup.check(R.id.radb_high_school);
         } else if (Constants.CLASS_PREP_SOCIAL.equals(classGroup)) {
@@ -62,18 +62,18 @@ public class EditAccountActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             if (true) {
-                SettingManager.setDisplayName(mTxteName.getText().toString());
-                SettingManager.setEmail(mTxteEmail.getText().toString());
-                SettingManager.setClassGroup(mTxteName.getText().toString());
+                SettingsManager.setDisplayName(mTxteName.getText().toString());
+                SettingsManager.setEmail(mTxteEmail.getText().toString());
+                SettingsManager.setClassGroup(mTxteName.getText().toString());
 
                 int id = mRadioGroup.getCheckedRadioButtonId();
                 if (id > 0) {
                     if (id == R.id.radb_high_school) {
-                        SettingManager.setClassGroup(Constants.CLASS_HIGH_SCHOOL);
+                        SettingsManager.setClassGroup(Constants.CLASS_HIGH_SCHOOL);
                     } else if (id == R.id.radb_prep_social) {
-                        SettingManager.setClassGroup(Constants.CLASS_PREP_SOCIAL);
+                        SettingsManager.setClassGroup(Constants.CLASS_PREP_SOCIAL);
                     } else if (id == R.id.radb_prep_natural) {
-                        SettingManager.setClassGroup(Constants.CLASS_PREP_NATURAL);
+                        SettingsManager.setClassGroup(Constants.CLASS_PREP_NATURAL);
                     }
                 }
                 finish();
@@ -102,7 +102,7 @@ public class EditAccountActivity extends AppCompatActivity {
 
     void initRecyclerView() {
         mRecyclerView = (RecyclerView) findViewById(R.id.recv_avatar_grid);
-        int savedAvatarIndex=SettingManager.getAvatarIndex();
+        int savedAvatarIndex= SettingsManager.getAvatarIndex();
         final AvatarAdapter adapter = new AvatarAdapter(this, Constants.AVATAR_RESOURCE_IDS,   savedAvatarIndex);
         AvatarAdapter.SelectCallback callback = new AvatarAdapter.SelectCallback() {
             @Override
@@ -112,7 +112,7 @@ public class EditAccountActivity extends AppCompatActivity {
                     if (index == selectedIndex) {
                         imageArray[index].setBorderColor(ContextCompat.getColor(EditAccountActivity.this,R.color.colorAccent));
                         imageArray[index].setBorderWidth(5);
-                        SettingManager.setAvatarIndex(index);
+                        SettingsManager.setAvatarIndex(index);
                     } else {
                         imageArray[index].setBorderColor(ContextCompat.getColor(EditAccountActivity.this,R.color.brokenWhite));
                         imageArray[index].setBorderWidth(2);

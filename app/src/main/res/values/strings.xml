@@ -33,22 +33,6 @@
     <string name="title_item_detail">Item Detail</string>
     <string name="title_activity_settings">Settings</string>
 
-    <!---->
-    <string name="pref_key_auto_navigate_to_next_question">pref_key_auto_navigate_to_next_question</string>
-    <string name="pref_key_first_time_launch">pref_key_first_time_launch</string>
-    <string name="pref_key_vibrate_on_wrong_attempt">pref_key_vibrate_on_wrong_attempt</string>
-    <!---->
-    <string name="pref_key_avatar_index">pref_key_avatar_index</string>
-    <string name="pref_key_class_category">pref_key_class_category</string>
-    <string name="pref_key_display_name">pref_key_display_name</string>
-    <string name="pref_key_first_name">pref_key_first_name</string>
-    <string name="pref_key_last_name">pref_key_last_name</string>
-    <string name="pref_key_email">pref_key_email</string>
-
-    <string name="pref_key_registration_key">pref_key_registration_key</string>
-    <string name="pref_key_notification_key">pref_key_notification_key</string>
-    <string name="pref_key_current_app_version">pref_key_current_app_version</string>
-    <string name="pref_key_current_database_version">pref_key_current_database_version</string>
 
     <!-- Strings related to Settings -->
 
@@ -161,6 +145,56 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <string name="intro_antibiogram_body_two">We analyse yearly our test results to get the most effective medicine for each of bactesrias from different samples</string>
     <string name="intro_antibiogram_body_three">Be careful not to order</string>
     <string name="intro_antibiogram_body_four">Now, you are all set</string>
+<!---->
+    <string name="login">Log In</string>
+    <string name="login_with_facebook_or_g_mail">Login with your Facebook or Gmail account</string>
+    <string name="contact_default_telephone">(+251) 447 1818</string>
+    <string name="your_display_name">Your display name</string>
+    <string name="it_can_be_your_actual_or_nick_name">It can be your actual name or nick name</string>
+    <string name="reminder_info_not_to_mis_use_antibiogram">Please understand the risks of misusing this information by reading the introduction\n(you can access it via the help menu at top right)</string>
 
+    <string name="log_in_now">Log in Now</string>
+     <string name="password_reset_instruction_sent_via_email">We have sent you instructions to reset your password!</string>
+    <string name="problem_resetting_password">Sorry, there is a problem in reseting your password.</string>
+    <string name="dont_have_account">Don\'t have account?</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="question_sent_successfully">Your question is sent succesfully.</string>
+    <string name="update_var">Update %s</string>
+    <string name="register_var">Register %s</string>
+    <string name="sign_up_now">Sign up now</string>
+
+    <string name="auth_invalid_user">Invalid user! Please check your input</string>
+    <string name="auth_invalid_password">Invalid password</string>
+    <string name="auth_authentication_problem">There is a problem in authentication</string>
+    <string name="auth_unknown_problem_occurred">Sorry, unknown problem occurred. Please try again later</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="we_shall_send_you_password_resetting_instruction_via_email">We shall send you password resetting instruction via email.</string>
+    <string name="reset">Reset</string>
+    <string name="tap_to_call_or_email">Tap to Call or Email</string>
+
+    <!---->
+    <string name="pref_key_auto_navigate_to_next_question">pref_key_auto_navigate_to_next_question</string>
+    <string name="pref_key_first_time_launch">pref_key_first_time_launch</string>
+    <string name="pref_key_vibrate_on_wrong_attempt">pref_key_vibrate_on_wrong_attempt</string>
+    <!---->
+     <string name="pref_key_class_category">pref_key_class_category</string>
+    <string name="pref_key_display_name">pref_key_display_name</string>
+
+
+  <string name="pref_key_user_uid">pref_key_user_uid</string>
+    <string name="pref_key_user_role">pref_key_user_role</string>
+     <string name="pref_key_first_to_view_antibiogram">pref_key_first_to_view_antibiogram</string>
+    <string name="pref_key_first_name">pref_key_first_name</string>
+    <string name="pref_key_last_name">pref_key_last_name</string>
+    <string name="pref_key_email">pref_key_email</string>
+    <string name="pref_key_agreed_terms_of_service">pref_key_agreed_terms_of_service</string>
+
+    <string name="pref_key_registration_key">pref_key_registration_key</string>
+    <string name="pref_key_notification_key">pref_key_notification_key</string>
+    <string name="pref_key_current_app_version">pref_key_current_app_version</string>
+    <string name="pref_key_current_database_version">pref_key_current_database_version</string>
+    <string name="pref_key_version_code">pref_key_version_code</string>
+    <string name="pref_key_antibiogram_prepared_date">pref_key_antibiogram_prepared_date</string>
+    <string name="pref_key_avatar_index">pref_key_avatar_index</string>
 
 </resources>

@@ -25,7 +25,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import net.kerod.android.questionbank.manager.ApplicationManager;
-import net.kerod.android.questionbank.manager.SettingManager;
+import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
 import net.kerod.android.questionbank.model.FirebaseModel;
 import net.kerod.android.questionbank.utility.GraphicsUtil;
@@ -93,7 +93,7 @@ public class ExamHomeActivity extends AppCompatActivity {
     //Adding shortcut for This activity on Home screen
     private void addShortcut(String examUid, String examShortName, int iconDrawableId) {
         //
-//        if (SettingManager.isLauncherIconAdded(examUid)) {
+//        if (SettingsManager.isLauncherIconAdded(examUid)) {
 //            return;
 //        }
         Intent shortcutIntent = new Intent(getApplicationContext(), ExamHomeActivity.class);
@@ -111,8 +111,8 @@ public class ExamHomeActivity extends AppCompatActivity {
         addIntent.putExtra("duplicate", false);
         addIntent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
         getApplicationContext().sendBroadcast(addIntent);
-        SettingManager.setLauncherIconAdded(examUid, true);
-        CustomView.makeSnackbar(findViewById(R.id.content_exam_home), "Shortcut added to your home screen", Snackbar.LENGTH_SHORT).show();
+        SettingsManager.setLauncherIconAdded(examUid, true);
+        CustomView.makeSnackBar(findViewById(R.id.content_exam_home), "Shortcut added to your home screen", CustomView.SnackBarStyle.SUCCESS).show();
 
     }
 

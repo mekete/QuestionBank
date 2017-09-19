@@ -19,6 +19,7 @@ public class AppUser extends FirebaseModel {
     public static final String AUTH_PROVIDER_GOOGLE = "Google";
     public static final String AUTH_PROVIDER_FACEBOOK = "Facebook";
     public static final String AUTH_PROVIDER_EMAIL = "Email";
+
     //
     private String searchId;
     private String userName;
@@ -35,7 +36,9 @@ public class AppUser extends FirebaseModel {
     public static DatabaseReference getDatabaseReference() {
         return FirebaseDatabase.getInstance().getReference().child("appUser");
     }
-
+    public static DatabaseReference getDatabaseReference(String uid) {
+        return FirebaseDatabase.getInstance().getReference().child("appUser").child(uid);
+    }
     public AppUser() { }
 
     public AppUser(String userName, String authMethod) {
