@@ -1,0 +1,917 @@
+{
+  "examSummary": {
+    "iconChar": "H",
+    "iconUrl": "www.google.ca",
+    "shortName": "HISTORY G12 2002",
+    "fullName": "ESLCE History Exam 2002 For Grade 12",
+    "grade": "12",
+    "subject": "History",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2002 June2010"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "The success of Yikunno-Amlak was mainly based on his",
+      "correctAnswer": "A",
+      "choiceA": "economic and military strength",
+      "choiceB": "friendly ties with the Zagwe Kings",
+      "choiceC": "biological relations with the 'Solomonic Dynasty'",
+      "choiceD": "legitimacy"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "The immediate cause of the French Revolution was",
+      "choiceA": "the participation of France in the American War of Independence",
+      "choiceB": "the rise of the National Assembly",
+      "correctAnswer": "C",
+      "choiceC": "the burdensome taxation of the 3rd estate",
+      "choiceD": "the capture of the Bastille"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "What is at issue in the recent conflict between the Western powers and the Government of Zimbabwe under Robert Mugabe?",
+      "correctAnswer": "A",
+      "choiceA": "The decision of Mugabe's government to repossess lands controlled by white farmers.",
+      "choiceB": "Lack of democracy in Zimbabwe.",
+      "choiceC": "Personal conflict between Mugabe and the British Prime Minister."
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "What was legitimate trade?",
+      "choiceA": "Trade between Europeans and Africans dominated by the latter.",
+      "choiceB": "Trade legitimated by fair pricing of African and European goods.",
+      "correctAnswer": "C",
+      "choiceC": "A name given to trade between Europe and Africa following the suppression of the slave trade.",
+      "choiceD": "European trade authorized by African states."
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which of the following is a correct list of the Central Powers in the I World War?",
+      "choiceA": "Italy, Bulgaria, USA, Japan.",
+      "correctAnswer": "B",
+      "choiceB": "Germany, Austria-Hungary, Ottoman Turkey, Bulgaria.",
+      "choiceC": "France, Britain, Russia, Italy.",
+      "choiceD": "Britain, France, USA, Japan."
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which of the following was the major form of the spread of Islam across northern Africa during the 8th and 9th centuries?",
+      "choiceA": "Diplomacy.",
+      "correctAnswer": "B",
+      "choiceB": "Jihad.",
+      "choiceC": "Trade.",
+      "choiceD": "Population movement."
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "The political capital of the Kingdom of Keffa prior to the conquest of 1897 was",
+      "choiceA": "Wa'aka",
+      "correctAnswer": "B",
+      "choiceB": "Andracha",
+      "choiceC": "Damot",
+      "choiceD": "Jimma"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "Which of the following is true about the Wal-Wal Incident?",
+      "choiceA": "It was an incident for which Ethiopia had apologized to Italy.",
+      "choiceB": "It was an accident for which neither party was actually at fault.",
+      "choiceC": "It was the major cause of war between Ethiopia and Italy in 1935.",
+      "correctAnswer": "D",
+      "choiceD": "Italy tried to use the incident as justification for war."
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "Which of the following is true about the international status of the abortive state of Biafra? It was",
+      "correctAnswer": "A",
+      "choiceA": "recognized by a few African states",
+      "choiceB": "recognized by all West African states except Ghana",
+      "choiceC": "recognized by the OAU",
+      "choiceD": "never recognized by any African state"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "Which of the following was a core element in the strategy of Otto von Bismarck to bring about German unity?",
+      "choiceA": "Supporting foreign intervention to force the German states to seek help from Prussia",
+      "choiceB": "Conflict among German states to undermine resistance to unity",
+      "correctAnswer": "C",
+      "choiceC": "Strong customs union among German states",
+      "choiceD": "Economic subversion to weaken independence"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Adolf Hitler organized a private political army known as",
+      "correctAnswer": "A",
+      "choiceA": "Storm troopers",
+      "choiceB": "Street hooligans",
+      "choiceC": "Fascists",
+      "choiceD": "Nazis"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "The term that represents the Islamic legal system is",
+      "choiceA": "Kaba",
+      "correctAnswer": "B",
+      "choiceB": "Shari'a",
+      "choiceC": "Umma",
+      "choiceD": "Fiqh"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "In which of the following years was the Italian colony of Eritrea born?",
+      "choiceA": "1896",
+      "choiceB": "1892",
+      "choiceC": "1885",
+      "correctAnswer": "D",
+      "choiceD": "1890"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Why are women generally underrepresented in history?",
+      "choiceA": "Because sources of information on the past of women have been extremely limited.",
+      "correctAnswer": "B",
+      "choiceB": "Because of the male bias of society.",
+      "choiceC": "Because their contributions and achievements were very little compared to those of men.",
+      "choiceD": "Because historians have been mostly male."
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "The French troops were forced to surrender after many were killed by the Vietnamese soldiers in 1954 at the",
+      "choiceA": "Dirty War",
+      "choiceB": "Battle of Indochina",
+      "choiceC": "Battle of Ho Chi Minh",
+      "correctAnswer": "D",
+      "choiceD": "Battle of Dien Bien Phu"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "What objectives did the Jesuit missionaries pursue in Ethiopia in the sixteenth and seventeenth centuries?",
+      "choiceA": "Make Catholicism the religion of the state.",
+      "correctAnswer": "B",
+      "choiceB": "Maintain the major elements of Orthodox Christianity with some additions of Catholic practice.",
+      "choiceC": "Combine Orthodox and Catholic practices proportionally.",
+      "choiceD": "Adapt Western Catholicism to Orthodox Christianity"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "The Chinese regarded those who lived outside their empire as",
+      "choiceA": "enemies",
+      "choiceB": "barbarians",
+      "correctAnswer": "C",
+      "choiceC": "Manchurians",
+      "choiceD": "non-human"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Which of the following was an immediate consequence of the Ethiopia victory at the Battle of Adwa?",
+      "choiceA": "Italian recognition of Ethiopia's historic rights over Eritrea.",
+      "correctAnswer": "B",
+      "choiceB": "Unconditional recognition of Ethiopian independence by Italy.",
+      "choiceC": "Ethiopia's recognition of Italy's rights to Eritrea",
+      "choiceD": "Agreements that definitively fixed the boundaries between Ethiopia and Italian colonies in the Horn."
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "The Pan-Africanist Conference that demanded independence for Africa was _",
+      "choiceA": "the Paris Conference of 1919",
+      "choiceB": "the London Conference of 1900",
+      "choiceC": "the Accra Conference of 1958",
+      "correctAnswer": "D",
+      "choiceD": "the Manchester Conference of 1945"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "Cheap mass production of commodities and the transformation of transport through railways and steamships were made possible by",
+      "choiceA": "Napoleonic victories",
+      "choiceB": "the emergence of feudal production relations",
+      "correctAnswer": "C",
+      "choiceC": "the Industrial Revolution",
+      "choiceD": "the French Revolution"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "One of the following is NOT true about Napoleon",
+      "choiceA": "He overthrew the Directory and took power in 1799",
+      "choiceB": "He was born in the island of Corsica,",
+      "choiceC": "He was commander-in-chief of the French armies",
+      "correctAnswer": "D",
+      "choiceD": "He reversed all the gains of the French Revolution"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Which of the following elements was part of the Charter of the Organization of African Unity (OAU)?",
+      "choiceA": "The establishment of the United States of Africa,",
+      "correctAnswer": "B",
+      "choiceB": "The eradication of colonialism.",
+      "choiceC": "The eradication of white settlement in African territories.",
+      "choiceD": "The redefinition of colonial boundaries by agreement among states."
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "The Treaty that was signed between Menilek and Antonelli of Italy in October 1883 was the",
+      "choiceA": "Treaty of Wuchale",
+      "choiceB": "Hewett Treaty",
+      "correctAnswer": "C",
+      "choiceC": "Treaty of Friendship and Commerce",
+      "choiceD": "Convention of Neutrality"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "One of the requirements before history can be correctly written is",
+      "correctAnswer": "A",
+      "choiceA": "historical evidence",
+      "choiceB": "kings and heroes",
+      "choiceC": "great events of the past",
+      "choiceD": "chronology"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "What is Social Darwinism?",
+      "correctAnswer": "A",
+      "choiceA": "The belief that the development of human societies parallels those of nature",
+      "choiceB": "The argument that Darwin's theories about nature are not good for society.",
+      "choiceC": "The name for a political movement founded on the theories of Darwin.",
+      "choiceD": "The name for a society of Darwin's admirers."
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "One of the following was Not true about Menilek's expansion to south western, southern and south eastern Ethiopia.",
+      "choiceA": "It was directed against independent peoples and states",
+      "correctAnswer": "B",
+      "choiceB": "It did not face any resistance",
+      "choiceC": "His territorial expansion coincided with the colonial expansion of the European powers in the Horn of Africa",
+      "choiceD": "It was different from that of his predecessors in intensity and success"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "Which one of the following was NOT among the measures taken by the Derg in and after 1974?",
+      "correctAnswer": "A",
+      "choiceA": "Nationalization of rural and.",
+      "choiceB": "Abolishing religion.",
+      "choiceC": "Repression of all forms of protest.",
+      "choiceD": "Execution of top officials."
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "Which of the following languages of Ethiopia belongs to the Cushitic family?",
+      "choiceA": "Argoba.",
+      "choiceB": "Harari",
+      "correctAnswer": "C",
+      "choiceC": "Agew",
+      "choiceD": "Gurage."
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "A turning point in the development of modern Ethiopian historical studies was",
+      "correctAnswer": "A",
+      "choiceA": "the rise of Ethiopian historians such as Aleqa Taye",
+      "choiceB": "the establishment of Haile Sellassie I University",
+      "choiceC": "the first modern history of Ethiopia written by Job Ludolf",
+      "choiceD": "the writings of Tekle Tsadiq Mekuria"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Which of the following is the most important consideration in evaluation and using a written source for history?",
+      "choiceA": "Establishing the time of writing",
+      "choiceB": "Establishing the ethnic background of the author",
+      "correctAnswer": "C",
+      "choiceC": "Establishing the educational level of the author",
+      "choiceD": "Establishing the name of the author"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Who was the ruler of Ethiopia who sent a diplomatic mission to Portugal in 1509?",
+      "choiceA": "Emperor Yishaq.",
+      "correctAnswer": "B",
+      "choiceB": "Queen Eileni.",
+      "choiceC": "Emperor Susenyos.",
+      "choiceD": "Emperor Zara Yaeqob"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "The factors that led to the rise of the Muslim Sheikdoms like Benishangul along the Ethio-Sudanese border in the nineteenth century were the",
+      "choiceA": "discovery of gold mines",
+      "choiceB": "conquest of Menilek and taxation",
+      "choiceC": "rise of the Mahdists and Ansars",
+      "correctAnswer": "D",
+      "choiceD": "influence of Islam and the border trade"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "The event of great importance in 1940 for the liberation of Ethiopia was _",
+      "choiceA": "the beginning of patriotic struggle",
+      "correctAnswer": "B",
+      "choiceB": "Italy's entry into the Second World War on the side of Germany",
+      "choiceC": "the return of patriotic struggle",
+      "choiceD": "the Emperor's exile Britain"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Which one of the following is WRONG about the Byzantine Empire?",
+      "choiceA": "Its capital was Constantinople.",
+      "choiceB": "It was richer than the Western Roman Empire.",
+      "correctAnswer": "C",
+      "choiceC": "It had less population with fewer towns and cities than the West Roman Empire.",
+      "choiceD": "It was not so open to 'barbarian' attack."
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "The imam of Adal who came to power by killing Sultan Abu Baker",
+      "choiceA": "Ahmad ibn Ibrahim al-Ghazi",
+      "choiceB": "Muhammad Badlay",
+      "choiceC": "Ahmad Nur",
+      "correctAnswer": "D",
+      "choiceD": "Mahfuz"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "Which of the following is a correct combination of an African State with a former colonial ruler?",
+      "choiceA": "Liheria- Britain.",
+      "choiceB": "Zambia -Belgium.",
+      "choiceC": "Ghana-France.",
+      "correctAnswer": "D",
+      "choiceD": "Chad-France."
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "The central objective and mission of Zionism according to the Basle Declaration was",
+      "choiceA": "the establishment of a Jewish homeland",
+      "choiceB": "expanding Judaism in the Middle East at the expense of Islam",
+      "correctAnswer": "C",
+      "choiceC": "Combating anti-Semitism in Europe",
+      "choiceD": "advancing the economic interests of Jewish people around the world"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "Which one of the following is NOT true about the Ororno population?",
+      "correctAnswer": "A",
+      "choiceA": "They are not among the indigenous people of Ethiopia.",
+      "choiceB": "They had Gada government and Qallu institutions.",
+      "choiceC": "The Oromo believes in one supreme God called Waqa.",
+      "choiceD": "One of the causes of their movement was population pressure."
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "One of the following is NOT true about Second World War_",
+      "choiceA": "There were mass killings in concentration camps",
+      "choiceB": "Air raids caused serious destruction",
+      "correctAnswer": "C",
+      "choiceC": "It caused great loss of human life but small material damage",
+      "choiceD": "It was fought in several theatres"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Which one of the following was NOT among the features of the Cold War?",
+      "choiceA": "A war of words between the two blocs.",
+      "correctAnswer": "B",
+      "choiceB": "A conventional war between the superpowers.",
+      "choiceC": "Ideological struggle between the superpowers.",
+      "choiceD": "Proxy conflicts outside Europe."
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "What was the main motivation behind Egyptian attempts to expand into Ethiopia from the 1840s to the 1870s?",
+      "correctAnswer": "A",
+      "choiceA": "A Domination of the entire Nile Valley.",
+      "choiceB": "Access to slaves and gold",
+      "choiceC": "Access to land for settlement",
+      "choiceD": "Spreading Islam."
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "Which of the following is true about the coup attempt against Haile Selassie in 1960?",
+      "choiceA": "It aimed at replacing the monarchy by a military regime.",
+      "correctAnswer": "B",
+      "choiceB": "The imperial regime was criticized for being corrupt.",
+      "choiceC": "It received no popular support at all.",
+      "choiceD": "It envisioned a program of land re-distribution."
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Which of the following social practices facilitated the absorption of non-Oromo groups by the Oromo in the sixteenth century and after?",
+      "choiceA": "Atete",
+      "choiceB": "Mogassa .",
+      "choiceC": "Worship of Waka",
+      "correctAnswer": "D",
+      "choiceD": "Gudifecha,"
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "No culture can survive without _",
+      "correctAnswer": "A",
+      "choiceA": "history",
+      "choiceB": "written accounts",
+      "choiceC": "archaeology",
+      "choiceD": "tools"
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "The basic means of surplus appropriation of the feudal class in Ethiopia the 19th and 20th centuries was",
+      "choiceA": "the qalad system",
+      "choiceB": "paid labor service",
+      "correctAnswer": "C",
+      "choiceC": "the gebbar system",
+      "choiceD": "the capitalist wage labor system"
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "The ruling dynasty after the fall of the Zagwe tried to solve the problems of succession through",
+      "choiceA": "the Christian tradition of Priesthood",
+      "choiceB": "the rule of law and legitimacy",
+      "choiceC": "promoting friendship among potential rivals.",
+      "correctAnswer": "D",
+      "choiceD": "the imprisonment of princes at Amba Gishen"
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "What was the Truth and Reconciliation Commission in post, Apartheid South Africa?",
+      "choiceA": "A mechanism to arrange for reconciliation of the races of South Africa after telling the truth about the policies of the Apartheid state",
+      "choiceB": "A mechanism to reconcile victims and perpetrators of violence di Apartheid after the truth is told by the latter.",
+      "choiceC": "A mechanisms by which it was agreed that the true Apartheid should be left to future historians and reconciliation should take place.",
+      "correctAnswer": "D",
+      "choiceD": "A mechanism through which religious leaders brought reconciliation between victims and perpetrators of Apartheid through a system compensations."
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Which of the following did Western Europeans achieve in the fifteenth century?",
+      "choiceA": "The domination of the Indian Ocean.",
+      "choiceB": "The conquest of Jerusalem from the Arabs.",
+      "correctAnswer": "C",
+      "choiceC": "The discovery of the Americas.",
+      "choiceD": "The defeat of Ottoman Turkey."
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "The overall Italian army commander at the Battle of Adwa was",
+      "correctAnswer": "A",
+      "choiceA": "General Baratieri",
+      "choiceB": "General Albertone",
+      "choiceC": "Major Toselli",
+      "choiceD": "General Armiondi"
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "Which of the following is true about the reign of Tewodros II?",
+      "correctAnswer": "A",
+      "choiceA": "An unsuccessful attempt was made to centralize government.",
+      "choiceB": "The reunification of Ethiopia was finally achieved.",
+      "choiceC": "Slavery and the slave trade were abolished.",
+      "choiceD": "The State and the Church were completely divorced."
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "What lessons can be learnt from the careers of Queen Elleni and Itege Mintwab in the late Medieval period and of Itege Taitu and Empress Zewditu in the twentieth century? That",
+      "choiceA": "women surfaced on the political stage during times of instability",
+      "choiceB": "a few women exercised power in the name of their male relatives or under their shadow",
+      "correctAnswer": "C",
+      "choiceC": "Ethiopian women acquired and exercised power equally with men",
+      "choiceD": "female politicians provided better leadership than men"
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "The major factor that led to the rise of states in ancient times",
+      "choiceA": "the making of stone tools",
+      "choiceB": "the emergence of urbanization.",
+      "choiceC": "the beginning of a writing system.",
+      "correctAnswer": "D",
+      "choiceD": "the development of agriculture."
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "The immediate cause of the First World War was",
+      "choiceA": "imperialist rivalry and religious conflict.",
+      "choiceB": "the clash between the Allied powers and the Central Powers",
+      "correctAnswer": "C",
+      "choiceC": "the assassination of Franz Ferdinand and his wife Sophie at Sarajevo",
+      "choiceD": "the arrangements made at the Treaty of Versailes"
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "The revolutionary crisis of the English Revolution began during the reign of",
+      "choiceA": "James I in Scotland",
+      "correctAnswer": "B",
+      "choiceB": "Charles Tin Scotland",
+      "choiceC": "James VI in London",
+      "choiceD": "Queen Victoria in Ireland"
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "One of the following is WRONG about the Gondarine period.",
+      "choiceA": "Gondar was founded by Fasiledes",
+      "choiceB": "The ruling class led a luxurious life",
+      "choiceC": "Gondar served as a permanent capital",
+      "correctAnswer": "D",
+      "choiceD": "The period included the Zemene Mesafint"
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "Which of the following concepts explains the relations between peasants and landlords better?",
+      "choiceA": "Colony.",
+      "choiceB": "Feudalism",
+      "correctAnswer": "C",
+      "choiceC": "Serfdom",
+      "choiceD": "Demesne."
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "Which of the following is true about the period of urban violence known as the Red Terror under the Derg?",
+      "correctAnswer": "A",
+      "choiceA": "It was an act of terror that selectively eliminated prominent politicians.",
+      "choiceB": "It was organized and carried out by militia independent of the government.",
+      "choiceC": "It was coordinated and carried out by political grouping and individuals allied to the government.",
+      "choiceD": "It was communal violence with little relationship with politics."
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "in which of the following family of languages does the Nuer language belong?",
+      "choiceA": "Afro-Asiatic.",
+      "correctAnswer": "B",
+      "choiceB": "Nilo-Saharan.",
+      "choiceC": "Niger-Congo.",
+      "choiceD": "Banru."
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "The main cause for the rise of the Mamluks in Egypt was _",
+      "choiceA": "the support given by west African states",
+      "choiceB": "the coming of white slaves of Turkish origin",
+      "choiceC": "the conquest by the Almoravids and Almohads",
+      "correctAnswer": "D",
+      "choiceD": "an acute power struggle within the Ayyubid family"
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "The first Christians were _",
+      "choiceA": "the nine saints who came to Aksum",
+      "correctAnswer": "B",
+      "choiceB": "the Romans in Rome",
+      "choiceC": "Jews in Palestine and Syria",
+      "choiceD": "Jews in Egypt and Syria"
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "The two leaders of the Harar emirate who were remembered for building the stone wall of Harar and declaring its independence from Aussa respectively were",
+      "choiceA": "Emir Nur and Emir Ali Dawud",
+      "choiceB": "Emir Abdullahi and Emir Nur",
+      "choiceC": "Emit Al.i Dawud and Ahmed Gragn",
+      "correctAnswer": "D",
+      "choiceD": "Ahmed Gragn and Emir Nur"
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "One of the following is NOT considered as an immediate cause of the 1974 Ethiopian Revolution _",
+      "choiceA": "Starvation and famine in Wollo",
+      "correctAnswer": "B",
+      "choiceB": "The coup d'etat staged by Mengistu and Germame",
+      "choiceC": "An army mutiny at Negele",
+      "choiceD": "The oil price rise"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "The European country in closest contact with Africa from the fifteenth to the seventeenth centuries was",
+      "correctAnswer": "A",
+      "choiceA": "Portugal",
+      "choiceB": "Spain",
+      "choiceC": "Brain",
+      "choiceD": "France"
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "Identify the correct statement about the Christian Highland Kingdom in Ethiopia from 1270-1529_",
+      "choiceA": "The Christian Kings did not have any interest in the control of the trade routes",
+      "choiceB": "Trade was totally monopolized by the powerful Christian kings",
+      "correctAnswer": "C",
+      "choiceC": "Muslim traders sometimes acted as agents of the Christian Kings",
+      "choiceD": "It has peaceful relations with the Muslim Sultanates"
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "The theory that gave a modern answer to the fundamental questions of the story of humankind was _",
+      "correctAnswer": "A",
+      "choiceA": "Darwin's theory of evolution",
+      "choiceB": "archaeological discoveries",
+      "choiceC": "the creationist theory",
+      "choiceD": "hominid theory"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "According to the UN Charter, the principal functions of the UN are assigned to _",
+      "choiceA": "the USA and Britain",
+      "choiceB": "the Security Council",
+      "choiceC": "the General Secretary",
+      "correctAnswer": "D",
+      "choiceD": "the General Assembly"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "The organizer of the first Pan-African conference was",
+      "choiceA": "George Padmore",
+      "choiceB": "Marcus Garvey",
+      "correctAnswer": "C",
+      "choiceC": "H. Sylvester Williams",
+      "choiceD": "William E. Burghait Du I3ois"
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "The policy of Western financial institutions to reduce public spending and promote the private sector in Africa was known as",
+      "choiceA": "Public Sector Reduction",
+      "correctAnswer": "B",
+      "choiceB": "Structural Adjustment",
+      "choiceC": "New Partnership for Africa",
+      "choiceD": "Free Trade Promotion"
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "Which of the following states in the Gibe Region was ruled by Moti Abba Bogibo?",
+      "choiceA": "Jirnma.",
+      "correctAnswer": "B",
+      "choiceB": "Limu-Enarya.",
+      "choiceC": "Guma",
+      "choiceD": "Gomma."
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "The two ancient states in the region before the rise of the Aksumite Kingdom were _",
+      "choiceA": "Yaha and Hawelti",
+      "correctAnswer": "B",
+      "choiceB": "Damat and Punt",
+      "choiceC": "Coloe and Matara",
+      "choiceD": "Punt and Yeha"
+    },
+    {
+      "questionNumber": 71,
+      "questionStatement": "Which of the following phenomena was the central and almost universal political feature of Western Europe in the nineteenth century?",
+      "choiceA": "Universal suffrage.",
+      "choiceB": "The slave trade.",
+      "correctAnswer": "C",
+      "choiceC": "Nationalism.",
+      "choiceD": "Religious freedom."
+    },
+    {
+      "questionNumber": 72,
+      "questionStatement": "Which of the following is true about the Ethiopian Student Movement in the early I 960s?",
+      "correctAnswer": "A",
+      "choiceA": "It was fully committed to Marxism-Leninism.",
+      "choiceB": "It has very strong Pan-Africanist orientation.",
+      "choiceC": "It was dominated by Ethiopian students abroad.",
+      "choiceD": "It was reformist and by and large focused on campus issues."
+    },
+    {
+      "questionNumber": 73,
+      "questionStatement": "What was the so-called Truman Doctrine about?",
+      "choiceA": "Eradicating poverty around the world.",
+      "choiceB": "Indoctrinating people with the principles of the Arne Constitution.",
+      "correctAnswer": "C",
+      "choiceC": "Containing Communism.",
+      "choiceD": "Expanding American influence around the world."
+    },
+    {
+      "questionNumber": 74,
+      "questionStatement": "One of the following about Damot is WRONG",
+      "correctAnswer": "A",
+      "choiceA": "Historians know when the Damot kingdom came into existence",
+      "choiceB": "It was one of the oldest states in Ethiopia",
+      "choiceC": "It had export items of gold, ginger and slaves",
+      "choiceD": "During the reign of King Kaleb it was the only state that compel with Aksurn"
+    },
+    {
+      "questionNumber": 75,
+      "questionStatement": "Which one of the following countries was the Centre of the Enlightenment?",
+      "correctAnswer": "A",
+      "choiceA": "France.",
+      "choiceB": "England.",
+      "choiceC": "Holland.",
+      "choiceD": "Germany."
+    },
+    {
+      "questionNumber": 76,
+      "questionStatement": "In which of the following African countries has multi-party politics been relatively successful?",
+      "choiceA": "Botswana",
+      "correctAnswer": "B",
+      "choiceB": "Namibia",
+      "choiceC": "Swaziland",
+      "choiceD": "Cote d'ivoire"
+    },
+    {
+      "questionNumber": 77,
+      "questionStatement": "Which of the following is true about the Tripartite Treaty of 1906, signed between Britain. Italy and France?",
+      "choiceA": "It defined each country's area of interest in Ethiopia.",
+      "choiceB": "It proposed the creation of a stronger empire of Ethiopia under joint Europeans control.",
+      "correctAnswer": "C",
+      "choiceC": "It aimed at guaranteeing Ethiopia's continued independence.",
+      "choiceD": "It was concluded secretly and was never communicated to Ethiopia."
+    },
+    {
+      "questionNumber": 78,
+      "questionStatement": "Which of the following groups of traders dominated international trade in East Africa during the pre-colonial period?",
+      "choiceA": "Turks.",
+      "correctAnswer": "B",
+      "choiceB": "Arabs.",
+      "choiceC": "Chinese.",
+      "choiceD": "Indians."
+    },
+    {
+      "questionNumber": 79,
+      "questionStatement": "Which of the following measures could be said to have destroyed popular support for the Derg?",
+      "choiceA": "The confiscation of extra houses.",
+      "correctAnswer": "B",
+      "choiceB": "The summary execution of officials of Haile Selassie's regime.",
+      "choiceC": "The war against Somalia.",
+      "choiceD": "Villagization and grain requisition."
+    },
+    {
+      "questionNumber": 80,
+      "questionStatement": "Who was responsible for the introduction of the Ministerial system of government in Ethiopia for the first time?",
+      "correctAnswer": "A",
+      "choiceA": "Menelik II",
+      "choiceB": "Tewodros II.",
+      "choiceC": "Lij lyasu.",
+      "choiceD": "Haile Selassie I."
+    },
+    {
+      "questionNumber": 81,
+      "questionStatement": "Alt hut one of the following does NOT belong to an Omotic language family",
+      "choiceA": "Bench, Dawaro, Gofa, Koyra.",
+      "correctAnswer": "B",
+      "choiceB": "Sheka, Yem, Dawuro, Bench",
+      "choiceC": "Kaffa, Hadiya, Kambata, Gofa",
+      "choiceD": "Waslayta, Kaffa, Yem, Magi"
+    },
+    {
+      "questionNumber": 82,
+      "questionStatement": "Which of the following is true about the history of the British Parliament prior to the twentieth century?",
+      "choiceA": "It always dominated the monarchy.",
+      "correctAnswer": "B",
+      "choiceB": "It was always dominated by the monarchy.",
+      "choiceC": "It was fully democratic in formation and operation.",
+      "choiceD": "It was internally divided and often in conflict with the monarchy."
+    },
+    {
+      "questionNumber": 83,
+      "questionStatement": "The most basic and original cause of Fascist aggression against Ethiopia was",
+      "choiceA": "the ambition of the Italian Fascist soldiers",
+      "choiceB": "the rise of Mussolini",
+      "correctAnswer": "C",
+      "choiceC": "revenge for Adwa",
+      "choiceD": "the Tripartite Treaty"
+    },
+    {
+      "questionNumber": 84,
+      "questionStatement": "One of the following is NOT among the characteristics of a capitalist economy and society",
+      "choiceA": "Land ownership as an absolute private property",
+      "choiceB": "Free labor working for wages",
+      "choiceC": "Market economy",
+      "correctAnswer": "D",
+      "choiceD": "Communal ownership of land"
+    },
+    {
+      "questionNumber": 85,
+      "questionStatement": "Which of the following liberation movements in Africa was the long and the most violent armed struggle? The one in",
+      "correctAnswer": "A",
+      "choiceA": "Algeria",
+      "choiceB": "Kenya",
+      "choiceC": "Ghana",
+      "choiceD": "Mozambique"
+    },
+    {
+      "questionNumber": 86,
+      "questionStatement": "One of the reasons that contributed to the success of the Oromo in their expansion was",
+      "choiceA": "the use of firearms",
+      "correctAnswer": "B",
+      "choiceB": "the Gada military organization",
+      "choiceC": "the disunity of the Oromo",
+      "choiceD": "the strength of their king"
+    },
+    {
+      "questionNumber": 87,
+      "questionStatement": "What are the Gachacha courts of Rwanda?",
+      "choiceA": "Courts set up to extradite genocide criminals to stand trial abroad.",
+      "choiceB": "Special courts set up to investigate and prosecute criminals xvi participated in the Genocide.",
+      "choiceC": "Courts set up to deal swiftly with the top leaders of the genocide.",
+      "correctAnswer": "D",
+      "choiceD": "Courts that combine justice and reconciliation through confessions and forgiveness."
+    },
+    {
+      "questionNumber": 88,
+      "questionStatement": "Which of the following is true of king Shaka of the Zulu Nation in the early nineteenth century?",
+      "choiceA": "He dedicated his life to resisting Europeans.",
+      "choiceB": "He revolutionized warfare by changing weaponry and tactics.",
+      "correctAnswer": "C",
+      "choiceC": "He introduced a system based on a massive enslavement of the population.",
+      "choiceD": "He established a powerful state with the help of Europeans."
+    },
+    {
+      "questionNumber": 89,
+      "questionStatement": "Which of the following phenomena was characteristic of Feudalism in Western Europe?",
+      "choiceA": "The fragmentation of religious authority and the centralization of political authority.",
+      "correctAnswer": "B",
+      "choiceB": "The fragmentation of political authority and the centralization of religious authority",
+      "choiceC": "The fragmentation of political and religious authority",
+      "choiceD": "The centralization of both political and religious authority."
+    },
+    {
+      "questionNumber": 90,
+      "questionStatement": "Which of the following was NOT a factor for the defeat of Ethiopian forces by Fascist troops in 1935-36?",
+      "choiceA": "Military superiority of Italy.",
+      "choiceB": "Lack of arms and training on the part of Ethiopian warriors.",
+      "choiceC": "International military support for Italy.",
+      "correctAnswer": "D",
+      "choiceD": "Poor political and military leadership on the Ethiopian side."
+    },
+    {
+      "questionNumber": 91,
+      "questionStatement": "Which one of the following is WRONG about the Renaissance _",
+      "choiceA": "It simply means 'rebirth'",
+      "choiceB": "It was most concerned with the arts and literature",
+      "correctAnswer": "C",
+      "choiceC": "It had a very strong interest in natural sciences",
+      "choiceD": "It first began in Italy"
+    },
+    {
+      "questionNumber": 92,
+      "questionStatement": "Which of the following is the chronologically correct order of leadership during the French Revolution of 1789?",
+      "choiceA": "The Estates -General -The Convention -The Legislative Assembly -The Directory -The National Assembly",
+      "choiceB": "The Directory The Estates -General -. The Legislative Assembly - The Convention -The National Assembly.",
+      "correctAnswer": "C",
+      "choiceC": "The Estates General -The National Assembly -The Legislative Assembly -The Convention -The Directory.",
+      "choiceD": "The National Assembly -The Estates General -The Legislative Assembly - The Directory - The Convention"
+    },
+    {
+      "questionNumber": 93,
+      "questionStatement": "What was the final outcome of the Balkan Wars of 1912-13?",
+      "choiceA": "The greater involvement of Belgium and Germany in the Balkans.",
+      "choiceB": "The dismemberment of the Austro-Hungarian Empire.",
+      "correctAnswer": "C",
+      "choiceC": "The virtual end of Ottoman Turkish domination of the region.",
+      "choiceD": "The weakening of local nationalism."
+    },
+    {
+      "questionNumber": 94,
+      "questionStatement": "What accounts for the frequency of military coups in Africa?",
+      "choiceA": "The high level of education that African militaries provide to their officer corps.",
+      "correctAnswer": "B",
+      "choiceB": "The limited space given in most African countries for competitive politics.",
+      "choiceC": "The low salaries that African militaries provide.",
+      "choiceD": "The warrior traditions of African soldiers."
+    },
+    {
+      "questionNumber": 95,
+      "questionStatement": "Which of the following is true about the Zemene Mesafint in Ethiopia?",
+      "choiceA": "It was characterized more than anything else by ethnic conflict",
+      "choiceB": "it was a period in which Ethiopia as a political entity had temporarily ceased to exist",
+      "correctAnswer": "C",
+      "choiceC": "It was a period in which local power predominated over central power",
+      "choiceD": "It was primarily a period of religious conflict and controversy"
+    },
+    {
+      "questionNumber": 96,
+      "questionStatement": "The European motives for voyages and exploration were enhanced by",
+      "choiceA": "existence of 'trade winds'",
+      "choiceB": "discovery of the compass",
+      "choiceC": "desire for profit of early capitalists",
+      "correctAnswer": "D",
+      "choiceD": "technology of sailing ships"
+    },
+    {
+      "questionNumber": 97,
+      "questionStatement": "The nationalism of the Balkans and the Eastern Question were closely associated with _",
+      "correctAnswer": "A",
+      "choiceA": "the decline of the Ottoman Empire",
+      "choiceB": "the unification of Italy",
+      "choiceC": "Germany and France",
+      "choiceD": "Rumania and Switzerland"
+    },
+    {
+      "questionNumber": 98,
+      "questionStatement": "What was the immediate cause of the Korean War of 1950-53?",
+      "choiceA": "An American invasion of South Korea.",
+      "correctAnswer": "B",
+      "choiceB": "The invasion of South Korea by North Korea.",
+      "choiceC": "Chinese occupation of Korean territory.",
+      "choiceD": "Russian support for the communist North."
+    },
+    {
+      "questionNumber": 99,
+      "questionStatement": "The man behind the formation of the League of Nation was",
+      "correctAnswer": "A",
+      "choiceA": "President W.Wilson of the USA",
+      "choiceB": "Lloyd George of Britain",
+      "choiceC": "Clemenceau of France",
+      "choiceD": "V.Orlando of Italy"
+    },
+    {
+      "questionNumber": 100,
+      "questionStatement": "Lieutenant-Colonel Belay Haileab was one of the Patriots who were military leaders of.",
+      "choiceA": "the Black Lion organization",
+      "correctAnswer": "B",
+      "choiceB": "the battle at Maychew",
+      "choiceC": "Ras Miru and Gore",
+      "choiceD": "the fighting in Shire and Tembien"
+    }
+  ]
+}

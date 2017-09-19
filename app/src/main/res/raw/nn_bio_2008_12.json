@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "BIOLOGY G12 2008",
+    "fullName": "EUEE Biology 2007 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "78",
+    "version": "1",
+    "examGivenDate": "Sene 2008 June2016"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following food types would most likely give a negative result upon addition of iodine solution? .",
+      "choiceA": "Bread ",
+      "choiceB": "Butter ",
+      "choiceC": "Biscuit",
+      "choiceD": "Potato"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "D",
+      "questionStatement": " Which process produces mRNA during protein synthesis?",
+      "choiceA": "Translation ",
+      "choiceB": "Replication ",
+      "choiceC": "Mutation",
+      "choiceD": "Transcription"
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "C",
+      "questionStatement": " What is the molecule in plant cells that first captures the radiant energy from sunlight?",
+      "choiceA": "ATP",
+      "choiceB": "DNA",
+      "choiceC": "Chlorophyll",
+      "choiceD": "Carbon dioxide"
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "B",
+      "questionStatement": " Of the following functions, which one do triglycerides accomplish in cells?",
+      "choiceA": "Increase density of tissues and cells",
+      "choiceB": "Increase thermal insulation of cells",
+      "choiceC": "Yield limited amount of ATP for cells",
+      "choiceD": "Facilitate entry of excess water into cells"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following laboratory glassware is used for culturing bacteria?",
+      "choiceA": "Petri dish",
+      "choiceB": "Test tube",
+      "choiceC": "Filter paper",
+      "choiceD": "Measuring cylinder"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "D",
+      "questionStatement": " Of the following, which one is the main source from which plants get the nutrients necessary for their growth and development?",
+      "choiceA": "Light",
+      "choiceB": "Chlorophyll",
+      "choiceC": "Atmosphere",
+      "choiceD": "Soil"
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the correct sequence of the steps in scientific research?",
+      "choiceA": "Hypothesis formulation -> conclusion -> experiment -> question",
+      "choiceB": "Question -> hypothesis formulation -> experiment -> conclusion",
+      "choiceC": "Hypothesis formulation -> question -> experiment -> conclusion",
+      "choiceD": "Question -> hypothesis formulation -> conclusion -> experiment"
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following types of cancer is known to mostly develop in AIDS patients?",
+      "choiceA": "Cervical cancer",
+      "choiceB": "Stomach cancer",
+      "choiceC": "Kaposi’s sarcoma",
+      "choiceD": "Breast cancer"
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "D",
+      "questionStatement": " How many fatty acids would a cell need to form a molecule of triglyceride?",
+      "choiceA": "Two ",
+      "choiceB": "Four ",
+      "choiceC": "Five",
+      "choiceD": "Three"
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "A",
+      "questionStatement": " Which part of the human alimentary canal contains digestive enzymes that function at acidic pH?",
+      "choiceA": "Stomach ",
+      "choiceB": "Mouth ",
+      "choiceC": "Esophagus",
+      "choiceD": "Small intestine"
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the correct constitution of the sex chromosome of a normal woman?",
+      "choiceA": "XY  ",
+      "choiceB": "XX ",
+      "choiceC": "XO",
+      "choiceD": "XXY"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "D",
+      "questionStatement": " From which of the following does the 0<sub>2</sub> released during the process of photosynthesis originate?",
+      "choiceA": "Pyruvic acid ",
+      "choiceA": "Sugar",
+      "choiceA": "CO<sub>2</sub>",
+      "choiceD": "Water"
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "A",
+      "questionStatement": " What is the best term that expresses the movement of substances in cells against their concentration gradients?",
+      "choiceA": "Active transport ",
+      "choiceB": "Passive transport ",
+      "choiceC": "Osmosis",
+      "choiceD": "Diffusion"
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "C",
+      "questionStatement": " In cell division, what is the phase that comes following the metaphase called?",
+      "choiceA": "Extraphase",
+      "choiceB": "Prophase",
+      "choiceC": "Anaphase",
+      "choiceD": "Telophase"
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "C",
+      "questionStatement": " Who was the person that first observed living cells moving around when he examined drops of water under the microscope?",
+      "choiceA": "Robert Brown",
+      "choiceB": "Robert Hooke",
+      "choiceC": "Anton van Leeuwenhoek",
+      "choiceD": "Theodor Schwann"
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about gene mutation?",
+      "choiceA": "Altering the DNA sequence of a gene",
+      "choiceB": "Change in the position of a block of genes",
+      "choiceC": "Addition of genes to a chromosome",
+      "choiceD": "Loss of genes from a chromosome"
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "B",
+      "questionStatement": " What is the circumstance that causes the health condition known as sickle—cell anaemia?",
+      "choiceA": "DNA denaturation ",
+      "choiceB": "Haemoglobin mutation ",
+      "choiceC": "RNA mutation and decay",
+      "choiceD": "Phosphate mutagenesis"
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "D",
+      "questionStatement": " Based on similarity in number of amino acids found in haemoglobin, which one of the following animals has closer phylogenetic relations to human beings?",
+      "choiceA": "Chicken ",
+      "choiceB": "Horse ",
+      "choiceC": "Frog",
+      "choiceD": "Gibbon"
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "C",
+      "questionStatement": " In which of the following groups of living organisms do the cells lack organized nuclei? ‘",
+      "choiceA": "Fungi ",
+      "choiceB": "Protozoa ",
+      "choiceC": "Bacteria",
+      "choiceD": "Algae"
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following terms refers to the failure of sister chromatids to separate from one another during anaphase? ",
+      "choiceA": "Non—disjunction ",
+      "choiceB": "Replication ",
+      "choiceC": "Deletion",
+      "choiceD": "Double inversion"
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "A",
+      "questionStatement": " If two species are known to belong to the same order, they must also belong to which taxonomic category?",
+      "choiceA": "Class ",
+      "choiceB": "Family ",
+      "choiceC": "Species",
+      "choiceD": "Genus"
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "B",
+      "questionStatement": " What happens in the first reaction of the Krebs cycle during energy transformation?",
+      "choiceA": "A 2-C compound is produced.",
+      "choiceB": "A 6—C compound is produced.",
+      "choiceC": "A 4—C compound is produced.",
+      "choiceD": "A 5—C compound is produced."
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "C",
+      "questionStatement": " What do you call structures that have the same evolutionary origin even though they may now have different structural make ups or functions?",
+      "choiceA": "Endemic",
+      "choiceB": "Analogous",
+      "choiceC": "Homologous",
+      "choiceD": "Indigenous"
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "A",
+      "questionStatement": " For what purpose do biologists use the GPS receiver?",
+      "choiceA": "To produce area maps ",
+      "choiceB": "To measure tree heights",
+      "choiceC": "To estimate tree ages",
+      "choiceD": "To count tree rings"
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following organisms usually forms the pioneer community in a primary biological succession?",
+      "choiceA": "Annual herbs ",
+      "choiceB": "Lichens ",
+      "choiceC": "Trees",
+      "choiceD": "Ferns"
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "C",
+      "questionStatement": " In an experiment designed to the effect of temperature on the rate of seed germination, which of the following should the experimenter vary?",
+      "choiceA": "Seed number ",
+      "choiceB": "Water quality ",
+      "choiceC": "Temperature",
+      "choiceD": "Seed size"
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "D",
+      "questionStatement": " In the carbon cycle, which of the following processes removes carbon dioxide from the atmosphere?",
+      "choiceA": "Respiration ",
+      "choiceB": "Decomposition ",
+      "choiceC": "Combustion",
+      "choiceD": "Photosynthesis"
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following sequences represent the correct change in number of chromosomes during fertilization?",
+      "choiceA": "n + n -> 2n",
+      "choiceB": "2n -> 2n",
+      "choiceC": "n -> n",
+      "choiceD": "2n -> n + n"
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "B",
+      "questionStatement": " “Rats can be produced by keeping rags and grains at a corner of a room”. Which of the following line of thinking supports this statement?",
+      "choiceA": "Darwinian evolution",
+      "choiceB": "Spontaneous generation",
+      "choiceC": "Alternation of generation",
+      "choiceD": "Sexual reproduction"
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "C",
+      "questionStatement": " What is the specific name of biological scientists who do research that tries to find evidence of life on other planets in the Solar System?",
+      "choiceA": "Neurobiologists",
+      "choiceB": "Paleontologists",
+      "choiceC": "Astrobiologists",
+      "choiceD": "Biogeographers"
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following industries can reduce more CO2 emission by shifting to the use of enzymes in the manufacturing process?",
+      "choiceA": "Bread making",
+      "choiceB": "Cheese making",
+      "choiceC": "Leather making",
+      "choiceD": "Manufacturing cosmetics"
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is made of globular proteins?",
+      "choiceA": "Enzyme ",
+      "choiceB": "Keratin ",
+      "choiceC": "Collagen ",
+      "choiceD": "Glycogen"
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following events happened before all the others?",
+      "choiceA": "The cell theory was proposed.",
+      "choiceB": "The protozoa were discovered.",
+      "choiceC": "The compound microscope was invented.",
+      "choiceD": "The structure of DNA was described."
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "D",
+      "questionStatement": " Under what conditions do C4 plants have more photosynthetic efficiency than C3 plants?",
+      "choiceA": "Low water supply ",
+      "choiceB": "Low temperature ",
+      "choiceC": "Low light intensity",
+      "choiceD": "Low CO2 concentration"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is NOT a universal property of all living things?",
+      "choiceA": "Heritable characters",
+      "choiceB": "Reproduction",
+      "choiceC": "Photosynthesis",
+      "choiceD": "Growth and development"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "D",
+      "questionStatement": " In which area of enzyme application is invertase injected to sucrose paste in order to produce liquid chocolates?",
+      "choiceA": "Detergent making industry",
+      "choiceB": "Pulp and paper industry",
+      "choiceC": "Pharmaceutical industry",
+      "choiceD": "Food processing industry"
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following functions best at higher optimum pH than all the rest?",
+      "choiceA": "Pepsin ",
+      "choiceB": "Salivary amylase ",
+      "choiceC": "Trypsin",
+      "choiceD": "Enzymes in stomach"
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "A",
+      "questionStatement": " Which class of enzymes joins two molecules together by formation of new bonds?",
+      "choiceA": "Ligase",
+      "choiceB": "Isomerase",
+      "choiceC": "Lyase",
+      "choiceD": "Hydrolase"
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following has a bigger size than all the others?",
+      "choiceA": "A ribosome taken from animal cell",
+      "choiceB": "A mitochondria taken from a plant cell",
+      "choiceC": "A nerve cell taken from a human brain",
+      "choiceD": "A glucose molecule taken from a plant cell"
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "D",
+      "questionStatement": " How does a simple microscope differ from a compound microscope?",
+      "choiceA": "A simple microscope has no lens.",
+      "choiceB": "A simple microscope has got two lenses.",
+      "choiceC": "A simple microscope uses mirror as lens.",
+      "choiceD": "A simple microscope has only one lens."
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following molecules can serve as a raw material for industries that produce glucose?",
+      "choiceA": "Nucleic acids ",
+      "choiceB": "Proteins ",
+      "choiceC": "Lipids",
+      "choiceD": "Starch"
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "A",
+      "questionStatement": " In enzymes that contain non—protein organic molecules, in addition to the protein component, what is the protein component called?",
+      "choiceA": "Apoenzyme",
+      "choiceB": "Coenzyme",
+      "choiceC": "Holoenzyme",
+      "choiceD": "Cofactor"
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following should be done in order to remove an enzyme inhibition caused by a competitive inhibitor?",
+      "choiceA": "Remove affected enzyme molecules",
+      "choiceB": "Add more substrate to the system",
+      "choiceC": "Remove the end product of the reaction",
+      "choiceD": "Add more inhibitor to the system"
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following parts of the plant cell is NOT a living component of the cell?",
+      "choiceA": "Cell membrane",
+      "choiceB": "Cell Wall",
+      "choiceC": "Cytoplasm",
+      "choiceD": "Nucleus"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "B",
+      "questionStatement": " What are the possible consequences of deforestation of the tropical rainforest?",
+      "choiceA": "An increase in existing ecological niches",
+      "choiceB": "Reduction in species diversity of an area",
+      "choiceC": "Increased removal of CO2 from the atmosphere",
+      "choiceD": "An increase in the amount of nitrogen in the soil"
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following processes releases CO2 into the atmosphere?",
+      "choiceA": "Respiration",
+      "choiceB": "Assimilation",
+      "choiceC": "Feeding",
+      "choiceD": "Photosynthesis"
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "C",
+      "questionStatement": " If an area is dominated by just one species having Very many individuals, what would be its index of diversity?",
+      "choiceA": "Fluctuating ",
+      "choiceB": "High ",
+      "choiceC": "Low",
+      "choiceD": "Unpredictable"
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is true about sex determination in birds?",
+      "choiceA": "They have the heterozygotic X & Y chromosomes.",
+      "choiceB": "Males have heterozygotic W & Z chromosomes.",
+      "choiceC": "Females have the homozygotic WW chromosomes.",
+      "choiceD": "They have the heterozygotic W & Z chromosomes."
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "C",
+      "questionStatement": " How many amino acids are there in all known proteins?",
+      "choiceA": "About 10 ",
+      "choiceB": "About 35 ",
+      "choiceC": "About 20",
+      "choiceD": "About 46"
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the major mechanism by which AIDS is transmitted?",
+      "choiceA": "Mother to fetal transmission",
+      "choiceB": "Heterosexual intercourse",
+      "choiceC": "Homosexual intercourse",
+      "choiceD": "Contaminated blood transfusion"
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "C",
+      "questionStatement": " What percentage of the F2 progeny of a monohybrid cross is expected to have the recessive phenotype?",
+      "choiceA": "100% ",
+      "choiceB": "75% ",
+      "choiceC": "25%",
+      "choiceD": "50%"
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is NOT true about innate behaviours?",
+      "choiceA": "Can be improved by trial and error",
+      "choiceB": "Common to all members of the species",
+      "choiceC": "Present at birth or on hatching",
+      "choiceD": "Do not have to be learned"
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "B",
+      "questionStatement": " To which one of the following classes of “stimuli do pheromones belong?",
+      "choiceA": "Auditory",
+      "choiceB": "Smell",
+      "choiceC": "Visual",
+      "choiceD": "Touch"
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following types of microscopes is most suitable for a detailed study of the surface structure of an object?  ",
+      "choiceA": "Field microscope",
+      "choiceB": "Optical microscope",
+      "choiceC": "Scanning electron microscope",
+      "choiceD": "Dissecting microscope"
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "B",
+      "questionStatement": " According to the ﬂuid-mosaic model of the plasma membrane, what does the word 'mosaic' refer to?",
+      "choiceA": "The hydrophobic property of fatty acids",
+      "choiceB": "The bilayer nature of the membrane",
+      "choiceC": "The arrangement of the proteins",
+      "choiceD": "The movement of the phospholipids"
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following diseases is correctly matched with its causative agent?",
+      "choiceA": "Malaria — fungus",
+      "choiceB": "AIDS - virus",
+      "choiceC": "Ringworm — protozoa",
+      "choiceD": "Syphilis — worm"
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following organic compounds would release both nitrogen and sulfur to the ecosystem when decomposed?",
+      "choiceA": "Polysaccharides",
+      "choiceB": "Sucrose",
+      "choiceC": "Proteins",
+      "choiceD": "Lipids"
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "C",
+      "questionStatement": " Among the vertebrates found in Ethiopia, which class has the highest percentage of endemic species?",
+      "choiceA": "Amphibians ",
+      "choiceB": "Reptiles ",
+      "choiceC": "Birds",
+      "choiceD": "Mammals"
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following terms refers to the movement of individuals out of a population? ",
+      "choiceA": "Mortality ",
+      "choiceB": "Immigration ",
+      "choiceC": "Emigration ",
+      "choiceD": "Natality "
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following crosses will produce progeny with phenotypic ratio of 3:1 ? ",
+      "choiceA": "Crossing the F1 to the dominant parent ",
+      "choiceB": "Crossing two homozygote individuals ",
+      "choiceC": "Crossing the F1 to the recessive parent ",
+      "choiceD": "Crossing two heterozygote individuals "
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following changes that happened during  human evolution had the most contribution to the  evolutionary success of Homo sapiens? ",
+      "choiceA": "Proportionately big brain size to body mass ",
+      "choiceB": "Big body parts and big overall body mass ",
+      "choiceC": "Long legs, arms and more upright body posture ",
+      "choiceD": "Fast running ability and overall physical strength "
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "B",
+      "questionStatement": " Woodlice are observed avoiding light and heat by quickly moving to moist and darker areas. Which behavior of these animals helps them to detect differences in light intensity and move to the darker and moist part of the habitat? ",
+      "choiceA": "Instinctive learning ",
+      "choiceB": "Negative phototaxis ",
+      "choiceC": "Positive phototaxis ",
+      "choiceD": "Insight learning "
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "A",
+      "questionStatement": " In Ethiopian animal diversity, which group is represented by the highest number of orders, families, generation and species?",
+      "choiceA": "Birds ",
+      "choiceB": "Amphibians ",
+      "choiceC": "Fish ",
+      "choiceD": "Mammals"
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "B",
+      "questionStatement": " Why are mutations considered important in evolution?",
+      "choiceA": "They are usually related to the environment.",
+      "choiceB": "They contribute to new variations in organisms.",
+      "choiceC": "They are always beneficial to the organism.",
+      "choiceD": "They become causes for species migrations."
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following processes involved in the water cycle is carried out by green plants?",
+      "choiceA": "Evaporation ",
+      "choiceB": "Precipitation ",
+      "choiceC": "Condensation",
+      "choiceD": "Transpiration"
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "A",
+      "questionStatement": " Deficiency of which of the following nutrients in human diet is likely to result in a deficiency of some co-enzymes like FAD?",
+      "choiceA": "Essential amino acids ",
+      "choiceB": "Vitamins ",
+      "choiceC": "Carbohydrates",
+      "choiceD": "Saturated fatty acids"
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "A",
+      "questionStatement": " If someone suddenly removes his/her hand from a very hot object, which of the following types of behavior is manifested? ",
+      "choiceA": "Reﬂex action ",
+      "choiceB": "Imprinting ",
+      "choiceC": "Learned behavior",
+      "choiceD": "Sensitization"
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "C",
+      "questionStatement": " Which step in the HIV life cycle is disrupted by an anti-retroviral drug that competitively inhibits the reverse transcriptase enzyme?",
+      "choiceA": "Entry into the host cell",
+      "choiceB": "Assembly of viral parts into a virus",
+      "choiceC": "Formation of DNA from RNA",
+      "choiceD": "Integration of viral DNA into host DNA"
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "B",
+      "questionStatement": " During which of the following processes in cellular respiration are most of the ATPS formed?",
+      "choiceA": "Glycolysis ",
+      "choiceB": "Cherniosmosis ",
+      "choiceC": "Link reaction",
+      "choiceD": "Krebs cycle"
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following pairs are ANALOGOUS structures? ",
+      "choiceA": "The human arm and the front leg of a mule",
+      "choiceB": "The front leg of a frog and the wing of a bat",
+      "choiceC": "The wing of a bird and the wing of a butterﬂy",
+      "choiceD": "The wing of a bat and the wing of a bird"
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "A",
+      "questionStatement": "Which of the following involves trial and error learning?",
+      "choiceA": "Operant conditioning ",
+      "choiceB": "Habituation ",
+      "choiceC": "Sensitization",
+      "choiceD": "Classical conditioning"
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is the adaptation by C4 plants that helps them to avoid photorespiration?",
+      "choiceA": "Harvesting of carbon dioxide at night",
+      "choiceB": "Using separate cells for light & dark reactions",
+      "choiceC": "Storing carbon dioxide in the vacuole",
+      "choiceD": "Keeping the stomata closed during the day"
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "D",
+      "questionStatement": " If a codon on a messenger RNA is UUU, what is the complementary anticodon on the transfer RNA?",
+      "choiceA": "UUU",
+      "choiceB": "GGG",
+      "choiceC": "CCC",
+      "choiceD": "AAA"
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "A",
+      "questionStatement": " If clone is produces by transferring a nucleus of animal A to an enucleated egg of animal B and the egg is then implanted in the uterus of animal C, Which animal would the clone resemble most?",
+      "choiceA": "Animal C",
+      "choiceB": "Animal B",
+      "choiceC": "Animal A",
+      "choiceD": "Other animals"
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following classes of fatty acids is carbon—carbon double bond?",
+      "choiceA": "Monounsaturated fatty acids",
+      "choiceB": "Unsaturated fatty acids",
+      "choiceC": "Saturated fatty acids",
+      "choiceD": "Polyunsaturated fatty acids"
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "B",
+      "questionStatement": " Choose the one that had the LEAST contribution to human evolution?",
+      "choiceA": "Development of bipedalism",
+      "choiceB": "Adaptation to flight",
+      "choiceC": "Attaining opposable thumb",
+      "choiceD": "Increasing brain size"
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "A",
+      "questionStatement": " In which biome are epiphytes typically present as L a characteristic element?",
+      "choiceA": "Tropical montane forests",
+      "choiceB": "Cold desert woodlands",
+      "choiceC": "The Tundra environment",
+      "choiceD": "Boreal deciduous forests"
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "C",
+      "questionStatement": " If it is known that the total amount of DNA in a cell is 300 units and that adenine alone contributes 70 of these units, how many units go to cytosine?",
+      "choiceA": "40 units ",
+      "choiceB": "70 units ",
+      "choiceC": "80 units",
+      "choiceD": "35 units"
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "D",
+      "questionStatement": " What is the substance that helps to keep the biological membrane in a ﬂuid state?",
+      "choiceA": "Waxes",
+      "choiceB": "Water",
+      "choiceC": "Cholesterol",
+      "choiceD": "Phospholipids"
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following substances is NOT formed when glucose is fermented by yeasts?",
+      "choiceA": "Alcohol ",
+      "choiceB": "ATP ",
+      "choiceC": "Lactic acid",
+      "choiceD": "Carbon dioxide"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "D",
+      "questionStatement": " Which phosphate bond of the ATP is broken when the energy it contains is needed for cellular activity? ",
+      "choiceA": "The first bond",
+      "choiceB": "The C - C bonds",
+      "choiceC": "The second bond",
+      "choiceD": "The third bond"
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "A",
+      "questionStatement": " What is the advantage that a photo system containing molecules of different types of light sensitive pigments have?",
+      "choiceA": "To absorb light of different wave lengths",
+      "choiceB": "To increase the size of the photosystem",
+      "choiceC": "To increase the complexity of the photosystem",
+      "choiceD": "To increase the surface area for light absorption"
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "B",
+      "questionStatement": " How many years have passed since Darwin’s book on the theory of evolution was published?",
+      "choiceA": "About 50 years ",
+      "choiceB": "About 160 years ",
+      "choiceC": "About 120 years",
+      "choiceD": "About 100 years"
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following can be understood about living things from the study of how breeders improve domesticated plants and animals?",
+      "choiceA": "Living things tend to over—reproduce",
+      "choiceB": "Natural resources are of limited supply",
+      "choiceC": "Living things can be improved through selection",
+      "choiceD": "Individuals compete for resources"
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is responsible for the bending of a young plant towards a unidirectional source of light?",
+      "choiceA": "Reduced photosynthesis on dark side",
+      "choiceB": "Faster growth rate on the dark side",
+      "choiceC": "Reduced auxin concentration on dark side",
+      "choiceD": "Increased rate of cell division on the light side"
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "A",
+      "questionStatement": " In what way would AIDS patients benefit from treatment with anti-retroviral drugs?",
+      "choiceA": "Reduction of HIV replication",
+      "choiceB": "Provision of cure for AIDs",
+      "choiceC": "Immunizing against HIV",
+      "choiceD": "Killing of opportunistic infectious agents"
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "A",
+      "questionStatement": " If a country has a larger number of young people relative to the number of old people, to which category of countries does. it belong?",
+      "choiceA": "Industrial",
+      "choiceB": "Hunter—gatherer",
+      "choiceC": "Post—industrial",
+      "choiceD": "Developing"
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is the best collective name for all bacteria with spherical shapes?",
+      "choiceA": "Spirochaetes",
+      "choiceB": "Bacilli",
+      "choiceC": "Cocci",
+      "choiceD": "Streptococci"
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "B",
+      "questionStatement": " Suppose two heterozygous round yellow (RrYy x RrYy) pea plants were crossed and l28 seeds were produced, how many of the seeds are expected to be heterozygous round yellow?",
+      "choiceA": "64 seeds",
+      "choiceB": "32 seeds",
+      "choiceC": "96 seeds",
+      "choiceD": "128 seeds"
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an important way by which green plants mitigate the greenhouse effect?",
+      "choiceA": "Use of fire wood to replace coal",
+      "choiceB": "Removing CO2 from the atmosphere",
+      "choiceC": "Releasing water to the atmosphere",
+      "choiceD": "Releasing oxygen to the atmosphere"
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "A",
+      "questionStatement": " What causes tomato fruits to ripen much more slowly when kept in a refrigerator than if left on a table at room temperature?",
+      "choiceA": "Low temperature slows the normal action of ripening enzymes.",
+      "choiceB": "Enzymes produced by bacteria normally inhibit ripening.",
+      "choiceC": "Humidity accelerates enzyme activity and ripening process.",
+      "choiceD": "Normal temperature arrests the action of ripening enzymes."
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "D",
+      "questionStatement": " Which characteristic of RNA makes it suitable for moving out of the nucleus? ",
+      "choiceA": "Inability to replicate ",
+      "choiceB": "Absence of thymine ",
+      "choiceC": "Its unstable nature ",
+      "choiceD": "Smallness of its size "
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "C",
+      "questionStatement": " Why does sucrose give a negative result when mixed and heated with Benedict's solution? ",
+      "choiceA": "Because it is not a sugar molecule. ",
+      "choiceB": "Because it is a reducing sugar. ",
+      "choiceC": "Because it is a non-reducing sugar. ",
+      "choiceD": "Because it is not a monosaccharide. "
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "A",
+      "questionStatement": " What does an evolutionary selective pressure that acts around the mean do? ",
+      "choiceA": "It stabilizes. ",
+      "choiceB": "It terminates. ",
+      "choiceC": "It converges. ",
+      "choiceD": "It disrupts."
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is consistent with science? ",
+      "choiceA": "Proof by investigation of the causes of a phenomenon ",
+      "choiceB": "Proof by reference to a respected leader ",
+      "choiceC": "Proof by reference to an unknown object ",
+      "choiceD": "Proof based on lessons from a person one believes "
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "C",
+      "questionStatement": " In his theory of evolution, the cause of which of the  following concepts was MISSING in Darwin's explanation? ",
+      "choiceA": "Over-reproduction ",
+      "choiceB": "Struggle for survival ",
+      "choiceC": "Hereditary variation ",
+      "choiceD": "Survival of the fittest"
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is a learned behavior? ",
+      "choiceA": "Suckling of the newborn at mother's breasts ",
+      "choiceB": "Salivation by conditioned dogs at the sound of a bell ",
+      "choiceC": "Withdrawal of hands suddenly from hot objects ",
+      "choiceD": "Blinking the eyes when something gets into them "
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following diseases is transmitted by mosquitoes?",
+      "choiceA": "Diabetes melitus ",
+      "choiceB": "Kaposi's cancer ",
+      "choiceC": "Rabies",
+      "choiceD": "Malaria"
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "A",
+      "questionStatement": " In which of the following are all the tools mainly used in the laboratory rather than in field situation?",
+      "choiceA": "Centrifuges, microscopes, measuring cylinders, petri dishes",
+      "choiceB": "Flow meters, centrifuges, theodolites, microscopes",
+      "choiceC": "Centrifuges, plant presses, flow meters, microscopes",
+      "choiceD": "Theodolites, petri dishes, GPS receivers, measuring cylinders"
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "B",
+      "questionStatement": " Which aspect of biotechnology is considered strictly genetic engineering?",
+      "choiceA": "Providing gene therapy",
+      "choiceB": "Production of new types of plants",
+      "choiceC": "Monoclonal antibodies",
+      "choiceD": "Mapping of the human genome"
+    }
+  ]
+}

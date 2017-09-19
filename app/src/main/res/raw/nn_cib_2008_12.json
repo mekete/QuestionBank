@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVIC G12 2008",
+    "fullName": "EUEE Civic and Ethical Education 2008 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2008 June2016"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following country is considered as a model of the parliamentary democracy?",
+      "choiceA": "United Kingdom. ",
+      "choiceB": "South Korea.",
+      "choiceC": "Russia Federation.",
+      "choiceD": "United States of America."
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is a democratic right?",
+      "choiceA": "Rights to life and liberty.",
+      "choiceB": "Freedom of religion and belief.",
+      "choiceC": "Rights of assembly and demonstration.",
+      "choiceD": "The right to the security of person."
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "D",
+      "questionStatement": " One of the following indicates the importance of a democratic system. Which one is it?",
+      "choiceA": "It upholds absolute equality among citizens.",
+      "choiceB": "It gives peoples representatives unlimited political power.",
+      "choiceC": "It allows citizens to have a little participation in policy debate.",
+      "choiceD": "It promotes economic. cultural and political equality."
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "C",
+      "questionStatement": " Direct democracy can be:",
+      "choiceA": "used to pass proclamations in a parliamentary system.",
+      "choiceB": "practiced to make important decisions through a referendum.",
+      "choiceC": "considered as a modern form of democracy widely practiced all over the world.",
+      "choiceD": "easily practiced in small countries in the process of policy making."
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct in the current Ethiopian context?",
+      "choiceA": "Both direct democracy and indirect democracy are exercised in today’s Ethiopia.",
+      "choiceB": "There is no opportunity to exercise direct democracy in the country.",
+      "choiceC": "The country exercises parliamentary and presidential democracies.",
+      "choiceD": "As compared to group rights, the country gives priority to individual rights."
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct in a democratic system?",
+      "choiceA": "Elected representatives are not accountable for failures in official duties.",
+      "choiceB": "Government officials are protected from legal scrutiny during their term of office.",
+      "choiceC": "Diversity of political views are appreciated and managed in a civil manner.",
+      "choiceD": "High government officials shall inform the people about military strategies of the country."
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about the Ethiopian federal system?",
+      "choiceA": "Devolution of power to the regional states moderates the power of the federal state.",
+      "choiceB": "Members of the House of the Federation are directly elected by the people.",
+      "choiceC": "Collection of revenue and tax is the exclusive power of the federal state.",
+      "choiceD": "The federal state monopolizes power by controlling foreign, national and local affairs."
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "D",
+      "questionStatement": " An international climate change convention adopted in 2015 is:",
+      "choiceA": "The Oslo Protocol. ",
+      "choiceB": "The Vienna Agreement. ",
+      "choiceC": "The Beijing Declaration.",
+      "choiceD": "The Paris Agreement."
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about Ethiopia?",
+      "choiceA": "It was one of the founding members of the World Trade Organization.",
+      "choiceB": "It joined the League of Nations when most of the African countries were under colony.",
+      "choiceC": "It sent peacekeeping forces to South Korea immediately after the First World War.",
+      "choiceD": "It became the member of the United Nations before the Second World War."
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about the Council of Constitutional Inquiry?",
+      "choiceA": "it examines constitutional disputes and submits recommendations to the House of the Federation.",
+      "choiceB": "It has the power to make decisions on matters of constitutional disputes.",
+      "choiceC": "It is established by a law enacted by the House of the Federation.",
+      "choiceD": "It undertakes its activities under the supervision of the Council of Ministers."
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "D",
+      "questionStatement": " An international organization established after the Second World War to assist the reconstruction of Europe is:",
+      "choiceA": "World Bank",
+      "choiceB": "World Trade Organization",
+      "choiceC": "Intergovernmental Development Authority",
+      "choiceD": "International Monetary Fund"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "B",
+      "questionStatement": "  Which of the following is correct about the democratic system exercised in Ethiopia?",
+      "choiceA": "The system of checks and balances of Ethiopia and the United States is quite similar.",
+      "choiceB": "The country has begun developing the culture of democracy in the recent decades.",
+      "choiceC": "The country exercises a democratic system similar to the French political system.",
+      "choiceD": "The country’s President can cancel bills approved by the House of Representatives."
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about the League of Nations?",
+      "choiceA": "It accepted most of the African countries as its members.",
+      "choiceB": "It accepted Ethiopia as its member without any opposition.",
+      "choiceC": "It failed to protect Ethiopia from the Italian invasion.",
+      "choiceD": "It was a global organization established before World War I."
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about the Organization of African Unity (OAU)?",
+      "choiceA": "It's headquarter was changed three times.",
+      "choiceB": "It was founded by independent African countries.",
+      "choiceC": "It's first headquarter was in Dakar, Senegal.",
+      "choiceD": "It was established by former British colonies."
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "D",
+      "questionStatement": " One of the following is correct about the federal system of Ethiopia. Which one is it?",
+      "choiceA": "It allows the federal system to interfere in every aspect of regional affairs.",
+      "choiceB": "It strengths the authority of the center by weakening the power to regional states.",
+      "choiceC": "It gives the federal state an exclusive power to control economic matters in the regional states.",
+      "choiceD": "It allows regional states to develop and implement their own development programs."
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about the hybrid democratic system practiced in countries like France?",
+      "choiceA": "The President is assigned as a powerful head of the government.",
+      "choiceB": "The Prime Minister leads the government under a close supervision of the President.",
+      "choiceC": "The President serves as the head of the state with a nominal political power.",
+      "choiceD": "The Prime Minster is elected by a popular vote through a separate electoral process."
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about the nature of a modern democratic constitution?",
+      "choiceA": "It requires a permanent Constitutional Assembly to draft relevant amendments.",
+      "choiceB": "The responsibility of drawing up a constitution is given to the parliament.",
+      "choiceC": "It is subject to amendments to accommodate rapidly changing circumstances.",
+      "choiceD": "The existence of constitutional law guarantees the prevalence of the rule of law."
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is INCORRECT about globalization?",
+      "choiceA": "It strengthens the interconnectedness of countries around the world.",
+      "choiceB": "It affects developed and developing countries in a similar way.",
+      "choiceC": "It has economic, political and cultural implications for world countries.",
+      "choiceD": "It brings opportunities as well as challenges for developing countries."
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "D",
+      "questionStatement": " The sovereignty of the Ethiopian Constitution is expressed by the:",
+      "choiceA": "power of the Council ofMinisters.",
+      "choiceB": "existence of several opposition parties.",
+      "choiceC": "parliament with elected representatives.",
+      "choiceD": "country’s rapid economic development."
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "D",
+      "questionStatement": "The author of the Declaration of Independence is:",
+      "choiceA": "Abraham Lincoln.",
+      "choiceB": "George Washington.  ",
+      "choiceC": "John F. Kennedy.",
+      "choiceD": "Thomas Jefferson."
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "B",
+      "questionStatement": "Which of the following is correct about constitutionalism?",
+      "choiceA": "It shows the prevalence of the parliamentary democracy.",
+      "choiceB": "It shows that actions of citizens and government are governed by the supreme law.",
+      "choiceC": "It indicates the existence of a modern written constitution.",
+      "choiceD": "It prevails in all forms of political system in the modern world."
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about corruption?",
+      "choiceA": "It erodes public confidence in government offices.",
+      "choiceB": "It hinders the development process of a country.",
+      "choiceC": "It discourages domestic and international investment.",
+      "choiceD": "It includes all sorts of illegal and criminal activities."
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is correct about corruption?",
+      "choiceA": "It is an abuse of public office for private gains.",
+      "choiceB": "It is a problem of some developing countries.",
+      "choiceC": "It can be eradicated through harsh penalities.",
+      "choiceD": "It has been eliminated from developed nations."
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about Ethiopia during the period of Emperor Haile Silassie?",
+      "choiceA": "Ethiopia defeated the Italian army at the battle ofAdwa.",
+      "choiceB": "Ethiopia was invaded by a two Western colonial power: Italy and Germany.",
+      "choiceC": "Ethiopia became a member of the League ofNations and the United Nations.",
+      "choiceD": "Ethiopia had a strong relationship with socialist countries of the time."
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "B",
+      "questionStatement": " One of the following contradicts the rule of law and procedural justice in relation to accused persons. Which one is it?",
+      "choiceA": "Allowing accused persons to have access to any evidence presented against them.",
+      "choiceB": "Arresting accused persons without informing the charges against them.",
+      "choiceC": "Giving the charges against them in writing with sufficient particulars.",
+      "choiceD": "Informing the charges against them in the language they understand well."
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about legal provisions?",
+      "choiceA": "They must be impartial and free of bias.",
+      "choiceB": "They must be free from ambiguous jargons.",
+      "choiceC": "They shall not contradict constitutional laws.",
+      "choiceD": "They shall be complex and abstract."
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about the protection against double jeopardy?",
+      "choiceA": "A person convicted for an offence shall not be convicted again for the same offence.",
+      "choiceB": "A person charged for a crime has the right to a quick public trial.",
+      "choiceC": "An accused person has the right to be represented by a legal counsel.",
+      "choiceD": "A person charged for an offence has no burden to prove his/her innocence."
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true based on due process of law?",
+      "choiceA": "Judges in the court of law are expected to support the defendant.",
+      "choiceB": "Arrested persons can appeal for habeas corpus after forty eight hours.",
+      "choiceC": "Arrested persons are presumed criminal the moment they are apprehended",
+      "choiceD": "The defendant has the burden of providing evidence to prove innocence."
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is correct about the rule of law?",
+      "choiceA": "It manifests itself in all forms of government and political systems.",
+      "choiceB": "Its existence has no connection with the prevalence of democracy.",
+      "choiceC": "It establishes restrictions on government officials to protect the rights of citizens.",
+      "choiceD": "It sets citizens free to enjoy their rights without legal restrictions."
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "D",
+      "questionStatement": " The best way of fighting against corruption is:",
+      "choiceA": "waiting for the good will of government officials.",
+      "choiceB": "accepting corruption as a problem existing everywhere.",
+      "choiceC": "adapting to the situation and tolerating corrupt officials.",
+      "choiceD": "mobilizing active and informed public movements."
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is correct about governments abiding by the rule of law?",
+      "choiceA": "Exercising unlimited authority to run government business.",
+      "choiceB": "Application of the principle of “no man is above the law”.",
+      "choiceC": "Exposing individuals to arbitrary actions of elected officials.",
+      "choiceD": "Allowing government officials to make decisions as they wish."
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "D",
+      "questionStatement": " The purpose of division of power in a federal system is to",
+      "choiceA": "empower regions by reducing the concentration of power at the center.",
+      "choiceB": "give more authoritative powers to the central government.",
+      "choiceC": "subordinate regional governments to the central government.",
+      "choiceD": "make regional governments free from the control of the federal state."
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about a federal state?",
+      "choiceA": "It is characterized by the decentralization of political power.",
+      "choiceB": "It may have parliamentary or presidential from of government.",
+      "choiceC": "It shall have a single constitution that governs the federal and regional states.",
+      "choiceD": "It could be organized based on geography or population settlement."
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "D",
+      "questionStatement": " The main purpose of having the three branches of government is:",
+      "choiceA": "promoting a socialist style of governance.",
+      "choiceB": "following international standard of governance.",
+      "choiceC": "adapting the Western structuring of administration.",
+      "choiceD": "maintaining the system of checks and balances"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "A",
+      "questionStatement": " A belief in the superiority of one’s cultural groups refers to",
+      "choiceA": "ethnocentrism ",
+      "choiceB": "prejudice ",
+      "choiceC": "cultural relativism",
+      "choiceD": "cultural universalism"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "D",
+      "questionStatement": " The major purpose of interest groups is:",
+      "choiceA": "taking political power.",
+      "choiceB": "supporting the ruling party.",
+      "choiceC": "struggling against government.",
+      "choiceD": "influencing government policy."
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about the Derg period?",
+      "choiceA": "“Land to the Tiller” was declared.",
+      "choiceB": "Multi—party system was encouraged.",
+      "choiceC": "A democratic system was promoted.",
+      "choiceD": "A civilian government ruled the country."
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following has a negative implication for gender equality in Ethiopia?",
+      "choiceA": "Current legal provisions on property rights.",
+      "choiceB": "Legal provisions against harmful traditional practices.",
+      "choiceC": "Affirmative actions aimed at empowering girls and women.",
+      "choiceD": "Customs that force women to undergo female genital cutting."
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "B",
+      "questionStatement": " One of the following is among the rights of citizens. Which one is it?",
+      "choiceA": "Observing the law of the land.",
+      "choiceB": "Running for political office.",
+      "choiceC": "Respecting the rights of others.",
+      "choiceD": "Acting ethically and responsibly."
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is correct about peasant revolts in Ethiopia?",
+      "choiceA": "The Gojam Peasant Rebellion was crushed by British forces that used aircrafts.",
+      "choiceB": "Except Gojam, Tigrai and Bale there were no other peasant uprisings in Ethiopia.",
+      "choiceC": "The Bale Peasant Rebellion was caused by government demand of contributions to erect the statue of the Emperor.",
+      "choiceD": "The First Woyane Movement was partly triggered by the corruption of the army stationed in Raya and Azebo."
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about affirmative action?",
+      "choiceA": "It is a practice Widely implemented by poor countries.",
+      "choiceB": "It gives excessive advantage to one group against another.",
+      "choiceC": "Some people consider it as another form of discrimination.",
+      "choiceD": "It is criticized for giving an enormous power to rich people."
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "A",
+      "questionStatement": " One of the following is correct about equity of benefits and burdens. Which one is it?",
+      "choiceA": "Minority groups are entitled to fewer benefits.",
+      "choiceB": "Those who shoulder heavy burden should gain more benefit.",
+      "choiceC": "Burdens, not benefits, should be distributed equally.",
+      "choiceD": "Those who work less should be generously subsidized."
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is correct about equality?",
+      "choiceA": "Equality refers to the provision of equal opportunity for all concerned.",
+      "choiceB": "Remedial actions for past injustices contradicts the principle of equality.",
+      "choiceC": "In exercising equality the use of rights cannot be conditioned by obligations.",
+      "choiceD": "Providing equal opportunity can be considered as an affirmative action."
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": "Which of the following is correct about gender issues in Ethiopia?",
+      "choiceA": "The current regime is the first to raise the question of gender equality.",
+      "choiceB": "Gender equality has been respected throughout the history of the country.",
+      "choiceC": "Currently Ethiopian women are benefiting from affirmative actions.",
+      "choiceD": "Women were exclusively removed from political power in the history of Ethiopia."
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "A",
+      "questionStatement": "In most countries the term “government benefits” are related to.",
+      "choiceA": "payment of wages.",
+      "choiceB": "collection of taxes.",
+      "choiceC": "protection of public properties.",
+      "choiceD": "social welfare provisions."
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "C",
+      "questionStatement": "The principle that says people earning the same amount of income should pay the same amount of tax is called:",
+      "choiceA": "ability to pay. ",
+      "choiceB": "democratic taxation. ",
+      "choiceC": "horizontal equity.",
+      "choiceD": "progressive taxation."
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "D",
+      "questionStatement": " In terms of morality, which of the following is the best way of earning a better income?",
+      "choiceA": "Disregarding some professions.",
+      "choiceB": "Looking for easy ways of making money.",
+      "choiceC": "Working hard in the area of one’s profession.",
+      "choiceD": "Creating friendship with wealthy persons."
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is quite different from all others?",
+      "choiceA": "Racial discrimination ",
+      "choiceB": "Affirmative action ",
+      "choiceC": "Reverse discrimination",
+      "choiceD": "Positive discrimination"
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following true about the purpose of civic knowledge?",
+      "choiceA": "Making citizens politically motivated.",
+      "choiceB": "Empowering citizens to make an informed decision.",
+      "choiceC": "Promoting abstract and theoretical knowledge.",
+      "choiceD": "Encouraging people to be extremely religious."
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "A",
+      "questionStatement": " The consequence of unfair distribution of benefits and burdens can be manifested in:",
+      "choiceA": "strengthening cooperative attitude.",
+      "choiceB": "encouraging hardworking people.",
+      "choiceC": "spreading violence and conflict.",
+      "choiceD": "accelerating the development process."
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "B",
+      "questionStatement": " Collecting different amount of tax from different amount of income is reflected in:",
+      "choiceA": "circular equity. ",
+      "choiceB": "vertical equity. ",
+      "choiceC": "parallel equity.",
+      "choiceD": "generalized equity."
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about professional ethics?",
+      "choiceA": "Principles that guide persons in performing their job.",
+      "choiceB": "Guiding standards motivated by political ideology.",
+      "choiceC": "Behaving based on religious principles and doctrines.",
+      "choiceD": "Guiding values of personal conduct in everyday life situation."
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is an indication of poverty?",
+      "choiceA": "Low mortality rate.",
+      "choiceB": "High level of literacy.",
+      "choiceC": "Income below one dollar per day.",
+      "choiceD": "High average life expectancy."
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the Regional States of the FDRE uses a camel as an emblem of its flag?",
+      "choiceA": "The State of Afar.",
+      "choiceB": "The State of Benishangul/Gumuz.",
+      "choiceC": "The State of the Gambaela Peoples.",
+      "choiceD": "The State of Somale."
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "B",
+      "questionStatement": " One of the following is true about voluntary organizations. Which one is it?",
+      "choiceA": "Controlled by government authorities.",
+      "choiceB": "Focus on social, economic, or environmental issues.",
+      "choiceC": "Mainly interested in political activities.",
+      "choiceD": "Aim at maximizing the economic benefits of their founders."
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "D",
+      "questionStatement": " Secondary sources of history include:",
+      "choiceA": "ancient buildings.",
+      "choiceB": "diaries and coins.",
+      "choiceC": "inscriptions and monuments.",
+      "choiceD": "history books."
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is INCORRECT about tolerance?",
+      "choiceA": "Accepting and valuing cultural diversity.",
+      "choiceB": "Appreciating diversity of beliefs and views.",
+      "choiceC": "Promoting extreme loyalty to one’s own culture.",
+      "choiceD": "Rejecting stereotypes about cultural groups."
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "A",
+      "questionStatement": " The traditional meaning of patriotism is:",
+      "choiceA": "fighting for the territorial integrity of one’s country.",
+      "choiceB": "serving communities to promote the common good.",
+      "choiceC": "respecting the law and upholding constitutional values.",
+      "choiceD": "promoting the development of democracy and peaceful co—existence."
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following was a civil rights activist struggled against racial discrimination in the United States of America?",
+      "choiceA": "Martin Luther King Junior.",
+      "choiceB": "Nelson Mandela.",
+      "choiceC": "Mohandas Gandhi.",
+      "choiceD": "Thomas Jefferson."
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "D",
+      "questionStatement": " Tolerance of diversity contradicts:",
+      "choiceA": "respecting different viewpoints.",
+      "choiceB": "appreciating religious pluralism.",
+      "choiceC": "respecting the rights of cultural groups.",
+      "choiceD": "promoting a single political identity."
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is INCORRECT about cultural relativism?",
+      "choiceA": "It encourages people to appreciate cultural diversity.",
+      "choiceB": "It encourages ethnocentric feelings and practices.",
+      "choiceC": "It minimizes conflicts among different cultural groups.",
+      "choiceD": "It helps us to understand cultural values in their context."
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about Ethiopia?",
+      "choiceA": "It became a member of the League of Nations in 1923.",
+      "choiceB": "It became a member of the United Nations in 1945.",
+      "choiceC": "It sent a peacekeeping force to North Korea in 1945.",
+      "choiceD": "It contributed a lot to the foundation of the OAU in 1963."
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "D",
+      "questionStatement": " Duties of a patriotic citizen include:",
+      "choiceA": "refraining from criticizing government policies and strategies.",
+      "choiceB": "being sceptical about the symbolic importance of the national flag.",
+      "choiceC": "striving to promote individual interests at the expense of the public good.",
+      "choiceD": "fighting against enemies to defend the national security."
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about national security and international community?",
+      "choiceA": "Rich countries reduced development aid to poor countries to deal with security matters related to terrorism.",
+      "choiceB": "Terrorist activities attacking the USA do not pose a threat to African countries.",
+      "choiceC": "National security can be achieved in the absence of international security.",
+      "choiceD": "Absence of security in Ethiopia would not affect the Horn of Africa and the Middle East."
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about global relations and concerns?",
+      "choiceA": "Issues like poverty are concerns of a few countries of the world.",
+      "choiceB": "The world is increasingly becoming bigger enabling countries to ignore globalization.",
+      "choiceC": "Competition between countries has to be supported by cooperation to ease tension.",
+      "choiceD": "Possession of nuclear weapons by several countries is a guarantee for global peace."
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is INCORRECT about discipline?",
+      "choiceA": "Proper dressing style,",
+      "choiceB": "Practising religion in the work place.",
+      "choiceC": "Respecting working hours.",
+      "choiceD": "Building good working relationship."
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "D",
+      "questionStatement": " Economic policy is:",
+      "choiceA": "a perspective derived from academic research.",
+      "choiceB": "an annual plan of action of a particular project.",
+      "choiceC": "a specific guideline for a day-to-day economic activity",
+      "choiceD": "a general direction for the economy of a country."
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is INCORRECT about a genuine source of job satisfaction?",
+      "choiceA": "Gaining social recognition as a result of a good work.",
+      "choiceB": "Achieving success through collaboration with colleagues.",
+      "choiceC": "Maximizing economic benefits using public resources.",
+      "choiceD": "Achieving top performances and getting career development."
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "A",
+      "questionStatement": " The Obligations of citizens include:",
+      "choiceA": "building a democratic culture.",
+      "choiceB": "paying tax regardless of age.",
+      "choiceC": "creating a conflict free society.",
+      "choiceD": "developing a homogeneous world view."
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is true about morality?",
+      "choiceA": "It is also called ethos and moral philosophy.",
+      "choiceB": "It is a system of principles that guides human conduct.",
+      "choiceC": "It is the philosophical study of human behaviour.",
+      "choiceD": "It studies how moral standards affect human behaviour. "
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "C",
+      "questionStatement": " The protection and preservation of the environment includes:",
+      "choiceA": "clearing the existing forest areas to expand mechanized farming.",
+      "choiceB": "replacing small—holders' farming by mechanized and large—scale farming.",
+      "choiceC": "enhancing environment—friendly development plans and activities.",
+      "choiceD": "expanding agricultural practices that use a large amount of chemical fertilizers."
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is ethically correct in providing services in the medical profession?",
+      "choiceA": "Giving priority to people from the upper economic class.",
+      "choiceB": "Giving priority to ones relatives, friends. and colleagues.",
+      "choiceC": "Disclosing medical statuses and private matters of patients.",
+      "choiceD": "Giving priority to patients who are in a critical situation."
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following assertion is correct about dependency?",
+      "choiceA": "Wise economic policies and effective utilization of resources are essential to overcome dependency.",
+      "choiceB": "Dependency at the individual level cannot affect the economy of a nation.",
+      "choiceC": "Dependent persons have ample opportunities to socialize and gain prestige in society.",
+      "choiceD": "The current world order does not allow poor countries to minimize their level of dependency."
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "B",
+      "questionStatement": " Micro economics deals with:",
+      "choiceA": "average pre—capita income.",
+      "choiceB": "the behaviour of consumers.",
+      "choiceC": "gross domestic product of a nation.",
+      "choiceD": "rate of inflation in a given country"
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "D",
+      "questionStatement": " The habit of saving can be improved by:",
+      "choiceA": "worrying much about the present time than the future.",
+      "choiceB": "increasing the amount of saving by cutting expenses for basic needs.",
+      "choiceC": "limiting desires and purchases to the level of one’s income.",
+      "choiceD": "borrowing money to satisfy the desire of spontaneous purchases."
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is less important to promote a sustainable development in developing countries?",
+      "choiceA": "Relying on Western innovation and technology.",
+      "choiceB": "Promoting the culture of hardworking.",
+      "choiceC": "Investing on human resource development.",
+      "choiceD": "Developing effective policies and strategies."
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "B",
+      "questionStatement": " Self-awareness can be improved by:",
+      "choiceA": "developing an attitude of superiority.",
+      "choiceB": "evaluating our strengths and weaknesses.",
+      "choiceC": "imitating the behaviour of other people.",
+      "choiceD": "focusing on our strengths and good qualities."
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "A",
+      "questionStatement": " The behaviour of a passive person can be observed in his/her:",
+      "choiceA": "listening to others without challenging their biased arguments.",
+      "choiceB": "playing an active role in public debates and contributing ideas.",
+      "choiceC": "sharing opinion without disregarding the views of other people.",
+      "choiceD": "challenging practices that Violate the right and dignity of people."
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "C",
+      "questionStatement": " The character of an assertive person is manifested in:",
+      "choiceA": "little or no expression during discussions.",
+      "choiceB": "an unfair demands and biased point of views.",
+      "choiceC": "a good eye Contact during conversation.",
+      "choiceD": "moving away from group discussions and deliberation."
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about the behaviour of aggressive persons?",
+      "choiceA": "Speaking too loudly and staring at others.",
+      "choiceB": "Standing rigidly and invading personal boundaries.",
+      "choiceC": "Forwarding threatening expressions and looking down others.",
+      "choiceD": "Having an open and polite expression"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is a negative impact of globalization?",
+      "choiceA": "Availability of cheaper goods and products.",
+      "choiceB": "Weakening the sovereignty of developing countries.",
+      "choiceC": "Easy transfer of knowledge and technology.",
+      "choiceD": "Better access to communication technologies."
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "B",
+      "questionStatement": " The following require moral sensitivity in the medical profession EXCEPT,",
+      "choiceA": "choosing an area of specialization.",
+      "choiceB": "making decision related to abortion.",
+      "choiceC": "facilitating medically assisted death.",
+      "choiceD": "communicating HIV status of a client."
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is true about self-reliance?",
+      "choiceA": "Self—reliant persons reject any kind of support from other people.",
+      "choiceB": "Self—reliant persons have limited interactions within the society.",
+      "choiceC": "Building self—confidence is essential to lead a self- reliant life.",
+      "choiceD": "Self—reliant persons do not consider the comments of other persons."
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " The most difficult activity in the process of decision making is:",
+      "choiceA": "looking into alternative options.",
+      "choiceB": "showing certain level of flexibility.",
+      "choiceC": "gathering information about the issue.",
+      "choiceD": "avoiding risks and uncertainties."
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is INCORRECT about International Monetary Fund (IMF)?",
+      "choiceA": "It is established by rich countries of the Western world.",
+      "choiceB": "It supports developing countries to promote command economy.",
+      "choiceC": "It requests developing countries to privatize state enterprises.",
+      "choiceD": "It influences developing countries to liberalize their economy."
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the least important to address dependency at a country level?",
+      "choiceA": "Relying on domestic resources and institutions.",
+      "choiceB": "Developing indigenous knowledge and wisdom.",
+      "choiceC": "Detaching the country from international trade.",
+      "choiceD": "Encouraging local innovations and technologies."
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "A",
+      "questionStatement": " The advantage of using quality goods produced locally:",
+      "choiceA": "encourages the development of domestic factories.",
+      "choiceB": "promotes imbalance between import-export trades.",
+      "choiceC": "alienates domestic producers from an international trade.",
+      "choiceD": "allows domestic factories to produce poor quality goods."
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "A",
+      "questionStatement": " Saving habit can be improved by:",
+      "choiceA": "increasing savings during old ages.",
+      "choiceB": "increasing saving as income decreases.",
+      "choiceC": "avoiding extravagant behaviour.",
+      "choiceD": "decreasing saving when income increases"
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about saving and saving institutions in Ethiopia?",
+      "choiceA": "Modern banks are the best options of saving for the majority of the people in most parts of Ethiopia.",
+      "choiceB": "The majority of the people in Ethiopia use iddir as a means of getting credit to start small businesses,",
+      "choiceC": "Traditional institutions of saving do not help people accumulate initial capital to start a new business.",
+      "choiceD": "Equb is considered as a means of forced saving because persons involved in it cannot quit easily."
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about saving? ",
+      "choiceA": "Saving does not require short—term and long—term planning.",
+      "choiceB": "Careful evaluation of one’s income and expenses is essential to make decisions regarding saving.",
+      "choiceC": "We need to avoid spending on vacation and holidays in order to save.",
+      "choiceD": "Thinking about saving is not essential for people who do not aspire to be rich."
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "A",
+      "questionStatement": " The saving of a nation can be enhanced by:",
+      "choiceA": "increasing the country's Gross Domestic Product.",
+      "choiceB": "increasing the level of domestic consumption.",
+      "choiceC": "encouraging the consumption of imported goods.",
+      "choiceD": "discouraging the use of locally available products."
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "D",
+      "questionStatement": " The power and functions of the FDRE President include:",
+      "choiceA": "supervising the implementation of the country’s domestic and foreign policies.",
+      "choiceB": "leading and coordinating the activities of the Council of Ministers.",
+      "choiceC": "ensuring the implementation of policies adopted by the House of Representatives.",
+      "choiceD": "granting pardon based on the conditions and procedures established by law."
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an ethical conduct essential to build the image of a business company?",
+      "choiceA": "Using seductive dressing style in the working place.",
+      "choiceB": "Serving every customer politely and effectively.",
+      "choiceC": "Giving the best services to rich and powerful customers.",
+      "choiceD": "Attending social and cultural events during working hours."
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about the command economy?",
+      "choiceA": "Government plays an important role in controlling market transactions.",
+      "choiceB": "Market forces play the major role in determining market prices.",
+      "choiceC": "Producers and consumers have freedom of economic decision making.",
+      "choiceD": "Economic principles uphold free trade and the removal of trade barriers."
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is INCORRECT about the benefits of active community participation?",
+      "choiceA": "Empowering communities to solve their problems.",
+      "choiceB": "Creating a bridge between government and people.",
+      "choiceC": "Promoting the interest of opposition political parties.",
+      "choiceD": "Engaging citizens to promote a holistic development."
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about myths?",
+      "choiceA": "They are facts transmitted from generation to generation.",
+      "choiceB": "They may serve the purpose of enhancing social unity.",
+      "choiceC": "They do not have social, cultural and historical significance.",
+      "choiceD": "They should be dismissed as they have no practical importance."
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "C",
+      "questionStatement": " An assumption that serves as the basis of research is known as a,",
+      "choiceA": "paradigm.",
+      "choiceB": "perspective.",
+      "choiceC": "hypothesis.",
+      "choiceD": "philosophy."
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "D",
+      "questionStatement": " The focus of academic reading is:",
+      "choiceA": "getting pleasure. ",
+      "choiceB": "developing a hobby. ",
+      "choiceC": "enjoying creative works.",
+      "choiceD": "acquiring knowledge."
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following matches the pragmatic theory of truth?",
+      "choiceA": "Truth is measured based on its usefulness for a person or a group of people.",
+      "choiceB": "What is true at one time may not remain the same at other times.",
+      "choiceC": "What is true in a given society may not be true in other societies.",
+      "choiceD": "Truth depends upon objective facts that remain the same in space and time."
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about the relativity of truth?",
+      "choiceA": "Truth depends on objective facts.",
+      "choiceB": "Truth is a universally accepted truth.",
+      "choiceC": "Truth depends in time and space.",
+      "choiceD": "Truth is measured based on it utility."
+    }
+  ]
+}

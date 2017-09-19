@@ -1,0 +1,738 @@
+{
+  "examSummary": {
+    "iconChar": "C",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVICS G12 2001",
+    "fullName": "ESLCE Civics Exam 2001 For Grade 12",
+    "grade": "10",
+    "subject": "Civics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "80",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2001 June 2009"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "Among the elements of a state, the one that acts on behalf of the state and the people is",
+      "choiceA": "Territory",
+      "choiceB": "Sovereignty",
+      "correctAnswer": "C",
+      "choiceC": "government",
+      "choiceD": "Population"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "The imbalance between citizen 's benefits and burdens results in",
+      "choiceA": "Industriousness",
+      "correctAnswer": "B",
+      "choiceB": "Inequality.",
+      "choiceC": "Fairness",
+      "choiceD": "equality."
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "Which one describes the correct element of work ethics?",
+      "choiceA": "Minimizing",
+      "correctAnswer": "B",
+      "choiceB": "Willingness to learn",
+      "choiceC": "Dishonesty",
+      "choiceD": "Procrastination"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "Which one of the following is true about human rights? They are",
+      "choiceA": "Non-moral right.",
+      "choiceB": "earned rights",
+      "correctAnswer": "C",
+      "choiceC": "Natural rights",
+      "choiceD": "inherited rights."
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which one of the following is true about saving?",
+      "choiceA": "People who deposit their money in informal institutions get interest",
+      "choiceB": "When a person decreases his/her saving the interest he/she earns diminishes",
+      "correctAnswer": "C",
+      "choiceC": "Depositing money in a saving account enables the saver to get more interest",
+      "choiceD": "People deposit their money only in banks"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which one of the following. Explains the condition of the people of Ethiopia during the Autocratic monarchy?",
+      "choiceA": "They were governed by rules who respected the law",
+      "correctAnswer": "B",
+      "choiceB": "They were subjects of the rulers",
+      "choiceC": "They had legal rights to address their dissatisfaction",
+      "choiceD": "They had the privilege of citizenship"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "Which one of the following concepts is a characteristic feature of self awareness? One 's",
+      "choiceA": "hobby.",
+      "choiceB": "potential",
+      "correctAnswer": "C",
+      "choiceC": "affection",
+      "choiceD": "Character."
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "Which one is true about the history of Ethiopia?",
+      "choiceA": "It paid little attention to the majority of the Ethiopian peoples",
+      "choiceB": "It properly treated the history of nations and nationalities",
+      "choiceC": "It gave great emphasis for tolerance of ethnic and religious diversities",
+      "correctAnswer": "D",
+      "choiceD": "It focuses on the political history of peoples and their"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "The dominant feature of the breakdown of h rule of law is",
+      "correctAnswer": "A",
+      "choiceA": "Summary execution and corruption",
+      "choiceB": "The existence of peace and order",
+      "choiceC": "Transparency and accountability",
+      "choiceD": "The protection of human rights"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "One of the following is true about the right to self-determination?",
+      "choiceA": "It promotes the disintegration of nation",
+      "choiceB": "It discourages equitable representation in the federal government",
+      "choiceC": "It disregards the development, exercise and promotion of one 's own culture",
+      "correctAnswer": "D",
+      "choiceD": "It encourages nations, nationalities and people to determine their own destiny"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Which one of the following is a characteristic feature of community participation at a minimum level?",
+      "choiceA": "Making decisions",
+      "choiceB": "Making an assessment of options",
+      "choiceC": "Identifying problems",
+      "correctAnswer": "D",
+      "choiceD": "Making use of a service"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "The responsibility of setting goals for our actions shall rest on",
+      "choiceA": "our teachers",
+      "choiceB": "Our friends",
+      "choiceC": "our parents",
+      "correctAnswer": "D",
+      "choiceD": "Ourselves"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "Which of the following is true about poverty?",
+      "choiceA": "It is the ability of satisfying the basic needs",
+      "choiceB": "It has very little impact on personal esteem and self confidence",
+      "correctAnswer": "C",
+      "choiceC": "It is indicated by prevalence of illiteracy and inadequate social services",
+      "choiceD": "It encourages he development of democracy"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Which one of the following is true about one 's self esteem?",
+      "correctAnswer": "A",
+      "choiceA": "Self-esteem involves the way one 's worth is seen in the eyes of others",
+      "choiceB": "The higher one 's self-esteem, the lower is the degree of self-confidence",
+      "choiceC": "Self-esteem fluctuates depending on circumstances",
+      "choiceD": "Self-esteem remains constant under all circumstances"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Among the following types of reading, one is meant to serve the purpose of enjoyment. Which one?",
+      "choiceA": "A novel",
+      "choiceB": "A book review",
+      "choiceC": "A text book",
+      "correctAnswer": "D",
+      "choiceD": "A research work"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "Which one of the following is an indicator of the success of an effective family planning activity?",
+      "choiceA": "A high rate of poverty",
+      "correctAnswer": "B",
+      "choiceB": "A low rate of birth",
+      "choiceC": "A low rate of development",
+      "choiceD": "A high rate of morality"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "The main motive for providing affirmative action for women is to",
+      "choiceA": "Demonstrate their dominance over men",
+      "correctAnswer": "B",
+      "choiceB": "Redress past injustices committed against them",
+      "choiceC": "Demonstrate their respect for men",
+      "choiceD": "Oppress men by women."
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "The foreign policy of Ethiopia focuses on",
+      "choiceA": "Interference in the internal affairs of other states",
+      "choiceB": "Negligence for national sovereignty and equality of other state",
+      "choiceC": "Disregard for international agreements.",
+      "correctAnswer": "D",
+      "choiceD": "Maintaining the national interest"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "Which of the following is the principal cause of environmental degradation in Ethiopia?",
+      "choiceA": "Large amount of carbon emission",
+      "choiceB": "Industrial development",
+      "correctAnswer": "C",
+      "choiceC": "Rapid growth of population",
+      "choiceD": "Using fertilizers in farming"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "Of the following, one is a manifestation of dependency. Which one?",
+      "correctAnswer": "A",
+      "choiceA": "Relaying on other to solve one 's own problems",
+      "choiceB": "Dependency on one 's own potential",
+      "choiceC": "Being sensitive to what others want",
+      "choiceD": "Giving high value to their own opinions,"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Descent and divine-right constitute the bases of power for",
+      "choiceA": "elected rules",
+      "correctAnswer": "B",
+      "choiceB": "autocratic monarchs",
+      "choiceC": "Communist rules.",
+      "choiceD": "military dictators"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "The wise use of money and other resources is referred to as",
+      "choiceA": "Extravagance",
+      "choiceB": "industriousness",
+      "choiceC": "Planning",
+      "correctAnswer": "D",
+      "choiceD": "saving"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "Which one is true about the impact of HIV/AIDS in relation to the education sector? It",
+      "choiceA": "Decreases costs on families.",
+      "choiceB": "Reduced the number of dropout students in the schools.",
+      "correctAnswer": "C",
+      "choiceC": "Decreases the number of the teachers in the schools.",
+      "choiceD": "Facilitates the teaching-learning process."
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "A person who is socially independent is referred to as",
+      "choiceA": "undecided",
+      "choiceB": "other directed",
+      "choiceC": "Isolated",
+      "correctAnswer": "D",
+      "choiceD": "Self directed"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Poverty and backwardness could be reduced by",
+      "correctAnswer": "A",
+      "choiceA": "Seeking food aid from developed nations.",
+      "choiceB": "Proper utilization of resources.",
+      "choiceC": "Minimizing the productivity of agriculture",
+      "choiceD": "Extravagant use of resources."
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "One of the following is true about the proper resource management?",
+      "choiceA": "Living irrespective of one 's plan",
+      "choiceB": "Encouraging extravagance",
+      "choiceC": "Appreciating religious principles that affect saving",
+      "correctAnswer": "D",
+      "choiceD": "Establishing a checklist of expenditure, categories and action accordingly"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "An economic system in which government plays central role as decision maker",
+      "choiceA": "Market economic system",
+      "correctAnswer": "B",
+      "choiceB": "command economic system",
+      "choiceC": "capitalist economic system",
+      "choiceD": "Free economic system"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "sovereign authority of the people, the rule of law and separation of powers are the major values and principles of",
+      "choiceA": "military government",
+      "correctAnswer": "B",
+      "choiceB": "Democratic government",
+      "choiceC": "autocratic government",
+      "choiceD": "totalitarian government"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "What is the main advantage of developing tolerance within a society?",
+      "correctAnswer": "A",
+      "choiceA": "It helps to accept differences positively",
+      "choiceB": "it helps to form homogeneous society",
+      "choiceC": "It encourages discrimination and prejudice within a society",
+      "choiceD": "It encourages discrimination and prejudice within a society"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Which one of the following is regarded as prize in return for fulfilling one 's duties?",
+      "choiceA": "Reprimand",
+      "correctAnswer": "B",
+      "choiceB": "Reward",
+      "choiceC": "Penalty",
+      "choiceD": "Suspension"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Which one is true about command economic system?",
+      "choiceA": "Private ownership is encouraged",
+      "choiceB": "What to produce must be determined by consumer 's demand",
+      "correctAnswer": "C",
+      "choiceC": "Economic planning and decision making is centralized",
+      "choiceD": "It is influenced by supply and demand"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "He absence of effective mechanism of controlling governmental power is a typical feature of",
+      "choiceA": "democratic governments",
+      "choiceB": "Constitutional governments",
+      "correctAnswer": "C",
+      "choiceC": "Unlimited governments",
+      "choiceD": "limited governments"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "A child born to an Ethiopia mother and a Kenyan father acquires Ethiopian Citizenship by",
+      "choiceA": "Consent",
+      "choiceB": "Naturalization",
+      "choiceC": "law",
+      "correctAnswer": "D",
+      "choiceD": "birth"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Among the Ethiopian constitutions, which one promotes socialists values in it?",
+      "choiceA": "1955",
+      "choiceB": "1955",
+      "correctAnswer": "C",
+      "choiceC": "1987",
+      "choiceD": "1931"
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "Which of the following is true about the independence of judges? They should",
+      "choiceA": "Be influenced by other organs of the government",
+      "choiceB": "Be accountable to the executive organ",
+      "choiceC": "Be directed by their emotions.",
+      "correctAnswer": "D",
+      "choiceD": "Exercise their functions with no influence from the administration."
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "The type of participation that civil societies are mainly engaged in is",
+      "correctAnswer": "A",
+      "choiceA": "Social",
+      "choiceB": "Political",
+      "choiceC": "Legal",
+      "choiceD": "Moral"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "A quality which describes best the nature of a person who is trustworthy is",
+      "choiceA": "Apathy",
+      "correctAnswer": "B",
+      "choiceB": "Modesty.",
+      "choiceC": "Accountability",
+      "choiceD": "Reliability"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "Of the following duties, the one that enable citizens determine who shall assume power on their behalf is",
+      "correctAnswer": "A",
+      "choiceA": "voting",
+      "choiceB": "Paying tax",
+      "choiceC": "Abiding by the law",
+      "choiceD": "national service"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "Which one of the following is the exclusive powers and functions of the federal government of Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "Establishing and administrating national defense",
+      "choiceB": "Allocating and administrating the state budget",
+      "choiceC": "Establishing the local police force",
+      "choiceD": "Collecting taxes and revenues within the state"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Which one of the following is directly associated with procedural justice?",
+      "choiceA": "Measures against the accused",
+      "choiceB": "Equality of treatment",
+      "correctAnswer": "C",
+      "choiceC": "Fair trial of the accused",
+      "choiceD": "Imposition of penalty"
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "Which of the following is true about data and information?",
+      "choiceA": "Data has meaning whereas information",
+      "correctAnswer": "B",
+      "choiceB": "Data are processed facts whereas information is a raw fact",
+      "choiceC": "Both are the same and can be used interchangeably",
+      "choiceD": "Information is processed data whereas data are raw facts"
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "The money that banks pay at regular intervals to their customers for being allowed to use their deposited money is",
+      "choiceA": "saving account",
+      "correctAnswer": "B",
+      "choiceB": "Interest",
+      "choiceC": "credit",
+      "choiceD": "Insurance"
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Which one of the following is an attribute of political equality? Equality of",
+      "choiceA": "Citizens before the law",
+      "correctAnswer": "B",
+      "choiceB": "Right to freely express one 's opinion",
+      "choiceC": "Right to organize trade unions",
+      "choiceD": "Citizens in entering in to contracts"
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "Concerning religion, which one id correct about the FDRE constitution? It",
+      "choiceA": "Restrict freedom of religion",
+      "choiceB": "Allows religious formal education",
+      "correctAnswer": "C",
+      "choiceC": "Separates state and religion",
+      "choiceD": "Allows state interference in the religious matters"
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "HIV can be transmitted through",
+      "choiceA": "abstinence",
+      "choiceB": "Toilet seas",
+      "correctAnswer": "C",
+      "choiceC": "Breast feeding",
+      "choiceD": "the use of Condom"
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "Which of the following is true about the rule of law?",
+      "correctAnswer": "A",
+      "choiceA": "It regulates relationships between people and government",
+      "choiceB": "It violates the protection of human and democratic rights",
+      "choiceC": "It promotes only the interests of the governing body",
+      "choiceD": "It misguides the proper ways people should behave"
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "One of the following is true about equality of languages?",
+      "choiceA": "Languages cannot vary on the level of their development",
+      "choiceB": "Languages are not equal in terms of their use as a means of communication",
+      "choiceC": "Every language has no equal value for its users",
+      "correctAnswer": "D",
+      "choiceD": "No Language is inferior of superior to the others"
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Which one of the following represents an effective way of note-taking?",
+      "correctAnswer": "A",
+      "choiceA": "Raising questions whenever it is necessary",
+      "choiceB": "Leaving no blank space while moving from one point to the next",
+      "choiceC": "Writing everything which the teacher says",
+      "choiceD": "Avoiding abbreviations and initials"
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "Which one of the following is true about confidential information in a democratic society?",
+      "choiceA": "There is no such thing as state secret",
+      "choiceB": "The state has the mandate to exclude citizens when formulating laws and policies",
+      "choiceC": "Citizens are free to pass every information about their country to Foreigners",
+      "correctAnswer": "D",
+      "choiceD": "The state has the authority to with hold some information as a state secret"
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "The major causes of gender inequalities in Ethiopia concerning rights and status had been",
+      "correctAnswer": "A",
+      "choiceA": "Harmful cultural beliefs and autocratic political systems",
+      "choiceB": "External invasions and passivity of women",
+      "choiceC": "Progressive social belief and natural factors",
+      "choiceD": "Biological and physical differences"
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "The 1931 constitution of Ethiopia was revised in 1955. The motivating factor for its revision was",
+      "correctAnswer": "A",
+      "choiceA": "The federation of Eritrea with Ethiopia in 1952.",
+      "choiceB": "The necessity of safeguarding the interests of the people",
+      "choiceC": "The necessity of incorporating basic human right articles with in",
+      "choiceD": "The removal of Emperor Haile sellase I by the Dergue."
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "Which one of the following types of absenteeism is caused by the lack of discipline and interest in once work?",
+      "correctAnswer": "A",
+      "choiceA": "Voluntary absenteeism",
+      "choiceB": "Excusable absenteeism",
+      "choiceC": "Involuntary absenteeism",
+      "choiceD": "Authorized absenteeism"
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "FDRE 's foreign relations are characterized by all of the following except one. Which one?",
+      "correctAnswer": "A",
+      "choiceA": "Depending on foreign assistance for economic development",
+      "choiceB": "Creating economic integrations with neighboring countries",
+      "choiceC": "Protecting national interests",
+      "choiceD": "Promoting peaceful co-exisistenc"
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "The prevalence of rule of law in society essentially serves the purpose of",
+      "choiceA": "Establishing the supremacy of the rule",
+      "choiceB": "Placing citizens above the law",
+      "correctAnswer": "C",
+      "choiceC": "Limiting the power of government",
+      "choiceD": "Granting government excessive power."
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "Of the following mechanisms of providing traditional social services, the one which is set up with the principal objective of giving support to members in time of emergency is",
+      "choiceA": "Arata",
+      "choiceB": "Ikub",
+      "choiceC": "Mahiber",
+      "correctAnswer": "D",
+      "choiceD": "Idir"
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "Which one of the following characterizes the nature of the common-good?",
+      "choiceA": "It subordinates the interest of the community in favor of personal interests",
+      "choiceB": "It benefits the community at the expense of individual",
+      "choiceC": "It is negatively affected by tolerance",
+      "correctAnswer": "D",
+      "choiceD": "It is a path to peaceful co-existence"
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "Power which is exercised with the moral and legal right to use is referred to as",
+      "correctAnswer": "A",
+      "choiceA": "Authority",
+      "choiceB": "obligation",
+      "choiceC": "mandate",
+      "choiceD": "Force"
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "Which one of the following represents the common aspect of the power and functions of the federal government and states in the FRDE constitution?",
+      "choiceA": "Matters of national interest",
+      "correctAnswer": "B",
+      "choiceB": "Issues confined to internal interests",
+      "choiceC": "Ensuring law and order with in regional states",
+      "choiceD": "Aspects governing regional states"
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "the relationship between a country and other nations is governed by principles known as",
+      "correctAnswer": "A",
+      "choiceA": "Foreign matter",
+      "choiceB": "foreign relation",
+      "choiceC": "foreign affair.",
+      "choiceD": "foreign policy"
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "One of the following terms is often used inter-changeably with the term democracy. Which one?",
+      "choiceA": "Aristocracy",
+      "correctAnswer": "B",
+      "choiceB": "Freedom",
+      "choiceC": "Diversity",
+      "choiceD": "Communism"
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "Which one of the following is the major criterion to be entitled to innate rights?",
+      "choiceA": "honesty",
+      "choiceB": "Humanity",
+      "correctAnswer": "C",
+      "choiceC": "Nationality",
+      "choiceD": "property"
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "Which one of the following justifies community participation?",
+      "choiceA": "Strengthening political parties",
+      "choiceB": "Serving divine purposes",
+      "correctAnswer": "C",
+      "choiceC": "Promoting the common good",
+      "choiceD": "Giving priority to private issues"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "A type of corruption that is usually committed by producing false receipts is known as",
+      "choiceA": "Nepotism",
+      "correctAnswer": "B",
+      "choiceB": "embezzlement",
+      "choiceC": "bribe",
+      "choiceD": "abuse of power"
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "A form of nationalism which promotes aggression and superiority one 's country",
+      "choiceA": "volunteerism",
+      "choiceB": "Patriotism",
+      "choiceC": "Totalitarianism",
+      "correctAnswer": "D",
+      "choiceD": "chauvinism"
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "Which one of the following characterizes affirmative action best?",
+      "correctAnswer": "A",
+      "choiceA": "Giving special support to the disadvantaged",
+      "choiceB": "Treating people based on their capacities",
+      "choiceC": "Treating all people in the same way",
+      "choiceD": "Giving priority to the majority"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "Abstraction which form to comprehend the world around us are referred to as",
+      "choiceA": "dreams",
+      "correctAnswer": "B",
+      "choiceB": "concepts.",
+      "choiceC": "Facts",
+      "choiceD": "myth"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "Which one of the following is true about the role of reading in the acquisition of knowledge?",
+      "choiceA": "The major reward one gets from reading is entertainment",
+      "choiceB": "Accumulating voluminous books is the major objective knowledge",
+      "choiceC": "Reading books is an end rather than a means",
+      "correctAnswer": "D",
+      "choiceD": "Success in reading shall be assessed mainly in terms of its impact on our actions"
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "Which one of the following correctly explains the relationship between time an work?",
+      "choiceA": "The value of time is the same for hard-working and idle people",
+      "choiceB": "Unlike work, time is not a resource",
+      "correctAnswer": "C",
+      "choiceC": "The existence of time depends on the amount of work that we perform",
+      "choiceD": "Time has no value with work"
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "Knowledge acquired through observation, imitation and interaction belongs to",
+      "correctAnswer": "A",
+      "choiceA": "informal learning",
+      "choiceB": "Academic learning",
+      "choiceC": "class room learning",
+      "choiceD": "Formal learning"
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "The major manifestation of popular sovereignty in a democratic state is",
+      "correctAnswer": "A",
+      "choiceA": "Citizens ' participation in decision making",
+      "choiceB": "Elected representatives exercising unlimited power",
+      "choiceC": "Ultimate power residing the rule",
+      "choiceD": "Carrying on majority right and minority rule."
+    },
+    {
+      "questionNumber": 71,
+      "questionStatement": "A non governmental association which is established on a voluntary basis by religious, professional and advocacy group is",
+      "correctAnswer": "A",
+      "choiceA": "Civic society.",
+      "choiceB": "Share Company,",
+      "choiceC": "consulting agency",
+      "choiceD": "political party"
+    },
+    {
+      "questionNumber": 72,
+      "questionStatement": "The basic of rule of law in a democratic nation is",
+      "choiceA": "The criminal law",
+      "choiceB": "international law",
+      "choiceC": "customary law",
+      "correctAnswer": "D",
+      "choiceD": "The supreme law"
+    },
+    {
+      "questionNumber": 73,
+      "questionStatement": "Which one of the following forms the basis of international laws governing several nations?",
+      "choiceA": "power",
+      "choiceB": "Election",
+      "choiceC": "Authority",
+      "correctAnswer": "D",
+      "choiceD": "Consent"
+    },
+    {
+      "questionNumber": 74,
+      "questionStatement": "Which one of the following characterizes equality based on similarities among human being? It is something which",
+      "correctAnswer": "A",
+      "choiceA": "Can not be changed",
+      "choiceB": "is set up through agreements",
+      "choiceC": "is dependent on the will of rulers,",
+      "choiceD": "Is the result of free choice."
+    },
+    {
+      "questionNumber": 75,
+      "questionStatement": "Which one describes the correct order of management process?",
+      "choiceA": "Evaluating > Planning > Organizing > Implementing",
+      "choiceB": "Organizing > Implementing > Planning > Evaluating",
+      "choiceC": "Implementing > Organizing > Planning > Evaluating",
+      "correctAnswer": "D",
+      "choiceD": "Planning > Organizing > Implementing > Evaluating"
+    },
+    {
+      "questionNumber": 76,
+      "questionStatement": "Data need to be weighted, analyzed and interpreted in order to be",
+      "choiceA": "information",
+      "choiceB": "Knowledge.",
+      "choiceC": "Inquiry",
+      "correctAnswer": "D",
+      "choiceD": "Wisdom"
+    },
+    {
+      "questionNumber": 77,
+      "questionStatement": "All of the following are helpful to combating corruption by civil servant except one. Which one?",
+      "choiceA": "Promoting democratic value",
+      "choiceB": "Having a sense of national sentiment",
+      "correctAnswer": "C",
+      "choiceC": "Aspiring to get beyond one 's deserved income",
+      "choiceD": "Avoiding excessive selfishness"
+    },
+    {
+      "questionNumber": 78,
+      "questionStatement": "Poverty is defined as",
+      "correctAnswer": "A",
+      "choiceA": "The inability of fulfilling both social and economic requirements",
+      "choiceB": "Fulfillment of the basic necessities for life",
+      "choiceC": "The ability of acquiring luxurious commodities",
+      "choiceD": "The ability of preserving ones own culture."
+    },
+    {
+      "questionNumber": 79,
+      "questionStatement": "One of the following is a manifestation of intolerance. Which one?",
+      "choiceA": "pluralism",
+      "correctAnswer": "B",
+      "choiceB": "Bigotry",
+      "choiceC": "Accommodating",
+      "choiceD": "Diversity"
+    },
+    {
+      "questionNumber": 80,
+      "questionStatement": "Which of the following describes best the idea of statute law?",
+      "choiceA": "A law given by divine being containing what is right and wrong",
+      "choiceB": "A law derived its authority from usage and customs",
+      "choiceC": "A law which contains the body of customary and convention rules",
+      "correctAnswer": "D",
+      "choiceD": "Written law enacted by the legislative body"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800057630035",
+    "firebase_url": "https://questionbank-8b7ca.firebaseio.com",
+    "project_id": "questionbank-8b7ca",
+    "storage_bucket": "questionbank-8b7ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800057630035:android:262dfa316039f2e4",
+        "android_client_info": {
+          "package_name": "net.kerod.android.questionbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800057630035-qc0c2rohov21c0glppc6ea3lj7grh1b4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp6RfOptUPB9uuxJRReON0Q7OHZUCAJlI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800057630035-qc0c2rohov21c0glppc6ea3lj7grh1b4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

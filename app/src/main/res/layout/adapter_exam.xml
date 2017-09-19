@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/content_register_organism"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/card_margin_half"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cimg_subject_icon"
+        android:layout_width="@dimen/avatar_diameter"
+        android:layout_height="@dimen/avatar_diameter"
+        android:layout_margin="8dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/avatar_diameter"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+
+        android:paddingTop="8dp">
+
+
+        <TextView
+            android:id="@+id/txtv_short_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/txtv_grade_and_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/secondary_text_dark" />
+    </LinearLayout>
+
+</LinearLayout>

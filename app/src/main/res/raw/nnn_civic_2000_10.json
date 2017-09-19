@@ -1,0 +1,738 @@
+{
+  "examSummary": {
+    "iconChar": "C",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVICS G12 2000",
+    "fullName": "ESLCE Civics Exam 2000 For Grade 12",
+    "grade": "10",
+    "subject": "Civics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "80",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2000 June 2008"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "Which of the following is the central idea of justice?",
+      "choiceA": "Equal treatment of people",
+      "choiceB": "Equal distribution of power",
+      "correctAnswer": "C",
+      "choiceC": "Treating people as they deserve",
+      "choiceD": "Treating people discriminately"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Which of the following is an indicator of poverty in a given country?",
+      "choiceA": "Rapid economic development",
+      "choiceB": "Technological advancement",
+      "choiceC": "Prevalence of illiteracy",
+      "correctAnswer": "D",
+      "choiceD": "Adequacy of social services"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "The Regional States in the Federal Democratic Republic of Ethiopia can exercise several functions, which include.",
+      "correctAnswer": "A",
+      "choiceA": "Collecting taxes and revenues with the state",
+      "choiceB": "Granting passport and determining issues of nationality",
+      "choiceC": "Establishing national defense and security force",
+      "choiceD": "Formulating and implementing foreign relation policies"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "Which one of the following statements is true about constitution of a democratic state?",
+      "choiceA": "It is formulated to protect the rights and benefits of rulers",
+      "choiceB": "It is formulated to reinforce the power of the ruling class",
+      "choiceC": "It minimizes the relations between state organs and citizens",
+      "correctAnswer": "D",
+      "choiceD": "It contains principles that put a limit to the power of government"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "In Ethiopia special efforts should be made to enhance the social, political and economic equality of women with men, because failure to respect gender equality will",
+      "choiceA": "facilitate the development of the country without the participation of women in development activities.",
+      "correctAnswer": "B",
+      "choiceB": "Hinder the development of the country as it discourages the participation of women in development activities",
+      "choiceC": "Encourages men to make devoted participation in development activities and take large share of the benefits",
+      "choiceD": "Eradicate the traditional rule of femininity that dictates women 's dominant right of inheritance over men"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which of the following is true about HIV?",
+      "choiceA": "It can cause immediate death of a person right upon getting infected",
+      "choiceB": "It often enters a healthy person 's body through the mouth and the skin",
+      "choiceC": "It can be transmitted from person to person by sharing a toilet seat",
+      "correctAnswer": "D",
+      "choiceD": "It weakens the natural protection of an infected person 's body against illness"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "As a responsible high school student, the roles you should play in the common front against HIV/AIDS include",
+      "correctAnswer": "A",
+      "choiceA": "Rejecting medical treatments involving blood transfusions",
+      "choiceB": "Avoiding social relations with individuals infected by the virus",
+      "choiceC": "Dropping out of school in order to take care of sick family member",
+      "choiceD": "Refraining from engagement in any form of sexual intercourse"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "In a democratic system no person may be arrested or detained without the decision of the court, this means that every person has",
+      "choiceA": "the Right to Arrest",
+      "choiceB": "The right to life",
+      "choiceC": "The right to Security",
+      "correctAnswer": "D",
+      "choiceD": "the Right to Liberty"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "Which of the following traditional practices have contributed to the low level of saving in our country?",
+      "choiceA": "Lack of modern financial institutions for saving",
+      "correctAnswer": "B",
+      "choiceB": "Extravagant expenditure on social and religious celebrations",
+      "choiceC": "Little awareness and usage of family planning",
+      "choiceD": "Low consumption expenditure in subsistence sector"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "Which one of the following pairs represents a paradox in Ethiopia in relation to saving",
+      "choiceA": "Family planning and checking population growth",
+      "correctAnswer": "B",
+      "choiceB": "Extreme poverty and traditional extravagance",
+      "choiceC": "Economic growth and a high rate of investment",
+      "choiceD": "Population growth and a high rate of birth"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Patriotic feelings among citizens in a democratic nation mainly contributes to",
+      "correctAnswer": "A",
+      "choiceA": "Work for the common good",
+      "choiceB": "Love of the landscape of one 's nation",
+      "choiceC": "The promotion of racism",
+      "choiceD": "Wage war to protect one 's leader"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "Expenses which are meant to serve ons wants rather than needs belong to",
+      "choiceA": "monthly expenses",
+      "correctAnswer": "B",
+      "choiceB": "flexible expenses",
+      "choiceC": "Fixed expenses",
+      "choiceD": "Annual expenses"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "Which one of the following laws is enacted by the legislative body of the FDRE",
+      "choiceA": "international law",
+      "choiceB": "common law",
+      "choiceC": "Divine law",
+      "correctAnswer": "D",
+      "choiceD": "Statue law"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Which of the following circumstances is destructive to the common good?",
+      "choiceA": "making joint eforts to solve common problems",
+      "choiceB": "subordinating personal interests",
+      "choiceC": "refraining from communicating state secrets to a third party",
+      "correctAnswer": "D",
+      "choiceD": "developing intolerance towards religious and linguistic differences"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Which of the following is an example of personality rights? The right",
+      "choiceA": "to hold opinions",
+      "choiceB": "to vote",
+      "correctAnswer": "C",
+      "choiceC": "To life",
+      "choiceD": "To form association"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "Ahmed likes reading poems, short stories and novels very much. This means he reads for",
+      "choiceA": "Exploring",
+      "choiceB": "revision",
+      "correctAnswer": "C",
+      "choiceC": "enjoyment",
+      "choiceD": "Searching facts"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "A mechanism of preventing pregnancy with the help of different devices an drugs is referred to as",
+      "choiceA": "conception",
+      "correctAnswer": "B",
+      "choiceB": "Contraception",
+      "choiceC": "pregnancy taste",
+      "choiceD": "Reproduction"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Civic participation refers to",
+      "correctAnswer": "A",
+      "choiceA": "The role competent citizens should play in the social, political economic life of their community",
+      "choiceB": "The commitment responsible citizens should show to achieve the highest political authority in their community",
+      "choiceC": "The democratic right of citizens to resist the government 's call for national military service",
+      "choiceD": "The commitment a democratic government should show in equal distribution of benefits to citizens of the country"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "Which one of the following is considered as a major cause of corruption committed by government officials?",
+      "correctAnswer": "A",
+      "choiceA": "Having no or little concern for others",
+      "choiceB": "Aspiration to get what they deserve",
+      "choiceC": "The disparity between the knowledge and salaries of officials",
+      "choiceD": "The influence of family member"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "Which of the following acts has a negative impact on industriousness?",
+      "choiceA": "Entrepreneurial work",
+      "choiceB": "Market Economy",
+      "correctAnswer": "C",
+      "choiceC": "rent seeking",
+      "choiceD": "Affective commitment"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Hawi is very proud and happy to be an athlete. She has participated in many running contests. Now she is ready to take part in the 2008 Beijing Olympic; she believes that she will win a gold medal in the 3000 meters category. This shows that Hawi has high",
+      "choiceA": "self-reliance",
+      "correctAnswer": "B",
+      "choiceB": "self-esteem",
+      "choiceC": "Self-importance",
+      "choiceD": "Self-concept"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "The level of community participation in a democratic system, which allows each community to identify its own problems, assess its options and carry out its decisions, is called",
+      "choiceA": "Middle level community participation",
+      "choiceB": "Grass-roots level community participation",
+      "choiceC": "Minimum level community participation",
+      "correctAnswer": "D",
+      "choiceD": "Full level community participation"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "The social, economic and political status of women in Ethiopia is lower than that of men. Which of the following is the major cause of this gender inequality?",
+      "choiceA": "The physical weakness and strength of women and men, respectively",
+      "choiceB": "The biological and physical difference between women and men",
+      "choiceC": "The unjust natural superiority of men in their intelligence to women",
+      "correctAnswer": "D",
+      "choiceD": "The wrong beliefs and assumptions we hold about women and men"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "In the economic sense, the term work is defined as",
+      "correctAnswer": "A",
+      "choiceA": "The mechanism of operating a machine",
+      "choiceB": "A valuable activities its end-result is a product",
+      "choiceC": "Making use of mental power in order to make something,",
+      "choiceD": "The use of force to produce mass through space"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Which one of the following statement correctly characterizes a responsible person? A responsible person",
+      "choiceA": "Knows how to make a crime and avoid accountability",
+      "correctAnswer": "B",
+      "choiceB": "Knows what is expected of her/him and acts accordingly",
+      "choiceC": "Will never blame herself/himself and be accountable for her/his faults",
+      "choiceD": "Will never commit any crime and be held accountable"
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "Which one of the following explains the nature of intellectual pursuits?",
+      "choiceA": "The end result of the intellectual process is the acquisition of pure knowledge",
+      "choiceB": "Information involves elevating oneself through knowledge, values and reason",
+      "correctAnswer": "C",
+      "choiceC": "When knowledge includes values",
+      "choiceD": "Awareness of the cognitive representation of data represents the final step in the spectrum of knowledge"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "Until recently, the history of Ethiopia was characterized by",
+      "choiceA": "emphasizing the importance of studying the cultures of the diverse nations, nationalities and peoples of Ethiopia .",
+      "choiceB": "Paying little attention to foreign writers ' accounts of political religious and commercial affairs",
+      "choiceC": "little focus on documenting political activities and achievements of the ruling class",
+      "correctAnswer": "D",
+      "choiceD": "chauvinistic attitudes towards the diverse nations, nationalities and peoples of Ethiopia"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "Suppose there is a wide-spread racial discrimination in your school, in what way can you help to stop the problem?",
+      "choiceA": "Organizing a group of students to be engaged in a counter hateful propaganda against the racists",
+      "choiceB": "Waiting for the government to act against the racist groups and their racist actions",
+      "correctAnswer": "C",
+      "choiceC": "Forming a group to non-violently confront the racists and their racist actions",
+      "choiceD": "Joining a group of students engaged in stereotyping and stigmatizing the racists"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "The principal purpose of FDRE government in relation to nations, nationalities and people of Ethiopia is to ensure",
+      "choiceA": "Religious unity",
+      "correctAnswer": "B",
+      "choiceB": "Unity with diversity",
+      "choiceC": "Homogeneity of culture",
+      "choiceD": "Political independence"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Which one of the following is true about the impact of HIV/AIDS?",
+      "choiceA": "The fatality of HIV/AIDS is similar with other diseases",
+      "correctAnswer": "B",
+      "choiceB": "The major impact of HIV/AIDS at the family level are economic and social",
+      "choiceC": "The education sector of a country is least affected by the HIV/AIDS epidemic",
+      "choiceD": "HIV/AIDS mainly affected the non-productive age-group in society."
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Which one of the following describes best the attitude of self-reliant individuals towards criticism? For self-reliant people",
+      "correctAnswer": "A",
+      "choiceA": "Excessive self-criticism undermines one 's motivation to work",
+      "choiceB": "All criticism are constructive",
+      "choiceC": "Criticisms from friends and family members are unacceptable",
+      "choiceD": "Decisions are always based on reactions from others"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "When citizens in a democracy actively participate in periodic elections, they are",
+      "choiceA": "Wasting their invaluable time by involving in a political game",
+      "choiceB": "Exercising their right and responsibility to establish their government",
+      "correctAnswer": "C",
+      "choiceC": "Showing their loyalty and respect to their government",
+      "choiceD": "Fulfilling their obligations to subordinate themselves to their rulers"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "Ethiopia is one of the poorest countries in the world, this situation can be changed by",
+      "choiceA": "Securing large amount of economic and food aid from rich countries",
+      "choiceB": "Seeking a continuous assistance of the western countries for a century",
+      "correctAnswer": "C",
+      "choiceC": "Devoted participation of citizens in economic and political activities",
+      "choiceD": "Avoiding traditional modes and means of production in the country"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Which one of the following is true about the main source of law in a democratic nation?",
+      "correctAnswer": "A",
+      "choiceA": "Popular sovereignty is the fundamental source law",
+      "choiceB": "The sovereign rules plays a decisive role in formulating supreme law",
+      "choiceC": "The supreme Being is the basic of law",
+      "choiceD": "Custom is the major source of law"
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "Which of the following is a political right of citizens of FDRE?",
+      "choiceA": "participating in decision making meetings and functions of the religions bodies",
+      "correctAnswer": "B",
+      "choiceB": "Playing a significant role in shaping the government institutions and laws of the country",
+      "choiceC": "involving in various activities and opposition parties aimed at dominating h state power",
+      "choiceD": "having access to state secrets and revealing them to others without arbitrary restriction"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "Saving is a very important habit you should develop early in your life, because it helps you.",
+      "choiceA": "To multiply opportunities for spending your money",
+      "choiceB": "To maximize the expenditure of your money",
+      "correctAnswer": "C",
+      "choiceC": "To cover the costs of your future goals",
+      "choiceD": "To minimizes your material needs"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "Which one of the following principles of democracy allows all Ethiopian citizens of 18 and above equal right to elect and to be elected in periodic elections?",
+      "choiceA": "Free election",
+      "choiceB": "minority Rights",
+      "correctAnswer": "C",
+      "choiceC": "Universal Suffrage",
+      "choiceD": "Majority rule"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "The fundamental law of a country, which establishes basic organs of government, and defines the structure, powers, functions, and the interrelationships of these organs, is known as",
+      "choiceA": "justice system",
+      "correctAnswer": "B",
+      "choiceB": "Constitution",
+      "choiceC": "Rule of law",
+      "choiceD": "legislature"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "Which one of the following ancient rules was alleged to be the ancestor of the Christian autocratic monarchs of Ethiopia?",
+      "choiceA": "Iyasu I",
+      "choiceB": "Minilik II",
+      "choiceC": "Yikuno Amlak",
+      "correctAnswer": "D",
+      "choiceD": "Solomon"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "The constitution of FDRE recognizes the equality of nations, nationalities and peoples of Ethiopia for the distribution of social services, this means that there should be",
+      "correctAnswer": "A",
+      "choiceA": "Fair distribution of services such as schooling, electricity, telecommunication and health care",
+      "choiceB": "Equal distribution of the accumulated wealthy and natural resources of the country",
+      "choiceC": "Equal obligation of citizens to pay equal taxes to get access to social services provided by the government",
+      "choiceD": "Allocation of equal economic and natural resources by the government to all citizens"
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "Which one of following pairs represents the most effective ways of maximizing productivity?",
+      "correctAnswer": "A",
+      "choiceA": "Doing things well and on time",
+      "choiceB": "Maximizing rest-time and personal benefits",
+      "choiceC": "Allocating resources and time in excess",
+      "choiceD": "Working randomly and slowly"
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "People often hesitate to make decisions because they",
+      "choiceA": "Do not have the capacity to make decisions",
+      "correctAnswer": "B",
+      "choiceB": "Are afraid of taking risks",
+      "choiceC": "Find it not wise to do so",
+      "choiceD": "Are satisfied with what they have already achieved"
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Which one of the following is true about the qualities of self-reliant people? Self reliant people",
+      "choiceA": "Need help from other most of the time",
+      "choiceB": "Overburden themselves with many activities at a time",
+      "choiceC": "Are hesitant to defined their views openly",
+      "correctAnswer": "D",
+      "choiceD": "Are ready to criticize their bosses if necessary"
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "In a society where there is Rule of Law",
+      "choiceA": "Higher government officials rule the people according to their good will",
+      "choiceB": "Rulers make laws and decide how to govern the people according to their laws",
+      "choiceC": "All citizens have equal right and power to interpret and implement the law",
+      "correctAnswer": "D",
+      "choiceD": "All members of the society including government officials act according to accepted rules"
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "By which of the following ways can rule of law achieve its major purpose limiting governmental power?",
+      "correctAnswer": "A",
+      "choiceA": "Requiring the government to carry out its activities transparently and accountably",
+      "choiceB": "Making the government officials to rule the people according to their laws",
+      "choiceC": "Enabling the people to exercise their rights to equal share of government",
+      "choiceD": "Protecting the freedom of government officials to conduct their duties according to their free will"
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "Which one of the following is an important data correction instrument?",
+      "choiceA": "Newspaper",
+      "correctAnswer": "B",
+      "choiceB": "Communication",
+      "choiceC": "information",
+      "choiceD": "Commonsense"
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "Which one of the following is true about the nature of Rule of Law in a democratic nation?",
+      "choiceA": "Rule of law is mainly based on criminal law",
+      "choiceB": "The civil law is the supreme law of the nation",
+      "choiceC": "International laws form the bases of rules of law",
+      "correctAnswer": "D",
+      "choiceD": "The constitution is the principal source of rule of law"
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Which one of the following is a major feature of unlimited governments?",
+      "choiceA": "Provision of unlimited power to citizens",
+      "correctAnswer": "B",
+      "choiceB": "Accumulation of power by rules",
+      "choiceC": "Delegation of power to elected rulers",
+      "choiceD": "Separation of powers among different organs of the state"
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "The field of work in which you will be engaged over a period of years in the future will be your",
+      "choiceA": "Job",
+      "choiceB": "duty",
+      "choiceC": "task",
+      "correctAnswer": "D",
+      "choiceD": "career"
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "You know that Ethiopia is a country of varied ethnic groups. Cultures",
+      "choiceA": "To learn a variety of ways of taking social and economic advantages of people from rich ethnic groups",
+      "choiceB": "To develop biases against people from different ethnic groups and holding different beliefs",
+      "correctAnswer": "C",
+      "choiceC": "To form relationships with persons from different cultural backgrounds and be exposed to new viewpoints",
+      "choiceD": "To have access to natural resources in possession of other ethnic and religious group"
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "Which one of the following is true about civic societies? They",
+      "correctAnswer": "A",
+      "choiceA": "Are governed by the supreme law of the land",
+      "choiceB": "Are governmental agencies of promoting national unity",
+      "choiceC": "Create opportunities for individuals to organize political parties",
+      "choiceD": "Have the right to interfere in the internal affairs of the nation"
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "Which of the following is true about the legal equality of citizens according to the FDRE constitution?",
+      "choiceA": "Citizens serving the ruling party deserve to the privileged by the law",
+      "choiceB": "Citizens of the patriotic records should be favored by the law",
+      "correctAnswer": "C",
+      "choiceC": "All citizens with similar cases are considered as equal before the law",
+      "choiceD": "All citizens should be treated according to their social status by the law"
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "''Honesty is the best policy, '' the lesson we can draw from this proverb is",
+      "correctAnswer": "A",
+      "choiceA": "The value of truthfulness",
+      "choiceB": "the formulation of valid policy",
+      "choiceC": "the burdens of honesty",
+      "choiceD": "The importance of policy"
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "All citizens have to execute their duties and responsibilities because it is important for",
+      "correctAnswer": "A",
+      "choiceA": "The well-being of the society",
+      "choiceB": "Accumulation of wealth",
+      "choiceC": "Abolishing economic difference",
+      "choiceD": "Avoiding social security"
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "Which one of the following sources provides an unbiased account of Ethiopian history?",
+      "choiceA": "legendary accounts",
+      "choiceB": "Chroniclers ' accounts",
+      "choiceC": "Travelers ' accounts",
+      "correctAnswer": "D",
+      "choiceD": "eye-witness accounts"
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "Which one of the following is true about state formation in Ethiopia?",
+      "choiceA": "In its territorial extent, the Aksumite empire extended from Shewa in north to Gamo Gofa in the South",
+      "choiceB": "The first post-Aksumite Christian empire in Ethiopia was established by Yikunno Amlak",
+      "choiceC": "We have precise information about the territorial extent to the kingdom of Damat",
+      "correctAnswer": "D",
+      "choiceD": "Ethiopia in its present-day territorial extent emerged since the beginning of the 20th century A . D"
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "In the present-day Ethiopia, the government body which has the authority of implementing and enforcing the law is",
+      "choiceA": "the executive",
+      "correctAnswer": "B",
+      "choiceB": "The judicial",
+      "choiceC": "The federal",
+      "choiceD": "the legislative"
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "Since 1991, modern Ethiopia has acquired the shape of",
+      "choiceA": "An empire state",
+      "choiceB": "A nation state",
+      "correctAnswer": "C",
+      "choiceC": "a multi national state",
+      "choiceD": "a unilingual state"
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "The FDRE constitution vests the authority to establish the Federal High and First Instant courts in",
+      "choiceA": "The office of the Prime Minister",
+      "correctAnswer": "B",
+      "choiceB": "The House of representative",
+      "choiceC": "The house of the Federation",
+      "choiceD": "The ministry of justice"
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "The ancient Greek philosopher, Socrates, who was brought to trial and condemned to death, accepted his fate on the ground of",
+      "choiceA": "respecting national security",
+      "choiceB": "advise from his supporters",
+      "correctAnswer": "C",
+      "choiceC": "standing for the truth",
+      "choiceD": "keeping state secret"
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "Records of facts, figures and such like details that show us something about people, countries, objects, events, etc . is referred to as",
+      "correctAnswer": "A",
+      "choiceA": "data",
+      "choiceB": "interpretation",
+      "choiceC": "Analysis",
+      "choiceD": "interview"
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "We fulfill our duties primarily as a mater of obligation to",
+      "correctAnswer": "A",
+      "choiceA": "Our friends",
+      "choiceB": "Our families",
+      "choiceC": "our seniors",
+      "choiceD": "our selves"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "The state of being informed and able to consciously accomplish something is",
+      "correctAnswer": "A",
+      "choiceA": "knowledge",
+      "choiceB": "Communication",
+      "choiceC": "Research",
+      "choiceD": "information"
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "Which of the following features characterizes an unlimited government?",
+      "correctAnswer": "A",
+      "choiceA": "Leaders are free to make decisions that bind the people",
+      "choiceB": "Citizens should participate in elections",
+      "choiceC": "Leaders are accountable to the people",
+      "choiceD": "Citizens have the right to control their leaders"
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "Individual develop prejudice against other mainly due to",
+      "choiceA": "acceptance",
+      "correctAnswer": "B",
+      "choiceB": "ignorance",
+      "choiceC": "tolerance",
+      "choiceD": "compromise"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "A form of corruption that is often committed by individuals engaged in auditing and supervision is",
+      "choiceA": "Abuse of power",
+      "choiceB": "Nepotism",
+      "correctAnswer": "C",
+      "choiceC": "Intrigue",
+      "choiceD": "Embezzlement"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "Which of the following is an indispensable factor for leading a meaningful",
+      "correctAnswer": "A",
+      "choiceA": "Economical use of income and materials at home",
+      "choiceB": "Maximizing the size of one 's family by having multiple sexual partners",
+      "choiceC": "Avoiding expenditures of income on goods and services",
+      "choiceD": "Learning to live a luxurious life by maximizing income"
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "The state structure of Ethiopia before 1994 was mainly",
+      "choiceA": "democratic",
+      "choiceB": "Federal",
+      "choiceC": "decentralized",
+      "correctAnswer": "D",
+      "choiceD": "Unitary"
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "Which one of the following is true about an unwritten constitution in comparison with a written one?",
+      "correctAnswer": "A",
+      "choiceA": "It is more convenient to use",
+      "choiceB": "It is one solid document",
+      "choiceC": "It includes laws enacted by parliament",
+      "choiceD": "It is not functional in the contemporary world"
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "Which of the following statement about work and time is correct?",
+      "choiceA": "The existence of time depends on a work",
+      "choiceB": "The existence of work does not depend on time",
+      "choiceC": "Work never exists independent of time",
+      "correctAnswer": "D",
+      "choiceD": "Time does not exist independent of work"
+    },
+    {
+      "questionNumber": 71,
+      "questionStatement": "Which one of the following is expected of citizens in democracy to achieve the common good?",
+      "choiceA": "Maintaining political dominance",
+      "correctAnswer": "B",
+      "choiceB": "Keeping state secret",
+      "choiceC": "Abolishing ethnic differences",
+      "choiceD": "Standing for individual interest"
+    },
+    {
+      "questionNumber": 72,
+      "questionStatement": "The state informed and able to consciously accomplish something is",
+      "choiceA": "Established mainly to implement government policies",
+      "correctAnswer": "B",
+      "choiceB": "Organized to let citizens take part in cooperative activities",
+      "choiceC": "Established as commercial undertaking with international companies",
+      "choiceD": "Set up for the sole purpose of building up solidarity among human being"
+    },
+    {
+      "questionNumber": 73,
+      "questionStatement": "All of the following are effective ways of conserving energy except",
+      "choiceA": "Using fluorescent bulbs",
+      "correctAnswer": "B",
+      "choiceB": "Using fuel wood instead of electricity",
+      "choiceC": "Turning off lights sets when falling asleep",
+      "choiceD": "Fixing low-wattage bulbs"
+    },
+    {
+      "questionNumber": 74,
+      "questionStatement": "Which of the following is true about the Federal democratic Republic of Ethiopia?",
+      "choiceA": "The federal and state governments have mutually exclusive powers and function",
+      "choiceB": "All state powers are given to the central or federal government",
+      "choiceC": "The federal government alone shall have legislative. Executive and judicial powers",
+      "correctAnswer": "D",
+      "choiceD": "All members states of the FDRE have equal powers and rights"
+    },
+    {
+      "questionNumber": 75,
+      "questionStatement": "A democratic government is accountable to",
+      "choiceA": "the court",
+      "choiceB": "The rulers",
+      "correctAnswer": "C",
+      "choiceC": "The people",
+      "choiceD": "the police"
+    },
+    {
+      "questionNumber": 76,
+      "questionStatement": "Which one of the following is true about gender equality?",
+      "correctAnswer": "A",
+      "choiceA": "All men and women are born equal",
+      "choiceB": "Inequalities between men and women are caused by natural",
+      "choiceC": "Gender equality has nothing to do with forms of government",
+      "choiceD": "Men and women are bigollgically identical"
+    },
+    {
+      "questionNumber": 77,
+      "questionStatement": "Which one of the following principles of democracy allows all Ethiopian Citizens of 18 and above equal right to elect and to be elected in periodic elections?",
+      "choiceA": "Fast reading skill and remembering what is read",
+      "choiceB": "Detailed memorization and recital of the material read",
+      "correctAnswer": "C",
+      "choiceC": "Proper understanding and utilization of what is read",
+      "choiceD": "Judging the value of the material before it is read"
+    },
+    {
+      "questionNumber": 78,
+      "questionStatement": "The principle of equality of benefits dictates that all regions should be",
+      "choiceA": "granted benefits irrespective of historical factors",
+      "choiceB": "treated on the basis of their natural resources",
+      "correctAnswer": "C",
+      "choiceC": "given equal opportunities to utilize their capa",
+      "choiceD": "entitled to affirmative action"
+    },
+    {
+      "questionNumber": 79,
+      "questionStatement": "One of the essential social and cultural rights of nations nationalities and peoples of FDRE is their right to equal opportunity for education. This right is important to them because it enables them",
+      "choiceA": "To enlarge their territorial borders and achieve political dominance",
+      "choiceB": "To establish their own defense force and ensure their sovereignty",
+      "correctAnswer": "C",
+      "choiceC": "To satisfy their continuing need for skilled and informed citizens",
+      "choiceD": "To reject the federal state and establish their own independent state"
+    },
+    {
+      "questionNumber": 80,
+      "questionStatement": "The task of discharging duties on an equal footing is referring to as equality of",
+      "choiceA": "benefits",
+      "choiceB": "status",
+      "correctAnswer": "C",
+      "choiceC": "burdens",
+      "choiceD": "authority"
+    }
+  ]
+}

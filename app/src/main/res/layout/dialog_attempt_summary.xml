@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_register_organism"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <!-- title-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_marginTop="0dip"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/card_margin">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dip"
+            android:paddingTop="0dip">
+
+            <TextView
+                android:id="@+id/txtv_dialog_title"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/statistics"
+                android:textAllCaps="true" />
+
+            <TextView
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorAccent"
+                android:gravity="left|center_vertical"
+                android:padding="@dimen/card_margin"
+                android:text=" Call or Email " />
+
+
+            <RelativeLayout   android:id="@+id/rell_progress_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/card_margin"
+
+
+                android:paddingTop="@dimen/card_margin">
+
+                <net.kerod.android.questionbank.widget.ArcProgress
+                    android:id="@+id/arcp_correct"
+                    android:layout_width="@dimen/statistics_arc_width"
+                    android:layout_height="@dimen/statistics_arc_width"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="right"
+                    app:arc_bottom_text="CORRECT"
+                    app:arc_finished_color="@color/choice_color_correct"
+                    app:arc_progress="0"
+                    app:arc_stroke_width="6dp"
+                    app:arc_text_color="@color/choice_color_correct"
+                    app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+
+                <net.kerod.android.questionbank.widget.ArcProgress
+                    android:id="@+id/arcp_incorrect"
+                    android:layout_width="@dimen/statistics_arc_width"
+                    android:layout_height="@dimen/statistics_arc_width"
+                    android:layout_centerInParent="true"
+                    app:arc_bottom_text="MISSED"
+                    app:arc_finished_color="@color/choice_color_incorrect"
+                    app:arc_progress="0"
+                    app:arc_stroke_width="6dp"
+                    app:arc_text_color="@color/choice_color_incorrect"
+                    app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+
+                <net.kerod.android.questionbank.widget.ArcProgress
+                    android:id="@+id/arcp_total_correct"
+                    android:layout_width="@dimen/statistics_arc_width"
+                    android:layout_height="@dimen/statistics_arc_width"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="left"
+                    app:arc_bottom_text="UNTRIED"
+                    app:arc_finished_color="@color/colorPrimary"
+                    app:arc_progress="0"
+                    app:arc_stroke_width="6dp"
+                    app:arc_text_color="@color/colorPrimary"
+                    app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="\u00a9 2017 KerodApps. Some rights reserved." />
+
+
+</LinearLayout>

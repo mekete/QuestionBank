@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVIC G12 2006",
+    "fullName": "EUEE Civic and Ethical Education 2006 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "54",
+    "version": "1",
+    "examGivenDate": "Ginbot 2006 June2014"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "B",
+      "questionStatement": " What is the principle of constitutional law, that protects the life, liberty and property of a person?",
+      "choiceA": "Criminal law",
+      "choiceB": "Civil law",
+      "choiceC": "Due process of law",
+      "choiceD": "Procedural law"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "B",
+      "questionStatement": " Which countries benefit most from the new world order of globalization?",
+      "choiceA": "Developing countries",
+      "choiceB": "Developed countries.",
+      "choiceC": "Under developed countries.",
+      "choiceD": "Less developed countries."
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following traits is expected from judges for justice to prevail?",
+      "choiceA": "Compassion",
+      "choiceB": "Sympathy",
+      "choiceC": "Kindness",
+      "choiceD": "Impartiality"
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "D",
+      "questionStatement": " The ability to bear with unpleasant and annoying situation is known as",
+      "choiceA": "Assertiveness",
+      "choiceB": "Arrogance",
+      "choiceC": "Lenience",
+      "choiceD": "Tolerance"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is a name given to human needs for food, Shelter and security?",
+      "choiceA": "Maintenance needs",
+      "choiceB": "Transformational needs",
+      "choiceC": "Societal needs",
+      "choiceD": "Actualization needs"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "D",
+      "questionStatement": " An amendment to a constitution is",
+      "choiceA": "Replacing old constitution by a new one.",
+      "choiceB": "Additional article to a constitution.",
+      "choiceC": "Declaring a constitution null and void.",
+      "choiceD": "Emphasizing an article of a constitution."
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following characteristics could be a guarantee for individual freedom?",
+      "choiceA": "Rule of law",
+      "choiceB": "Right to trial",
+      "choiceC": "Trial by jury",
+      "choiceD": "Human rights"
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is one of the key institutions that fashioned globalization?",
+      "choiceA": "Amnesty International.",
+      "choiceB": "Transparency International.",
+      "choiceC": "International Labour Organization.",
+      "choiceD": "International Monetary Fund."
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "A",
+      "questionStatement": " A person who refuses to give military service on grounds of religion or other belief is",
+      "choiceA": "Conscientious objector",
+      "choiceB": "Whistle blower",
+      "choiceC": "Unpatriotic citizen",
+      "choiceD": "Secret intelligence officer"
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "D",
+      "questionStatement": " Who was the American Civil Rights Activist sent to prison for refusing to give up her seat in a bus for a white man?",
+      "choiceA": "Rosa Luxemburg",
+      "choiceB": "Patricia Goldman",
+      "choiceC": "Clara Zeitkin.",
+      "choiceD": "Rosa Parks"
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is true?",
+      "choiceA": "There is no relationship between saving and development",
+      "choiceB": "Idir and Iqub are backward saving mechanisms that do <b>NOT</b> help Individuals improve their lives ",
+      "choiceC": "Saving plays a crucial role in the development endeavour of countries like Ethiopia",
+      "choiceD": "World Bank is the only global monetary organization"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "D",
+      "questionStatement": " Who presents a nominee for the post of Prime Minister of the FDRE?",
+      "choiceA": "The Speaker of the House of Peoples Representatives.",
+      "choiceB": "The Speaker of the House of Federation.",
+      "choiceC": "The Opposition in the House of Peoples Representatives.",
+      "choiceD": "The majority party in the House of Peoples Representatives."
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following government system differs from others?",
+      "choiceA": "Unlimited government",
+      "choiceB": "Totalitarian government",
+      "choiceC": "Unitary government",
+      "choiceD": "Federal government"
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct according to article 10 of the FDRE constitution? .",
+      "choiceA": "Human rights are inviolable and inalienable",
+      "choiceB": "Human rights do <b>NOT</b> emanate from the nature of mankind",
+      "choiceC": "Human rights emanate from the good will of governments",
+      "choiceD": "Human rights do <b>NOT</b> have any relation with democratic rights"
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following was the most negative experience of in the period of the derg?",
+      "choiceA": "Qey Shibir",
+      "choiceB": "Meret Le arashu!",
+      "choiceC": "Idget Behibret! ",
+      "choiceD": "Meserete Timihirt"
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "D",
+      "questionStatement": " In the FDRE, Interpreting law is the responsibility of the judiciary organ, whereas interpreting the constitution is the responsibility of:",
+      "choiceA": "The Executive Organ",
+      "choiceB": "The Legislative Organ",
+      "choiceC": "The House of peoples representatives",
+      "choiceD": "The House of Federation"
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is an inclusive term?",
+      "choiceA": "Good governance",
+      "choiceB": "Transparency",
+      "choiceC": "Accountability",
+      "choiceD": "Responsibility"
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following countries combine both presidential and parliamentary government systems?",
+      "choiceA": "USA and England",
+      "choiceB": "Ethiopia and USA",
+      "choiceC": "Russia and South Africa",
+      "choiceD": "South Africa and USA"
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "C",
+      "questionStatement": " The American Foreign Secretary, John Kerry facilitated a peace talk between Israel and Palestine recently. What was the role of Mr. Kerry?",
+      "choiceA": "Arbitration",
+      "choiceB": "Negotiation",
+      "choiceC": "Mediation",
+      "choiceD": "Resolution"
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is the correct order that should be followed while formulating a democratic constitution?",
+      "choiceA": "Drafting---Ratification ------Discussion",
+      "choiceB": "Drafting ------Discussion --------Ratification",
+      "choiceC": "Ratification -----Discussion --------Drafting",
+      "choiceD": "Discussion -------Drafting ------Ratification"
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "A",
+      "questionStatement": " What was the name of the corruption in which president Nixon had been involved during his presidency?",
+      "choiceA": "'The Watergate Scandal'",
+      "choiceB": "'The communist Scandal'",
+      "choiceC": "'The Great Depression'",
+      "choiceD": "'The American Scandal'"
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is correct?",
+      "choiceA": "Constitution and specific laws have equal weight",
+      "choiceB": "Constitution and specific laws do <b>NOT</b> have any relation",
+      "choiceC": "Constitution is a mother law from which specific laws can be derived",
+      "choiceD": "Constitution is a mother law that emanates from specific laws"
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following gives ultimate decisions according to the Ethiopian law?",
+      "choiceA": "The Federal Supreme court",
+      "choiceB": "The Federal High Court",
+      "choiceC": "The State Supreme Court",
+      "choiceD": "The State High Court"
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is true based on article 61 of the FEDRE constitution?",
+      "choiceA": "The House of Federation is the supreme authority in the country",
+      "choiceB": "The House of federation consists of only one representative for each one people of the country.",
+      "choiceC": "The house of federation shall have members elected by the state council",
+      "choiceD": "The house of federation consists of representatives of the major ethnic groups in the country"
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about budget allocation for different regions of Ethiopia?",
+      "choiceA": "The federal government allocates and distributes money reasonably based on the specific situations of different regions",
+      "choiceB": "The federal government allocates equal amount of money to all Nations, Nationalities and peoples of Ethiopia",
+      "choiceC": "The federal government allocates less amount of money to less developed regions",
+      "choiceD": "The federal government allocates large amount of money to better developed regions"
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following personalities is different from others?",
+      "choiceA": "Nyerere",
+      "choiceB": "Mengistu",
+      "choiceC": "Mobutu",
+      "choiceD": "Idi Amin"
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following countries is a unique example in the world that does <b>NOT</b> have a written constitution?",
+      "choiceA": "China",
+      "choiceB": "France",
+      "choiceC": "Netherlands",
+      "choiceD": "England"
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is <b>INCORRECT</b> about conflict resolution in Ethiopia?",
+      "choiceA": "All Ethiopian peoples have indigenous conflict resolution mechanisms",
+      "choiceB": "Elders/shimagles are highly respected in the indigenous conflict resolution process",
+      "choiceC": "Elders/shimagles cannot resolve conflicts that involve homicide",
+      "choiceD": "Arbitration and mediation are employed to resolve conflicts"
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following women was very famous for her political career in the modern history of Ethiopia?",
+      "choiceA": "Empress Zewditu",
+      "choiceB": "Empress Menene",
+      "choiceC": "Empress Taitu",
+      "choiceD": "YoditGudit"
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "B",
+      "questionStatement": " One of the following Ethiopian rivers is different from others:",
+      "choiceA": "Abay",
+      "choiceB": "Awash",
+      "choiceC": "Tekeze",
+      "choiceD": "Baro"
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following groups were the most undermined ones in the long history of Ethiopia?",
+      "choiceA": "Potters",
+      "choiceB": "Peasants",
+      "choiceC": "Merchants",
+      "choiceD": "Women"
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the mandate of the federal government of Ethiopia under the current constitutional provision?",
+      "choiceA": "Establishing the regional police force",
+      "choiceB": "Establishing foreign relations",
+      "choiceC": "Writing constitutions for all regional governments",
+      "choiceD": "Organizing cultural events in the regions"
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is <b>NOT</b> among the peoples of Southern Ethiopia?",
+      "choiceA": "Ari",
+      "choiceB": "Hammer",
+      "choiceC": "Nuer",
+      "choiceD": "Surma"
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "B",
+      "questionStatement": " One of the following problems was the most serious one that aggravated socio-economic problems and consequent opposition against the imperial regime of Ethiopia and brought about its downfall:",
+      "choiceA": "The war with Eritrean rebel groups",
+      "choiceB": "Land problem",
+      "choiceC": "The question of Nationalities",
+      "choiceD": "Marginalization of Occupational groups"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following is true about illegal human migration in the current Ethiopian context?",
+      "choiceA": "All illegal migrants are from Southern Ethiopia",
+      "choiceB": "The major destination of women migrants is South Africa",
+      "choiceC": "Illegal migration has become the major socio-cultural problem",
+      "choiceD": "Illegal migration is assisted by government agencies"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about benefits and burdens?",
+      "choiceA": "Benefits and burdens must be shared equally among all peoples in a society",
+      "choiceB": "Benefits and Burdens must be shared based on the education level of individuals",
+      "choiceC": "Individuals who carry more burden should get less benefits",
+      "choiceD": "Individuals who carry less burden must <b>NOT</b> enjoy their political"
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following social groups is the most disadvantaged group in Ethiopia?",
+      "choiceA": "Artisans",
+      "choiceB": "Women",
+      "choiceC": "Children",
+      "choiceD": "Persons with Disabilities"
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "C",
+      "questionStatement": " In what possible ways can students like you protect themselves from peer influence?",
+      "choiceA": "By avoiding relations with peer groups",
+      "choiceB": "By studying hard always",
+      "choiceC": "By making planned activities",
+      "choiceD": "By staying at home after school"
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is a negative impact of globalization?",
+      "choiceA": "Transfer of global information and knowledge .",
+      "choiceB": "Dependence of economically weak nations on the developed ones",
+      "choiceC": "Market competition between economically weak and strong nation",
+      "choiceD": "Advancement of technology"
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "B",
+      "questionStatement": " In what way did Ethiopia protect her independence from foreign aggressions in the past few centuries?",
+      "choiceA": "Through diplomatic negotiations",
+      "choiceB": "Through patriotic resistance struggle",
+      "choiceC": "Through peaceful submission",
+      "choiceD": "Through the support of western Great powers"
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "B",
+      "questionStatement": " Why are elected officials accountable to their electorate? It is because",
+      "choiceA": "They should listen to the grievances of the electorate.",
+      "choiceB": "The electorate is the source of their political power.",
+      "choiceC": "They need to have constant contact with their electors.",
+      "choiceD": "The electorate can replace them with another if anytime."
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "A",
+      "questionStatement": " In democratic countries obligations of citizens arise from their",
+      "choiceA": "Rights that they enjoy.",
+      "choiceB": "Duties and responsibilities.",
+      "choiceC": "Gender Identity.",
+      "choiceD": "Position in society."
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "A",
+      "questionStatement": " What do an absolute monarchy and an autocracy have in common?",
+      "choiceA": "Supremacy of a single ruler.",
+      "choiceB": "Absence of written constitution.",
+      "choiceC": "Strong national court system.",
+      "choiceD": "Single legislative house."
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "D",
+      "questionStatement": " Assertive behavior includes all of the following, EXCEPT:",
+      "choiceA": "Questioning",
+      "choiceB": "Positive Thinking",
+      "choiceC": "Critical arguments",
+      "choiceD": "Hasty generalization"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "C",
+      "questionStatement": " The table below shows a comparison of two different systems of government<br/>.<table   ><tr><th>Federal System</th><th>Unitary System</th></tr><tr><td  >?</td><td >?</td></tr></table><br>",
+      "choiceA": "Role of government limited / Role of government expanded.",
+      "choiceB": "Rule by a democracy / Rule by a monarchy.",
+      "choiceC": "Power divided among the branchies / power held by one branch.",
+      "choiceD": "Power shared / Power delegated"
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "A",
+      "questionStatement": " One of the following Declarations was promulgated following the humanitarian crisis of the Second World War:",
+      "choiceA": "Universal Declaration of Human Rights",
+      "choiceB": "World Health Day",
+      "choiceC": "Declaration of Environment Protection",
+      "choiceD": "March Against HIV/AIDS"
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is true about foreign aid in Ethiopia?",
+      "choiceA": "Ethiopia is fully dependent on foreign aid",
+      "choiceB": "Foreign aid is the base of Ethiopian economy",
+      "choiceC": "Ethiopia's goal is to be self-reliant in the near future",
+      "choiceD": "Ethiopia is the major beneficiary of foreign aid in Africa"
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "B",
+      "questionStatement": " Who is the Author of the famous Ethiopian Novel, Oromay?",
+      "choiceA": "Kebede Mikael",
+      "choiceB": "Bealu Girma",
+      "choiceC": "Haddis Alemayehu",
+      "choiceD": "Mamo Wudneh"
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "A",
+      "questionStatement": " What was the greatest gain of the Womens Suffrage Movement?",
+      "choiceA": "Holding citizenship rights.",
+      "choiceB": "Holding public office.",
+      "choiceC": "Vote in national elections.",
+      "choiceD": "Gain employment rights."
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "D",
+      "questionStatement": " Identify the INCORRECT statement from the given alternatives:",
+      "choiceA": "Industriousness leads to Self-reliance",
+      "choiceB": "Self-reliance leads to Self-confidence",
+      "choiceC": "Addictions could affect the working habits of the youth",
+      "choiceD": "Male-oriented jobs make individuals more industrious"
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following statements is true about progressive taxation?",
+      "choiceA": "Varying tax rates are levied on people who earn equal income.",
+      "choiceB": "People are expected to pay tax at a rate proportionate to their income.",
+      "choiceC": "People who earn more pay equal tax with those who earn less.",
+      "choiceD": "Rich people are taxed more while the poor are exempted from it"
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "C",
+      "questionStatement": " One similarity between parliamentary and presidential democracies is that both cases:",
+      "choiceA": "The head of state is elected by the members of parliament.",
+      "choiceB": "The head of state is elected directly by popular vote.",
+      "choiceC": "There is a smooth and peaceful transition of state power.",
+      "choiceD": "Government is formed most of the time by coalition of parties."
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "A",
+      "questionStatement": " Concerning Human Rights what governments are required to do is",
+      "choiceA": "Insure that they are <b>NOT</b> violated by anyone.",
+      "choiceB": "Introduce new types of rights for their people.",
+      "choiceC": "Coordinate their use with social development.",
+      "choiceD": "Grant them to the mature section of society."
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "C",
+      "questionStatement": " Any law that contradicts a constitution of a country is",
+      "choiceA": "Initiates action for constitutional amendment.",
+      "choiceB": "Considered to be revolutionary.",
+      "choiceC": "Automatically made null and void.",
+      "choiceD": "Replaces some articles in the constitution."
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "D",
+      "questionStatement": " Civic minded citizens serve their community wholeheartedly mainly to get",
+      "choiceA": "Fame and recognition",
+      "choiceB": "Monetary reward",
+      "choiceC": "Appointment to public office",
+      "choiceD": "Personal satisfaction."
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "A",
+      "questionStatement": " What was the objective of the Non-Aligned movement?",
+      "choiceA": "To become an alternative force for the East and West in the Cold War.",
+      "choiceB": "To promote economic cooperation between developing countries.",
+      "choiceC": "To advocate solutions to global social and political problems.",
+      "choiceD": "To be neutral in the East and West confrontation of the Cold War"
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "A",
+      "questionStatement": " In democratic countries officials are expected to be non-partisan while performing their duties. This means?",
+      "choiceA": "They should <b>NOT</b> be prejudiced in anyway.",
+      "choiceB": "They should <b>NOT</b> be party members.",
+      "choiceC": "They should <b>NOT</b> belong to an ethnic group.",
+      "choiceD": "They should <b>NOT</b> belong to a religious group. "
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "C",
+      "questionStatement": " An altruist is identified by his/her readiness to",
+      "choiceA": "Lead people in protests against injustice.",
+      "choiceB": "Oppose any form of dictatorship and tyranny.",
+      "choiceC": "Sacrifice ones happiness and welfare for others.",
+      "choiceD": "Use any means to gain power and respect"
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is a characteristic feature of the demography of developing nations?",
+      "choiceA": "High birth rate and High death rate.",
+      "choiceB": "High birth rate and low death rate..",
+      "choiceC": "Low birth rate and High death rate.",
+      "choiceD": "Low birth rate and low death rate."
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "B",
+      "questionStatement": " What is ethics? It is a",
+      "choiceA": "Collection of moral standards accepted by society.",
+      "choiceB": "Part of philosophy that studies moral standards",
+      "choiceC": "Set of rules and regulations issued democratic states.",
+      "choiceD": "Reference material on moral standards issued by UNO."
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "C",
+      "questionStatement": " Ten countries are elected for a period of two years to serve in the Security Council taking into consideration their",
+      "choiceA": "Acceptance by other members.",
+      "choiceB": "Economic development.",
+      "choiceC": "Geographical location.",
+      "choiceD": "Willingness to serve."
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is an attribute of a person who is self confident?",
+      "choiceA": "Readiness to accept criticism.",
+      "choiceB": "Determination to help other people.",
+      "choiceC": "Reluctance to take on challenges.",
+      "choiceD": "Having personal role models."
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "C",
+      "questionStatement": " What does wise saving mean?",
+      "choiceA": "Saving money even before satisfying your basic needs.",
+      "choiceB": "Saving money after satisfying all your personal wants",
+      "choiceC": "Saving money after satisfying your basic needs.",
+      "choiceD": "Saving money by reducing from your basic needs."
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "A",
+      "questionStatement": " Any place where the Ethiopian flag is flown, be in embassy or on ship, is considered as:",
+      "choiceA": "Part of Ethiopian sovereign territory.",
+      "choiceB": "Territory free from any international obligations.",
+      "choiceC": "Free transit area for Ethiopian trade with others.",
+      "choiceD": "An integral Part of the host country or area."
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "D",
+      "questionStatement": " For citizens to understand their rights and duties properly laws and rules should be",
+      "choiceA": "Willingly agreed to by citizens.",
+      "choiceB": "Attractive enough in design.",
+      "choiceC": "Amended periodically.",
+      "choiceD": "Clear, easy and well designed."
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "A",
+      "questionStatement": " In Ethiopia it is possible to get rid of many off the communicable diseases by:",
+      "choiceA": "Teaching the people to keep personal hygiene.",
+      "choiceB": "Distributing medicines in the disease prone areas.",
+      "choiceC": "Increasing the number of health professionals.",
+      "choiceD": "Building health centers and make them accessible."
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "C",
+      "questionStatement": " Accountability of state requires a government to:",
+      "choiceA": "Consult elected representatives before making any decision.",
+      "choiceB": "Settle its accounts and make them for auditing on time.",
+      "choiceC": "Take responsibility for all its decisions and functions.",
+      "choiceD": "Build modern and trustworthy financial system."
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "B",
+      "questionStatement": " During state of emergency the Ethiopian government could take action that could",
+      "choiceA": "Dismantle all articles of the constitution.",
+      "choiceB": "Limit the democratic rights of citizens.",
+      "choiceC": "Breakup the federal arrangement.",
+      "choiceD": "Reinforce commitment for human rights."
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "D",
+      "questionStatement": " What does domesticating of international laws and norms mean?",
+      "choiceA": "Fashioning domestic laws and norms with the international ones",
+      "choiceB": "Changing the international ones to suit the conditions of the land",
+      "choiceC": "Including some domestic provisions to the international ones",
+      "choiceD": "Making the international laws and norms part of the law of the land"
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following functions is exclusively given to the Federal Government of Ethiopia by the Constitution?",
+      "choiceA": "Administration of Secondary education",
+      "choiceB": "Administration of taxes",
+      "choiceC": "Establishing a police force",
+      "choiceD": "Formulation of foreign policy"
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following was the common feature of the Ethiopian peasant rebellions that took place during the imperial regime at different places?",
+      "choiceA": "Participation of women as solders",
+      "choiceB": "The fact that all rebellions were attached to land question",
+      "choiceC": "The fact that all rebellions were suppressed by military action a supported by air force.",
+      "choiceD": "The fact that all rebellions took place in northern Ethiopia"
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following African country is associated to a fairly recent phenomenon of genocide?",
+      "choiceA": "Rwanda",
+      "choiceB": "Burundi",
+      "choiceC": "South Africa",
+      "choiceD": "Democratic Republic of Congo"
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "D",
+      "questionStatement": "How do we ensure equality between men and women in a democratic system?",
+      "choiceA": "By assigning women to all key positions in the government it",
+      "choiceB": "By creating equal chance and opportunities for both men and women",
+      "choiceC": "By increasing the number of women politicians",
+      "choiceD": "By providing free chance of education for women"
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "A",
+      "questionStatement": " One of the following personalities is associated to the 1<sup>st</sup>written constitution of Ethiopia: ",
+      "choiceA": "BejrondTeklehawariatTeklemariam",
+      "choiceB": "DejaazmachKebedeTesema",
+      "choiceC": "RasDestaDamtew",
+      "choiceD": "RasAbebeAragay"
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "B",
+      "questionStatement": " Ethiopian Students like you come from different social, economic,cultural and linguistic backgrounds. Which of the following is the most essential virtue that you need to live in harmony in such a situation?",
+      "choiceA": "Civility",
+      "choiceB": "Tolerance",
+      "choiceC": "Open mindedness",
+      "choiceD": "Civic mindedness"
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "C",
+      "questionStatement": " Article 20/2 of the FDRE constitution provides for accused persons to be given the charges against them in order to",
+      "choiceA": "Help them remember how and where the crime is done.",
+      "choiceB": "Prove that the legal system works in transparent manner.",
+      "choiceC": "Enable them Gather evidence to prepare their defence.",
+      "choiceD": "Reinforce popular confidence in legal system of the nation."
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "D",
+      "questionStatement": " Who is the Commander in Chief of the FDRE armed forces?",
+      "choiceA": "The President.",
+      "choiceB": "The Minister of Defence",
+      "choiceC": "The Prime Minister",
+      "choiceD": "The Chief of Staff of the army."
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following National Holidays is associated the identities and Cultures of Ethiopian peoples?",
+      "choiceA": "National Flag Day",
+      "choiceB": "Nations and Nationalities Day",
+      "choiceC": "National Day of unity",
+      "choiceD": "National Day of Ethiopian workers"
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "A",
+      "questionStatement": " What could be a basic possible reason that leads people to corruption?",
+      "choiceA": "Greediness and selfishness",
+      "choiceB": "Poverty",
+      "choiceC": "Lack of self-confidence",
+      "choiceD": "Lack of civic education"
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about the AbayRiver?",
+      "choiceA": "It is the most utilized river in Ethiopia",
+      "choiceB": "It is the bond that links Ethiopia, Egypt and Sudan",
+      "choiceC": "It is the only cross-boundary river in Ethiopia",
+      "choiceD": "It is the only river that has never attracted the attention of Europeans"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "B",
+      "questionStatement": " The fight against corruption could bear fruit if the government in power",
+      "choiceA": "Pays high salaries for its officials to deter them from taking bribe.",
+      "choiceB": "Manages to make all its officials honest and truthful.",
+      "choiceC": "Is fully committed to root out corrupt practices in the country.",
+      "choiceD": "Works with international anti-corruption organizations."
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "C",
+      "questionStatement": " What makes the governments of Nazi party of Germany, Fascist party of Italy and National Party of South Africa similar?",
+      "choiceA": "Rule by minority racial group.",
+      "choiceB": "Segregation of colored people.",
+      "choiceC": "Absence of rule of law.",
+      "choiceD": "Gender inequality and oppression."
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "B",
+      "questionStatement": " What could be one of the long-term result of the constitutional protection of free speech?",
+      "choiceA": "Expansion of public radio.",
+      "choiceB": "More informed society.",
+      "choiceC": "Growth of unbiased media.",
+      "choiceD": "Reliable election results."
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following factors essentially necessitated the revision of the 1931 constitution in 1955?",
+      "choiceA": "The promulgation of Universal Declaration of Human Rights",
+      "choiceB": "The Federation of Eritrea with Ethiopia",
+      "choiceC": "The outbreak of peasant rebellions",
+      "choiceD": "The expansion of modern education"
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "B",
+      "questionStatement": " Read the following data carefully and answer the question that follows.<table ><tr><td>Country</td><td>Literacy rate</td><td>Infant mortality rate</td><td>Life expectancy rate</td><td>GDP/person(USD)</td></tr><tr><td>A</td><td>44.6%</td><td>94.4%</td><td>45 years</td><td>146.8</td></tr><tr><td>B</td><td>98%</td><td>5.6%</td><td>80 years</td><td>4,000.00</td></tr></table>From the table above it can be safely concluded that",
+      "choiceA": "Literacy rate has positive relation with infant mortality.",
+      "choiceB": "Literacy rate has positive relation with life expectancy.",
+      "choiceC": "Infant mortality has positive relation with life expectancy.",
+      "choiceD": "Infant mortality rate has positive relation with GDP growth."
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "A",
+      "questionStatement": " Identify the correct statement concerning HIV/AIDS from the given alternatives",
+      "choiceA": "HIV/AIDS has become a great obstacle against socio-economic development among societies",
+      "choiceB": "The victims of HIV/AIDS can no longer contribute to the development endeavors of their respective nations",
+      "choiceC": "Globalization and human mobility played their part in the expansion of HIV/AIDS",
+      "choiceD": "HIV/AIDS is the only incurable disease"
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is INCORRECT?",
+      "choiceA": "Ethiopia is the seat of many international organizations",
+      "choiceB": "Ethiopia is a member of many international organizations",
+      "choiceC": "Ethiopia is the seat of ECOWAS",
+      "choiceD": "Ethiopia is a founding member of OAU"
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "A",
+      "questionStatement": " What could be the essential base for Ethiopias development endeavors?",
+      "choiceA": "Better education and fostering socio-cultural values",
+      "choiceB": "The Grand Millennium Dam which is under construction",
+      "choiceC": "The expansion of global information centers",
+      "choiceD": "Opening new legal migration opportunities to citizens"
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is <b>NOT</b> among the moral values of Ethiopian societies?",
+      "choiceA": "Supporting the poor",
+      "choiceB": "Respect for elderly people",
+      "choiceC": "Conflict resolution through indigenous mechanisms",
+      "choiceD": "Ethnic based violence"
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following statements is correct regarding the prevalence of rule of law?",
+      "choiceA": "It forms a state dominated and ruled by judges.",
+      "choiceB": "It hinders the smooth functioning of courts.",
+      "choiceC": "It establishes rule by law courts and judges.",
+      "choiceD": "It guarantees the safety and security of citizens."
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "B",
+      "questionStatement": " A self-reliant person is one who is",
+      "choiceA": "Self-sufficient in everything and requires no help from others.",
+      "choiceB": "Dependable to find solutions for serious social problems.",
+      "choiceC": "Refuses to accept the opinion of others at any time.",
+      "choiceD": "Aware of her/his own strengths and weaknesses."
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "B",
+      "questionStatement": " Great scientists and thinkers of all times contributed great thing driven primarily by their desire to",
+      "choiceA": "Attain self-fulfilment through knowledge.",
+      "choiceB": "Eradicate poverty and injustice.",
+      "choiceC": "Transform their country and the world.",
+      "choiceD": "Earn respect for their creations and thoughts."
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "D",
+      "questionStatement": " Ethnocentrism is a belief that one's own ethnic group is superior in everything to others. Therefore it",
+      "choiceA": "Insures respect by other ethnic groups.",
+      "choiceB": "Demands the loyalty of other ethnic groups.",
+      "choiceC": "Deserves recognition by other ethnic groups.",
+      "choiceD": "Hinders interaction with other ethnic groups."
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "B",
+      "questionStatement": " Article 20/7 of the FDRE constitution stipulates that an accused person has a right to:",
+      "choiceA": "Be tried in a court that uses language of the accused.",
+      "choiceB": "Request for assistance of an interpreter at government expense.",
+      "choiceC": "Keep silent and refuse to give testimony against oneself.",
+      "choiceD": "<b>NOT</b> to appear in court and <b>NOT</b> to be accused of contempt of court"
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "B",
+      "questionStatement": " Identifying the commonly shared values, interests and goals of the Ethiopian nations, nationalities and peoples and respecting them is important to:",
+      "choiceA": "Facilitate national assimilation.",
+      "choiceB": "Bring national consensus",
+      "choiceC": "Celebrate festivals together",
+      "choiceD": "Appreciate the disparity among them."
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "D",
+      "questionStatement": " In theory, markets in free market economies are regulated by the relationship between demand and supply. What does this statement imply?",
+      "choiceA": "There could be other practical factors that regulate free market economy",
+      "choiceB": "Demand and supply exist only in the markets of free market economy.",
+      "choiceC": "Other types of economies do <b>NOT</b> have a theory that regulates them.",
+      "choiceD": "Free market economy is healthy because Demand and Supply grow equally."
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "C",
+      "questionStatement": " The Universal Declaration of Human Rights is incorporated in the FDRE constitution. This is significant because it:",
+      "choiceA": "Guarantees full respect of the stated rights for the peoples of Ethiopia.",
+      "choiceB": "Compels future governments to respect them for the people of Ethiopia.",
+      "choiceC": "Will serve as a standard for respect of human rights in the country.",
+      "choiceD": "Enables the UN to take action against a government that abuses them."
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "A",
+      "questionStatement": " Unlike previous times the nations, nationalities, and peoples of Ethiopia have the right to:",
+      "choiceA": "Promote and develop their language and culture.",
+      "choiceB": "Move and settle anywhere in the country.",
+      "choiceC": "Join the various ranks of the countrys civil service.",
+      "choiceD": "Marry into and live together with other ethnic groups."
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "B",
+      "questionStatement": " League of Nations has indirectly encouraged the 1935 Italian invasion of Ethiopia by:",
+      "choiceA": "Forbidding Russia to come to the support of Ethiopia.",
+      "choiceB": "Impeding British and French support to Ethiopia:",
+      "choiceC": "Passing arms embargo on both Ethiopia and Italy.",
+      "choiceD": "Refusing to send peace keeping troops to Ethiopia."
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "D",
+      "questionStatement": " If a government truly respects rule of law in any country then",
+      "choiceA": "There will be democratic constitution.",
+      "choiceB": "There is no need to hold periodic elections.",
+      "choiceC": "It is <b>NOT</b> necessary to have courts and prisons.",
+      "choiceD": "Most certainly justice will prevail."
+    }
+  ]
+}

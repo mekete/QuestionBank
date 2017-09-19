@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <se.emilsjolander.flipview.FlipView
+        android:id="@+id/flip_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lnrl_bottom_status"
+        android:background="#ffffff"
+        app:orientation="horizontal"></se.emilsjolander.flipview.FlipView>
+
+    <include layout="@layout/segment_reveal_menu" />
+
+
+    <LinearLayout
+        android:id="@+id/lnrl_bottom_status"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/prog_question"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/card_margin"
+            android:maxHeight="2dp"
+            android:minHeight="2dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="92dp"
+            android:progressTint="@color/primaryWhite" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="92dp">
+
+            <TextView
+                android:id="@+id/txtv_progress_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="12 of 100"
+                android:textColor="@color/brokenWhite" />
+
+            <Chronometer
+                android:id="@+id/txtv_time_used"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="23:25"
+                android:textColor="@color/brokenWhite" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

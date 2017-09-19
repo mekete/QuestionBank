@@ -1,0 +1,377 @@
+{
+  "examSummary": {
+    "iconChar": "E",
+    "iconUrl": "www.google.ca",
+    "shortName": "ECONOMICS G12 2000",
+    "fullName": "ESLCE Economics Exam 2000 For Grade 12",
+    "grade": "12",
+    "subject": "Economics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "40",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2000 June 2008"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "At the equilibrium level of national income, consumption expenditure will be ",
+      "choiceA": "Bin 280 billion",
+      "choiceB": "Bin 575 billion",
+      "correctAnswer": "C",
+      "choiceC": "Bin 320 billion,",
+      "choiceD": "Bin 350 billion."
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "When do the following changes not lead to a higher level of satisfaction?",
+      "correctAnswer": "A",
+      "choiceA": "The price of all goods increase and the income level remain the same.",
+      "choiceB": "The income of the consumer is increased and the prices of the goods remain unchanged.",
+      "choiceC": "The price of the two goods consumed decrease.",
+      "choiceD": "The income of the consumer is doubled and the price levels are halved."
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "Suppose the per capita income of the Ethiopian economy is expected to grow at 10 percent per year for the coming 20 years and the per capita income in 2001 is 245 Birr. What will be the per capita income of Ethiopia in year 2021?",
+      "choiceA": "245 (0.1) )20",
+      "choiceB": "245 /(1.1) )20",
+      "choiceC": "245/ (0.1) )20",
+      "correctAnswer": "D",
+      "choiceD": "245 (1.1)20"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "Which of the following is not a method of calculating GD?",
+      "choiceA": "Sum of incomes",
+      "choiceB": "Value of final goods and services produced",
+      "choiceC": "Sum of value added in the economy",
+      "choiceD": "Sum of transactions in the economy"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "The term tariff, as used in international trade, refers to",
+      "choiceA": "A payment to domestic producers to help them compete in international markets.",
+      "correctAnswer": "B",
+      "choiceB": "A tax on products being imported.",
+      "choiceC": "The price of goods when they leave the producing country.",
+      "choiceD": "A mechanism for setting an absolute level on the number of units of a good that can be imported."
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which of the following is a feature of necessity goods, ceteris pan bus?",
+      "choiceA": "One percent increase in price leads to more than one percent increase in quantity demanded.",
+      "choiceB": "Its income elasticity is greater than one.",
+      "correctAnswer": "C",
+      "choiceC": "Its income elasticity of demand is less than zero.",
+      "choiceD": "A percentage increase in income of the consumer leads to less than one percentage increase in quantity demanded."
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "Monopoly power results from the ability to",
+      "choiceA": "Set price above the average variable cost.",
+      "choiceB": "Set the price above the marginal cost.",
+      "choiceC": "Set the price equal to marginal cost.",
+      "correctAnswer": "D",
+      "choiceD": "Equate the marginal revenue to marginal cost."
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "Which of the following polices was not practiced under the imperial regime?",
+      "correctAnswer": "A",
+      "choiceA": "Diversification of export and the trading partner in the international market.",
+      "choiceB": "Imposition of high tariff on imported goods to protect infant industries.",
+      "choiceC": "Control of large scale farms by the government.",
+      "choiceD": "Import substitution strategy."
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "The natural rate of unemployment is related to",
+      "choiceA": "The natural rate of inflation.",
+      "choiceB": "The equilibrium price level",
+      "correctAnswer": "C",
+      "choiceC": "All of the above.",
+      "choiceD": "The level of potential GD?"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "A firm has chosen its profit maximizing level of output. At this level of output, its price is Bin 20 while its Average Variable Cost (AVC) and Average Total Cost (ATC) are Birr 18 and Bin 20, respectively. The Firm",
+      "choiceA": "Might be in the short run period of production.",
+      "choiceB": "Is making a loss of Birr 20 per unit of output.",
+      "correctAnswer": "C",
+      "choiceC": "Has made a mistake; it should have shut down.",
+      "choiceD": "Is making a profit of Bin 5 per unit of output."
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Which of the following might be considered to be a characteristic feature of a planned economy?",
+      "correctAnswer": "A",
+      "choiceA": "Goods and services produced reflect consumer sovereignty.",
+      "choiceB": "Price is relatively unimportant as a means of allocating resources.",
+      "choiceC": "All income is completely evenly distributed.",
+      "choiceD": "There is no incentive for people to work hard."
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "According to the law of diminishing returns,",
+      "choiceA": "The total product of an input will eventually decline.",
+      "choiceB": "The marginal product of an input will eventually be negative.",
+      "choiceC": "The total product of an input will eventually be negative.",
+      "correctAnswer": "D",
+      "choiceD": "The marginal product of an input will eventually decline."
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "What is the price - quantity pair that clears the market for commodity ",
+      "choiceA": "(30, 60)",
+      "choiceB": "(120, 30)",
+      "choiceC": "(60, 40)",
+      "correctAnswer": "D",
+      "choiceD": "(120,70)"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "The main advantage of quotas as compared to tariffs in the view of policymakers is that the former",
+      "correctAnswer": "A",
+      "choiceA": "Remove the uncertainty about the quantity of imports",
+      "choiceB": "Have the strong support of economists.",
+      "choiceC": "Are less expensive to administer.",
+      "choiceD": "Are easier to get passed in parliament."
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Regarding the financial sector, the policies pursued in the post 19.91 period were different from the Derg regime in that, in the post 1991.",
+      "choiceA": "Exhibited huge government borrowing than Derg regime.",
+      "choiceB": "The government pursued restriction on the number.",
+      "choiceC": "The period was characterized by inefficient use of financial resources by public sector.",
+      "correctAnswer": "D",
+      "choiceD": "Liberalized the financial sector for private investors."
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "Why does the current government focus on the agricultural sector?",
+      "correctAnswer": "A",
+      "choiceA": "Because the larger proportion of the population livelihood is based on the agricultural sector.",
+      "choiceB": "Poverty is largely an urban phenomenon in Ethiopia.",
+      "choiceC": "None of the above.",
+      "choiceD": "Because the strategies undertaken by the previous governments brought about substantial growth and development."
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "When the consumer's marginal rate of substitution (MRSVX) exceeds the ratio of the price of X to the price of Y,",
+      "correctAnswer": "A",
+      "choiceA": "The consumer is maximizing total utility",
+      "choiceB": "The marginal utility per unit of money expenditure on good X exceeds the marginal utility per unit of money expenditure on good Y.",
+      "choiceC": "The consumption bundle chosen by the consumer lies along the price consumption curve.",
+      "choiceD": "The total utility obtained from the consumption of good X exceeds the total utility obtained from the consumption of good Y."
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Economic theory suggest two countries can both benefit from trade even if one country is more efficient at producing everything. What concept describes this theory?",
+      "correctAnswer": "A",
+      "choiceA": "Comparative advantage.",
+      "choiceB": "Production Possibility Frontier.",
+      "choiceC": "Opportunity cost.",
+      "choiceD": "Absolute Advantage"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "In a closed economy without government, private saving is",
+      "correctAnswer": "A",
+      "choiceA": "Always equal to investment.",
+      "choiceB": "The amount of tax revenue that the government has left after paying for its spending.",
+      "choiceC": "The amount of income that households have left after paying their taxes and paying for their consumption.",
+      "choiceD": "The amount of income that businesses have left after paying for the factors of production."
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "The natural rate of unemployment may be increased by",
+      "choiceA": "Expansionary monetary policy",
+      "correctAnswer": "B",
+      "choiceB": "A less competitive environment.",
+      "choiceC": "High tax on profits and investments",
+      "choiceD": "Expansionary fiscal policy."
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Which of the following is not the envisaged objective of the investment proclamation NO. 15/1992?",
+      "choiceA": "Exemption of income tax for foreign investors for some period of time.",
+      "choiceB": "Increasing the supply of goods and services.",
+      "correctAnswer": "C",
+      "choiceC": "Accelerate the living standard of the agrarian society.",
+      "choiceD": "Encouraging and promoting private investment."
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Suppose that an individual consumes 'cola' and pizza'. To reach consumer equilibrium (maximum utility given preferences, prices and income), the individual must consume 'pizza' and 'cola' so that the",
+      "correctAnswer": "A",
+      "choiceA": "Price paid for the two goods is the same.",
+      "choiceB": "Marginal utility of the two goods is the same.",
+      "choiceC": "Ratio of the marginal utility of price is the same for both goods.",
+      "choiceD": "Ratio of the marginal utility of cola to the marginal utility of pizza is one"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "Marginal revenue is the change in revenue that results from a unit change in the product.",
+      "correctAnswer": "A",
+      "choiceA": "output price.",
+      "choiceB": "Variable input.",
+      "choiceC": "Output level.",
+      "choiceD": "fixed cost."
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "To measure the economic growth and living standards for a region, economists should focus on the behavior of the rate of growth of",
+      "choiceA": "Nominal GDP",
+      "choiceB": "Real GDP.",
+      "correctAnswer": "C",
+      "choiceC": "nominal GDP per capita",
+      "choiceD": "real GDP per capita"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Gross domestic product can be measured as the sum of",
+      "choiceA": "Investment, wages, profits, and intermediate production.",
+      "choiceB": "Consumption, investment, government purchases, final goods and services.",
+      "correctAnswer": "C",
+      "choiceC": "Consumption, investment, government purchases, and net export.",
+      "choiceD": "The value of final goods and services, intermediate goods, transfer payments, and rent."
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "In the equation C = a + bY, which describes the aggregate consumption function, 'b' stands for",
+      "choiceA": "The amount of income when consumption is zero.",
+      "choiceB": "The amount of consumption when income is zero.",
+      "correctAnswer": "C",
+      "choiceC": "The marginal propensity to consume.",
+      "choiceD": "The average consumption level."
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "If a retailer plants to increase the price of a product he sells, he must think that",
+      "choiceA": "The good is inferior.",
+      "choiceB": "The price of complements will also increase.",
+      "choiceC": "Demand for the product is price inelastic",
+      "correctAnswer": "D",
+      "choiceD": "Demand for the product is perfectly elastic."
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "Exchange rate between two currencies is defined as",
+      "correctAnswer": "A",
+      "choiceA": "An amount of one currency that must be paid in order to obtain one unit of another currency.",
+      "choiceB": "Ratio of import volume to export volume for a particular Country.",
+      "choiceC": "Difference between total exports and imports of a country.",
+      "choiceD": "Price at which the sales and purchases of foreign goods takes place."
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "Inflation initiated by an increase in wages or other resource prices in labeled as",
+      "choiceA": "Demand- pull inflammation.",
+      "correctAnswer": "B",
+      "choiceB": "Cost-push inflation.",
+      "choiceC": "Demand-push inflation.",
+      "choiceD": "Const-pull inflation"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "An oligopoly is a firm characterized by a small number of firms in an industry that",
+      "choiceA": "Should produce identical goods.",
+      "choiceB": "Have no barriers to entry.",
+      "correctAnswer": "C",
+      "choiceC": "None of the above",
+      "choiceD": "Have interdependence"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Which of the following is a way of testing economic model?",
+      "correctAnswer": "A",
+      "choiceA": "Examining whether assumptions underlying the models are realistic or not.",
+      "choiceB": "Comparing the predictions of the models with real world facts.",
+      "choiceC": "Comparing the description of the models with real world facts.",
+      "choiceD": "Examining whether assumptions underlying eh models are many or few."
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "Devaluation of the domestic currency is expected to",
+      "correctAnswer": "A",
+      "choiceA": "Always deteriorates the balance of payments of the country",
+      "choiceB": "Encourage domestic consumers to buy more of foreign goods.",
+      "choiceC": "Increase the exports of the country.",
+      "choiceD": "Increase the imports of the country."
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "If a firm wants to produce a given amount of output at the lowest possible cost, it should sue resources in such a manner that",
+      "choiceA": "It uses relatively more of the resource with the highest marginal",
+      "correctAnswer": "B",
+      "choiceB": "Each resource has just reached the point of diminishing marginal returns.",
+      "choiceC": "The marginal products per dollar spent on each resource are equal.",
+      "choiceD": "The marginal products of each resource arc equal."
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "What is the own price elasticity of demand at equilibrium? ",
+      "choiceA": "0.9",
+      "choiceB": "0.1",
+      "correctAnswer": "C",
+      "choiceC": "0.75",
+      "choiceD": "0.25 ."
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "If a firm's marginal product of labor is less than its average product of labor, then an increase in the quantity of labor it employs definitely will",
+      "choiceA": "Decrease its marginal product.",
+      "choiceB": "Decrease its average product of labor",
+      "correctAnswer": "C",
+      "choiceC": "Increase its marginal product of labor",
+      "choiceD": "Not change its average product of labor"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "The structure of the industrial sectors of the Ethiopian economy shows that",
+      "correctAnswer": "A",
+      "choiceA": "The cottage/handicraft establishments constitute the largest proportion.",
+      "choiceB": "The largest proportion of the industrial sector is power-driven.",
+      "choiceC": "The small scale industries are the largest in number.",
+      "choiceD": "The medium and large scale establishments constitute the largest proportion."
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "Which of the following best describes the structure of the agricultural sector in Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "Crop production in highland Ethiopia is practiced with livestock production.",
+      "choiceB": "Crop production is largely practiced in the low land of Ethiopia.",
+      "choiceC": "Most farmers practice animal husbandry as the main activity for their livelihood.",
+      "choiceD": "The animal husbandry, fishery and forestry in total contribute more than crop production for the GDP of the country."
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "Assume that at the current output level, a monopolist is earning positive economic profit, has marginal revenue of Birr 7, and a marginal cost of Birr 4. Which of the following is an accurate conclusion with regard to the monopolist's profit? ",
+      "correctAnswer": "A",
+      "choiceA": "The firm could increase its profit by decreasing its output.",
+      "choiceB": "The firm is producing the profit maximizing output.",
+      "choiceC": "The firm could increase its profit by decreasing its price.",
+      "choiceD": "The firm could increase its profit by increasing its price."
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "Transfer payments",
+      "choiceA": "Are included in GDP because goods and services have not been produced in the transfer.",
+      "choiceB": "Are included in GDP because goods and services have been produced in the transfer.",
+      "correctAnswer": "C",
+      "choiceC": "Are included in GDP because they arc forms of income.",
+      "choiceD": "Are not included in the GUP because goods and services have not been produced in the transfer."
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Which of the following is an example of positive economic statement?",
+      "correctAnswer": "A",
+      "choiceA": "Everybody should work hard to improve their living standard.",
+      "choiceB": "If the price of egg increases, people tend to buy less, other things remaining the same.",
+      "choiceC": "It is better if schools introduce new extracurricular activities like helping orphans.",
+      "choiceD": "The new university president is better than the previous one."
+    }
+  ]
+}

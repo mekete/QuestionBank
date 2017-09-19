@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.kerod.android.questionbank.widget.ClipRevealFrame xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/arc_reveal_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/revealBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:visibility="invisible"
+
+    tools:showIn="@layout/content_question_body">
+
+    <com.ogaclejapan.arclayout.ArcLayout
+        android:id="@+id/arc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:arc_axisRadius="@dimen/layout_child_offset_tumblr"
+        app:arc_origin="center"
+        app:arc_radius="@dimen/layout_radius_tumblr">
+
+        <android.support.design.widget.FloatingActionButton
+            app:backgroundTint="@color/colorPrimary"
+
+            android:id="@+id/fab_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_favorite_outline" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_answer"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_check_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_note"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_assignment_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_error"
+            app:backgroundTint="@color/colorPrimary"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_error_outline_32dp" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_share"
+            app:backgroundTint="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_share" />
+
+
+    </com.ogaclejapan.arclayout.ArcLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/center_item"
+        android:layout_width="wrap_content"
+        app:backgroundTint="@color/light_grey"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_close_24dp" />
+
+
+</net.kerod.android.questionbank.widget.ClipRevealFrame>

@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "BIOLOGY G12 2007",
+    "fullName": "EUEE Biology 2007 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "34",
+    "version": "1",
+    "examGivenDate": "Ginbot 2007 June2015"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following step of the scientific method comes before all the rest?",
+      "choiceA": "Hypothesis",
+      "choiceB": "Experiment",
+      "choiceC": "Conclusion",
+      "choiceD": "Reporting the result"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "C",
+      "questionStatement": " What do we call a scientist who specializes in studying insects?",
+      "choiceA": "An ecologist",
+      "choiceB": "A paleontologist",
+      "choiceC": "An entomologist",
+      "choiceD": "A microbiologist"
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "C",
+      "questionStatement": "To which one of the following organic molecules do enzymes belong?",
+      "choiceA": "Carbohydrates",
+      "choiceB": "Amino acids",
+      "choiceC": "Proteins",
+      "choiceD": "Lipids"
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is a coenzyme?",
+      "choiceA": "NAD",
+      "choiceB": "Carbohydrate",
+      "choiceC": "Water molecule",
+      "choiceD": "Protein"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following units of measurement is more convenient to express the size of cellular organelles?",
+      "choiceA": "Meter",
+      "choiceB": "Centimeter",
+      "choiceC": "Millimeter",
+      "choiceD": "Micrometer"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "D",
+      "questionStatement": " Which tool of the biologist is more frequently used to study cell structure in the laboratory?",
+      "choiceA": "Dissecting kit",
+      "choiceB": "Centrifuge",
+      "choiceC": "Petri-dish",
+      "choiceD": "Microscope"
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "C",
+      "questionStatement": " What colour do gram-positive bacteria stain with Gram's stain?",
+      "choiceA": "Red",
+      "choiceB": "Pink",
+      "choiceC": "Purple",
+      "choiceD": "White"
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "B",
+      "questionStatement": " Which group of organisms in the ecosystem release nutrients locked up in dead bodies of organisms?",
+      "choiceA": "Parasites",
+      "choiceB": "Decomposers",
+      "choiceC": "Autotrophs",
+      "choiceD": "Carnivores"
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following are the two major constituents of eukaryotic chromosomes?",
+      "choiceA": "DNA and RNA",
+      "choiceB": "DNA and protein",
+      "choiceC": "DNA and carbohydrate",
+      "choiceD": "RNA and lipid"
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following behavioural biologists is known for his study about imprinting behaviour in animals?",
+      "choiceA": "W. Kohler",
+      "choiceB": "B. F. Skinner",
+      "choiceC": "Ivan Pavlov",
+      "choiceD": "Konrad Lorenz"
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "B",
+      "questionStatement": " Which group of animals has the highest numbers of total and endemic species in Ethiopia?",
+      "choiceA": "Amphibians",
+      "choiceB": "Birds",
+      "choiceC": "Mammals",
+      "choiceD": "Reptiles"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "C",
+      "questionStatement": " What is the molecule that supplies the quickest and suitable source of energy to cells?",
+      "choiceA": "Lactose",
+      "choiceB": "Sucrose",
+      "choiceC": "ATP",
+      "choiceD": "Lipid"
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "B",
+      "questionStatement": " A carbohydrate compound is known to have 12 carbon atoms in the whole molecule. What could this compound be?",
+      "choiceA": "A polypeptide",
+      "choiceB": "A disaccharide",
+      "choiceC": "A monosaccharide",
+      "choiceD": "A polysaccharide"
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "B",
+      "questionStatement": " Among the following organisms, which one belongs to the prokaryotes?",
+      "choiceA": "Paramecium",
+      "choiceB": "Streptococcus",
+      "choiceC": "Spirogyra",
+      "choiceD": "Tapeworm"
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following crops has its centre of origin and diversity in Ethiopia has become a leading international commodity of commerce?",
+      "choiceA": "Teff",
+      "choiceB": "Enset",
+      "choiceC": "Coffee",
+      "choiceD": "Anchote"
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "B",
+      "questionStatement": " Baby ostriches tend to follow the first moving object that they see as they hatch out of the eggs. What kind of animal behaviour does this demonstrate?",
+      "choiceA": "Positive taxis",
+      "choiceB": "Innate behaviour",
+      "choiceC": "Positive kinesis",
+      "choiceD": "Learned behaviour"
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is true about mutations that occur in normal body cells?",
+      "choiceA": "They never lead to cancerous cells.",
+      "choiceB": "They never pass to the next generation.",
+      "choiceC": "They never damage the affected cells.",
+      "choiceD": "There is no way that they kill the affected cells."
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "A",
+      "questionStatement": " What is the process called when two bacteria directly contact cell to cell and exchange their genetic information?",
+      "choiceA": "Conjugation",
+      "choiceB": "Transformation",
+      "choiceC": "Co-transformation",
+      "choiceD": "Transduction"
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "A",
+      "questionStatement": " Why is it that mutations are considered as one of the raw materials of evolution?",
+      "choiceA": "They contribute to new variations in organisms.",
+      "choiceB": "They are usually related to the environment in which they appear.",
+      "choiceC": "They are mostly beneficial to the organism in which they appear.",
+      "choiceD": "They usually become the causes for species extinction."
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is consistent with the understanding of human evolution?",
+      "choiceA": "Bipedalism was never important in human evolution.",
+      "choiceB": "Larger brain size had no contribution to the evolution of the human species.",
+      "choiceC": "Human ancestry had no relation whatsoever with that of the chimpanzees.",
+      "choiceD": "Fossils of Lucy and Ardi provided evidence for human origin."
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "A",
+      "questionStatement": " If certain food stuff gave a positive result with Benedict's test only after it was hydrolyzed with hydrochloric acid, which of the following substances could it be?",
+      "choiceA": "Non-reducing sugar",
+      "choiceB": "Nucleic acid",
+      "choiceC": "Lipid",
+      "choiceD": "protein"
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "A",
+      "questionStatement": " In scientific method, What is the importance of a background research for a given problem?",
+      "choiceA": "To formulate a hypothesis",
+      "choiceB": "To make a prediction,",
+      "choiceC": "To prepare report of the result",
+      "choiceD": "To make a conclusion"
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is <b>NOT</b> true about mitochondria and chloroplasts?",
+      "choiceA": "Both contain chlorophyll",
+      "choiceB": "Both contain nucleic acid",
+      "choiceC": "Both have double membrane",
+      "choiceD": "Both transduce energy"
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following molecules is <b>NOT</b> a polymer?",
+      "choiceA": "Protein",
+      "choiceB": "Lipid",
+      "choiceC": "RNA",
+      "choiceD": "Starch"
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is formulated as a possible outcome of an experiment?",
+      "choiceA": "Hypothesis",
+      "choiceB": "Prediction",
+      "choiceC": "Data analysis",
+      "choiceD": "Recording the data"
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following classes of molecules <b>CANNOT</b> pass easily across the cell membrane by simple diffusion?",
+      "choiceA": "Small non-polar molecules",
+      "choiceB": "Lipid soluble molecules",
+      "choiceC": "Non-polar molecules",
+      "choiceD": "Polar molecules"
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following substances has a shape which is similar to that of the substrate of an enzyme?",
+      "choiceA": "The reaction product",
+      "choiceB": "A competitive inhibitor",
+      "choiceC": "A cofactor",
+      "choiceD": "An allosteric inhibitor"
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "B",
+      "questionStatement": " At which level of structural organization do proteins have the alpha-helix shape?",
+      "choiceA": "Primary structure",
+      "choiceB": "Secondary structure",
+      "choiceC": "Tertiary structure",
+      "choiceD": "Quaternary structure"
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "D",
+      "questionStatement": " Among the following scientists who contributed to the cell theory. Identify the one who stated that '<i>a cell can arise only from another cell like it",
+      "choiceA": "Robert Hooke",
+      "choiceB": "Theodor Schwann",
+      "choiceC": "Matthias Schleiden",
+      "choiceD": "Rudolf Virchow"
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "D",
+      "questionStatement": " What does it mean when biologists express the cell membrane as a unit membrane?",
+      "choiceA": "cell is covered by a single membrane.",
+      "choiceB": "A membrane is only one lipid layer thick.",
+      "choiceC": "All cells have essentially similar membrane.",
+      "choiceD": "A membrane is covered by a single layer of protein."
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following features makes human T-lymphocyte cells more vulnerable to HIV attack? Presence of:",
+      "choiceA": "Cell membrane.",
+      "choiceB": "DNA on the chromosomes.",
+      "choiceC": "CD4 on the membrane surface.",
+      "choiceD": "Pores in the cell membrane."
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following terms refers to how fast an enzyme acts on its substrate?",
+      "choiceA": "Turn over number",
+      "choiceB": "Substrate number",
+      "choiceC": "Enzyme number",
+      "choiceD": "Product number"
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following factors determines the rate at which organelles settle out of cell homogenate if spun in a centrifuge?",
+      "choiceA": "Mass of the organelle.",
+      "choiceB": "Function of the organelle in the cell.",
+      "choiceC": "Location of the organelle in the cell.",
+      "choiceD": "Thickness of the membrane covering the organelle."
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following classes of organic molecules is the least important source of energy for cellular respiration?",
+      "choiceA": "Nucleic acids",
+      "choiceB": "Lipids",
+      "choiceC": "Carbohydrates",
+      "choiceD": "Proteins"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following modes of transport is used by cells to move substances against their concentration gradients?",
+      "choiceA": "Osmosis",
+      "choiceB": "Simple diffusion",
+      "choiceC": "Facilitated diffusion",
+      "choiceD": "Active transport"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is <b>NOT</b> true about instinctive behaviour?",
+      "choiceA": "It can be developed further through learning.",
+      "choiceB": "It is triggered by a key stimulus.",
+      "choiceC": "It has a fixed action pattern.",
+      "choiceD": "It is adaptive for the species."
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "C",
+      "questionStatement": " In which of the following ways do retroviruses differ from other RNA viruses?",
+      "choiceA": "Their genetic material is DNA.",
+      "choiceB": "Their genetic material is RNA.",
+      "choiceC": "They copy RNA to DNA molecule.",
+      "choiceD": "They copy RNA from DNA molecule."
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following groups of micro-organisms does not contain parasitic members?",
+      "choiceA": "Bacteria",
+      "choiceB": "Algae",
+      "choiceC": "Fungi",
+      "choiceD": "Protozoa"
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is <b>NOT</b> the correct characteristic of tropical rainforests?",
+      "choiceA": "Low biodiversity",
+      "choiceB": "High temperature",
+      "choiceC": "Heavy precipitation",
+      "choiceD": "Trees of different heights"
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following processes has a decreasing effect on the concentration of atmospheric carbon dioxide?",
+      "choiceA": "Cellular respiration",
+      "choiceB": "Combustion of fossil fuels",
+      "choiceC": "Decomposition of dead organisms",
+      "choiceD": "Photosynthesis"
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "C",
+      "questionStatement": " For what purpose do molecular biologists use the technology known as polymerase chain reaction or PCR?",
+      "choiceA": "To insert DNA into plasmids.",
+      "choiceB": "To insert plasmid into bacteria.",
+      "choiceC": "To multiply copies of DNA molecule.",
+      "choiceD": "To produce DNA from RNA."
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "C",
+      "questionStatement": " What is the long term primary effect of the current tree planting activities that Ethiopia is undertaking?",
+      "choiceA": "It will protect from harmful solar rays.",
+      "choiceB": "It will increase the global temperature.",
+      "choiceC": "It will reduce the atmospheric CO<sub>2</sub>.",
+      "choiceD": "It will mend the holes in the ozone layer."
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "C",
+      "questionStatement": " Suppose when you first enter a room you notice an unpleasant smell which you eventually forget about its presence, what is this behaviour called?",
+      "choiceA": "Latent learning",
+      "choiceB": "Insight learning",
+      "choiceC": "Habituation",
+      "choiceD": "Operant conditioning"
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an evolutionary requirement for two sub-populations of a species to evolve into independent species?",
+      "choiceA": "Free exchange of genes",
+      "choiceB": "Geographic isolation",
+      "choiceC": "Free migration between populations",
+      "choiceD": "Absence of natural selection"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "A",
+      "questionStatement": " From evolutionary point of view, which of the following animals is expected to have haemoglobin proteins that are least similar to that of human?",
+      "choiceA": "Ape",
+      "choiceB": "Cow",
+      "choiceC": "Chicken",
+      "choiceD": "Frog"
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "D",
+      "questionStatement": " Which element is found in nucleic acids?",
+      "choiceA": "Calcium",
+      "choiceB": "Iron",
+      "choiceC": "Magnesium",
+      "choiceD": "Phosphorus"
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "D",
+      "questionStatement": " From where do plants get most of their nutrients?",
+      "choiceA": "Chlorophyll",
+      "choiceB": "Soil",
+      "choiceC": "Light",
+      "choiceD": "Atmosphere"
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "B",
+      "questionStatement": " What do you call a group of genetically identical plants produced by vegetative reproduction?",
+      "choiceA": "Family",
+      "choiceB": "Clone",
+      "choiceC": "Hybrid",
+      "choiceD": "Genus"
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "D",
+      "questionStatement": " What is the base found in RNA in place of thymine of DNA?",
+      "choiceA": "Cytosine",
+      "choiceB": "Guanine",
+      "choiceC": "Thymine",
+      "choiceD": "Uracil"
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "B",
+      "questionStatement": " What does a restriction enzyme do?",
+      "choiceA": "Restricts transcription",
+      "choiceB": "Cuts DNA at specific sites",
+      "choiceC": "Prevents DNA from replicating",
+      "choiceD": "Hydrolyzes the DNA molecule"
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following is the smallest of all?",
+      "choiceA": "A red blood cell",
+      "choiceB": "A virus",
+      "choiceC": "A bacterium",
+      "choiceD": "An amoeba"
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "D",
+      "questionStatement": " What is the ultimate source of all scientific knowledge?",
+      "choiceA": "Observation",
+      "choiceB": "Guessing",
+      "choiceC": "Trial and error",
+      "choiceD": "Observation and experimentation"
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "B",
+      "questionStatement": " The optimum temperature of enzymes found in thermophilic bacteria is:",
+      "choiceA": "lower than for enzymes in the human body.",
+      "choiceB": "higher than enzymes in the human body.",
+      "choiceC": "the same as enzymes found in human body.",
+      "choiceD": "lower than enzymes found in warm blooded animals."
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "B",
+      "questionStatement": " A cow was found to yield much higher milk than any of the breeds of the parental cattle. What could be the most probable reason for this?",
+      "choiceA": "Dominant genes",
+      "choiceB": "Hybrid vigour",
+      "choiceC": "Recessive genes",
+      "choiceD": "Co-dominance genes"
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "B",
+      "questionStatement": " The most complex structure of proteins is called",
+      "choiceA": "Primary structure",
+      "choiceB": "Secondary structure",
+      "choiceC": "Primary structure",
+      "choiceD": "Quaternary structure"
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "B",
+      "questionStatement": " Which are the four most abundant elements in living cells?",
+      "choiceA": "Carbon, oxygen, sulfur, phosphorus.",
+      "choiceB": "Carbon, oxygen, hydrogen, nitrogen.",
+      "choiceC": "Carbon, oxygen, nitrogen, sulfur.",
+      "choiceD": "Carbon, oxygen. Sulfur, magnesium."
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "C",
+      "questionStatement": " When the F1 hybrid of a monohybrid cross is back crossed with the homozygous recessive parent, what percentage of the offspring would be homozygous recessive?",
+      "choiceA": "0%",
+      "choiceB": "25%",
+      "choiceC": "50%",
+      "choiceD": "75%"
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is an inorganic molecule?",
+      "choiceA": "CaCO<sub>3</sub>",
+      "choiceB": "CH<sub>4</sub>",
+      "choiceC": "C<sub>6</sub>H<sub>22</sub>O<sub>11</sub>",
+      "choiceD": "C<sub>18</sub>H<sub>36</sub>O<sub>2</sub>"
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following expression is more related to the phrase survival of the fittest?",
+      "choiceA": "Natural selection",
+      "choiceB": "Mendelian inheritance",
+      "choiceC": "Gene mutation",
+      "choiceD": "Inheritance of acquired characteristics"
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "B",
+      "questionStatement": " In the formation of a macromolecule, what type of reaction would join two subunits together?",
+      "choiceA": "Hydrolysis reaction",
+      "choiceB": "Dehydration reaction",
+      "choiceC": "Denaturation reaction",
+      "choiceD": "Hydrophobic reaction"
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "B",
+      "questionStatement": " What did Francesco Redi prove through his scientific experiment?",
+      "choiceA": "Maggots appear spontaneously on foods placed anywhere.",
+      "choiceB": "Maggots do not appear in foods kept in jars that are protected with a cover.",
+      "choiceC": "Maggots do not appear in foods kept in open jars.",
+      "choiceD": "Flies appear spontaneously on rotting meat kept in closed or open jars alike."
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following shows the feeding method of decomposers?",
+      "choiceA": "Saprobiotic nutrition",
+      "choiceB": "Autotrophic nutrition",
+      "choiceC": "Parasitic nutrition",
+      "choiceD": "Intracellular digestion"
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "C",
+      "questionStatement": " What happens when the carrying capacity of an ecosystem is reached?",
+      "choiceA": "Excretory product accumulates and population numbers increase.",
+      "choiceB": "Population numbers decline rapidly.",
+      "choiceC": "Population numbers remain more or less constant.",
+      "choiceD": "Resources are plentiful and populations shoot up."
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "A",
+      "questionStatement": " In which industrial products is pyruvate fermentation by yeast practically applied?",
+      "choiceA": "Brewing beer",
+      "choiceB": "Swiss cheese making",
+      "choiceC": "Production of vinegar",
+      "choiceD": "Yoghurt making"
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "C",
+      "questionStatement": " To which group of organic compounds do the triglycerides and waxes belong?",
+      "choiceA": "Carbohydrates",
+      "choiceB": "Proteins",
+      "choiceC": "Lipids",
+      "choiceD": "Vitamins"
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "D",
+      "questionStatement": " What does an ethologist study?",
+      "choiceA": "Insect diets",
+      "choiceB": "Soil types",
+      "choiceC": "Fossil fuel",
+      "choiceD": "Animal behaviour"
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "C",
+      "questionStatement": " Which one the following is a biotic factor operating within an ecosystem?",
+      "choiceA": "The amount of helium gas in the air",
+      "choiceB": "The rate of flow of water in a river",
+      "choiceC": "The carnivores that consume other animals",
+      "choiceD": "The type of climate in a given region"
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "C",
+      "questionStatement": " When athletes take part in short distance running, how do the cells generate most of the energy that is quickly needed?",
+      "choiceA": "Aerobic respiration in muscle cells.",
+      "choiceB": "Mitochondrial respiration in any cell.",
+      "choiceC": "Anaerobic respiration in muscle cells.",
+      "choiceD": "Yeast fermentation in the stomach."
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "B",
+      "questionStatement": " What do you call the reasoning technique in science where general principles are used to analyse specific cases?",
+      "choiceA": "Induction",
+      "choiceB": "Deduction",
+      "choiceC": "Pseudo-deduction",
+      "choiceD": "Pseudo-induction"
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "C",
+      "questionStatement": " If a substance that weighs 2,000 grams and has a half-life of 100 years is left with only 250 grams, for how long has the radioactive decaying activity been undergoing?",
+      "choiceA": "200 years",
+      "choiceB": "250 years",
+      "choiceC": "300 years",
+      "choiceD": "500 years"
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following will primarily happen if the enzymes in the lysosomes of a cell are defective?",
+      "choiceA": "Cellular debris will not be removed",
+      "choiceB": "Chromosome replication will cease",
+      "choiceC": "ATP production will stop",
+      "choiceD": "Diffusion process will stop"
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is true about all proteins?",
+      "choiceA": "They are twenty amino acids long.",
+      "choiceB": "They are globular in shape.",
+      "choiceC": "They perform the same function.",
+      "choiceD": "The monomers are held together by peptide bonds."
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the properties of water allows mosquito larvae to hung themselves dawn into the water from the water surface?",
+      "choiceA": "Its high specific heat capacity",
+      "choiceB": "Its high latent heat of vaporization",
+      "choiceC": "Its high surface tension",
+      "choiceD": "Its low density in solid state"
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following properties of enzymes makes it possible that a single enzyme molecule can act on many substrate molecules?",
+      "choiceA": "Enzymes are proteins",
+      "choiceB": "Enzymes lower the energy of activation",
+      "choiceC": "Enzymes are reused over and over again",
+      "choiceD": "Enzymes are substrate specific"
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "D",
+      "questionStatement": " If the rate of an enzyme catalysed reaction remains constant even when more substrate is added to the reaction, which of the following might be the reason?",
+      "choiceA": "Saturation of the enzyme",
+      "choiceB": "Inactivation of the enzyme",
+      "choiceC": "Inhibition of enzyme-substrate complex formation",
+      "choiceD": "Loss of substrate specificity by the enzyme"
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "D",
+      "questionStatement": " Which stage in the life cycle of HIV is disrupted if AIDS patients are treated with a drug that has a protease inhibiting activity?",
+      "choiceA": "Entry of the virus into the host.",
+      "choiceB": "Conversion of viral RNA to DNA.",
+      "choiceC": "Integration of viral DNA into host DNA.",
+      "choiceD": "Assembly of viral parts into whole virus."
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "A",
+      "questionStatement": " Of the following four cells whose surface area to volume ratio is given, which cell can more efficiently transport its needs of materials across the cell surface?",
+      "choiceA": "24 : 8 ratio",
+      "choiceB": "54 : 27 ratio",
+      "choiceC": "96 : 64 ratio",
+      "choiceD": "150 : I25 ratio"
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "B",
+      "questionStatement": " Cells immediately use the energy that electrons lose as they pass along the chain of electron carriers to:",
+      "choiceA": "produce ATP",
+      "choiceB": "pump protons",
+      "choiceC": "spin the rotor of ATP synthase",
+      "choiceD": "reduce NAD"
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is a routine method used by clinics to test people for HIV infection?",
+      "choiceA": "Microscopic examination for the virus.",
+      "choiceB": "Counting the number of white blood cells.",
+      "choiceC": "Testing for human anti-HIV antibody.",
+      "choiceD": "Measuring the amount of haemoglobin."
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "D",
+      "questionStatement": " The T-lymphocyte cells of AIDS patients are destroyed by:",
+      "choiceA": "multiplication of HIV inside the cell",
+      "choiceB": "infection of opportunistic organisms",
+      "choiceC": "the immune system of the host organism itself",
+      "choiceD": "the CD4 receptors on the cell surface"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "C",
+      "questionStatement": " Suppose a fossil initially contains 100,000 atoms of a certain radioactive element whose half life is 10,000 years, after how many years would the number of the atoms be 12500?",
+      "choiceA": "Ten thousand years",
+      "choiceB": "Twenty thousand years",
+      "choiceC": "Thirty thousand years",
+      "choiceD": "Forty thousand years"
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "D",
+      "questionStatement": " The following are Simpsom's index of species diversity calculated for four areas containing the same types of species. Which index value is from the area dominated relatively by a fewer number of species?",
+      "choiceA": "8.00",
+      "choiceB": "6.00",
+      "choiceC": "3.5",
+      "choiceD": "2.5"
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following happens in both cyclic and non-cyclic photophosphorilation?",
+      "choiceA": "ATP is formed",
+      "choiceB": "Oxygen is generated",
+      "choiceC": "NADP is reduced",
+      "choiceD": "water molecule splits"
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is <b>NOT</b> a tree characteristic of the populations of most the developing countries of the world?",
+      "choiceA": "High fertility rate",
+      "choiceB": "Increasing population size",
+      "choiceC": "More number of old people than young people",
+      "choiceD": "Birth rate greater than mortality rate"
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is <b>NOT</b> true about the nature of the first form of organisms on earth? They were:",
+      "choiceA": "prokaryotic",
+      "choiceB": "unicellular",
+      "choiceC": "aerobic",
+      "choiceD": "anaerobic"
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "B",
+      "questionStatement": " Choose the step that comes at the last step in the scientific method.",
+      "choiceA": "Proposing the research hypothesis",
+      "choiceB": "Formulation of a scientific theory",
+      "choiceC": "Conducting experiments",
+      "choiceD": "Making predictions"
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is <b>NOT</b> true about C4 plants such as tef(Eragrostis tef)?",
+      "choiceA": "CO<sub>2</sub> is harvested during the night tire",
+      "choiceB": "The bundle sheath cells contain chloroplasts.",
+      "choiceC": "Light-dependent reaction occurs in mesophyll cells.",
+      "choiceD": "Chloroplasts of bundle sheath cells lack thylakoids."
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "C",
+      "questionStatement": " What is the reason that plants do not use nitrogen directly from the atmosphere",
+      "choiceA": "Nitrogen concentration is low in the atmosphere.",
+      "choiceB": "The molecular size of nitrogen is too large to pass through the stomata",
+      "choiceC": "Nitrogen can enter plants only through the root hairs.",
+      "choiceD": "Plants lack the necessary process to use elementary nitrogen."
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "C",
+      "questionStatement": " What does the fermentation of glucose by yeast normally yield?",
+      "choiceA": "Lactic acid, CO<sub>2</sub> and 2 ATP",
+      "choiceB": "CO<sub>2</sub>, H<sub>2</sub>O and 36 ATP",
+      "choiceC": "Alcohol, CO<sub>2</sub> and 2 ATP",
+      "choiceD": "Alcohol, CO<sub>2</sub> and 36 ATP"
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "A",
+      "questionStatement": "  Which of the following came first in the course of organic evolution ? ",
+      "choiceA": "Photosynthetic organisms",
+      "choiceB": "Free oxygen in the atmosphere",
+      "choiceC": "Land plants",
+      "choiceD": "Multicellular organisms"
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "C",
+      "questionStatement": " Which two nitrogenous bases belong to the purines?",
+      "choiceA": "Adenine and thymine",
+      "choiceB": "Adenine and guanine",
+      "choiceC": "Guanine and cytosine",
+      "choiceD": "Thymine and uracil"
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true?",
+      "choiceA": "Recessive alleles are only expressed in the homogygote.",
+      "choiceB": "Dominant alleles are expressed only in the heterozygote.",
+      "choiceC": "Recessive alleles are expressed in the heterozygote.",
+      "choiceD": "Genetically modified organisms are never used to manufacture vaccines."
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following is a functional group of a fatty acid?",
+      "choiceA": "A ketone group",
+      "choiceB": "An aldehyde group",
+      "choiceC": "An amino group",
+      "choiceD": "A carboxyl group"
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following is an example of an orientational innate behaviour?",
+      "choiceA": "Kineses in woodlice",
+      "choiceB": "Blinking of the eyes",
+      "choiceC": "Sudden withdrawal of limbs from hot object",
+      "choiceD": "Nest building by weaver birds"
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "C",
+      "questionStatement": " Which hormone promotes human sleepfulness in darkness and controls the sleep-wake cycle?",
+      "choiceA": "Insulin",
+      "choiceB": "Adrenaline",
+      "choiceC": "Melatonin",
+      "choiceD": "Thyroxine"
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "B",
+      "questionStatement": " In Pavlov's experiment on the classical conditioning of dogs, what does the reaction of the dogs to the sound of the bell represent?",
+      "choiceA": "The conditioned stimulus",
+      "choiceB": "The conditioned response",
+      "choiceC": "The unconditioned stimulus",
+      "choiceD": "The unconditioned response"
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "D",
+      "questionStatement": " What is the purpose of the infoldings of the inner-membrane of the mitochondrion?",
+      "choiceA": "Increasing the photosynthetic capacity of the cell.",
+      "choiceB": "Speeding up the loss of CO<sub>2</sub> during fermentation.",
+      "choiceC": "Speeding up the process of glycolysis.",
+      "choiceD": "Increasing the surface area for ATP production."
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is a worthwhile biological problem for scientific investigation?",
+      "choiceA": "Estimation of the amount of carbon in a forest ecosystem.",
+      "choiceB": "How a crying dog can tell who among elders of the Village is going to die next.",
+      "choiceC": "How witchcrafts inflict bad health by cursing a healthy person",
+      "choiceD": "How the traditional medicine men/women cure a possessed person."
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following biomes of the Earth has the greatest diversity of species?",
+      "choiceA": "Deciduous forest",
+      "choiceB": "Tropical rain forest",
+      "choiceC": "Desert",
+      "choiceD": "Tundra"
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "D",
+      "questionStatement": " One of the following is true about bacteriophages that have lysogenic life cycle.",
+      "choiceA": "They are RNA Viruses",
+      "choiceB": "They integrate their nucleic acid in to that of the host",
+      "choiceC": "They multiply in the host immediately after infection",
+      "choiceD": "Progeny Viruses are released by chronic release method"
+    }
+  ]
+}

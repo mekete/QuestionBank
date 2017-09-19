@@ -1,0 +1,692 @@
+{
+  "examSummary": {
+    "iconChar": "E",
+    "iconUrl": "www.google.ca",
+    "shortName": "ECONOMICS G12 2003",
+    "fullName": "ESLCE Economics Exam 2003 For Grade 12",
+    "grade": "12",
+    "subject": "Economics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "75",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2003 June 2011"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "Which of the following statements is true about the determinants of price elasticity of demand?",
+      "correctAnswer": "A",
+      "choiceA": "Demand for a good is elastic overtime as people adjust their consumption habits.",
+      "choiceB": "The smaller the proportion of income spent on that good, the more price elastic is the demand for that good.",
+      "choiceC": "Elasticity decreases with the availability of substitutes.",
+      "choiceD": "The demand for necessities tend to be less elastic."
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Suppose that a production process shows increasing returns to scale. If a producer wants to increase his/her output by 30%, he/she needs to increase all his/her inputs by",
+      "correctAnswer": "A",
+      "choiceA": "any percent",
+      "choiceB": "more than 30%",
+      "choiceC": "exactly 30%",
+      "choiceD": "less than 30%"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "When the relative costs for commodities are different between countries, a basis for beneficial trade exists. This situation describes the principle of ____________",
+      "correctAnswer": "A",
+      "choiceA": "economic growth",
+      "choiceB": "absolute advantage",
+      "choiceC": "comparative advantage",
+      "choiceD": "equilibrium"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "Which of the following statements correctly describes the consumption and saving linkage of the household?",
+      "choiceA": "if marginal propensity to consume( MPB) rises marginal propensity to save (MPS) must necessarily fall.",
+      "choiceB": "If the average propensity to consumer of a household is 0.80, the average propensity to save for the same household can be 0.40.",
+      "correctAnswer": "C",
+      "choiceC": "If the marginal propensity to consume of a household is 0.80, the marginal propensity to save for the same household ban be 0.40.",
+      "choiceD": "Increase in the income of a household has a negative influence on both consuming and saving behavior of the household."
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "At a given level of wheat output, one more unit of labor would produce 10 extra kilograms, and one more unit of seed would produce 30 extra kilograms. A unit of labor costs Birr 6, and a unit of seed costs Birr 12. The farmer should ___________",
+      "choiceA": "not change his inputs",
+      "choiceB": "buy less seed and more labor",
+      "correctAnswer": "C",
+      "choiceC": "buy more seed and less labor",
+      "choiceD": "produce less wheat"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which of the following is a measure of external stability of the Ethiopian economy, as a percentage of Gross Domestic Product (GDP)?",
+      "choiceA": "Gross capacity formation ratio.",
+      "correctAnswer": "B",
+      "choiceB": "The current account deficit.",
+      "choiceC": "Household savings ratio.",
+      "choiceD": "The budget deficit."
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "An outward shift in the production possibility curve indicates one of following",
+      "choiceA": "Reduction in the availability of economic resources.",
+      "correctAnswer": "B",
+      "choiceB": "Improvement in the efficiency of production.",
+      "choiceC": "Decline in the quality of economic resources.",
+      "choiceD": "Deterioration in technology."
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "The government of Ethiopian can decrease inflationary pressure in the Ethiopian economy by",
+      "choiceA": "increasing government spending",
+      "choiceB": "increasing taxation.",
+      "choiceC": "depreciating the Ethiopian Bin",
+      "choiceD": "financing budget deficit though money creation"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "The low performance of the agricultural sector in Ethiopia is NOT attributed to ___________",
+      "choiceA": "land degradation and unpredictable weather condition",
+      "choiceB": "uncontrolled population growth",
+      "choiceC": "the use improved seeds and fertilizers",
+      "correctAnswer": "D",
+      "choiceD": "lack of conducive agricultural land policy"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "If the value of the Bin in other currencies rises, the________",
+      "correctAnswer": "A",
+      "choiceA": "Spending on the Ethiopian exports in foreign currency will fall if demand for the Ethiopian exports is price elastic",
+      "choiceB": "Spending on the Ethiopian exports in foreign currency will rise if demand is price elastic",
+      "choiceC": "Spending on the Ethiopian exports in Birr must rise",
+      "choiceD": "demand for the Ethiopian exports will rise"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "To find its profit - maximizing output level, a firm should produce that level of output which equates",
+      "choiceA": "AVC and MC",
+      "choiceB": "TFC and TVC",
+      "correctAnswer": "C",
+      "choiceC": "MC and MR",
+      "choiceD": "AFC and AVC"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "Which one of the following is NOT true about the tourism sector development policies of the Federal Democratic Republic of Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "Allowing duty free importation of equipment and goods used to construct hotels and other facilities that improve access to tourist attraction areas.",
+      "choiceB": "Making local communities to benefit from proceeds obtained from tourists who visited attraction resources.",
+      "choiceC": "Giving less attention to the role of private tour operators in enhancing development of the tourism sector.",
+      "choiceD": "Making land available free of lease or at lower rate for investors who plan to invest in tourist attraction areas."
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "Which one of the following statements is NOT true about the Ethiopian agricultural sector?",
+      "choiceA": "Crop production is dominant in the low lands of the country.",
+      "choiceB": "It is characterized by land holding per household less than one hectare.",
+      "correctAnswer": "C",
+      "choiceC": "It is dominated by crop and livestock production.",
+      "choiceD": "Its provides livelihoods for the majority of Ethiopians."
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "What is the difference between GDP and GNP?",
+      "choiceA": "GNP does not account for depreciation",
+      "correctAnswer": "B",
+      "choiceB": "GNP includes indirect taxes, but GDP does not.",
+      "choiceC": "GNP includes net factor income from abroad.",
+      "choiceD": "GNP does not include government transfer payments, but GDP does."
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Keeping other things constant, the law of demand states that:",
+      "choiceA": "there is a direct relationship between tile price of a good and its demand.",
+      "correctAnswer": "B",
+      "choiceB": "there is an inverse relationship between quantity demanded of a good and its own price.",
+      "choiceC": "there is an inverse relationship between quantity demanded of a good and price of any related good.",
+      "choiceD": "there is an inverse relationship between quantity demanded of a good and prices of its substitutes."
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "Which of the following is true regarding the health sector in Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "The health of EPRDF implements prevention oriented health strategy.",
+      "choiceB": "The health personnel in Ethiopia is increasing from time to time due to lucrative payment system.",
+      "choiceC": "The impact of HIV/AIIDS on the economy is well documented.",
+      "choiceD": "Much of ill health in Ethiopia is related to obesity."
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "Which one the following occurs when the marginal propensity to consume (MPæ increases?",
+      "correctAnswer": "A",
+      "choiceA": "The value of the multiplier decreases and the equilibrium level of income rises.",
+      "choiceB": "The value of the multiplier increases and the equilibrium level of income falls.",
+      "choiceC": "The value of the multiplier decreases and the equilibrium level of income falls.",
+      "choiceD": "The value of the multiplier increases and the equilibrium level of income rises."
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Which of the following statements is NOT true about the transport and communication sector of Ethiopia?",
+      "choiceA": "It is one of the important sectors in enhancing socio-economic development of the country.",
+      "correctAnswer": "B",
+      "choiceB": "It has been under the state control since the 1950s.",
+      "choiceC": "It is underdeveloped and unevenly distributed across different parts of the country.",
+      "choiceD": "It is categorized under the distributive services."
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "All of the following are likely to improve Ethiopia's international competitiveness EXCEPT___________",
+      "choiceA": "export diversification and promotion",
+      "correctAnswer": "B",
+      "choiceB": "depreciation of the Ethiopian Birr against major foreign currencies",
+      "choiceC": "appreciation of the Ethiopian Birr against major foreign currencies",
+      "choiceD": "implementation of the structural change in the economy"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "A movement towards free international trade is most likely to generate short-term unemployment in which industries of the Ethiopian economy?",
+      "choiceA": "Industries in which there are neither imports nor exports.",
+      "choiceB": "Import-competing industries.",
+      "correctAnswer": "C",
+      "choiceC": "Industries that sell to only foreign buyers.",
+      "choiceD": "Industries that sell to domestic and foreign buyers."
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Abebe consumes two goods: X and Y . All other things remaining the same, an increase in Abebe's income increases the demand for good X and decreases the demand for good Y. What conclusion do you draw from this?",
+      "choiceA": "Abebe's demand curve for good X shifts to the left and that of V to the right.",
+      "choiceB": "There is no change in Abebe's demand curves for both goods, X and Y.",
+      "choiceC": "Good X must be inferior and good Y must be a normal.",
+      "correctAnswer": "D",
+      "choiceD": "Good X must be normal and good Y must be inferior."
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "In the long run, both average cost and marginal cost are U-shaped due to ________",
+      "correctAnswer": "A",
+      "choiceA": "economies and diseconomies of scale",
+      "choiceB": "decreasing marginal product of labor",
+      "choiceC": "scarcity of economic resources",
+      "choiceD": "the law of variable proportion"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "Which one of the following is NOT a major macroeconomic objective of the Ethiopian government?",
+      "choiceA": "A high level of employment.",
+      "choiceB": "Low and stable inflation.",
+      "correctAnswer": "C",
+      "choiceC": "A fall in the price of crude oil.",
+      "choiceD": "Sustained economic growth."
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "Which of the following is true with regards to the production-cost linkage?",
+      "choiceA": "When Average Product (AP) is rising, Marginal Cost (MC) is above Average Variable Cost (AVC).",
+      "correctAnswer": "B",
+      "choiceB": "Marginal Cost (MC) has an inverse has an inverse relationship with Average Product (AP)",
+      "choiceC": "Marginal Cost (MC) equals Average Variable Cost (AVC) when AVC is rising.",
+      "choiceD": "MC=W (1/MP), where MC is marginal cost and MP marginal product and W represents wage rate"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Which one is NOT a correct statement about perfectly competitive market?",
+      "choiceA": "There is no information asymmetry between buyers and sellers.",
+      "choiceB": "The price elasticity of demand is infinite.",
+      "choiceC": "There is a strong price competition among sellers.",
+      "correctAnswer": "D",
+      "choiceD": "There are many buyers and sellers of a homogenous product in the market."
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "Which one of the following' monetary policies has NOT been used by the Ethiopian government since the 1992/93 economic reforms?",
+      "choiceA": "Setting overall regulations on lending and deposit rates.",
+      "correctAnswer": "B",
+      "choiceB": "open market operations.",
+      "choiceC": "Exchange rate policy such as auction of foreign currencies.",
+      "choiceD": "Discriminatory interest rate policies."
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "The gains from economic integration include the following EXCEPT",
+      "correctAnswer": "A",
+      "choiceA": "macroeconomic policy integration and factor movements among countries",
+      "choiceB": "increase in output due to exploitation of scale economies",
+      "choiceC": "increase in market size and improvement in efficiency",
+      "choiceD": "product specialization and decline in economic growth"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "The own price elasticity of supply at the equilibrium is _______ ",
+      "choiceA": "1.5",
+      "choiceB": "0.25",
+      "choiceC": "1",
+      "correctAnswer": "D",
+      "choiceD": "2"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "The government of Ethiopia has emphasized the agricultural sector in its development strategies and policies. One of the benefits of putting resources into agricultural projects is that:",
+      "choiceA": "successful agricultural projects produce surplus food to support urban development.",
+      "choiceB": "agricultural investment will prevent the flight of capital abroad.",
+      "correctAnswer": "C",
+      "choiceC": "agricultural projects usually have very low import requirements.",
+      "choiceD": "export prices of agricultural products are more stable than those of industry."
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Real salaries have increased while nominal salaries have remained the same. What can be inferred from this?",
+      "choiceA": "unemployment has decreased.",
+      "correctAnswer": "B",
+      "choiceB": "prices have fallen.",
+      "choiceC": "prices have risen.",
+      "choiceD": "prices have remained stagnant."
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "The share of service sector in the Gross Domestic Product (GDP) of Ethiopia has been the_______________",
+      "correctAnswer": "A",
+      "choiceA": "largest compared to all other sectors",
+      "choiceB": "second largest next to agricultural sector",
+      "choiceC": "third largest next to agricultural and industrial sectors",
+      "choiceD": "least compared to all other sectors"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "An increase in domestic debt by the government indicates all of the following EXCEPT the _________",
+      "choiceA": "increase in real cost of borrowing",
+      "correctAnswer": "B",
+      "choiceB": "increase in people's confidence in the government",
+      "choiceC": "reduction in real credit available to the private sector",
+      "choiceD": "government is financing it's expenditure using its own revenue"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "Monopolistic competitors and perfect competitors are similar in one of the following features.",
+      "choiceA": "Having horizontal demand curves.",
+      "choiceB": "Zero economic profit in the short run.",
+      "choiceC": "Zero economic profit in the long run.",
+      "correctAnswer": "D",
+      "choiceD": "Relying on advertising to attract buyers to their products."
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Total cost increases from Birr 500 to Birr 600 when output increases from 20 to 30 units. Fixed costs are Bin 200. Which of the following is true?",
+      "correctAnswer": "A",
+      "choiceA": "Average variable cost rises by Birr 10.",
+      "choiceB": "Total variable cost rises by Birr 100.",
+      "choiceC": "Average fixed cost is Bin 10.",
+      "choiceD": "Average cost is rising."
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "Which of the following is true about fixed exchange rates?",
+      "correctAnswer": "A",
+      "choiceA": "Central banks need to intervene in order to maintain the fixed exchange rate.",
+      "choiceB": "it is neither completely fixed nor completely left to the market.",
+      "choiceC": "Fixed exchange rates are allowed to fluctuate in response to market forces.",
+      "choiceD": "IT is maintained by the demand and supply for currency."
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "A monopoly is characterized by the average cost AC =Q14 and the marginal cost MC=Q/2, where Q is the quantity produced. The demand for the monopoly good is Q= 10 - p , where p is price. The pair of optimal quantity and price of the profit- maximizing monopoly is",
+      "choiceA": "(20/3, 10/3)",
+      "choiceB": "(5,5)",
+      "choiceC": "(4.4,5.5)",
+      "correctAnswer": "D",
+      "choiceD": "(4 , 6)"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "Suppose the government decides to collect a sales tax of Bin 2 per unit. The market equilibrium price-quantity pair is: ",
+      "correctAnswer": "A",
+      "choiceA": "(1,20)",
+      "choiceB": "(3, 60,000)",
+      "choiceC": "(4, 80,000)",
+      "choiceD": "(4, 40,000)"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "In drawing a farmers supply curve of maize, all hut one of the following is kept constant; which one?",
+      "choiceA": "Technology.",
+      "correctAnswer": "B",
+      "choiceB": "price of maize.",
+      "choiceC": "Prices of inputs.",
+      "choiceD": "Features of nature such as climate change."
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "The difference between explicit and implicit costs is that:",
+      "correctAnswer": "A",
+      "choiceA": "explicit costs are short run costs and implicit costs are long run costs.",
+      "choiceB": "explicit costs are associated with variable resources and implicit costs with fixed resources.",
+      "choiceC": "implicit costs are opportunity cost explicit costs are not.",
+      "choiceD": "explicit costs are costs of resources hired by the firm and implicit costs are those of resources owned by the firm or provided by the firms owners."
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Unemployment means that _________________",
+      "choiceA": "there is excess demand for workers in the job market",
+      "choiceB": "people are not willing to work at the going wage rate",
+      "choiceC": "there is no forgone output in the economy",
+      "correctAnswer": "D",
+      "choiceD": "at the going wage rate, there are people who want to work but cannot find work"
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "The statement : ' If taxes on gasoline increase, consumption will decrease,'  is an example of a",
+      "choiceA": "conservative statement",
+      "choiceB": "normative statement",
+      "correctAnswer": "C",
+      "choiceC": "Possible statement",
+      "choiceD": "macroeconomic statement"
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "Which of the following is true regarding the national development objectives and strategies of different political regimes in Ethiopia?",
+      "choiceA": "The strategies of the EPRDF programme include the establishment of state farms.",
+      "correctAnswer": "B",
+      "choiceB": "The imperial of regime discouraged private ownership of the factors of production.",
+      "choiceC": "The sound economic policy of the  Derg regime resulted in satisfactory economic performance.",
+      "choiceD": "The EPRDF programme recognizes the inter linkage between improvement in people's welfare, and peace and security."
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Which of the following statements is FALSE with regards to the role of investment in economic growth?",
+      "choiceA": "Investment enhances the accumulated capital.",
+      "choiceB": "Investment enhances the productive capacity of a country.",
+      "choiceC": "With increase in investment, the capital-labor ratio in the production process is expected to decline.",
+      "correctAnswer": "D",
+      "choiceD": "Investment today raises the stream of output in the future."
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "Which of the following statements is a correct feature of indifference curves?",
+      "choiceA": "Utility varies across different points on the same indifference curve.",
+      "choiceB": "The marginal rate of substitution (MRS) on the same indifference curve is constant over different baskets.",
+      "choiceC": "On the same indifference curve, if the consumption of one good increases consumption of the other good must necessarily decline.",
+      "correctAnswer": "D",
+      "choiceD": "Two indifference curves can intersect."
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "Suppose a producer is able to separate customers into two groups, one having an inelastic demand and the other having an elastic demand. ii the producers objective is to increase total revenue, he/she should",
+      "choiceA": "increase the price charged for both customers with elastic demand and inelastic demand along the demand curve.",
+      "correctAnswer": "B",
+      "choiceB": "decrease the price charged for both customers with elastic demand and inelastic demand as long the demand curve.",
+      "choiceC": "increase the price charged to customers with the elastic demand and decrease the price charged to customers with the inelastic demand.",
+      "choiceD": "decrease the price charged to customers with the elastic demand and increase the price charged to customers with the inelastic demand."
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "Establishment of large scale commercial farms and development of package projects were strongly associated with the agricultural sector policy of the___________",
+      "correctAnswer": "A",
+      "choiceA": "both the Imperial period and the  Derg  regime.",
+      "choiceB": "pre-1974 of the Imperial period",
+      "choiceC": "post 1991 or EPRDF regime",
+      "choiceD": "Derg regime"
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "Which of the following group of manufacturing sub-sectors account for the significant share of industrial sector value-added and employment creation in Ethiopia?",
+      "choiceA": "Food and beverage, textiles and wood and furniture.",
+      "choiceB": "Food and beverage, textiles and metals.",
+      "correctAnswer": "C",
+      "choiceC": "Food and beverage, chemicals and non-metals.",
+      "choiceD": "Food and beverage, textiles and leather and foot wears."
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Which one of the following statements is NOT true about the Ethiopian economy?",
+      "choiceA": "The share of government spending on the pro-poor sectors has been increasing.",
+      "correctAnswer": "B",
+      "choiceB": "The share of public spending on infrastructure has been rising over the last ten years.",
+      "choiceC": "The share of total population living under absolute poverty has been declining at the same rate both in urban and rural areas over the last ten years.",
+      "choiceD": "The growth of the Ethiopian economy has been accompanied by inflationary pressure over the last few years."
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "Among the arguments given for industrial sector development, the linkage argument refers to _________",
+      "choiceA": "the creation of more job opportunities in the economy",
+      "choiceB": "generation of foreign currency by exporting more",
+      "choiceC": "the use of local raw materials and creation of interactions among various sectors in the economy",
+      "correctAnswer": "D",
+      "choiceD": "the high profit margins obtained by the industrial sector due its linkage to the agricultural sector"
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "A production function describes the technical relationship between________________",
+      "choiceA": "marginal product and marginal costs",
+      "correctAnswer": "B",
+      "choiceB": "inputs and outputs",
+      "choiceC": "marginal revenue and marginal costs",
+      "choiceD": "fixed costs and variable costs"
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "Which one of the following is correct effect of inflation on the economy?",
+      "choiceA": "Savers may benefit from inflation.",
+      "choiceB": "people with holdings of assets will be better off.",
+      "correctAnswer": "C",
+      "choiceC": "Investment decisions can be undertaken easily.",
+      "choiceD": "Inflation redistributes income from flexible income owners to fixed income owners."
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "Which of the following is NOT true about the manufacturing sector in Ethiopia?",
+      "choiceA": "It faces strong competition from cheap imports.",
+      "choiceB": "It lacks marketing information in both local and export markets.",
+      "correctAnswer": "C",
+      "choiceC": "It dominated by food and beverages, textile and non metallic minerals.",
+      "choiceD": "It faces strong domestic demand for its products."
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "Why do price floors tend to cause persistent imbalances in the market?",
+      "choiceA": "Quantity demanded exceeds quantity supplied, but price cannot fall to remove the surplus.",
+      "correctAnswer": "B",
+      "choiceB": "Quantity supplied exceeds quantity demanded, but price cannot fall to remove the surplus.",
+      "choiceC": "Quantity demanded exceeds quantity supplied, but price cannot rise to remove the shortage.",
+      "choiceD": "Quantity supplied exceeds quantity demanded, but price cannot rise to remove the shortage."
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "In general, federal and regional income taxes in Ethiopia tend to be",
+      "choiceA": "flat",
+      "correctAnswer": "B",
+      "choiceB": "progressive",
+      "choiceC": "regressive",
+      "choiceD": "proportional"
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "All of the following policies can be used by the Ethiopian government to improve the  supply side  economic performance and increase the rate of economic growth EXCEPT______________",
+      "choiceA": "the opening of markets to enhance competitions",
+      "choiceB": "the introduction of minimum wage",
+      "correctAnswer": "C",
+      "choiceC": "extra investment in labor training schemes",
+      "choiceD": "the reduction in the rate of income tax to boost labor supply"
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "Which of the following best describes the effect of an import tariff?",
+      "correctAnswer": "A",
+      "choiceA": "Increase in the price of imported goods and a rise in government revenue.",
+      "choiceB": "High import prices and decreased domestic production of the good.",
+      "choiceC": "Reduce price of the imported item and thus increased imports in to the country.",
+      "choiceD": "Increased competition between domestic and foreign producers."
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "Suppose the demand for oranges sold from one roadside stand in Hawassa is elastic. This fact means that a 7 percent increase in the price charged by the owner of this stand would lead to a _____________",
+      "choiceA": "greater than 7 percent decrease in the quantity demanded at this stand.",
+      "correctAnswer": "B",
+      "choiceB": "greater than 7 percent increase in the quantity demanded at this stand.",
+      "choiceC": "less than 7 percent increase in the quantity demanded at this stand.",
+      "choiceD": "less than 7 percent decrease in the quantity demanded at this stand."
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "The industrial development strategies during the  Derg regime are characterized by:",
+      "choiceA": "strong institutional and other supportive measures to boost the development of small scale and handicraft enterprises.",
+      "choiceB": "import substitution and giving support to private sector investment.",
+      "correctAnswer": "C",
+      "choiceC": "low borrowing interest rate to public enterprises and cooperatives.",
+      "choiceD": "encouraging the private ownership of medium and large scale enterprises."
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "The fundamental goal of economics is to ______________",
+      "correctAnswer": "A",
+      "choiceA": "learn how to redistribute income and eliminate poverty",
+      "choiceB": "reduce unemployment so that lower welfare payments are necessary",
+      "choiceC": "study the allocation of resources under scarcity",
+      "choiceD": "make sure that everyone eats three times a day"
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "Investment is__________________",
+      "choiceA": "a withdrawal that has no effects on aggregate demands",
+      "correctAnswer": "B",
+      "choiceB": "an injection that increases aggregate demand",
+      "choiceC": "an injection that decreases aggregate demand",
+      "choiceD": "a withdrawal that increases aggregate demand"
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "The market equilibrium price-quantity pair is _________ ",
+      "choiceA": "(2, 40,000)",
+      "correctAnswer": "B",
+      "choiceB": "(3,60,000)",
+      "choiceC": "(4, 80,000)",
+      "choiceD": "(0.55, 10.91)"
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "When rising oil prices lead to overall inflation in the Ethiopian economy, this is an example",
+      "choiceA": "demand-pull inflation",
+      "choiceB": "deflation",
+      "choiceC": "cost-push inflation",
+      "correctAnswer": "D",
+      "choiceD": "hyperinflation"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "A primary reason why nations conduct international trade is:",
+      "correctAnswer": "A",
+      "choiceA": "resources are not equally distributed to all trading nations.",
+      "choiceB": "some nations prefer to produce one thing while others produce another.",
+      "choiceC": "interest rates are not identical in all trading nations.",
+      "choiceD": "trade enhances opportunities to accumulate profit."
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "In the two-sector circular flow model, are the demanders in the____________ markets.",
+      "choiceA": "firms, product",
+      "correctAnswer": "B",
+      "choiceB": "households, product",
+      "choiceC": "governments, product",
+      "choiceD": "households, resource"
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "Supose a competitive firm has an average fixed cost (AEC) of Birr 200 at 8 units of output and an average variable cost (AVC) of Birr 150 at 16 units of output. If the market price is Birr 550 per units, what will be the per unit profit (in Birr) of the firm at 16 unit of output?",
+      "choiceA": "250",
+      "choiceB": "4000",
+      "correctAnswer": "C",
+      "choiceC": "2500",
+      "choiceD": "300"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "Suppose that the National Bank of Ethiopia enters the open market and purchases Birr 100 million of government bonds from the general public. This purchase will__________",
+      "choiceA": "eventually increase the banking system's reserves, the monetary base, and the system's lending capacity",
+      "choiceB": "eventually cause a decrease in the price of bonds on the market, and the banking system's lending capacity to decline",
+      "correctAnswer": "C",
+      "choiceC": "cause bank reserves to decline, the monetary base to fall, and the banking system's lending capacity to decline",
+      "choiceD": "cause bank reserves to decline, the monetary base to fall, and the banking system's lending capacity to decline"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "When a consumer's income increases,_________",
+      "choiceA": "the budget line of the consumer shifts to the left",
+      "choiceB": "the slope of the budget line changes",
+      "choiceC": "if the two goods consumed are normal, demand for both goods increases",
+      "correctAnswer": "D",
+      "choiceD": "purchasing power of the consumer's income is not affected"
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "The revenue side of the Ethiopian government's annual budget is composed of __________",
+      "choiceA": "recurrent budget and capital budget",
+      "correctAnswer": "B",
+      "choiceB": "ordinary revenue, external assistance and capital revenue",
+      "choiceC": "administrative and general services, economic and social services",
+      "choiceD": "economic, social and general development"
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "Stagflation is a combination of ____________",
+      "choiceA": "increasing unemployment and increasing inflation",
+      "choiceB": "decreasing unemployment and decreasing inflation",
+      "choiceC": "increasing unemployment and decrease inflation",
+      "correctAnswer": "D",
+      "choiceD": "decreasing unemployment and increasing inflation"
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "Which one of the following statements is NOT true?",
+      "correctAnswer": "A",
+      "choiceA": "Unemployment rate in rural Ethiopia is greater than that of its urban areas.",
+      "choiceB": "About 30 percent of the Ethiopian total population were urban dwellers in 2007.",
+      "choiceC": "In Ethiopia, the young dependence ratio is less than the old dependence ratio.",
+      "choiceD": "In Ethiopia, rural-urban migration is due to both push and pull factors."
+    },
+    {
+      "questionNumber": 71,
+      "questionStatement": "The structural adjustment polices in the post 1991 period of Ethiopia refer to________________",
+      "choiceA": "deliberate revaluation of the exchange rate",
+      "choiceB": "restructuring institutions to increase competitiveness and efficiency through command economic system",
+      "correctAnswer": "C",
+      "choiceC": "imposition of quantitative import restrictions",
+      "choiceD": "expenditure reducing policies like controlling the expansion of credit in the economy"
+    },
+    {
+      "questionNumber": 72,
+      "questionStatement": "The gains from economic integration include the following EXCEPT_______",
+      "choiceA": "macroeconomic policy integration and factor movements among countries",
+      "correctAnswer": "B",
+      "choiceB": "product specialization and decline in economic growth",
+      "choiceC": "increase in market size and improvement in efficiency",
+      "choiceD": "increase in output due to exploitation of scale economies"
+    },
+    {
+      "questionNumber": 73,
+      "questionStatement": "The interaction of aggregate demand and aggregate supply determines____________",
+      "choiceA": "exchange rate, general price level and interest rate",
+      "choiceB": "government expenditure, investment and net exports",
+      "choiceC": "general price level, output and employment",
+      "correctAnswer": "D",
+      "choiceD": "money supply, interest rate and government expenditure."
+    },
+    {
+      "questionNumber": 74,
+      "questionStatement": "Which of the following is the most accurate statement about economic models?",
+      "choiceA": "Economic models cannot be used in the real world because they omit details.",
+      "choiceB": "Economic models omit many details to allow us to see what is considered as important.",
+      "choiceC": "Economic models are useful, but should not be used for policymaking.",
+      "correctAnswer": "D",
+      "choiceD": "Economic models attempt to mirror reality exactly."
+    },
+    {
+      "questionNumber": 75,
+      "questionStatement": "Household consumption expenditure is influenced negatively by both___________",
+      "choiceA": "The Level of personal income and income tax",
+      "correctAnswer": "B",
+      "choiceB": "The level of household indebtedness and income tax",
+      "choiceC": "The amount of household wealth and household size.",
+      "choiceD": "Consumer's expectation of prices and consumer's income"
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "BIOLOGY GRADE 12, 2006",
+    "fullName": "Biology exam 2016 Ethiopian AAA",
+    "grade": "10",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "31",
+    "version": "1",
+    "examGivenDate": "June 2013"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following steps in the scientific method comes following observation?",
+      "choiceA": "Prediction",
+      "choiceB": "Hypothesis",
+      "choiceC": "Experiment",
+      "choiceD": "Theory"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "B",
+      "questionStatement": " The main component of the plant cell wall is _______________?",
+      "choiceA": "Starch",
+      "choiceB": "Cellulose",
+      "choiceC": "Protein",
+      "choiceD": "Chitin"
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following classes of enzymes digests carbohydrates?",
+      "choiceA": "Amylases",
+      "choiceB": "Lipases",
+      "choiceC": "Proteases",
+      "choiceD": "Nucleases"
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following kingdoms of life is consisting of prokaryotic organisms?",
+      "choiceA": "Fungi",
+      "choiceB": "Monera",
+      "choiceC": "Protista",
+      "choiceD": "Plantae"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "B",
+      "questionStatement": " Which component of soil fertility is improved when farmers grow legumes in crop rotation?",
+      "choiceA": "Phosphorus",
+      "choiceB": "Nitrogen",
+      "choiceC": "Sulfur",
+      "choiceD": "Carbon"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "D",
+      "questionStatement": " Before making crosses, which part of the flower did Mendel remove to avoid self pollination?",
+      "choiceA": "Stigma",
+      "choiceB": "Ovule",
+      "choiceC": "Ovary",
+      "choiceD": "Stamens"
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following do bees use to inform other bees about the location and distance of a new source of nectar they discover?",
+      "choiceA": "Pheromones",
+      "choiceB": "Waggle dance",
+      "choiceC": "Buzzing noise",
+      "choiceD": "Vibration of wings"
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "A",
+      "questionStatement": " One of the following molecules is the building units of an enzyme molecule.",
+      "choiceA": "Amino acids",
+      "choiceB": "Glucose",
+      "choiceC": "Nucleotides",
+      "choiceD": "Fatty acids"
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following is the main constituent of biological membranes?",
+      "choiceA": "Phospholipids",
+      "choiceB": "Glycoproteins",
+      "choiceC": "Glycolipids",
+      "choiceD": "Cholesterols"
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "C",
+      "questionStatement": " One of the following biomes in Africa is supporting large wild mammals such as elephants, giraffes and lions.",
+      "choiceA": "The Congo Rainforest",
+      "choiceB": "The Rain Forest of Western Ethiopia",
+      "choiceC": "The Savanna Grassland",
+      "choiceD": "The Sahara Desert"
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is the correct F<sub>2</sub> phenotypic ratio of a monohybrid cross?",
+      "choiceA": "1:2",
+      "choiceB": "1:1",
+      "choiceC": "3:1",
+      "choiceD": "2:2"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "B",
+      "questionStatement": " How many carbon atoms are there in one disaccharide molecule?",
+      "choiceA": "6",
+      "choiceB": "12",
+      "choiceC": "18",
+      "choiceD": "24"
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "A",
+      "questionStatement": " Which unit is best to use for measuring the smallest cells and organelles?",
+      "choiceA": "Micrometre",
+      "choiceB": "Mililitre",
+      "choiceC": "Milimetre",
+      "choiceD": "Nanometre"
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "D",
+      "questionStatement": " Which energy rich organic compound contains adenine in its molecule?",
+      "choiceA": "Lipid",
+      "choiceB": "Carbohydrate",
+      "choiceC": "Glucose",
+      "choiceD": "ATP"
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "A",
+      "questionStatement": " What are the most frequent causative agents of food poisoning?",
+      "choiceA": "Bacteria",
+      "choiceB": "Protozoa",
+      "choiceC": "Viruses",
+      "choiceD": "Worms"
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "D",
+      "questionStatement": " What are the most likely causes of variations within species?",
+      "choiceA": "Mitosis and asexual reproduction",
+      "choiceB": "Overpopulation and overproduction",
+      "choiceC": "Vegetative propagation and cloning",
+      "choiceD": "Mutations and sexual reproduction"
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "B",
+      "questionStatement": " In which hominid species did scientists find the smallest brain size(cranial capacity)?",
+      "choiceA": "<i>Homo sapiens</i>",
+      "choiceB": "<i>Homo habilis</i>",
+      "choiceC": "<i>Homo erectus</i>",
+      "choiceD": "<i>Homo neanderthalensis</i>"
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is NOT classified as a learned behaviour?",
+      "choiceA": "Insight",
+      "choiceB": "Innate",
+      "choiceC": "Latent",
+      "choiceD": "Conditioned"
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "C",
+      "questionStatement": " What is the specialist in biology called if he/she studies fossils to generate new knowledge on the origin and evolution of living things of past geologic periods?",
+      "choiceA": "Geneticist",
+      "choiceB": "Ecologist",
+      "choiceC": "Paleontologist",
+      "choiceD": "Comparative Biochemist"
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "C",
+      "questionStatement": " All proteins contain carbon, hydrogen, oxygen and what other element?",
+      "choiceA": "Chlorine",
+      "choiceB": "Fiourine",
+      "choiceC": "Nitrogen",
+      "choiceD": "Sulphur"
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "B",
+      "questionStatement": " What makes unsaturated fatty acids different from saturated fatty acids?",
+      "choiceA": "The presence of long chain of carbon.",
+      "choiceB": "The presence of one or more double bonds.",
+      "choiceC": "The presence of large number of hydrogen atoms.",
+      "choiceD": "Their occurrence as solid at room temperature."
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following pairs of molecules are known to have catalytic activity?",
+      "choiceA": "Lipids and proteins",
+      "choiceB": "Carbohydrates and proteins",
+      "choiceC": "Proteins and RNAs",
+      "choiceD": "Proteins and DNAs"
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "B",
+      "questionStatement": " If a suspension of a mixture of cellular organelles is spun in a centrifuge, which organelle settles to the bottom first?",
+      "choiceA": "Mitochondria",
+      "choiceB": "Nuclei",
+      "choiceC": "Chloroplasts",
+      "choiceD": "Ribosomes"
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "B",
+      "questionStatement": " During chemiosmosis, what substance diffuses from one side to the other side of the membrane?",
+      "choiceA": "Water molecules",
+      "choiceB": "Protons",
+      "choiceC": "Electrons",
+      "choiceD": "ATP molecules"
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following human diseases can be prevented by taking proper diets?",
+      "choiceA": "Degenerative diseases",
+      "choiceB": "Genetic diseases",
+      "choiceC": "Social diseases",
+      "choiceD": "Deficiency diseases"
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "C",
+      "questionStatement": " When two species are compared, which of the following sources of evidence is least informative about the degree of relationships between the species?",
+      "choiceA": "Nucleotide sequence of DNAs",
+      "choiceB": "Amino acid sequences of proteins",
+      "choiceC": "Glucose sequence of polysaccharides",
+      "choiceD": "DNA-DNA hybridization"
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following practices does NOT normally transmit HIV?",
+      "choiceA": "Sexual intercourse through anus",
+      "choiceB": "Sharing injection needles",
+      "choiceC": "Blood transfusion",
+      "choiceD": "Shaking hands"
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "B",
+      "questionStatement": " What is the important role played by microorganisms such as bacteria and fungi in the ecosystem?",
+      "choiceA": "Antibiotic production",
+      "choiceB": "Recycling of nutrients",
+      "choiceC": "Forming organic substances",
+      "choiceD": "Supplying energy to the ecosystem"
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "D",
+      "questionStatement": " In which one of the following aspects is the tropical rainforest biome poor?",
+      "choiceA": "Species diversity",
+      "choiceB": "Amount of sunlight",
+      "choiceC": "Annual precipitation",
+      "choiceD": "Soil fertility"
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "C",
+      "questionStatement": " If the size of a cell increases, which one of the following gets smaller?",
+      "choiceA": "The volume of the cell",
+      "choiceB": "The surface area of the cell",
+      "choiceC": "Surface area to volume ratio of the cell",
+      "choiceD": "Volume to surface area ratio of the cell"
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is NOT usually true as an ecological succession progresses to advanced seral stages?",
+      "choiceA": "More ecological niches are formed",
+      "choiceB": "Species become more diverse",
+      "choiceC": "The depth of the soil increases",
+      "choiceD": "Less populations are supported"
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "D",
+      "questionStatement": " One of the following is an important cause of gene mutation.",
+      "choiceA": "Old age",
+      "choiceB": "Alcoholic drinks",
+      "choiceC": "Smoking",
+      "choiceD": "Radiation"
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "A",
+      "questionStatement": " What is the reproductive isolating mechanism called if two species of frogs do not interbreed because they cannot understand the mating calls of one another?",
+      "choiceA": "Seasonal isolation",
+      "choiceB": "Behavioral isolation",
+      "choiceC": "Temporal isolation",
+      "choiceD": "Isolation by distance"
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "A",
+      "questionStatement": " How many chromosomes do humans inherit from each of their parents?",
+      "choiceA": "23 chromosomes",
+      "choiceB": "23 pairs of chromosomes",
+      "choiceC": "46 chromosomes",
+      "choiceD": "46 pairs of chromosomes"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "C",
+      "questionStatement": " In which one of the four phases of population growth is the number of the population the highest?",
+      "choiceA": "Lag phase",
+      "choiceB": "Log Phase",
+      "choiceC": "Constant phase",
+      "choiceD": "Decline phase"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is NOT true about the gene called SRY?",
+      "choiceA": "It is found on the Y-chromosome.",
+      "choiceB": "It determines maleness.",
+      "choiceC": "Testes develop in its presence.",
+      "choiceD": "Females have two copies of this gene."
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "C",
+      "questionStatement": " To which of the following groups do those bacteriophages that integrate their DNA into the chromosome of their bacterial host belong?",
+      "choiceA": "Virulent viruses",
+      "choiceB": "Lytic viruses",
+      "choiceC": "Lysogenic viruses",
+      "choiceD": "Non-parasitic viruses"
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "B",
+      "questionStatement": " What do we call the learned behaviour if a mouse that had just escaped from the mouth of a cat jumped violently at a slight touch by a trivial object?",
+      "choiceA": "Latent learning",
+      "choiceB": "Sensitization",
+      "choiceC": "Conditioning",
+      "choiceD": "Imprinting"
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following theories explains evolutionary changes of living things in terms of changes in their allele frequencies?",
+      "choiceA": "Darwin's natural selection",
+      "choiceB": "Spontaneous generation",
+      "choiceC": "Inheritance of acquired characteristics",
+      "choiceD": "Neo-Darwinism"
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an important function of the Golgi apparatus?",
+      "choiceA": "Protein synthesis",
+      "choiceB": "Packaging of proteins for export out of the cell",
+      "choiceC": "Removing of debris from cell",
+      "choiceD": "Storage of waste materials not needed by the cell"
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following field equipment is used to determine an exact location of a place?",
+      "choiceA": "Theodolite",
+      "choiceB": "Global positioning system",
+      "choiceC": "Field microscope",
+      "choiceD": "Field pH kit"
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "C",
+      "questionStatement": " The sheep 'dolly' is an example of which biotechnological manipulation of animals by human?",
+      "choiceA": "Transgenic animal",
+      "choiceB": "Genetically engineered animal",
+      "choiceC": "Cloned animal",
+      "choiceD": "Hybrid animal"
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "D",
+      "questionStatement": " Among the following, which one is the best criterion to show that two populations belong to same species?",
+      "choiceA": "Morphological similarity",
+      "choiceB": "Physiologically similarity",
+      "choiceC": "Inhabiting the same geographic area",
+      "choiceD": "Production of fertile offspring"
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": " In the process of the evolution of life on earth, which of the following four processes evolved last?",
+      "choiceA": "Photosynthesis",
+      "choiceB": "Aerobic respiration",
+      "choiceC": "Chemosynthesis",
+      "choiceD": "Photo-autotrophism"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "C",
+      "questionStatement": " What is a theory in biology?",
+      "choiceA": "The outcome of an experiment",
+      "choiceB": "A proof that shows the hypothesis is true",
+      "choiceC": "A hypothesis supported by experiments and/or observations",
+      "choiceD": "An opinion or educated guess resulting from observations"
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "A",
+      "questionStatement": " For which of the following is a theodolite used in biology education?",
+      "choiceA": "Measuring the height of trees.",
+      "choiceB": "Recording positions where a species is found.",
+      "choiceC": "Measuring the rate of flow of water in a cell.",
+      "choiceD": "Measuring the pH of water or soil."
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "B",
+      "questionStatement": " What is the name of the sugar found in milk?",
+      "choiceA": "Glucose",
+      "choiceB": "Lactose",
+      "choiceC": "Maltese",
+      "choiceD": "Sucrose"
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "C",
+      "questionStatement": " To which class of enzymes do the digestive enzymes belong?",
+      "choiceA": "Esterases",
+      "choiceB": "Transferases",
+      "choiceC": "Hydrolases",
+      "choiceD": "lsomerases"
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "A",
+      "questionStatement": " In which of the following features are eukaryotic cells distinguished from prokaryotic cells?",
+      "choiceA": "They have mitochondria.",
+      "choiceB": "Their nuclei lack membranes.",
+      "choiceC": "They have no DNA.",
+      "choiceD": "They have smaller ribosomes."
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "C",
+      "questionStatement": " What will happen if human red blood cells are kept in a hypotonic solution?",
+      "choiceA": "Lose water by osmosis and burst.",
+      "choiceB": "Lose water by osmosis and shrink.",
+      "choiceC": "Take in water by osmosis, swell and burst.",
+      "choiceD": "Take in water by osmosis, swell and remain turgid."
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "B",
+      "questionStatement": " In which type of solution is the water potential more negative than in the cells?",
+      "choiceA": "Hypotonic",
+      "choiceB": "Hypertonic",
+      "choiceC": "Isotonic",
+      "choiceD": "Equal solute and solvent concentration"
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following paired organelles are membrane-bound?",
+      "choiceA": "Rihosomes and peroxisomes",
+      "choiceB": "Chloroplasts and ribosomes",
+      "choiceC": "Mitochondria and ribosomes",
+      "choiceD": "Chloroplasts and mitochondria"
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "A",
+      "questionStatement": " Most cell membranes are primarily composed of which compounds?",
+      "choiceA": "Proteins and lipids",
+      "choiceB": "DNA and ATP",
+      "choiceC": "Chitin and starch",
+      "choiceD": "Nucleotides and amino acids"
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "B",
+      "questionStatement": " Which group of micro-organisms causes the disease known as athlete's foot?",
+      "choiceA": "Bacteria",
+      "choiceB": "Fungi",
+      "choiceC": "Protozoa",
+      "choiceD": "Viruses"
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "C",
+      "questionStatement": " Choose the one that is different from all the others.",
+      "choiceA": "Genetically modified organisms",
+      "choiceB": "Genetically engineered organisms",
+      "choiceC": "Pathogenic organisms",
+      "choiceD": "Transgenic organisms"
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "B",
+      "questionStatement": " Under which of the following groups can the fungi be more conveniently placed?",
+      "choiceA": "Autotrophs",
+      "choiceB": "Heterotrophs",
+      "choiceC": "Prokaryotes",
+      "choiceD": "Plants"
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "C",
+      "questionStatement": " What is the type of community called when it has reached the final and most complex stage of a succession?",
+      "choiceA": "Pioneer Community",
+      "choiceB": "Seral Community",
+      "choiceC": "Climax Community",
+      "choiceD": "Secondary Community"
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is an ecosystem?",
+      "choiceA": "A Tropical Rainforest",
+      "choiceB": "The African continent",
+      "choiceC": "All the organisms in a given area",
+      "choiceD": "The non-living components of an environment"
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following crops is considered to be the best choice for a better balance of essential amino acids as a human diet?",
+      "choiceA": "Maize",
+      "choiceB": "Quinoa",
+      "choiceC": "Rice",
+      "choiceD": "Wheat"
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "C",
+      "questionStatement": " What is the main reason for the high species richness of plants and mammals observed in Ethiopia?",
+      "choiceA": "Lack of predators",
+      "choiceB": "Lack of disturbance",
+      "choiceC": "Presence of several biomes within the country",
+      "choiceD": "Effcient management of the ecological resources"
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "D",
+      "questionStatement": " In which of the following are flowers and fruits found?",
+      "choiceA": "Ferns and relatives",
+      "choiceB": "Gymnosperms and ferns",
+      "choiceC": "Mosses and conifers",
+      "choiceD": "Monocots and dicots"
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "A",
+      "questionStatement": " In a cross between heterozygotes what proportion is expected to be homozygous recessive?",
+      "choiceA": "25%",
+      "choiceB": "50%",
+      "choiceC": "75%",
+      "choiceD": "100%"
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "C",
+      "questionStatement": " Gene silencing is the function of one of the following molecules.",
+      "choiceA": "dsRNA",
+      "choiceB": "mRNA",
+      "choiceC": "siRNA",
+      "choiceD": "tRNA"
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "A",
+      "questionStatement": " Which process is held responsible for chronic myelogenous leukemia?",
+      "choiceA": "Translocation",
+      "choiceB": "Translation",
+      "choiceC": "Transcription",
+      "choiceD": "Duplication"
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "D",
+      "questionStatement": " Two parents of genotype Aa are cross-bred. The alleles show complete dominance. What proportion of the offspring will phenotypioally look like their parents?",
+      "choiceA": "0",
+      "choiceB": "1/4",
+      "choiceC": "1/2",
+      "choiceD": "3/4"
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following concepts contains all the others?",
+      "choiceA": "Species",
+      "choiceB": "Genus",
+      "choiceC": "Population",
+      "choiceD": "Community"
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "A",
+      "questionStatement": " Choose the one that is <b>NOT</b> a requirement of all living things.",
+      "choiceA": "Ability to think",
+      "choiceB": "Organization of parts",
+      "choiceC": "Response to the stimuli",
+      "choiceD": "Maintenance of internal constancy"
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "D",
+      "questionStatement": " What is the advantage of using HAART (highly active anti- retroviral therapy) for the treatment of HIV?",
+      "choiceA": "It gives a lasting immunity to HIV,",
+      "choiceB": "It prevents mutation of HIV.",
+      "choiceC": "It prevents reinfection by HIV.",
+      "choiceD": "It helps to break the life cycle of HIV."
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following characteristics can show the evolutionary relationships among organisms?",
+      "choiceA": "Structures having similar functions",
+      "choiceB": "Structures having same size",
+      "choiceC": "Structures having common origin",
+      "choiceD": "Structures having different origins"
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "D",
+      "questionStatement": " The group of the Ethiopian wolf which does <b>NOT</b> contribute to territory marking with their urine containing pheromones is",
+      "choiceA": "Adult males",
+      "choiceB": "Adult females",
+      "choiceC": "Sub-adult males",
+      "choiceD": "Sub-adult females"
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "D",
+      "questionStatement": " What can one conclude about the contents of the foodstuff if a mixture of Benedict solution and a foodstuff remain blue after heating?",
+      "choiceA": "It contains proteins.",
+      "choiceB": "It lacks starch.",
+      "choiceC": "It contains fats.",
+      "choiceD": "It lacks reducing sugar."
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following types of enzyme inhibitions can be removed when the end product of the metabolic pathway is depleted?",
+      "choiceA": "Allosteric inhibition",
+      "choiceB": "Non-reversible inhibition",
+      "choiceC": "Competitive inhibition",
+      "choiceD": "Reversible competitive inhibition"
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "C",
+      "questionStatement": " If red blood cells shrink when placed in a certain solution, what is the strength of the solution relative to the strength of the protoplasm of the cells?",
+      "choiceA": "Hypotonic",
+      "choiceB": "Isotonic",
+      "choiceC": "Hypertonic",
+      "choiceD": "Isoosmotic"
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is <b>NOT</b> true about photosystem-II?",
+      "choiceA": "Its reaction center molecule is P680.",
+      "choiceB": "It passes its excited electrons to Photosystem-I.",
+      "choiceC": "The energy lost from its excited electrons reduces NADP.",
+      "choiceD": "It replenishes its lost electrons from photolysis of water."
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "A",
+      "questionStatement": " On which one of the following principles are most of the anti-HIV drugs currently in use working?",
+      "choiceA": "Inhibition of enzyme action",
+      "choiceB": "Degradation of Viral RNA",
+      "choiceC": "Digesting of Viral particles",
+      "choiceD": "Phagocytosis of the virus"
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "A",
+      "questionStatement": " Among the following mating, where the ABO blood genotypes of the partners are shown, identify the mating in which all the children will have the same blood type.",
+      "choiceA": "AO x BO",
+      "choiceB": "AA x OO",
+      "choiceC": "AB x BO",
+      "choiceD": "BB x AO"
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "B",
+      "questionStatement": " If a new mutant allele arises in a certain population, which of the following factors determines if the allele is going to be adaptive or non-adaptive?",
+      "choiceA": "The environment in which the population lives.",
+      "choiceB": "The rate at which the gene mutates.",
+      "choiceC": "The population in which the gene is found.",
+      "choiceD": "The use and disuse of the gene by the population."
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is the correct route that connects a stimulus and a response?",
+      "choiceA": "Receptor &rarr; coordinator &rarr; effector",
+      "choiceB": "Coordinator &rarr; receptor &rarr; effector",
+      "choiceC": "Receptor &rarr; effector &rarr; coordinator",
+      "choiceD": "Effector &rarr; receptor &rarr; coordinator"
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following contents RNA differs from DNA?",
+      "choiceA": "Deoxyribose and guanine",
+      "choiceB": "Ribose and uracil",
+      "choiceC": "Ribose and thymine",
+      "choiceD": "Phosphate and adenine"
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following cell types can be rich in lysosomes?",
+      "choiceA": "Red blood cells",
+      "choiceB": "Nerve cells",
+      "choiceC": "Phagocytic cells",
+      "choiceD": "Muscle cells"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "B",
+      "questionStatement": " What is the importance of chemiosmosis in photosynthesis and cellular respiration?",
+      "choiceA": "Splitting of water molecule",
+      "choiceB": "Operating the proton pump",
+      "choiceC": "Combining hydrogen and carbon",
+      "choiceD": "Synthesizing ATP"
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "C",
+      "questionStatement": " If the age pyramid of a certain country is narrowing at the base, what does this tell about the trend of the population size of the country? The population size is:",
+      "choiceA": "declining.",
+      "choiceB": "growing fast",
+      "choiceC": "increasing slowly.",
+      "choiceD": "stabilising."
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "C",
+      "questionStatement": " Suppose the amino acid coding region in a mRNA is 1200 nucleotides long, how long is the protein in terms of amino acid number?",
+      "choiceA": "1200 amino acids",
+      "choiceB": "600 amino acids",
+      "choiceC": "400 amino acids",
+      "choiceD": "300 amino acids"
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "B",
+      "questionStatement": " If a new anti-HIV drug is to be developed to prevent the virus from entering the host cell, which one of the following processes should the drug target?",
+      "choiceA": "Reverse transcription",
+      "choiceB": "Binding of Gp120 and CD4",
+      "choiceC": "Integration of viral DNA into host DNA",
+      "choiceD": "Assembly of viral parts into a whole Virus"
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following factors is <b>NOT</b> important for evolutionary change of a population?",
+      "choiceA": "Over reproduction",
+      "choiceB": "Insufficiency of natural resources",
+      "choiceC": "Existence of heritable variation",
+      "choiceD": "Survival of all that are born"
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "D",
+      "questionStatement": " One of the following would be harder to see under the ordinary light microscope that is more likely to be available in school laboratories.",
+      "choiceA": "Nucleus",
+      "choiceB": "A bacterium",
+      "choiceC": "A mitochondrion",
+      "choiceD": "A ribosome"
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "C",
+      "questionStatement": " In some human liver cells there are 92 chromosomes per cell. What is the ploidy level of such cells?",
+      "choiceA": "Haploid",
+      "choiceB": "Diploid",
+      "choiceC": "Tetraploid",
+      "choiceD": "Hexaploid"
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following groups of substances are all inorganic?",
+      "choiceA": "Water, sugar, calcium carbonate",
+      "choiceB": "Sugar, fatty acid, amino acid",
+      "choiceC": "Water, calcium carbonate, carbon dioxide",
+      "choiceD": "Carbon dioxide, amino acid, fatty acid"
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "B",
+      "questionStatement": " In which of the following compounds are both members of the pair are polymers Of carbohydrates that naturally occur in plants only?",
+      "choiceA": "Starch and chitin",
+      "choiceB": "Starch and cellulose",
+      "choiceC": "Glycogen and cellulose",
+      "choiceD": "Glycogen and chitin"
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is generally expected to give better health benefits when present in human diet?",
+      "choiceA": "Animal fat",
+      "choiceB": "Saturated fatty acid",
+      "choiceC": "Monounsaturated fatty acid",
+      "choiceD": "Polyunsaturated fatty acid"
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "A",
+      "questionStatement": " Where does the light dependent reaction of photosynthesis occur in the chloroplast?",
+      "choiceA": "In the thylakoid membrane",
+      "choiceB": "In the fluid of the stroma",
+      "choiceC": "In all parts of the chloroplast",
+      "choiceD": "In the stomatal opening"
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "A",
+      "questionStatement": " For which of the following is the sugar produced by photosynthesis <b>NOT</b> used?",
+      "choiceA": "To produce biomass.",
+      "choiceB": "To make new DNA.",
+      "choiceC": "To produce ATP in respiration.",
+      "choiceD": "To produce enzymes."
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "C",
+      "questionStatement": " In which process is ATP generated during short distance high speed running?",
+      "choiceA": "Aerobic respiration",
+      "choiceB": "Mitochondrial energy transformation",
+      "choiceC": "Anaerobic respiration",
+      "choiceD": "The Krebs cycle"
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following choices shows the end products of a mitotic cell division?",
+      "choiceA": "Gametes and ordinary cells",
+      "choiceB": "Four genetically different cells",
+      "choiceC": "Two genetically different cells",
+      "choiceD": "Two genetically identical cells"
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "A",
+      "questionStatement": " What exactly happens during a substitution mutation?",
+      "choiceA": "One base is replaced by a different base.",
+      "choiceB": "An extra base is added during DNA replication.",
+      "choiceC": "A base is missed out during DNA replication.",
+      "choiceD": "Changes occur in the arrangement or structure of a chromosome."
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "B",
+      "questionStatement": " During the course of evolution, which of the following events came before all the others?",
+      "choiceA": "Origin of dinosaurs and other reptiles.",
+      "choiceB": "Availability of free oxygen in the atmosphere.",
+      "choiceC": "Origin of the oldest eukaryotic organisms.",
+      "choiceD": "Origin of the first multicellular animals and plants."
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "C",
+      "questionStatement": " What kind of natural selection is at work in a situation where individuals at both extreme ends of the range get better survival advantages than those around the middle?",
+      "choiceA": "Stabilizing selection",
+      "choiceB": "Directional selection",
+      "choiceC": "Disruptive selection",
+      "choiceD": "Selection that removes the extremes"
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "B",
+      "questionStatement": " In which geologic period does the fossil record show more diverse and relatively higher forms of organisms?",
+      "choiceA": "Devonian",
+      "choiceB": "Cretaceous",
+      "choiceC": "Jurassic",
+      "choiceD": "Permian"
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "C",
+      "questionStatement": " To what kind of animal behaviour can the spinning of a web by a spider be classified?",
+      "choiceA": "Learned behaviour",
+      "choiceB": "Experiential behaviour",
+      "choiceC": "Instinctive behaviour",
+      "choiceD": "Accidental behaviour"
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is a recently developed active area of research in biology today?",
+      "choiceA": "Taxonomic study",
+      "choiceB": "Study about the cell theory",
+      "choiceC": "Ecological research",
+      "choiceD": "Stem cell research"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "examSummary": {
+    "iconChar": "E",
+    "iconUrl": "www.google.ca",
+    "shortName": "ECONOMICS G12 2000",
+    "fullName": "ESLCE Economics Exam 2000 For Grade 12",
+    "grade": "12",
+    "subject": "Economics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "40",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2000 June 2008"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "Which of the following characterizes the post 1991 - investment climate in Ethiopia?",
+      "choiceA": "Low response of the private sector to investment policy",
+      "correctAnswer": "B",
+      "choiceB": "Conducive environment for private investment",
+      "choiceC": "Tax dis-incentive to private investors",
+      "choiceD": "Capital ceiling to private investors"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Which one of the following is NOT the role and responsibility of the National Bank of Ethiopia?",
+      "choiceA": "To regulate money supply",
+      "choiceB": "To regulate interest rate",
+      "correctAnswer": "C",
+      "choiceC": "To regulate money demand",
+      "choiceD": "To control inflation"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "Which of the following is true about the short run production function?",
+      "choiceA": "Economies of scale is in operation",
+      "correctAnswer": "B",
+      "choiceB": "It is a period when all factors of production are fixed",
+      "choiceC": "The law of diminishing marginal returns is in operation",
+      "choiceD": "It is a period when all factors of production are varying"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "The economic cost of unemployment is:",
+      "correctAnswer": "A",
+      "choiceA": "Decrease in labor productivity.",
+      "choiceB": "Amount of the output that is foregone",
+      "choiceC": "Cost associated with stress and illness of the unemployed",
+      "choiceD": "Socio political unrest of the unemployed labor force"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which of the following in NOT true about the relationship between production (Q), Average Product (AP), Marginal Cost (MC) and Average Cost (AC) and Marginal Product (MP)?",
+      "choiceA": "If MC",
+      "choiceB": "If MC > AC, then AC is increased by increasing Q",
+      "choiceC": "If AP>MP, then MC < AC",
+      "correctAnswer": "D",
+      "choiceD": "If MC=AC, the MP=AP"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "If the consumption function of a given individual is given as C = 26 / O.75Yd Birr, where C represents Consumption per period and Yd represents the individual's disposable income per period. If the. individual's disposable income for a specific period was 1000 Birr, what was the saving of the individual during the same period?",
+      "choiceA": "776 Birr",
+      "choiceB": "250 Birr",
+      "choiceC": "1026 Birr",
+      "correctAnswer": "D",
+      "choiceD": "224 Birr"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "Which one of the following factors did NOT contribute to a better performance of the industrial sector during the post reform period?",
+      "choiceA": "Improved availability of foreign exchange",
+      "choiceB": "Recovery of the agricultural sector and increased supply of raw materials",
+      "choiceC": "The enactment of investment code.",
+      "correctAnswer": "D",
+      "choiceD": "Imposition of capital ceilings on private sector investment capital up to 500,000 Birr"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "Which of the following is the dominant sub-sector in the Ethiopian Agricultural sector?",
+      "choiceA": "Crop production",
+      "choiceB": "Animal husbandry",
+      "choiceC": "Fishery and other activities",
+      "correctAnswer": "D",
+      "choiceD": "Forestry"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "Which of the following behavioral assumptions is true about basic decision-making units in economics?",
+      "choiceA": "Firms are welfare maximizers.",
+      "choiceB": "Firms are utility maximizers.",
+      "choiceC": "Households are profit maximizers.",
+      "correctAnswer": "D",
+      "choiceD": "Households are utility maximizers."
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "Which of the following is true about the conditions during a period of price rise?",
+      "choiceA": "Both nominal and real GDP decline at the same rate",
+      "correctAnswer": "B",
+      "choiceB": "Real GDP increases slower than nominal GDP",
+      "choiceC": "Real GDP increases faster than nominal GDP",
+      "choiceD": "Nominal and real GDP increase at the same rate"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Which of the following is always correct about heavy democratic borrowing by government?",
+      "choiceA": "It crowds in private investment",
+      "correctAnswer": "B",
+      "choiceB": "It result is an increase of real interest rate",
+      "choiceC": "It results in a decrease of real interest rate",
+      "choiceD": "It crowds out private investment"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "The three economic problems of what, how and for whom commodities should be produced apply to which one of the following?",
+      "choiceA": "Only to free enterprises or capitalist societies, wherein the problems of choice is most acute.",
+      "choiceB": "Mainly to totalitarian or centrally planned societies, wherein the problem of planning arises directly",
+      "choiceC": "Only to the less development societies, since development is largely a question of meeting these three problems.",
+      "correctAnswer": "D",
+      "choiceD": "To all societies, regardless of stage of development or form of political organization."
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "All of the following are in the broad definition o money in the Ethiopian context except:",
+      "choiceA": "Currency in the hands of the public",
+      "choiceB": "Bonds are Treasury bills",
+      "correctAnswer": "C",
+      "choiceC": "Currency in circulation outside the banks",
+      "choiceD": "Demand and saving deposits"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Which one of the following refers to the study by microeconomics?",
+      "choiceA": "Government policy",
+      "choiceB": "The cause of inflation",
+      "correctAnswer": "C",
+      "choiceC": "The economic behavior of small economic units",
+      "choiceD": "The aggregate level of the economy"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Which one of the following description in correct about the balance of payment position of Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "Service account with negative balance of payments",
+      "choiceB": "Positive balance of payment during the derg period",
+      "choiceC": "Inadequate private transfer inflow after 1991",
+      "choiceD": "Chronic trade deficit as the dominant feature"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "A pure monopolist faces demand function of P = 20 - Q units and her cost function is given by TC = 2 / 4Q2 units. What are the profit maximizing level of output and the corresponding profits, respectively?",
+      "choiceA": "2 and 36",
+      "correctAnswer": "B",
+      "choiceB": "18 and 2",
+      "choiceC": "2 and 18",
+      "choiceD": "36 and 2"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "Which one of the following is NOT a reform measure undertaken by the government in 1991 to overcome fiscal imbalance?",
+      "choiceA": "Privation of loss making units",
+      "correctAnswer": "B",
+      "choiceB": "High degree of centralization in decision makings",
+      "choiceC": "Broadening the tax base",
+      "choiceD": "Reduction of marginal tax rates"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Which of the following is true about choice in economics?",
+      "correctAnswer": "A",
+      "choiceA": "It implies cost",
+      "choiceB": "It arises as a result of shortage",
+      "choiceC": "It arises as a result of existence of free resource",
+      "choiceD": "It arises as result of unlimited output"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "There would be double counting in GDP computations if statisticians were to add together.",
+      "choiceA": "Net value added by the iron mining industry and net value added by the steel industry",
+      "correctAnswer": "B",
+      "choiceB": "Net increase in inventories of flourmills and net increase in inventories of bakeries",
+      "choiceC": "Total output of iron ore and total output of steel industry.",
+      "choiceD": "Value added by bakers and value of the baker's salespeople's services"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "Which one of the following measures need to be undertaken to address the problem of land fragmentation effectively?",
+      "correctAnswer": "A",
+      "choiceA": "Enhancing formation of peasant associations and cooperatives on a large scale.",
+      "choiceB": "Arresting the rate of growth of the population",
+      "choiceC": "Expansion of farming land by eradicating forest and grazing area",
+      "choiceD": "Adoption and promotion of conservation based farming practices"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Which one of the alternatives contains the three important industrial groups that contribute significantly to the total gross value of output of manufacturing firms?",
+      "choiceA": "Textiles, metals and non-metals",
+      "correctAnswer": "B",
+      "choiceB": "Food & beverage, textiles and metals",
+      "choiceC": "Food & beverage, metals and non metals",
+      "choiceD": "Leather & foot wear, food & beverage and metals"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Which of the following is NOT related to the simplest model of circular flow of income?",
+      "choiceA": "Relationship between firms and households.",
+      "correctAnswer": "B",
+      "choiceB": "Foreign exchange earnings.",
+      "choiceC": "Factors of factors of production and wages.",
+      "choiceD": "Supply of goods and consumer expenditure"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "An increase in the price of a substitute good results in which of the following changes in the commodity's equilibrium price and quantity?",
+      "correctAnswer": "A",
+      "choiceA": "Both price and quantity rise",
+      "choiceB": "Price rises and quantity falls",
+      "choiceC": "Both price and quantity fall",
+      "choiceD": "Price falls and quantity rises"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "The new economic policy reform was needed in the:",
+      "correctAnswer": "A",
+      "choiceA": "Poor economic performance of the country",
+      "choiceB": "Equitable distribution of income",
+      "choiceC": "High saving and investment rate",
+      "choiceD": "Fast structural transformation"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Which of the following is NOT true with respect to open market operations (DMO) in Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "Open market operations are indirect monetary policy",
+      "choiceB": "Open market operations were introduced by the new government 1994/95.",
+      "choiceC": "Open market operations work by controlling the money supply in an economy.",
+      "choiceD": "Open market operations are tools of fiscal policy"
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "Fiscal Decentralization and public sector Reform in Ethiopia since 1992/93 includes all of the following except one. Which one",
+      "correctAnswer": "A",
+      "choiceA": "Rationalization of tax structure",
+      "choiceB": "Increasing the difference between the maximum and minimum ad-avorem tax rate",
+      "choiceC": "Broadening the tax base",
+      "choiceD": "Reduction of the marginal tax rate"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "Which one of the following is true about the supply function given by Qs = -1 + 0.25P, where Qs is the quantity supplied and P is the price?",
+      "choiceA": "If there are 10 identical supply functions in the market, the market supply is P = 400 + 40Qs.",
+      "correctAnswer": "B",
+      "choiceB": "The Equilibrium quantity supplied Qs and price are 40 &20",
+      "choiceC": "When price is zero quantity supplied is 22",
+      "choiceD": "When Qs is zero Price is 20"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "As a result of an equal rise of productivity for all sectors in an economy, its production possibility frontier (PPF) will.",
+      "choiceA": "Shift in ward",
+      "choiceB": "Not be affected",
+      "correctAnswer": "C",
+      "choiceC": "Be affected whereby the old PPF will be inside the new PPF",
+      "choiceD": "Be affected whereby the new-PPF will be inside the old PPF"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "Which one of the following changes is true about the determinants of demand? Change in: -",
+      "correctAnswer": "A",
+      "choiceA": "Income of the consumer causes a movement along the demand curve",
+      "choiceB": "Own price of a commodity causes a shift of the demand curve",
+      "choiceC": "In the number of buyers in the market reduces the demand for that commodity",
+      "choiceD": "Own price of a commodity causes a movement along the demand curve"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "The status of the public finance during the military government (1974 - 1991) in Ethiopia was directed towards the:",
+      "correctAnswer": "A",
+      "choiceA": "Expansion of the public sector",
+      "choiceB": "Improvement of agricultural productivity",
+      "choiceC": "Expansion of foreign trade",
+      "choiceD": "Expansion of the private sector"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Suppose the market demand function for X is given by Qx = 20 - 2P and the market supply function of X is Qx = -4 + P. what are the market clearing quantity and price respectively?",
+      "choiceA": "Q=2 and P=8",
+      "choiceB": "Q=12 and P=8",
+      "correctAnswer": "C",
+      "choiceC": "Q=4 and P=8",
+      "choiceD": "Q=6 and P=6"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "Tariff on imports does NOT result in which of the following?",
+      "correctAnswer": "A",
+      "choiceA": "Benefit consumer that import the goods",
+      "choiceB": "Increase the price of the imported goods",
+      "choiceC": "Increase government revenue in the form of custom duties",
+      "choiceD": "Benefit domestic producers"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "Which one of the following will cause a rightward shift of the supply curves of grains?",
+      "choiceA": "An increase in price",
+      "choiceB": "An increase in the cost of inputs",
+      "choiceC": "Bad weather",
+      "correctAnswer": "D",
+      "choiceD": "An improvement in technology"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Which of the following government policies has disadvantaged the process of industrialization in Ethiopia during the past 50 years?",
+      "choiceA": "Generous tax incentive during the imperial period",
+      "choiceB": "Easy access to domestic credit in favorable terms during the imperial period",
+      "correctAnswer": "C",
+      "choiceC": "Nationalization of the medium and large-scale enterprises during the military government",
+      "choiceD": "High levels of tariff protection during the imperial period"
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "If a country following a policy of fixed exchange rate suffers from a persistent balance of payment deficit, then the country can improve its balance of payment by:",
+      "choiceA": "Devaluing its currency against dollar",
+      "choiceB": "Floating its currency",
+      "choiceC": "Importing more goods and services",
+      "correctAnswer": "D",
+      "choiceD": "Revaluing its currency against dollar"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "The total population in Ethiopia in the year 2005 was 73,044,000. Out of this population,45% was below the age of 15 and 3% was above the age of 65. What was the dependency Ratio in the year 2005?",
+      "correctAnswer": "A",
+      "choiceA": "92.3%",
+      "choiceB": "75%",
+      "choiceC": "35%",
+      "choiceD": "86%"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "A country imposes tariffs to protect:",
+      "choiceA": "Foreign consumers",
+      "correctAnswer": "B",
+      "choiceB": "Domestic producers from foreign competition",
+      "choiceC": "Domestic consumers from foreign competition",
+      "choiceD": "Foreign producers from domestic competition"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "Which one of the following does NOT explain why more than 50% of the Ethiopian population remained in absolute poverty or food insecure?",
+      "choiceA": "Unpredictable weather condition",
+      "correctAnswer": "B",
+      "choiceB": "Excess supply of non-fertilizer credit over demand",
+      "choiceC": "Erosion and land degradation",
+      "choiceD": "Land fragmentation"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "Which of the following statements properly qualify the role of international trade in economic development?",
+      "choiceA": "It enables a country to consume and produce more than would be possible without trade",
+      "correctAnswer": "B",
+      "choiceB": "It brings goods and services that can be produced within the domestic economy",
+      "choiceC": "It enables labor to move from one country to another",
+      "choiceD": "It hinders diffusion of technology"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "What is the opportunity cost of 1 percentage point mark of mathematics? ",
+      "choiceA": "4 percentage point marks of economics",
+      "choiceB": "2 percentage point marks of economics",
+      "choiceC": "4 percentage point marks of mathematics",
+      "correctAnswer": "D",
+      "choiceD": "2 percentage point marks of mathematics"
+    }
+  ]
+}

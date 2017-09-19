@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/rell_progress_container"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/card_margin"
+
+
+    android:paddingTop="@dimen/card_margin">
+
+    <net.kerod.android.questionbank.widget.ArcProgress
+        android:id="@+id/arcp_correct"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="right"
+        app:arc_bottom_text="CORRECT"
+        app:arc_finished_color="@color/choice_color_correct"
+        app:arc_progress="0"
+        app:arc_stroke_width="6dp"
+        app:arc_text_color="@color/choice_color_correct"
+        app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+
+    <net.kerod.android.questionbank.widget.ArcProgress
+        android:id="@+id/arcp_incorrect"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerInParent="true"
+        app:arc_bottom_text="MISSED"
+        app:arc_finished_color="@color/choice_color_incorrect"
+        app:arc_progress="0"
+        app:arc_stroke_width="6dp"
+        app:arc_text_color="@color/choice_color_incorrect"
+        app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+
+    <net.kerod.android.questionbank.widget.ArcProgress
+        android:id="@+id/arcp_total_correct"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left"
+        app:arc_bottom_text="UNTRIED"
+        app:arc_finished_color="@color/colorPrimary"
+        app:arc_progress="0"
+        app:arc_stroke_width="6dp"
+        app:arc_text_color="@color/colorPrimary"
+        app:arc_unfinished_color="@color/colorPrimaryTransparent" />
+</RelativeLayout>

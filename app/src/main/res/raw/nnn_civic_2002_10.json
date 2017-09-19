@@ -1,0 +1,738 @@
+{
+  "examSummary": {
+    "iconChar": "C",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVICS G12 2002",
+    "fullName": "ESLCE Civics Exam 2002 For Grade 12",
+    "grade": "10",
+    "subject": "Civics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "80",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2002 June 2010"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "Shewit takes pride in who she is (her identity). She also belives in herself and her abilities. This shows that shewit",
+      "choiceA": "lacks self-respect.",
+      "choiceB": "has high self-interest",
+      "choiceC": "lacks self-confidence",
+      "correctAnswer": "D",
+      "choiceD": "has high self-esteem"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Which of the following statements is true about unlimited governments?",
+      "correctAnswer": "A",
+      "choiceA": "Rulers can make laws that bind the people",
+      "choiceB": "The people are free to monitor actions of their rulers",
+      "choiceC": "The people can act in way that may not be accepted by the law",
+      "choiceD": "Leaders are accountable to the people that elected them"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "The branch of government which is responsible for making laws is",
+      "choiceA": "The judicial",
+      "correctAnswer": "B",
+      "choiceB": "the legislative",
+      "choiceC": "The executive",
+      "choiceD": "the federal"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "The settlement of conflicts between two individuals or groups in which each gives up some of its claims and agrees to demands of the other is",
+      "correctAnswer": "A",
+      "choiceA": "Compromise",
+      "choiceB": "Accountability",
+      "choiceC": "reliability",
+      "choiceD": "commitment"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which of the following is an indicator of the poor standard of living in Ethiopia",
+      "correctAnswer": "A",
+      "choiceA": "large number of street children",
+      "choiceB": "growing number of religious institutions",
+      "choiceC": "increasing cases of ethnic conflict",
+      "choiceD": "scarcity of cooperative work parties"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "'essential services for all' is the motto of",
+      "correctAnswer": "A",
+      "choiceA": "Command economy",
+      "choiceB": "custom based economy",
+      "choiceC": "mixed economy",
+      "choiceD": "Market economy"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "Which of the following is true about bigotry, stereotyping and stigmatizing? They",
+      "correctAnswer": "A",
+      "choiceA": "Are manifestations of intolerance",
+      "choiceB": "improve cooperation among different group",
+      "choiceC": "Help to promote common good",
+      "choiceD": "motivate people to work together"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "In order to prioritize our consumption expenses in line with the level of our income, we need to have",
+      "correctAnswer": "A",
+      "choiceA": "plan of expenditure",
+      "choiceB": "reduced saving",
+      "choiceC": "low level of income",
+      "choiceD": "scarcity of resources"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "According to the constitution of FDRE, all citizens should share equal responsibilities in eh development of the country. This is what we call equality of",
+      "choiceA": "Burdens",
+      "choiceB": "development",
+      "correctAnswer": "C",
+      "choiceC": "Benefits",
+      "choiceD": "resources"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "Which of the following statements about full level of community participation is correct?",
+      "choiceA": "Communities identify their problems, access their options, make and carry out decisions",
+      "choiceB": "Communities have the right to use economic resources and all the available social services",
+      "correctAnswer": "C",
+      "choiceC": "People contribute labor, skills, funds and they get involved in delivering service",
+      "choiceD": "Decision-makers consult and involve the people taking their views into account"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "which one of the following cases is an extravagant practice?",
+      "choiceA": "Abdu and his family live within the limits of their income",
+      "choiceB": "Ethiopia annually spends 2 billion birr on road construction",
+      "correctAnswer": "C",
+      "choiceC": "Biniam and meron spent more that 50,000 birr on their wedding",
+      "choiceD": "two private companies donated 2 million birr to an orphanage"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "When we say that Chala is a truck driver, we are talking about his",
+      "choiceA": "carrer",
+      "choiceB": "Duty",
+      "correctAnswer": "C",
+      "choiceC": "job",
+      "choiceD": "qualification"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "The set of principles that govern the relation our country has with other countries is",
+      "correctAnswer": "A",
+      "choiceA": "foreign policy",
+      "choiceB": "Foreign relations",
+      "choiceC": "bilateral treaty",
+      "choiceD": "International Affairs"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "One of the conditions that is expected of citizens in a democracy to achieve the common good is",
+      "choiceA": "Exposing confidentiality of state secret",
+      "correctAnswer": "B",
+      "choiceB": "Standing for the rights of others",
+      "choiceC": "Struggling to abolish religious differences",
+      "choiceD": "Fighting against opposition parties"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "According to our constitution, each nation, nationality and people of Ethiopia has the right to self-determination. This includes all or the following right EXCEPT.",
+      "choiceA": "establishing its own government institutions",
+      "correctAnswer": "B",
+      "choiceB": "expanding its geographical and political boundaries",
+      "choiceC": "deciding over its destiny and internal affairs",
+      "choiceD": "practicing and developing its own culture"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "The data organized, analyzed and interpreted for practical use are known as",
+      "correctAnswer": "A",
+      "choiceA": "Information",
+      "choiceB": "communication",
+      "choiceC": "knowledge",
+      "choiceD": "Datum."
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "Which of the following traditional practices is believed to have contributed to the low level of saving in Ethiopia?",
+      "correctAnswer": "A",
+      "choiceA": "mahiber",
+      "choiceB": "iqub",
+      "choiceC": "Idir",
+      "choiceD": "teskar"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Which of the following is an example of Civic society?",
+      "choiceA": "Bethlehem General Trading PLC.",
+      "choiceB": "The Oromo National Congress",
+      "choiceC": "The ministry of Education",
+      "correctAnswer": "D",
+      "choiceD": "The Ethiopian Teachers' Association"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "Recently the House of Peoples Representatives has issued an anti-terrorism law/act. Such law is categorized under",
+      "choiceA": "common law",
+      "choiceB": "Divine law.",
+      "correctAnswer": "C",
+      "choiceC": "Status law",
+      "choiceD": "international law."
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "As a good citizen of Ethiopia, you can contribute to the prevalence of peace and order in he country by",
+      "choiceA": "It introduced the parliamentary system to the country",
+      "choiceB": "It states the unlimited power of the government",
+      "correctAnswer": "C",
+      "choiceC": "It declares the sovereignty of the people",
+      "choiceD": "It is contradictory with every law in h country"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Yared is 35 years old . He lives with his parents and needs their support for everything. What type of man do you think is yared?",
+      "choiceA": "self-reliant",
+      "choiceB": "Independent",
+      "correctAnswer": "C",
+      "choiceC": "dependent",
+      "choiceD": "Self-directed"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Civil service standards, code of ethics and criminal penalties are parts of",
+      "choiceA": "Political accountability",
+      "choiceB": "economic accountability",
+      "choiceC": "Financial accountability",
+      "correctAnswer": "D",
+      "choiceD": "administrative accountability"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "Which one of the following is an example of electronic media?",
+      "choiceA": "Magazine",
+      "correctAnswer": "B",
+      "choiceB": "Radio",
+      "choiceC": "amplifier",
+      "choiceD": "Camera"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "Asset of decisions about what and how to do something to achieve one's a goal is refered to as",
+      "choiceA": "controlling",
+      "correctAnswer": "B",
+      "choiceB": "Parenting",
+      "choiceC": "implementing",
+      "choiceD": "Organizing"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "Suppose you are elected to represent your school at a national conference. Your representation gives you",
+      "correctAnswer": "A",
+      "choiceA": "authority",
+      "choiceB": "influence",
+      "choiceC": "Power",
+      "choiceD": "force"
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "Which of the following statements is true about democracy? It is",
+      "correctAnswer": "A",
+      "choiceA": "A government system in which the supreme political power resides in the people",
+      "choiceB": "A form of government which naturally has responsibility to rule the people",
+      "choiceC": "A political system in which people are ruled by the few men of divine rights.",
+      "choiceD": "A form of government which exercises unlimited political power over the people"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "In most primitive civilizations, the questions of what to produce, how and for whom to produce are decided by",
+      "choiceA": "religions",
+      "choiceB": "economics",
+      "correctAnswer": "C",
+      "choiceC": "Traditions",
+      "choiceD": "Governments"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "What is the purpose of constitutions in democratic system?",
+      "correctAnswer": "A",
+      "choiceA": "Promoting the rights of the citizens",
+      "choiceB": "Protecting political agendas of the government",
+      "choiceC": "Securing benefits of authoritative positions",
+      "choiceD": "Reinforcing power of the ruling party"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "As a good citizen of Ethiopia, you can contribute to the prevalence of peace and order in he country by",
+      "choiceA": "Protesting against opposition parties",
+      "correctAnswer": "B",
+      "choiceB": "Fighting against criminals the violate the law",
+      "choiceC": "Involving in armed struggle for power",
+      "choiceD": "Promoting illegal political actions."
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Kirubel is a chirstian. He has a lot of muslim friends, kiruble and his friends have mutual respect for each other, they appreciate their religious differences. This shows that their friendship is based on",
+      "choiceA": "Discrimination against difference",
+      "choiceB": "Prejudice against difference",
+      "correctAnswer": "C",
+      "choiceC": "tolerance of diversity",
+      "choiceD": "recognition of similarity"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "The obelisk of Axum and Church of Lalibela are examples of the Ethiopian",
+      "choiceA": "Natural recourses",
+      "choiceB": "Historical phenomena",
+      "choiceC": "religious practices.",
+      "correctAnswer": "D",
+      "choiceD": "cultural heritages"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "Non-governmental associations of volunteer individuals that are organized for social, cultural, religious or economic purposes are referred to as",
+      "choiceA": "social groups",
+      "choiceB": "business enterprises",
+      "correctAnswer": "C",
+      "choiceC": "Civil societies",
+      "choiceD": "Trading companies"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "Which of the following statements about the economic equality of Ethiopian citizens is correct?",
+      "correctAnswer": "A",
+      "choiceA": "''all citizens have the right to form trade unions to improve their lives.",
+      "choiceB": "All citizens have the right to get equal pay for every work they engage in",
+      "choiceC": "No citizen has the right to work toward satisfying his/her choice",
+      "choiceD": "No citizen has the right to work toward satisfying his/her needs for good"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Equality of citizens could result in",
+      "choiceA": "intolerance.",
+      "correctAnswer": "B",
+      "choiceB": "Development",
+      "choiceC": "Instability",
+      "choiceD": "stereotyping"
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "Which of the following statements about the equality of women with men in Ethiopia is correct?",
+      "choiceA": "Women can enter into marriage without the consent of men",
+      "choiceB": "Women shall have equal economic status with men",
+      "choiceC": "Women shall have equal share of property with men",
+      "correctAnswer": "D",
+      "choiceD": "Women have equal rights with men to own, use and transfer land"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "What is the purpose of checks and balances?",
+      "choiceA": "Controlling th activities of opposition political parties",
+      "correctAnswer": "B",
+      "choiceB": "Regulating the use of power of government officials",
+      "choiceC": "Prolonging the terms of power of governments",
+      "choiceD": "Strengthening the power of governments"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "the habit of keeping part of one's earnings for future use is",
+      "choiceA": "spending",
+      "choiceB": "borrowing",
+      "choiceC": "planning",
+      "correctAnswer": "D",
+      "choiceD": "saving"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "All of the following EXEPT ONE is expected of responsible adult citizens in democracy?",
+      "choiceA": "using public resources effectively",
+      "correctAnswer": "B",
+      "choiceB": "Being informed of public issues",
+      "choiceC": "struggling against religious diversity",
+      "choiceD": "Involving in periodic elections"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "Obang well understands his potential and Often does things by himself with little or no help from others. This shows that Obang is",
+      "choiceA": "Other-directed",
+      "choiceB": "Self-centered",
+      "choiceC": "flexible",
+      "correctAnswer": "D",
+      "choiceD": "self-reliant"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "which of the following considerations is required for fair distribution of benefits or burdens?",
+      "choiceA": "Treating all people who are similar in important ways differently or unequally",
+      "choiceB": "Treating all people with different need and capacity similarly or in equal terms",
+      "choiceC": "Treating all people who are different in important ways similarly or equally",
+      "correctAnswer": "D",
+      "choiceD": "Treating all people with similar need and capacity in similar ways or equal terms"
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "Which of the following is true about the Dergue regime?",
+      "choiceA": "It continued to use the 1955 constitution with minor improvement",
+      "choiceB": "It came to power with democratic electron",
+      "choiceC": "It established democratic government",
+      "correctAnswer": "D",
+      "choiceD": "It allowed a single party system of governance"
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "During the period of Italian occupation, some Ethiopians collaborated with the invading fascist force. One of the reasons for their collaborations was because",
+      "correctAnswer": "A",
+      "choiceA": "They considered the Italians as their liberators",
+      "choiceB": "The Italians were kind to them",
+      "choiceC": "They had been subjected to oppression and discrimination",
+      "choiceD": "They loved Italy more than Ethiopia"
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "What are the fundamental rights that every person deserves to have?",
+      "choiceA": "political rights",
+      "choiceB": "economic rights",
+      "correctAnswer": "C",
+      "choiceC": "Human rights",
+      "choiceD": "Democratic rights"
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "Which of the following conditions causes corruption?",
+      "choiceA": "Having democratic background",
+      "correctAnswer": "B",
+      "choiceB": "Having extremely selfless behavior",
+      "choiceC": "Devotion to the common good",
+      "choiceD": "Lack of nationalist sentiment"
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "Which of the following powers and functions are exclusively given to the federal government of Ethiopia?",
+      "choiceA": "Allocating and administering budget",
+      "choiceB": "administering land and natural resources",
+      "correctAnswer": "C",
+      "choiceC": "formulating and implementing foreign policies",
+      "choiceD": "Collecting taxes and revenues"
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "The action taken by married persons to prevent unplanned pregnancies is referred to as",
+      "choiceA": "fertility",
+      "choiceB": "Parenting",
+      "choiceC": "reproduction",
+      "correctAnswer": "D",
+      "choiceD": "Contraception."
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "Which of the following statements about the relationship between time and work is true?",
+      "choiceA": "Time never exists independent of work",
+      "choiceB": "Work exists independent of time",
+      "correctAnswer": "C",
+      "choiceC": "Time without work is meaningless",
+      "choiceD": "Work is never measured by time"
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Dure likes reading the reporter. Even when she is so busy with her study, she goes fast through the paper. This types of reading is",
+      "choiceA": "Revision",
+      "choiceB": "Recalling",
+      "choiceC": "Comprehension,",
+      "correctAnswer": "D",
+      "choiceD": "Skimming"
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "As an active member of the United Nations, Ethiopia sent its troops to Ruanda and Somalia. This is good evidence to Ethiopia's policy of",
+      "choiceA": "Disrespect for national sovereignty of other countries.",
+      "choiceB": "Military alliance with and becoming one of the superpowers.",
+      "choiceC": "Aggression and military dominance over its neighbors.",
+      "correctAnswer": "D",
+      "choiceD": "Supporting international efforts towards prevalence of peace"
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "Which of the following statements is true about informal learning?",
+      "choiceA": "Ti has a specifically designed learning environment and material inputs",
+      "choiceB": "It has defined system, regulation and methodology of learning",
+      "correctAnswer": "C",
+      "choiceC": "It consists of learning by imitation, practice and community participation,",
+      "choiceD": "It a means of acquiring knowledge in underdeveloped societies of Africa."
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "The beginning of modern education in Ethiopia goes back to",
+      "choiceA": "1955",
+      "correctAnswer": "B",
+      "choiceB": "1908",
+      "choiceC": "1933",
+      "choiceD": "1931"
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "Which of the following is a very important factor for leading a successful life?",
+      "choiceA": "Excessive generosity and extravagant spending",
+      "choiceB": "Maximum level of income and material wealth",
+      "choiceC": "Avoiding any form of spending and saving",
+      "correctAnswer": "D",
+      "choiceD": "Economical use of income ad materials"
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "One of the manifestation of lack of work habit in Ethiopia is",
+      "choiceA": "Using every minute on work",
+      "correctAnswer": "B",
+      "choiceB": "Wasting regular work time",
+      "choiceC": "Showing proper work conduct",
+      "choiceD": "Being punctual for work"
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "Which of the following statements about Ethiopian federalism is correct?",
+      "correctAnswer": "A",
+      "choiceA": "The federal and regional governments have legislative, executive and judicial powers",
+      "choiceB": "All state powers and functions are held in the central or federal government",
+      "choiceC": "Supreme power of the federal government resides in the House of Federation",
+      "choiceD": "The highest judicial power of the federal government resides in the Prime Minister"
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "Which of the following statements about HIV is correct?",
+      "choiceA": "It causes immediate death of infected persons",
+      "choiceB": "One can get the virus from mosquito bites",
+      "choiceC": "The virus can be transmitted through the air",
+      "correctAnswer": "D",
+      "choiceD": "People who appear healthy may have the virus"
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "Mr. George Charles is an American, who has obtained Ethiopian citizenship by law. The process by which he has got Ethiopian citizenship is referred to as.",
+      "choiceA": "Globalization",
+      "choiceB": "Internationalism",
+      "correctAnswer": "C",
+      "choiceC": "Naturalization",
+      "choiceD": "citizenship by birth"
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "One example of our history that contributed to low economic development of our country is her.",
+      "choiceA": "idiget behibret yewqetina yesira zemecha",
+      "correctAnswer": "B",
+      "choiceB": "zemene mesafint",
+      "choiceC": "Victory of Adwa",
+      "choiceD": "Axumite civilaization"
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "By which of the following ways can we Ethiopians liberates ourselves from the severe poverty we live in?",
+      "choiceA": "Struggling to increase the amount of aid from rich countries",
+      "correctAnswer": "B",
+      "choiceB": "Actively participating in economic and political activities",
+      "choiceC": "Replacing the agrarian economy by the industrial economy",
+      "choiceD": "Fighting for equal share of economic and natural resources"
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "Which of the following statements about dependent adult is true?",
+      "choiceA": "they have the ability to take fast and well through decisions",
+      "choiceB": "they make decisions and defend them when the need arises",
+      "correctAnswer": "C",
+      "choiceC": "they lack the self-confidence and courage to take actions",
+      "choiceD": "they have self-motivation to accomplish their objectives"
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "''For every action there is an equal and opposite reaction. This statement is.",
+      "correctAnswer": "A",
+      "choiceA": "generalization",
+      "choiceB": "Fact",
+      "choiceC": "free enquiry",
+      "choiceD": "Concept."
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "the constitutional equality between women and men in democracy is referred to as",
+      "choiceA": "natural equality",
+      "correctAnswer": "B",
+      "choiceB": "gender equality",
+      "choiceC": "sexual equality",
+      "choiceD": "biological equality"
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "Which is the source of authority of any regional state of the FDRE?",
+      "correctAnswer": "A",
+      "choiceA": "Consent of the people of the regional state",
+      "choiceB": "Head of that particular regional state",
+      "choiceC": "The prime minister of the Federal State",
+      "choiceD": "Devine Power given to the rulers of the regional state"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "The role all responsible citizens play in the social, political and economic affairs of their communities and the country as a whole",
+      "choiceA": "Humanitarianism",
+      "choiceB": "voluntarism",
+      "choiceC": "Cooperative action",
+      "correctAnswer": "D",
+      "choiceD": "civic participation"
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "One of the major roles of the constitution of FDRE is that is",
+      "choiceA": "Ensures the subordination of regional states to the central government",
+      "choiceB": "Legalize absolute power of the Prime Minister in appointment of higher officials",
+      "choiceC": "Empowers the president with the authority to declare and terminate wars",
+      "correctAnswer": "D",
+      "choiceD": "Establishes the basic government and administration organs."
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "Which one of the following happens when government take the law in its hands with no due regard to formal legal procedure?",
+      "correctAnswer": "A",
+      "choiceA": "summary execution",
+      "choiceB": "Capital punishment",
+      "choiceC": "life imprisonment",
+      "choiceD": "Labor penalty"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "The political agent which rules and acts on behalf of the people of a country is known as",
+      "correctAnswer": "A",
+      "choiceA": "government",
+      "choiceB": "Society",
+      "choiceC": "Party",
+      "choiceD": "state"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "Zenebe is a general manager of a private company. The company announces a vacant position for a secretary. Twenty women and fifteen man apply for the position. Zenebe favors his brother over others and gives him the job . What is the crime that Zenebe has committed?",
+      "choiceA": "Theft",
+      "correctAnswer": "B",
+      "choiceB": "Nepotism",
+      "choiceC": "Dictatorship",
+      "choiceD": "Embezzlement"
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "If people want to read for enjoyment, which one of the following serves their interest best? Reading",
+      "choiceA": "A book review",
+      "choiceB": "an article",
+      "correctAnswer": "C",
+      "choiceC": "a novel",
+      "choiceD": "Newspaper"
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "all except one of the following are instances of executing one's responsibility?",
+      "choiceA": "The policeman has developed the habit of reading Amharic newsletters",
+      "correctAnswer": "B",
+      "choiceB": "Fatuma monthly pays 600 birr for educating her children in private colleges",
+      "choiceC": "The company finished construction of the new hospital before the deadline",
+      "choiceD": "We had to wait for hours in line to get tickets as there were many people at the theatre"
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "There is equality in a society where",
+      "choiceA": "All nations, nationalities and peoples have equal economic resources and wealth.",
+      "choiceB": "Social and cultural development of all nations, nationalities and peoples is equal.",
+      "choiceC": "Natural resources and material wealth are equally distributed among citizens",
+      "correctAnswer": "D",
+      "choiceD": "All citizens are equal in their share of rights, opportunities and responsibilities."
+    },
+    {
+      "questionNumber": 71,
+      "questionStatement": "Which of the following is a data collection instrument?",
+      "choiceA": "Questionnaire",
+      "choiceB": "Radio",
+      "correctAnswer": "C",
+      "choiceC": "Newspaper",
+      "choiceD": "Internet"
+    },
+    {
+      "questionNumber": 72,
+      "questionStatement": "which one of the following statement is true about the various languages in Ethiopia?",
+      "choiceA": "all have equal number of speakers",
+      "choiceB": "some are superior to others",
+      "choiceC": "all of them have writing system",
+      "correctAnswer": "D",
+      "choiceD": "some are more developed than others"
+    },
+    {
+      "questionNumber": 73,
+      "questionStatement": "The existence of an effective justice system requires",
+      "correctAnswer": "A",
+      "choiceA": "Independence of judges from interference of the government",
+      "choiceB": "Hierarchical organization of courts at a country level",
+      "choiceC": "Unitary organization of the judiciary system",
+      "choiceD": "Concentration of power in the hands of the few rulers."
+    },
+    {
+      "questionNumber": 74,
+      "questionStatement": "Which one of the following is true about unitary state?",
+      "choiceA": "It is formed by several autonomous states",
+      "correctAnswer": "B",
+      "choiceB": "Officials at all administrative levels are appointed by the central authority.",
+      "choiceC": "Power is shared beteen the regional and central government",
+      "choiceD": "Each members state has the power of determining its local affairs"
+    },
+    {
+      "questionNumber": 75,
+      "questionStatement": "The regional states of Benishangul-Gumuz and Amhara are cooperatively working towards poverty reduction. The cooperation between these regions is a good example of",
+      "choiceA": "Public support.",
+      "choiceB": "Economic support.",
+      "choiceC": "Civic society.",
+      "correctAnswer": "D",
+      "choiceD": "internal relations"
+    },
+    {
+      "questionNumber": 76,
+      "questionStatement": "As citizens in democracy, we should stand guard for our rights and also take actions that would promote the common good . This is what we mean by",
+      "choiceA": "Chauvinism",
+      "choiceB": "federalism",
+      "correctAnswer": "C",
+      "choiceC": "Patriotism",
+      "choiceD": "socialism."
+    },
+    {
+      "questionNumber": 77,
+      "questionStatement": "Which of the following rights can be limited in emergency situations to ensure public order in democratic societies? The right to freedom",
+      "choiceA": "of religion,",
+      "choiceB": "From retroactive penal laws.",
+      "choiceC": "from torture",
+      "correctAnswer": "D",
+      "choiceD": "Of expression."
+    },
+    {
+      "questionNumber": 78,
+      "questionStatement": "As human beings, the primary responsibility we have to ourselves is",
+      "choiceA": "to set our goals in life and make efforts to achieve them",
+      "choiceB": "to lead comfortable life by making maximum use of family resources",
+      "correctAnswer": "C",
+      "choiceC": "to contribute toward wellbeing and development of our society.",
+      "choiceD": "to provide for our needs by seeking help from our parents"
+    },
+    {
+      "questionNumber": 79,
+      "questionStatement": "As a high school student, the best way of protecting yourself from HIV/AIDS is",
+      "correctAnswer": "A",
+      "choiceA": "Abstaining from engaging in any form of sexual intercourse",
+      "choiceB": "Avoiding social relation with individuals living with the virus",
+      "choiceC": "Stigmatizing people that have been infected by the virus",
+      "choiceD": "Rejecting all forms of medication involving blood transfusion"
+    },
+    {
+      "questionNumber": 80,
+      "questionStatement": "According to the principle of procedural justice of the FDRE constitution, which one of the following statements is correct?",
+      "correctAnswer": "A",
+      "choiceA": "All arrested persons have the right to equal treatment and punishment by the law",
+      "choiceB": "All arrested persons have the right to be informed of the reason for their arrest",
+      "choiceC": "All suspected persons have the right not to be arrested under any circumstance",
+      "choiceD": "All arrested persons have the rights to be set free within 48 hours of their arrest"
+    }
+  ]
+}

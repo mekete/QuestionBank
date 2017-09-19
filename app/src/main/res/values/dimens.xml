@@ -1,0 +1,87 @@
+<resources>
+    <dimen name="attempt_textview_height">60dp</dimen>
+    <dimen name="attempt_textview_width">60dp</dimen>
+    <dimen name="attempt_textview_radius">30dp</dimen>
+    <dimen name="attempt_textview_border">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_margin_show_question_right">16dp</dimen>
+    <dimen name="fab_margin_show_question_bottom">8dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!---->
+
+    <dimen name="social_button_radius">30dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_margin_double">16dp</dimen>
+    <dimen name="card_margin_half">4dp</dimen>
+
+    <dimen name="card_border_radius">4dp</dimen>
+    <!---->
+
+    <dimen name="layout_radius_large">192dp</dimen>
+    <dimen name="layout_radius_medium">168dp</dimen>
+    <dimen name="layout_radius_small">144dp</dimen>
+
+    <dimen name="layout_child_offset_tumblr">96dp</dimen>
+    <dimen name="layout_radius_tumblr">120dp</dimen>
+
+    <dimen name="layout_radius_path">140dp</dimen>
+    <dimen name="layout_child_offset_large">144dp</dimen>
+    <dimen name="layout_child_offset_medium">120dp</dimen>
+    <dimen name="layout_child_offset_small">96dp</dimen>
+
+    <dimen name="layout_child_offset_path">114dp</dimen>
+
+    <dimen name="item_circle_size_large">72dp</dimen>
+    <dimen name="item_circle_size_medium">48dp</dimen>
+    <dimen name="item_circle_size_small">36dp</dimen>
+    <dimen name="item_circle_size_tumblr">70dp</dimen>
+    <dimen name="item_circle_size_path">36dp</dimen>
+
+    <dimen name="item_font_size_large">32sp</dimen>
+    <dimen name="item_font_size_medium">24sp</dimen>
+    <dimen name="item_font_size_small">16sp</dimen>
+    <dimen name="item_font_size_tumblr">30sp</dimen>
+    <dimen name="item_font_size_path">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="tool_bar_height">56dp</dimen>
+
+
+    <!--google sign in-->
+    <dimen name="g_top_margin">100dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="google_border_radius">16dp</dimen>
+
+
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="circle_image_width">100dp</dimen>
+    <dimen name="circle_image_final_width">32dp</dimen>
+    <dimen name="statistics_arc_width">90dp</dimen>
+    <dimen name="avatar_diameter">50dp</dimen>
+    <dimen name="avatar_diameter_selected">72dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+
+    <dimen name="step_pager_tab_width">32dp</dimen>
+    <dimen name="step_pager_tab_height">3dp</dimen>
+    <dimen name="step_pager_tab_spacing">4dp</dimen>
+    <dimen name="review_text_padding">4dp</dimen>
+    <dimen name="pager_margin">20dip</dimen>
+    <dimen name="icon_char_width">40dp</dimen>
+    <dimen name="circular_icon_char_width_help">32dp</dimen>
+    <dimen name="square_icon_char_width_help">28dp</dimen>
+    <dimen name="drawable_padding">4dp</dimen>
+    <dimen name="loading_dialog_vertical_displacement">120dp</dimen>
+    <dimen name="simple_activity_larger_padding">200dp</dimen>
+    <dimen name="google_map_control_bottom_padding">200dp</dimen>
+    <dimen name="action_button_height">20dp</dimen>
+
+
+</resources>

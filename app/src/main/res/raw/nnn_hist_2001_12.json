@@ -1,0 +1,439 @@
+{
+  "examSummary": {
+    "iconChar": "H",
+    "iconUrl": "www.google.ca",
+    "shortName": "HISTORY G12 2001",
+    "fullName": "ESLCE History Exam 2001 For Grade 12",
+    "grade": "12",
+    "subject": "History",
+    "numberOfSections": "1",
+    "numberOfQuestions": "50",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2001 June2009"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "What impact did World War I have on the colonial system in Africa?",
+      "choiceA": "It had no impact at all.",
+      "correctAnswer": "B",
+      "choiceB": "It helped many Africans see the illegitimacy of the colonial system",
+      "choiceC": "It strengthened it and made it more secure.",
+      "choiceD": "it made Africans appreciate and admire European technology."
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Which of the following inventions does Not have anything to do with European colonization of Africa at the close of the nineteenth century?",
+      "choiceA": "The Maxim gun",
+      "choiceB": "The steamship",
+      "choiceC": "The telegraph",
+      "choiceD": "The motor car"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "One of the following statements is wrong about the First World War.",
+      "choiceA": "Austria-Hungary competed for the control of overseas colonial possessions.",
+      "choiceB": "It was basically the result of economic and political rivalries among the great powers of Europe.",
+      "correctAnswer": "C",
+      "choiceC": "the War affected the peoples of Africa.",
+      "choiceD": "It gave rise to the first communist state, the USSR."
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "The German war strategy in 1941 known as the",
+      "choiceA": "Prussian plan.",
+      "choiceB": "Central Powers' plan",
+      "choiceC": "Schlieffen plan",
+      "choiceD": "Bismarck plan."
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which of the following is true about the discovery of the New world by European seamen?",
+      "choiceA": "Ii was beneficial to local populations in many places.",
+      "choiceB": "It benefited only the kings and queens of Europe.",
+      "choiceC": "It contributed to the development of capitalism in Europe.",
+      "correctAnswer": "D",
+      "choiceD": "It led to the enslavement of local populations everywhere."
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "The super-powers of the Post-World War II era were the",
+      "choiceA": "USSR and China",
+      "choiceB": "USA and USSR",
+      "choiceC": "USSR and Germany",
+      "choiceD": "USA and Ja"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "A new form of power during the Industrial revolution was",
+      "choiceA": "Machine power",
+      "choiceB": "Steam power",
+      "choiceC": "Water power",
+      "choiceD": "Wind power"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "In what ways do the Organization of African Unity (OAU) and the African Union (AU) differ from each other?",
+      "choiceA": "The former is not committed to colonial boundaries while the latter is.",
+      "correctAnswer": "B",
+      "choiceB": "The former envisions the political union of Africa while the later does not.",
+      "choiceC": "The former is dedicated to economic development of Africa while the latter was formed for its liberation from colonialism",
+      "choiceD": "The former was committed to principles of sovereignty and no- intervention in internal affairs while the latter is not."
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "What was the central idea behind the so-called Truman Doctrine?",
+      "choiceA": "That Communists in Cuba should be denied any access to outside support.",
+      "choiceB": "That NATO should pursue a more aggressive anti-Soviet effort.",
+      "choiceC": "That the American continents should be free of Communist influence.",
+      "choiceD": "That Soviet expansion should be contained everywhere."
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "Menilek's expansion to the South was different from that of his predecessors",
+      "choiceA": "In its intensity and unprecedented degree of success.",
+      "choiceB": "In that it was directed against the imperialists.",
+      "choiceC": "In that it was interested in spreading Christianity.",
+      "choiceD": "In that it was only against his rival Negus Takiahaymanot"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "What was the main factor for the failure of Lij lyassu to consolidate power?",
+      "choiceA": "His friendship with Somali chiefs",
+      "choiceB": "His casual treatment of Shoan notables",
+      "choiceC": "His favoritism towards Islam.",
+      "correctAnswer": "D",
+      "choiceD": "His failure to accommodate the wishes of Europeans."
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "What was the connection between the Great Depression of late 1929 into the early 1930s and the outbreak of World War II?",
+      "choiceA": "Governments wanted war to boost productivity and employment.",
+      "choiceB": "Hardships caused by the Depression carried to power extremis groups with aggressive agendas.",
+      "choiceC": "There was no connection at all between the two.",
+      "choiceD": "The joblessness created by the Depression created a vast reserve of men to deploy in the war."
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "Why was resistance to the land reform proclamation of 1975 in Ethiop. limited and ineffective?",
+      "choiceA": "Because landlords lacked organization and leadership!",
+      "choiceB": "Because the proclamation was not radical enough.",
+      "correctAnswer": "C",
+      "choiceC": "Because most landlords were absentee owners and had little connection with the rural areas.",
+      "choiceD": "Because peasants were well organized and armed,"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Which of the following personalities was an outspoken advocate of Pai-Africanism as a global movement of peoples of African origin?",
+      "choiceA": "Kwame Nkrumah.",
+      "choiceB": "WE. Duhois,",
+      "correctAnswer": "C",
+      "choiceC": "Marcus Garvey",
+      "choiceD": "Emperor Haile Selassie."
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "What does the term gull refer to in Ethiopian political economy?",
+      "choiceA": "Rights to military service only",
+      "correctAnswer": "B",
+      "choiceB": "Ownership of land",
+      "choiceC": "Hereditary nobility",
+      "choiceD": "Rights to tribute"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "Which of the following was common to the civilizations of the Maya, the Inca and the Aztecs?",
+      "choiceA": "They were enemies of each other.",
+      "correctAnswer": "B",
+      "choiceB": "They were all built by native (indigenous) people of the Americas,",
+      "choiceC": "They all rose and fell in what is today Mexico.",
+      "choiceD": "They were all contemporaneous (existed at the same time)."
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "In what sense can it be said that the Ethiopian victory at Adwa was incomplete?",
+      "choiceA": "In the sense that Menelik severely punished too many Ethiopians for collaborating with the enemy.",
+      "choiceB": "In the sense that it did not force the Italians out of the territories beyond the Mereb.",
+      "correctAnswer": "C",
+      "choiceC": "In the sense that the Ethiopians suffered greater casualties.",
+      "choiceD": "In the sense that the victory at Adwa was not followed up diplomatically"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "The national representative assembly of France at the beginning of the French Revolution of 1789 was",
+      "choiceA": "The lst estate.",
+      "choiceB": "The Estates - General.",
+      "choiceC": "The Old regime.",
+      "choiceD": "Absolute monarchy"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "The final battle between Ras Darge's Shoan army and the Arsi Oromo took place at",
+      "choiceA": "Liche",
+      "choiceB": "Chalanqo",
+      "choiceC": "Embabo",
+      "choiceD": "Azule"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "The movement to re-strengthen the Roman Catholic Church was called",
+      "choiceA": "Calvinism",
+      "choiceB": "The Protestant Reformation.",
+      "choiceC": "The renaissance.",
+      "choiceD": "The Counter - Reformation."
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Which of the following African countries came under colonial rule first?",
+      "correctAnswer": "A",
+      "choiceA": "Ghana",
+      "choiceB": "Egypt",
+      "choiceC": "Algeria",
+      "choiceD": "Senegal"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Which of the following is true about the population movement of the Oromo in the sixteenth and seventeenth centuries?",
+      "choiceA": "It involved only the Mecha branch of the Oromo.",
+      "choiceB": "It was carried out both militarily and peacefully",
+      "choiceC": "It was carried out only militarily.",
+      "choiceD": "It affected all parts of the country without exception."
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "The scholar and activist who defined imperialism (including colonialism) as the highest stage of capitalism was",
+      "choiceA": "V.LLenin",
+      "correctAnswer": "B",
+      "choiceB": "John Hobson",
+      "choiceC": "L.Trotsky",
+      "choiceD": "Rosa Luxemburg"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "Which of the following is true about early Christianity?",
+      "choiceA": "It was supreme in the West during the Middle Ages.",
+      "choiceB": "It always played a unifying role in the polities of the Mediterranean world.",
+      "choiceC": "it was persecuted by all of the Roman Emperors",
+      "choiceD": "It started as a state religion."
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "The main centre of the Oromo around the J6Lh century was",
+      "choiceA": "The highlands of Bale and Sidamo.",
+      "choiceB": "Sharka and Dawaro,",
+      "choiceC": "The lowlands of the rift Valley.",
+      "correctAnswer": "D",
+      "choiceD": "Madda Walabu."
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "The final defeat of Napoleon took place at",
+      "choiceA": "The island of Corsica",
+      "choiceB": "St. Helena in the Atlantic",
+      "choiceC": "Waterloo in Belgium",
+      "choiceD": "The island of Elba in the Mediterranean Sea."
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "One of the following statements is wrong about the establishment colonialism in Africa.",
+      "correctAnswer": "A",
+      "choiceA": "Africans did not put up any resistance against the Europe",
+      "choiceB": "The European troops had the advantage of modem firearms",
+      "choiceC": "Africans lacked unity to challenge the European conquer",
+      "choiceD": "Over 26,000 Africans etc killed in the Maji-Maji rebellion"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "Which of the following would be a primary source for a history of the Fascist occupation of Ethiopia from 1936 -41?",
+      "choiceA": "A diary kept by a Fascist governor of a province of Ethiopia.",
+      "choiceB": "An inscription on an Ethiopian monument erected after the expulsion of the Fascists.",
+      "choiceC": "A book written by an Italian historian in the 1950s.",
+      "choiceD": "Oral information that a grandson of a patriot provided to ,a historian."
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "Which of the following is true about the study of history?",
+      "choiceA": "Its proper area of coverage is politics.",
+      "choiceB": "Its primary objective is to instill patriotism.",
+      "choiceC": "It is irrelevant for current conditions.",
+      "choiceD": "It covers virtually all aspects of the human past."
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "One of the following is wrong about the Ethiopian Revolution of 1974.",
+      "choiceA": "Haile Sellassie's regime faced growing popular hatred.",
+      "choiceB": "The student movement contributed to its outbreak.",
+      "choiceC": "It had nothing to do with petroleum price rise. Ages began is",
+      "choiceD": "There were several immediate causes for the outbreak of the revolt."
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "What was the main factor for the emergence of monarchical rule in the Gibe region early in the nineteenth century?",
+      "choiceA": "Trade and trade routes",
+      "correctAnswer": "B",
+      "choiceB": "Islam.",
+      "choiceC": "Shift in the system of land tenure.",
+      "choiceD": "Influence of neighboring states."
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "Which of the following elements in early Islam contributed to its rapid expansion?",
+      "choiceA": "Its animosity to other monotheist religions.",
+      "choiceB": "Its egalitarian principles about society.",
+      "choiceC": "Its connections to trade anti commerce.",
+      "choiceD": "Its emphasis on Jihad and religious martyrdom."
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "During the American War of Independence the patriots were helped by",
+      "choiceA": "The French",
+      "choiceB": "The Portuguese",
+      "choiceC": "The Germans",
+      "choiceD": "The Loyalists."
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "The Jesuit interlude and their attempt to spread Catholicism led to",
+      "choiceA": "The outbreak of doctrinal controversies in the Ethiopian Orthodox Church.",
+      "choiceB": "The collapse of the Christian Kingdom.",
+      "choiceC": "The collapse of Orthodox Christianity.",
+      "choiceD": "The beginning of the Zemene Mesa/bat."
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "What purpose did the tradition of Solomonic Dynasty serve in the political history of Imperial Ethiopia'?",
+      "choiceA": "To maintain a good relationship with the state of Israel",
+      "choiceB": "To keep a genuine record of the genealogy of Christian emperors.",
+      "choiceC": "To justify and legitimize political power To establish peace and order during succession."
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "Which of the following is true about the Vietnamese resistance to American intervention in the 1960s and 1970s?",
+      "choiceA": "It was communist in the north and nationalist in the south.",
+      "choiceB": "It was more nationalist than communist.",
+      "choiceC": "It was both nationalist and communist.",
+      "choiceD": "It was more communist than nationalist."
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "The country whose President succeeded in establishing the League of Nations but which did not become a member of the League was",
+      "choiceA": "Ethiopia",
+      "choiceB": "The United State of America",
+      "choiceC": "Britain",
+      "choiceD": "Italy"
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "During the interwar years (1919- 1939), African resistance to European colonialism",
+      "choiceA": "Was pushing for complete independence.",
+      "choiceB": "Completely died out.",
+      "choiceC": "Resorted to rural armed struggle.",
+      "choiceD": "Was centered around towns and pressed for reforms."
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "What does the category  Cushitic suggests?",
+      "choiceA": "Linguistic affinity",
+      "correctAnswer": "B",
+      "choiceB": "Blood relationship among the people.",
+      "choiceC": "Physical characteristics.",
+      "choiceD": "Race"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Which of the following Cannot be said to be part of Enlightenment though?",
+      "choiceA": "That humans are in control of their own destiny.",
+      "choiceB": "That the material and social world is knowable through human intelligence.",
+      "choiceC": "That humans can use reason to bring betterment in all aspects of life,",
+      "correctAnswer": "D",
+      "choiceD": "That religion is important for social harmony."
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "The leader of the Kuomintang KMT was",
+      "choiceA": "Ho Chi Minh.",
+      "choiceB": "Madam Chiang.",
+      "choiceC": "Dr. Sun Yat-Sen.",
+      "choiceD": "Mao Zedong."
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "Which of the following describes Confucianism properly?",
+      "choiceA": "It is a moral philosophy that preaches equality among all human beings.",
+      "choiceB": "It is grounded on the principle That social harmony arises from accepting and respecting hierarchy.",
+      "choiceC": "It fails to address the place of women and children in society.",
+      "correctAnswer": "D",
+      "choiceD": "It asserts that the universe is composed of forces that are perpetually at war."
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Giving the exact date as to when the European Middle difficult because",
+      "choiceA": "It came before the ancient world.",
+      "correctAnswer": "B",
+      "choiceB": "It came after the early modem world.",
+      "choiceC": "It coincided with the rise of the Roman Empire.",
+      "choiceD": "Economic and social changes only gradually registered themselves."
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "The two main immediate factors for the colonization of Africa in the middle of the 1880s were",
+      "choiceA": "The British takeover of Egypt in 1882 and unification of Italy.",
+      "choiceB": "The rise of Bismarck and the revolt of Urbai Pasha of Egypt in 1882.",
+      "choiceC": "the French conquest of Algeria in 1830 and British occupation of Cape Colony.",
+      "choiceD": "the British occupation of Egypt in 1882 and the involvement of Germany and King Leopold of Belgium in the scramble for Africa."
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "A Greek historian who said that Egypt was the gift of the Nile was",
+      "choiceA": "Plato",
+      "choiceB": "Thueydides",
+      "choiceC": "Plutarch",
+      "correctAnswer": "D",
+      "choiceD": "Herodotus"
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "What did Emperor Haile Selassie ask for in his speech at the League of Nations in 1936?",
+      "choiceA": "Military Support against Italy from the USA.",
+      "choiceB": "Adjudication between Ethiopia and Italy.",
+      "correctAnswer": "C",
+      "choiceC": "For action against Italy according to the League Covenant.",
+      "choiceD": "Restoration of Eritrea to Ethiopia."
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "Identify the correct arrangement in a top-down approach.",
+      "choiceA": "Priests, Patriarch, Bishop, Laity', Archbishop.",
+      "choiceB": "Patriarch, Archbishop, Bishop, Priests, Laity",
+      "correctAnswer": "C",
+      "choiceC": "Laity, Priests, Bishop, Archbishop, Patriarch.",
+      "choiceD": "Archbishop, Bishop, patriarch, Laity, Priests."
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "Who was founder of Ethiopian studies in Europe?",
+      "choiceA": "Richard Pankhurst.",
+      "choiceB": "Job Ludolf",
+      "choiceC": "Ullendoriff",
+      "choiceD": "Harold Marcus"
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "One of the following is not among the key elements in the study of history.",
+      "choiceA": "Clear understanding of the meaning of evidence",
+      "choiceB": "Objectivity of the historian.",
+      "choiceC": "Artistry in the quality of writing.",
+      "choiceD": "Availability of good sources."
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "What is the hang theory?",
+      "choiceA": "A Marxist theory about the creation of the earth.",
+      "choiceB": "The argument that the universe emerged out of a hot and dense mass through some sort of cosmic explosion.",
+      "choiceC": "The theory that the earliest hominids collected stone implements in the wake of big volcanic eruptions.",
+      "choiceD": "A theological argument about the creation of humanity by the Creator."
+    }
+  ]
+}

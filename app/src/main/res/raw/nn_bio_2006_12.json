@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "BIOLOGY G12 2006",
+    "fullName": "EUEE Biology 2006 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "34",
+    "version": "1",
+    "examGivenDate": "Ginbot 2006 June 2014"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "B",
+      "questionStatement": " Behavior that is repeated on a daily basis is referred to as:",
+      "choiceA": "Lunar",
+      "choiceB": "Circadian",
+      "choiceC": "Circannual",
+      "choiceD": "Seasonal"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the folloWing molecules in living things is <b>NOT</b> an organic molecule?",
+      "choiceA": "Sugar",
+      "choiceB": "Nucleotide",
+      "choiceC": "Amino acid",
+      "choiceD": "Water"
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "A",
+      "questionStatement": " Which molecule in the cell is the constituent of the gene?",
+      "choiceA": "Nucleic acid",
+      "choiceB": "Protein",
+      "choiceC": "Lipid",
+      "choiceD": "Carbohydrate"
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "B",
+      "questionStatement": " On which of the following organelles of the eukaryotic cell does protein synthesis take place?",
+      "choiceA": "The nucleus",
+      "choiceB": "The ribosome",
+      "choiceC": "The chloroplast",
+      "choiceD": "The mitochondrion"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following cellular forms did Robert Hooke observe under his crude microscope?",
+      "choiceA": "Bacteria",
+      "choiceB": "Protozoa",
+      "choiceC": "Yeast",
+      "choiceD": "Empty cell wall"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is a distinguishing feature of amino acids that is <b>NOT</b> found in carbohydrates?",
+      "choiceA": "Carbon",
+      "choiceB": "Oxygen",
+      "choiceC": "Hydrogen",
+      "choiceD": "Nitrogen"
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "B",
+      "questionStatement": " What is the branch of biology that studies about the origin and gradual changes of living things?",
+      "choiceA": "Microbiology",
+      "choiceB": "Evolution",
+      "choiceC": "Mutation",
+      "choiceD": "Reproduction"
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "D",
+      "questionStatement": "In the case of enzymatic chemical reactions, What do you call the substance that is acted upon by an enzyme?",
+      "choiceA": "Polypeptide",
+      "choiceB": "Coenzyme",
+      "choiceC": "Vitamin",
+      "choiceD": "Substrate"
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "B",
+      "questionStatement": "Which of the following groups of bacteria consists of rod shaped cells?",
+      "choiceA": "Gram-positive",
+      "choiceB": "Bacilli",
+      "choiceC": "Cocci",
+      "choiceD": "Spirilla"
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "B",
+      "questionStatement": "What is the general term for the part of the protoplasm that lies outside the nucleus?",
+      "choiceA": "Cytosol",
+      "choiceB": "Cytoplasm",
+      "choiceC": "Central vacuole",
+      "choiceD": "Plasma membrane"
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "D",
+      "questionStatement": "While conducting research, which of the following should a biologist do first?",
+      "choiceA": "Generate hypothesis",
+      "choiceB": "Conduct experiments",
+      "choiceC": "Communicate the results",
+      "choiceD": "Identify a research question/problem"
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "C",
+      "questionStatement": " Choose the organisms that belongs to the eukaryotes?",
+      "choiceA": "Bacteria",
+      "choiceB": "Blue green algae",
+      "choiceC": "Amoeba",
+      "choiceD": "Virus"
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following statements is true about matter and energy in the ecosystem?",
+      "choiceA": "Both matter and energy are recycled",
+      "choiceB": "Matter is <b>NOT</b> recycled; energy is recycled",
+      "choiceC": "Matter is recycled; energy is <b>NOT</b> recycled",
+      "choiceD": "Energy is recycled more than matter does"
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "D",
+      "questionStatement": "Which Of the following is true about protozoa?",
+      "choiceA": "They are a group of bacteria",
+      "choiceB": "They are one-celled plants",
+      "choiceC": "They represent both plants and animals",
+      "choiceD": "They are unicellular animals"
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following parts of plant roots is harbouring nitrogen fixing bacteria?",
+      "choiceA": "Root nodule",
+      "choiceB": "Root hair",
+      "choiceC": "Root tip",
+      "choiceD": "Root cap"
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "B",
+      "questionStatement": " An experimental animal stopped responding to a stimulus that has been repeated so many times. What type Of learned behaviour is this?",
+      "choiceA": "Latent learning",
+      "choiceB": "Habituation",
+      "choiceC": "Imprinting",
+      "choiceD": "Operant conditioning"
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "A",
+      "questionStatement": " How many net ATP molecules are generated through anaerobic respiration, when a single glucose molecule is changed to pyruvate in the human body?",
+      "choiceA": "Two",
+      "choiceB": "Three",
+      "choiceC": "Four",
+      "choiceD": "Six"
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "A",
+      "questionStatement": "Which of the following structures is <b>NOT</b> present in animal cells?",
+      "choiceA": "Cell wall",
+      "choiceB": "Nucleus",
+      "choiceC": "Protoplasm",
+      "choiceD": "Nucleic acid"
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "C",
+      "questionStatement": "Which of the followings do viruses share with cells?",
+      "choiceA": "Cell wall",
+      "choiceB": "Cytoplasm",
+      "choiceC": "Nucleic acid",
+      "choiceD": "Protoplasm"
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "B",
+      "questionStatement": " How many carbon and oxygen atoms are there in a molecule of maltose?",
+      "choiceA": "6 carbon and 6 oxygen",
+      "choiceB": "12 carbon and 11 oxygen",
+      "choiceC": "11 carbon and 12 oxygen",
+      "choiceD": "24 carbon and 12 oxygen"
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following groups of animals have males with ZZ and females with ZW sex chromosome constitution?",
+      "choiceA": "Grasshoppers",
+      "choiceB": "Birds",
+      "choiceC": "Mammals",
+      "choiceD": "Honey bees"
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following carbohydrates has structural function?",
+      "choiceA": "Cellulose",
+      "choiceB": "Glycogen",
+      "choiceC": "Starch",
+      "choiceD": "Sucrose"
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "C",
+      "questionStatement": " During the Krebs cycle, which of the following molecules temporarily stores most of the energy released from food molecule?",
+      "choiceA": "ADP",
+      "choiceB": "ATP",
+      "choiceC": "NADH",
+      "choiceD": "FADH"
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "D",
+      "questionStatement": "Which of the following forms of nitrogen is readily utilizable by green plants?",
+      "choiceA": "Atmospheric nitrogen",
+      "choiceB": "Nitrite",
+      "choiceC": "Ammonium ion",
+      "choiceD": "Nitrate"
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "D",
+      "questionStatement": " At which stage is most of the ATP generated in aerobic respiration?",
+      "choiceA": "Glycolysis",
+      "choiceB": "Krebs cycle",
+      "choiceC": "Krebs cycle",
+      "choiceD": "Electron transport"
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following techniques is used to separate DNA fragments according to their size on a gel?",
+      "choiceA": "Southern blotting",
+      "choiceB": "Electrophoresis",
+      "choiceC": "Radioactive labeling",
+      "choiceD": "Digestion by restriction enzyme"
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "D",
+      "questionStatement": " In a cross between round green pea of RRyy genotype and wrinkled yellow pea of rrYY genotype, what is the expected genotype of F1?",
+      "choiceA": "RRyy",
+      "choiceB": "rrYY",
+      "choiceC": "RRYY",
+      "choiceD": "RyYy"
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following cellular structures is possessed by all cells?",
+      "choiceA": "Cell membrane",
+      "choiceB": "Nucleus",
+      "choiceC": "Cell wall",
+      "choiceD": "Golgi apparatus"
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "D",
+      "questionStatement": " In some crosses of maize, the progeny produces better yield than the parents. What is this phenomenon known as?",
+      "choiceA": "Dominance",
+      "choiceB": "Heterozygosity .",
+      "choiceC": "Hybrid vigour",
+      "choiceD": "Inbreeding depression"
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the common characteristics of all enzymes?",
+      "choiceA": "They act inside cells only",
+      "choiceB": "They are proteins",
+      "choiceC": "They require cofactors",
+      "choiceD": "They operate at any pH"
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "B",
+      "questionStatement": " If present in the fermentation system, which one ofthe following would negatively affect alcohol production by yeasts?",
+      "choiceA": "Water",
+      "choiceB": "Oxygen",
+      "choiceC": "Glucose",
+      "choiceD": "Fermentation enzyme"
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "D",
+      "questionStatement": " If a radioactive substance that weighs one kilogram has a half-life of 100 years, what would be the percentage of the substance left after 300 years?",
+      "choiceA": "50",
+      "choiceB": "30",
+      "choiceC": "25",
+      "choiceD": "12.5"
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "D",
+      "questionStatement": " Into which of the following organic compounds can lipase, maltase and sucrase be grouped?",
+      "choiceA": "Hormones",
+      "choiceB": "Carbohydrates",
+      "choiceC": "Nucleic acids",
+      "choiceD": "Enzymes"
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following substances is <b>NOT</b> necessary for photosynthesis to take place?",
+      "choiceA": "Chlorophyll",
+      "choiceB": "Carbon dioxide",
+      "choiceC": "Oxygen",
+      "choiceD": "Water"
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following PH values represents the strongest base?",
+      "choiceA": "2",
+      "choiceB": "7",
+      "choiceC": "13",
+      "choiceD": "15"
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is an accurate representation of the relationships between the terms metabolism, anabolism and catabolism?",
+      "choiceA": "Anabolism = catabolism",
+      "choiceB": "Metabolism = catabolism",
+      "choiceC": "Anabolism = catabolism + metabolism",
+      "choiceD": "Metabolism = catabolism + anabolism"
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "D",
+      "questionStatement": " What is the ultimate source of energy for all organisms living on the earth?",
+      "choiceA": "Water",
+      "choiceB": "Oxygen",
+      "choiceC": "Nitrogen",
+      "choiceD": "The sun"
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following can be taken as case for evidence of evolution from the field of plant and animal breeding?",
+      "choiceA": "Artificial breeding always creates new species",
+      "choiceB": "Artificial breeding only produces new organisms with higher yield",
+      "choiceC": "Artificial breeding shows that natural Selection can produce variations .",
+      "choiceD": "Artificial breeding can produce new variations in organisms"
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "D",
+      "questionStatement": " In which of the activities of the honey bee colony are worker bees involved?",
+      "choiceA": "Laying eggs",
+      "choiceB": "Serving as queens",
+      "choiceC": "Reproductive functions",
+      "choiceD": "Taking care of the larvae"
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "B",
+      "questionStatement": " Choose the characteristics that viruses share with living things.",
+      "choiceA": "They are made up of many specialized cells",
+      "choiceB": "They contain genetic material",
+      "choiceC": "They reproduce by mitosis",
+      "choiceD": "They contain chlorophyll"
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "C",
+      "questionStatement": " According to Lamarck's theory of evolution, what is the mechanism by which evolving organisms acquire new structures?",
+      "choiceA": "Mutation",
+      "choiceB": "Hereditary variation",
+      "choiceC": "Use - and - disuse of parts of the body",
+      "choiceD": "Recombination of ancestral genes"
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "A",
+      "questionStatement": " Where exactly in the cell does the Krebs cycle take place?",
+      "choiceA": "Mitochondrial matrix",
+      "choiceB": "Inner mitochondrial membrane",
+      "choiceC": "Cytoplasmic",
+      "choiceD": "Outer mitochondrial membrane"
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "D",
+      "questionStatement": " In which one of the following ways the Tundra biome differs from desert biome?",
+      "choiceA": "It is a treeless biome",
+      "choiceB": "It has little biodiversity",
+      "choiceC": "It receives little precipitation",
+      "choiceD": "It has permanently frozen subsoil"
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following eukaryotic cell organelles was a free living cell before eukaryotic cells evolved?",
+      "choiceA": "Nucleus",
+      "choiceB": "Ribosome",
+      "choiceC": "Chloroplast",
+      "choiceD": "Nucleolus"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following is the mechanism by which two genes located on the same chromosome are separated?",
+      "choiceA": "Independent assortment",
+      "choiceB": "Segregation",
+      "choiceC": "Linkage",
+      "choiceD": "Crossing over"
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "A",
+      "questionStatement": " Which group of organic compounds includes the enzymes?",
+      "choiceA": "Proteins",
+      "choiceB": "Lipids",
+      "choiceC": "Starches",
+      "choiceD": "Carbohydrates"
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "A",
+      "questionStatement": " The molecule of which pigment is located at the reaction center of a photosystem?",
+      "choiceA": "Chlorophyll a",
+      "choiceB": "Chlorophyll b",
+      "choiceC": "Carotenoid",
+      "choiceD": "Accessory pigments"
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following mechanisms moves digested amino acids and glucose across the plasma membrane of the cells lining the wall of the small intestine?",
+      "choiceA": "Osmosis",
+      "choiceB": "Simple diffusion",
+      "choiceC": "Facilitated diffusion",
+      "choiceD": "Active transport"
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "B",
+      "questionStatement": " In Ethiopia, which one of the following Vertebrate groups has largest number of genera?",
+      "choiceA": "Mammals",
+      "choiceB": "Birds",
+      "choiceC": "Reptiles",
+      "choiceD": "Amphibians"
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is more true about the male of the honey bee?",
+      "choiceA": "It has no father",
+      "choiceB": "It is sterile",
+      "choiceC": "It is diploid",
+      "choiceD": "It regulates the colony"
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "D",
+      "questionStatement": " For a biological detergent to effectively remove oily and greasy dirt, which of the following enzymes should it contain?",
+      "choiceA": "Cellulase",
+      "choiceB": "Protease",
+      "choiceC": "amylase",
+      "choiceD": "Lipase"
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "C",
+      "questionStatement": " In which of the following ways is the carbon dioxide of the atmosphere fixed into the carbon found in organic molecules?",
+      "choiceA": "In the breathing processes of all animals",
+      "choiceB": "In the decomposition of organic molecules",
+      "choiceC": "In the process of photosynthesis by green plants",
+      "choiceD": "In all the cellular respiration processes of organisms"
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "C",
+      "questionStatement": " Which molecules carry the instructions for protein synthesis?",
+      "choiceA": "Carbohydrates and lipids",
+      "choiceB": "Amino acids",
+      "choiceC": "DNA and RNA",
+      "choiceD": "Enzymes"
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following resources is needed by an ecosystem from outside in order to sustain itself?",
+      "choiceA": "Producers",
+      "choiceB": "Macronutrients",
+      "choiceC": "Micronutrients",
+      "choiceD": "Sunlight"
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "B",
+      "questionStatement": " During protein synthesis, where in the cell does transcription take place?",
+      "choiceA": "Ribosome",
+      "choiceB": "Nucleus",
+      "choiceC": "Endoplasmic reticulum",
+      "choiceD": "Golgi apparatus"
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "B",
+      "questionStatement": " In protein synthesis, what is produced during transcription?",
+      "choiceA": "Protein",
+      "choiceB": "mRNA",
+      "choiceC": "DNA",
+      "choiceD": "Polypeptide"
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is true about saturated fatty acids?",
+      "choiceA": "They have single bonds between carbon atoms",
+      "choiceB": "They are the same as polyunsaturated fatty acids",
+      "choiceC": "They are the same as monounsaturated fatty acids",
+      "choiceD": "They have double bonds between the carbon atoms"
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is prevented from taking place if populations are separated by a geographic barrier?",
+      "choiceA": "Mutation",
+      "choiceB": "Evolution",
+      "choiceC": "Gene flow",
+      "choiceD": "Natural selection"
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is true about the substance represented by the chemical formula C<sub>2</sub>H<sub>5</sub>NO<sub>2</sub>?",
+      "choiceA": "Simple sugar",
+      "choiceB": "Inorganic substance",
+      "choiceC": "Fatty acid",
+      "choiceD": "Amino acid"
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following applies to the tropical rainforest?",
+      "choiceA": "Low rainfall and high temperature",
+      "choiceB": "Low rainfall and low temperature",
+      "choiceC": "High rainfall and high temperature",
+      "choiceD": "High rainfall and low temperature"
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following characteristics is <b>UNNECESSARY</b> for an object to be considered living thing?",
+      "choiceA": "Ability to respond to stimuli",
+      "choiceB": "Ability to reproduce",
+      "choiceC": "Ability to grow",
+      "choiceD": "Ability to move"
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "C",
+      "questionStatement": " What is a perfect flower?",
+      "choiceA": "A flower with petals and pistil",
+      "choiceB": "A flower with stamens and sepals",
+      "choiceC": "A flower with stamens and pistil",
+      "choiceD": "A flower with sepals and petals"
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "B",
+      "questionStatement": " Which term describes the process by which water is lost by evaporating through the stomata of leaves?",
+      "choiceA": "Transport",
+      "choiceB": "Transpiration",
+      "choiceC": "Anchorage",
+      "choiceD": "Adhesion"
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is <b>NOT</b> a term used to describe organisms that have had foreign genes added to them?",
+      "choiceA": "Genetically modified organisms",
+      "choiceB": "Transgenic organisms",
+      "choiceC": "Genetically engineered organisms",
+      "choiceD": "Pathogenic organisms"
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "D",
+      "questionStatement": " In which kingdom of life is it most likely to find many examples of organisms that can undergo metamorphosis?",
+      "choiceA": "Monera",
+      "choiceB": "Fungi",
+      "choiceC": "Plantae",
+      "choiceD": "Animalia"
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "B",
+      "questionStatement": " Which field studies the way in which individual traits of organisms are transmitted from one generation to the next?",
+      "choiceA": "Genetics",
+      "choiceB": "Ecology",
+      "choiceC": "Evolution",
+      "choiceD": "Morphology"
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "D",
+      "questionStatement": " If a cell fails to clear its cellular debris, which one of its organelles is most likely <b>NOT</b> functioning?",
+      "choiceA": "Nucleus",
+      "choiceB": "Mitochondria",
+      "choiceC": "Endoplasmic reticulum",
+      "choiceD": "Lysosomes"
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "C",
+      "questionStatement": " What do you call structures that have the same evolutionary origin but now are different in structure or have different functions?",
+      "choiceA": "Endemic",
+      "choiceB": "Analogous",
+      "choiceC": "Homologous",
+      "choiceD": "Indigenous"
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "B",
+      "questionStatement": " Which region of the human digestive tract contains enzymes that perform well at low pH?",
+      "choiceA": "Mouth",
+      "choiceB": "Stomach",
+      "choiceC": "Small intestine",
+      "choiceD": "Large intestinal"
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "D",
+      "questionStatement": " The half life of carbon-14 is about 5730 years. If a fossil is 17200 years old, about what percent of its original carbon-14 is still present in the fossil?",
+      "choiceA": "75%",
+      "choiceB": "50%",
+      "choiceC": "25%",
+      "choiceD": "12%"
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following pairs of individuals have identical DNA fingerprints?",
+      "choiceA": "Father and son",
+      "choiceB": "Mother and daughter",
+      "choiceC": "Brother and sister",
+      "choiceD": "Monozygotic twins"
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "A",
+      "questionStatement": " Suppose a. hypothetical cube-shaped cell has sides of 10 micrometers, what is the surface area to volume ratio of this cell?",
+      "choiceA": "6:10",
+      "choiceB": "10:10",
+      "choiceC": "3:6",
+      "choiceD": "4:8"
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following types of chromosome mutations gives rise to an extra chromosome?",
+      "choiceA": "Inversion",
+      "choiceB": "Translocation",
+      "choiceC": "Deletion",
+      "choiceD": "Non-disjunction"
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "D",
+      "questionStatement": " Suppose sites A, B, C and D have Simpson's Index of Diversity (d). values of 20, 8, 16 and 3, respectively, which site in dominated by one or just a few species?",
+      "choiceA": "Site A",
+      "choiceB": "Site B",
+      "choiceC": "Site C",
+      "choiceD": "Site D"
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following groups of plants carry out light dependent and light independent reactions of photosynthesis separate cells?",
+      "choiceA": "C-3 plants",
+      "choiceB": "C-4 plants",
+      "choiceC": "CAM plants",
+      "choiceD": "Plants without chlorophyll"
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following can create strong inter-species completion if shared by two or more species?",
+      "choiceA": "Habitat",
+      "choiceB": "Ecosystem",
+      "choiceC": "Niche",
+      "choiceD": "Predator"
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "D",
+      "questionStatement": " Among the following, which one has little or no contribution the loss of biodiversity?",
+      "choiceA": "Overgrazing by domestic animals",
+      "choiceB": "Clearing forests to grow crops",
+      "choiceC": "Growing crops of improved varieties",
+      "choiceD": "Growing crops of landrace"
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "B",
+      "questionStatement": " Which stage in the life cycle of HIV is inhibited by anti retro viral drug known as integrase-inhibitor?",
+      "choiceA": "Conversion of viral RNA to DNA",
+      "choiceB": "Replication of the viral genome",
+      "choiceC": "Insertion of the viral genome into host genome",
+      "choiceD": "Release of the viral progeny from the cell"
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "D",
+      "questionStatement": " Among the following identify the organelle in which nucleic acid is <b>NOT</b> found?",
+      "choiceA": "Mitochondria",
+      "choiceB": "Chloroplast",
+      "choiceC": "Ribosome",
+      "choiceD": "Golgi apparatus"
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "B",
+      "questionStatement": " During aerobic respiration, what is the route through when protons return, from the mitochondrial inter-membrane species back to its matrix?",
+      "choiceA": "Proton pump",
+      "choiceB": "ATP synthesis",
+      "choiceC": "Ion channel",
+      "choiceD": "Membrane lipid"
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "B",
+      "questionStatement": " Among the following fossil hominid species, which one is oldest of all?",
+      "choiceA": "Homo erectus",
+      "choiceB": "Ardipithecus ramidus",
+      "choiceC": "Australopithecus afarensis",
+      "choiceD": "Australopithecus africdnus"
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "A",
+      "questionStatement": " Choose the one that represents a chemical formula of an organic compound? -",
+      "choiceA": "C<sub>12</sub>H<sub>12</sub>O<sub>11</sub>",
+      "choiceB": "Mg(OH)<sub>2</sub>",
+      "choiceC": "NH<sub>3</sub>",
+      "choiceD": "NaCl"
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "C",
+      "questionStatement": " From which of the processes of cellular respiration is the majority of the ATP generated?",
+      "choiceA": "Anaerobic fermentation",
+      "choiceB": "Glycolysis and link reaction",
+      "choiceC": "Electron transport and chemiosmosis",
+      "choiceD": "Krebs cycle and glycolysis"
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " How are unSaturated fats distinguished?",
+      "choiceA": "They are made up of glucose and fructose",
+      "choiceB": "They are made up of amino acids and glycerol",
+      "choiceC": "have double bonds in their carbon chains",
+      "choiceD": "They have only single bonds at the points of attachment"
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following pairs are analogous structures?",
+      "choiceA": "Wing of a bird and wing of a butterfly",
+      "choiceB": "Front leg of a horse and a human arm",
+      "choiceC": "Wing of a bird and wing of a bat",
+      "choiceD": "FrOnt leg of a frog and Wing of a bat"
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following mating produces children all having the Same ABO blood phenotypes?",
+      "choiceA": "AO x AB",
+      "choiceB": "BB x OO",
+      "choiceC": "AO X BO",
+      "choiceD": "AA X BO"
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "A",
+      "questionStatement": " In Which of the following Solutions does an animal cell undergohaemolysis?",
+      "choiceA": "In hypotonic solution",
+      "choiceB": "In hypertonic solution",
+      "choiceC": "In isotonic solution",
+      "choiceD": "In both hypotopic and hypertonic solutions"
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "D",
+      "questionStatement": " On which of the following does the rate of algal, photosynthesis in a lake depend?",
+      "choiceA": "The oxygen content of the water",
+      "choiceB": "The nitrogen content of the water",
+      "choiceC": "The elevation where the lake is found",
+      "choiceD": "The amount of the penetrates the lake water"
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is the largest ecological unit?",
+      "choiceA": "A community",
+      "choiceB": "A biome",
+      "choiceC": "A population",
+      "choiceD": "An ecosystem"
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "B",
+      "questionStatement": " Biotechnology can be applied in environmental remediation. To which of the major application areas of biotechnology is this most related?",
+      "choiceA": "Medicine and nutrition",
+      "choiceB": "Medicine and industry",
+      "choiceC": "Biodiversity and industry",
+      "choiceD": "Agriculture and environment"
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is produced when a lipid molecule is hydrolyzed?",
+      "choiceA": "Amino acids and water",
+      "choiceB": "Amino acids and glucose",
+      "choiceC": "Fatty acids and glycerol",
+      "choiceD": "Glucose and glycerol"
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "B",
+      "questionStatement": " What is the ecological succession in which plant communities establish after an area has been completely demolished by fire?",
+      "choiceA": "Tree succession",
+      "choiceB": "Secondary succession",
+      "choiceC": "Primary succession",
+      "choiceD": "Bare rock succession"
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "C",
+      "questionStatement": " What is the difference between HIV and AIDS?",
+      "choiceA": "AIDS is the virus and HIV is the disease",
+      "choiceB": "Both AIDS and HIV refer to the disease",
+      "choiceC": "AIDS is the disease and HIV is the virus",
+      "choiceD": "Both AIDS and HIV refer to the virus"
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following conclusions can be drawn from the structural similarities observed between the flippers of whales and the arms of humans?",
+      "choiceA": "The human species began life in the ocean",
+      "choiceB": "The human species and whales share a common ancestry",
+      "choiceC": "Whales are older than the human species",
+      "choiceD": "Whales have evolved from early humans that went back to the ocean"
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "A",
+      "questionStatement": " Suppose in an experiment conducted to test a new drug, 20 people were given the drug and 20 people a placebo. What is the control of the experiment?",
+      "choiceA": "People who received the placebo",
+      "choiceB": "People who received the new drug",
+      "choiceC": "The new drug itself",
+      "choiceD": "The new drug and the placebo"
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following will happen if a plant cell is kept in a solution that is stronger than its protoplasm?",
+      "choiceA": "The cell will become turgid",
+      "choiceB": "The central vacuole will expand",
+      "choiceC": "The protoplasm will get plasmolysed",
+      "choiceD": "The cell will swell and burst"
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "C",
+      "questionStatement": " What does the absence of chloroplasts in a unicellular organism indicate?",
+      "choiceA": "Reproduction by sexual means",
+      "choiceB": "Autotrophic nutrition",
+      "choiceC": "Heterotrophic nutrition",
+      "choiceD": "Complete lack of metabolic processes"
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "C",
+      "questionStatement": " If a DNA contains 10% thymine, what is the percentage of cytosine in the DNA?",
+      "choiceA": "10%",
+      "choiceB": "30%",
+      "choiceC": "40%",
+      "choiceD": "90%"
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "B",
+      "questionStatement": " From which organism is the first antibiotic used in medicine produced?",
+      "choiceA": "Gram negative bacteria",
+      "choiceB": "Members of the fungi",
+      "choiceC": "Genetically modified protozoa",
+      "choiceD": "Higher plants"
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following did the early heterotrophs do that probably assisted the origin of autotrophs?",
+      "choiceA": "They added oxygen and chlorophyll to the environment",
+      "choiceB": "They added carbon dioxide to the environment",
+      "choiceC": "They stored energy in the bonds of inorganic compounds",
+      "choiceD": "They manufactured food from carbon dioxide and oxygen"
+    }
+  ]
+}

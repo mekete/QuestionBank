@@ -1,0 +1,647 @@
+{
+  "examSummary": {
+    "iconChar": "E",
+    "iconUrl": "www.google.ca",
+    "shortName": "ECONOMICS G12 2002",
+    "fullName": "ESLCE Economics Exam 2002 For Grade 12",
+    "grade": "12",
+    "subject": "Economics",
+    "numberOfSections": "1",
+    "numberOfQuestions": "70",
+    "allowedTime": 1234567890,
+    "bookletCode": "95",
+    "version": "1",
+    "examGivenDate": "Sene 2002 June 2010"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "A major reason associated with the performance of Ethiopian agriculture could be the following EXCEPT _____________",
+      "choiceA": "use of irrigation facilities",
+      "correctAnswer": "B",
+      "choiceB": "land fragmentation",
+      "choiceC": "unpredictable weather condition",
+      "choiceD": "erosion and land degradation"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "Suppose that the GDP of a country was 60 billion in the year 2008 and the GDP deflator in that year was 120. Suppose also that the GDP of the same country in the year 2000 was 55 billion and the GDP deflator was 100. Which one of the following is true about the real GOP in 2008?",
+      "choiceA": "It depends on factors not mentioned.",
+      "choiceB": "Equal to 60 billion.",
+      "correctAnswer": "C",
+      "choiceC": "Less than 60 billion.",
+      "choiceD": "Greater than 60 billion"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "If the market supply curve of a good has a positive slope of 0.01 and if the market demand curve shifts to the left, which of the following is the best conclusion that can be made about the market outcome after the shift?",
+      "correctAnswer": "A",
+      "choiceA": "The equilibrium price remains same while the equilibrium quantity",
+      "choiceB": "The equilibrium price declines by 10% while the equilibrium quantity decline by more than 10%.",
+      "choiceC": "The equilibrium price declines slightly.",
+      "choiceD": "The equilibrium price and quantity decline in similar proportions."
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "If a government reduces its expenditure and increases taxation to achieve a certain objective, which of the following is likely to be that objective? The government alms ______________",
+      "choiceA": "at increasing national income",
+      "correctAnswer": "B",
+      "choiceB": "to control inflation",
+      "choiceC": "to expand the economic activities",
+      "choiceD": "expand its control over activities"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "Which of the following statements about economic theories holds true?",
+      "choiceA": "Economic theories are abstractions representing every detail of the complex word.",
+      "choiceB": "Economic theories are to some extent abstractions reflecting the full complexities of reality.",
+      "choiceC": "Economic theories are photographic representation rather than abstractions of the complexities of reality.",
+      "correctAnswer": "D",
+      "choiceD": "Economic theories are abstractions reflecting the essential features of the complex reality."
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "Which of the following is NOT true about the manufacturing sector in Ethiopia?",
+      "choiceA": "It faces strong competition from cheap imports.",
+      "choiceB": "It lacks marketing information in both local and export markets.",
+      "choiceC": "It faces strong domestic demand for its products.",
+      "correctAnswer": "D",
+      "choiceD": "It dominated by food and beverages, textile and non metallic minerals."
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "Which of the following may NOT be cause for income inequality in a country or the world at large?",
+      "choiceA": "Differences in ability.",
+      "choiceB": "Job experience.",
+      "correctAnswer": "C",
+      "choiceC": "Differences in wealth.",
+      "choiceD": "Differences in education."
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "The Ethiopian population resource is characterized by",
+      "correctAnswer": "A",
+      "choiceA": "high dependency ratio",
+      "choiceB": "low proportion of young people",
+      "choiceC": "high proportion of economically independent people",
+      "choiceD": "high proportion of economically active population"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "Which one of the following is an element of Fiscal Decentralization and Public Sector Reform in Ethiopia since 1992/93?",
+      "correctAnswer": "A",
+      "choiceA": "Expanding public sector.",
+      "choiceB": "Selling loss making enterprises.",
+      "choiceC": "Increasing marginal tax.",
+      "choiceD": "Narrowing the tax base."
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "In Ethiopian National accounts, the industrial sector includes mainly the",
+      "choiceA": "manufacturing and transport sub-sectors",
+      "choiceB": "manufacturing sector and the commercial sub-sectors",
+      "correctAnswer": "C",
+      "choiceC": "manufacturing, mining, construction and energy sub-sectors",
+      "choiceD": "manufacturing and advanced commercial farming sub-sectors."
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "Which of the following is NOT true in a perfectly competitive market structure?",
+      "choiceA": "Average revenue is equal to price.",
+      "correctAnswer": "B",
+      "choiceB": "Marginal revenue is equal to price.",
+      "choiceC": "Average revenue is greater than price.",
+      "choiceD": "Marginal revenue is equal to the average revenue."
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "In the year 2009, 40% of the Ethiopian population was below the age of 15 and 5% was above the age of 65. What was the Dependency Ratio in the year 2009?",
+      "choiceA": "122.22%",
+      "correctAnswer": "B",
+      "choiceB": "45%",
+      "choiceC": "55%",
+      "choiceD": "81.8%"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "Which one of the following approaches of measuring national income incorporates indirect business tax as a component of GDP?",
+      "correctAnswer": "A",
+      "choiceA": "The income approach",
+      "choiceB": "The value added approach.",
+      "choiceC": "Thee expenditure approach",
+      "choiceD": "The output approach."
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "Narrow money supply does NOT include _________________",
+      "choiceA": "Economic theories are photographic representation rather than abstractions of the complexities of reality.",
+      "correctAnswer": "B",
+      "choiceB": "time deposits",
+      "choiceC": "demand deposits",
+      "choiceD": "currency in circulation"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "Which one of the following is Not used to compute GDP using expenditure approach?",
+      "correctAnswer": "A",
+      "choiceA": "Gross capital formation",
+      "choiceB": "Gross profit",
+      "choiceC": "Import and export.",
+      "choiceD": "Consumption."
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "All other things remaining the same, quantity supplied and own price of a commodity are directly related because",
+      "choiceA": "higher price induces consumer to purchase more of the commodity",
+      "choiceB": "higher price induces firms to produce less of the commodity",
+      "correctAnswer": "C",
+      "choiceC": "higher price induces firms to produce more of the commodity",
+      "choiceD": "lower price induces firms to produce more of the commodity"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "Which of the following is a valid statement in connection with GDP computation?",
+      "correctAnswer": "A",
+      "choiceA": "Transfer payments are excluded just because they are redistribution of income.",
+      "choiceB": "Depreciation is excluded because it reduces the gross capital formation.",
+      "choiceC": "Net factor income is excluded as it represents outgoing income from the country.",
+      "choiceD": "Exports are not part of GDP because they are not used inside the country."
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "Which of the following statements is true about the cause of inflation?",
+      "choiceA": "In an economy working in less than full employment level, increase in aggregate demand results in inflation.",
+      "choiceB": "In an economy close to full employment, unemployment pushes prices up.",
+      "choiceC": "In an economy working close to full employment, increase in aggregate demand stabilizes inflation.",
+      "correctAnswer": "D",
+      "choiceD": "In an economy close to full employment, increase in aggregate demand results in inflation."
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "A person decides to quit her current job that earned her an annual salary of Birr 54.000 and wants to begin a new manufacturing business. She decides to use her vehicle for the new business, which is currently a source of annual earning of Bin 36,000 to her. Moreover, she decides to pay Birr 25,000 for raw materials, Bin 10,000 for machinery and Bin 5,000 for electric power and water services in a year. How much is her annual opportunity cost of opening the manufacturing business?",
+      "choiceA": "Bin 90,000",
+      "choiceB": "Birr 71,000",
+      "correctAnswer": "C",
+      "choiceC": "Bin 36,000",
+      "choiceD": "Bin 54,000"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "If a production function exhibits increasing returns to scale, than it is a _______",
+      "choiceA": "short-run production function and if all inputs are increased by 2 fold, output will increase by more than 2 fold.",
+      "choiceB": "long-run production function and if all inputs are increased by 2 fold, output will increase by more than 2 fold",
+      "correctAnswer": "C",
+      "choiceC": "long-run production function and if all inputs are increased by 2 fold, output will increase by less than 2 fold",
+      "choiceD": "short-run production function and if all inputs are increased by 2 fold, output will increase by more than 2 fold."
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "Which of the following is a correct statement about oligopoly markets?",
+      "choiceA": "There is a low degree of interdependence among firms in an oligopoly market.",
+      "choiceB": "Products in an oligopoly market are always homogeneous.",
+      "choiceC": "There is no non-price competition in an oligopoly market.",
+      "correctAnswer": "D",
+      "choiceD": "Firms is oligopoly markets are highly interdependent."
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "Which of the following is a true statement about Production Possibility Frontier (PPF) which is concave to the origin?",
+      "choiceA": "None of the above.",
+      "choiceB": "Opportunity cost remains the same.",
+      "correctAnswer": "C",
+      "choiceC": "The opportunity cost increases always.",
+      "choiceD": "The opportunity cost decreases always."
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "During the 'Derg' regime, the transfer of surplus from agricultural sector to industrial sector in Ethiopia has been effected through one of the modalities EXCEPT ___________",
+      "choiceA": "turning terms of trade against agriculture by imposing price control on agricultural products",
+      "choiceB": "compulsory delivery of agricultural commodity",
+      "correctAnswer": "C",
+      "choiceC": "resource allocation using market mechanism",
+      "choiceD": "taxation of agricultural products in favor of industry"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "Which of the following statements is true?",
+      "choiceA": "As the price of commodity rises, we will substitute expensive goods for that commodity where possible.",
+      "choiceB": "As the price of a commodity falls, the purchasing power of our limited income decreases permitting us to buy less of that commodity while maintaining our other purchases.",
+      "choiceC": "As the price of a commodity falls, we will substitute cheap goods for that commodity where possible.",
+      "correctAnswer": "D",
+      "choiceD": "As the price of a commodity falls, the purchasing power of our limited income increases, permitting us to buy more of that commodity while maintaining our other purchases."
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "The Ethiopian transport and communication sector polices after 1991 include all of the following EXCEPT ___________",
+      "correctAnswer": "A",
+      "choiceA": "closure of zonal transport offices (ketenas) established according to proclamation No. 107/1976",
+      "choiceB": "elimination of freight rates",
+      "choiceC": "imposing regulation that required private operators to report to government agencies",
+      "choiceD": "allowing active participation of private sector in transport operation"
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "The aspects of the economy that GNP does NOT indicate is the",
+      "choiceA": "distribution of the current output of the country",
+      "choiceB": "net factor income of the country",
+      "choiceC": "economic performance of a country",
+      "correctAnswer": "D",
+      "choiceD": "current output level including the capital consumption allowance"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "Which of the following is true about average land size per household in Ethiopia? Almost 60% of households held. _____",
+      "choiceA": "more than ten hectare",
+      "choiceB": "less than ten hectare",
+      "choiceC": "more than one hectare",
+      "correctAnswer": "D",
+      "choiceD": "less than one hectare"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "Which of the following is NOT true about unemployment?",
+      "choiceA": "Unemployment rate is directly proportional to both total unemployment are the total labor force.",
+      "choiceB": "The economic cost of unemployment is the amount of the forgone output.",
+      "choiceC": "Unemployment rate is directly proportional to the total unemployment and inversely proportional to the total labor force.",
+      "correctAnswer": "D",
+      "choiceD": "For a given employed labor force, as total labor force increases, unemployment increases."
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "The new economic policy reform includes:",
+      "correctAnswer": "A",
+      "choiceA": "trade liberalization.",
+      "choiceB": "nationalization of private firms.",
+      "choiceC": "centralization of economic decision making. 0. Strengthening government regulation."
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "Which of the following conditions must exist for diminishing returns to set in?",
+      "choiceA": "Increases in quantity of some inputs must come with fixed quantity of at least one other input.",
+      "choiceB": "All production inputs must proportionally increases in quantity.",
+      "choiceC": "The skill and knowhow of workers mush decline.",
+      "correctAnswer": "D",
+      "choiceD": "The quantity and quality of all inputs must diminish."
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "Which of the following monetary policy instruments are implemented if a country follows expansionary monetary policy?",
+      "choiceA": "Increasing lending rate.",
+      "choiceB": "Buying of bonds and bills,",
+      "correctAnswer": "C",
+      "choiceC": "Increasing reserve requirement.",
+      "choiceD": "Increasing deposit rates:"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "Which of the following is true about a linear demand curve?",
+      "choiceA": "Price elasticity of demand is constant at all points along the curve.",
+      "choiceB": "Demand tends to be inelastic at higher level of prices.",
+      "correctAnswer": "C",
+      "choiceC": "The change in the price of the product at mid-point of the curve causes total revenue to change in opposite direction.",
+      "choiceD": "Demand becomes more inelastic at lower level of prices."
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "Which one of the following is NOT the focus of education sector policy since 1991?",
+      "choiceA": "A vocational I technical training system was established parallel to the academic system.",
+      "choiceB": "Educational organization and administration was restructured in accordance with devolution of power from the central",
+      "correctAnswer": "C",
+      "choiceC": "Too much emphasis given to theory - focused education.",
+      "choiceD": "The link between academic research and production was strengthened."
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "Suppose a consumer has moved a little from point A to point B to the right on the same indifference curve. Which of the following is a correct statement about this movement?",
+      "choiceA": "The total utility of the consumer as decreased a little.",
+      "correctAnswer": "B",
+      "choiceB": "The total utility of the consumer has increased a little.",
+      "choiceC": "The marginal rate of substitution has increased in absolute terms",
+      "choiceD": "The marginal rate of substitution has declined in absolute terms."
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "Which one of the following industrial groups contributes the largest share of value added in Ethiopia's manufacturing sector?",
+      "choiceA": "Chemicals.",
+      "choiceB": "Food and beverage.",
+      "correctAnswer": "C",
+      "choiceC": "Leather and footwear.",
+      "choiceD": "Textiles."
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "Which one of the following explains demand for a product in economics?",
+      "choiceA": "The concepts quantity demanded and demand can be used interchangeably.",
+      "choiceB": "It refers to desires, ability and means by which the goods and services can be obtained.",
+      "correctAnswer": "C",
+      "choiceC": "It refers to wishes of consumers regardless of purchasing power.",
+      "choiceD": "It has no time dimension with respect to demanded goods."
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "If a country imposes tariffs on imported goods, what happens to imported goods?",
+      "correctAnswer": "A",
+      "choiceA": "Imported goods will be expensive relative to domestically produced goods.",
+      "choiceB": "Imported goods will be cheaper relative to domestically produced goods.",
+      "choiceC": "The price of imported goods will not be affected.",
+      "choiceD": "The domestic consumers will enjoy a higher welfare by consuming more of the imported goods."
+    },
+    {
+      "questionNumber": 38,
+      "questionStatement": "The term distributive services means _______________",
+      "choiceA": "banking and insurance services",
+      "choiceB": "real estate, housing and domestic services",
+      "choiceC": "public administration, defense, education and health services.",
+      "correctAnswer": "D",
+      "choiceD": "Trade, transport and communication, hotels and restaurant services"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "The current cost of a basket of goods most frequently purchased in the market by consumers is birr 750 and the cost of the same basket of market goods in the base year was 500.",
+      "choiceA": "The GDP deflator is 150.",
+      "choiceB": "The inflation rate is 150%.",
+      "choiceC": "The consumer price index in the current period is 150.",
+      "correctAnswer": "D",
+      "choiceD": "The growth rate of consumer price is 250."
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "Which group of regions fairly represents the current major trading partners of Ethiopia?",
+      "choiceA": "Australia, Asia and America.",
+      "choiceB": "Africa, America and Asia.",
+      "correctAnswer": "C",
+      "choiceC": "Europe, Asia and America.",
+      "choiceD": "Asia, America and the Far East."
+    },
+    {
+      "questionNumber": 41,
+      "questionStatement": "Which one of the following is true about Ethiopian farming systems?",
+      "correctAnswer": "A",
+      "choiceA": "The small holder farming system takes about 95% of the total area of crop production.",
+      "choiceB": "The small holder farming system constitutes not more than 55% of agricultural production.",
+      "choiceC": "The pastoral farming system is home to nearly half of the population of Ethiopian cattle.",
+      "choiceD": "The commercial farming system contributes only 25% to the agricultural GDP."
+    },
+    {
+      "questionNumber": 42,
+      "questionStatement": "One of the following is NOT an indirect tax ______________",
+      "choiceA": "excise tax",
+      "correctAnswer": "B",
+      "choiceB": "transaction tax",
+      "choiceC": "value added tax",
+      "choiceD": "Profit tax"
+    },
+    {
+      "questionNumber": 43,
+      "questionStatement": "Which of the following is true about the balance of payment position of changes. Ethiopia during the 1992/93 - 1997/98 period?",
+      "choiceA": "Capital account balance was negative and the overall balance was positive.",
+      "choiceB": "Current account balance was negative but overall balance was the positive",
+      "correctAnswer": "C",
+      "choiceC": "Capital account balance was negative but the overall balance was positive",
+      "choiceD": "Current account balance was negative and the overall balance was negative."
+    },
+    {
+      "questionNumber": 44,
+      "questionStatement": "Which one of the following is NOT true about the tourism sector development policies of the Federal Democratic Republic of Ethiopia?",
+      "choiceA": "Giving less attention to the role of private tour operators in enhancing development of the tourism sector.",
+      "correctAnswer": "B",
+      "choiceB": "Allowing duty free importation of equipment and goods used to construct hotels and other facilities that improve access to tourist attraction areas.",
+      "choiceC": "Making land available free of lease or at lower rate for investors who plan to invest in tourist attraction areas.",
+      "choiceD": "Making local communities to benefit from proceeds obtained from tourists who visited attraction resources."
+    },
+    {
+      "questionNumber": 45,
+      "questionStatement": "Which of the following pair of items have to be excluded from the computation of NDP (Net Domestic Product)?",
+      "choiceA": "Foreign investment in domestic economy and remittances.",
+      "correctAnswer": "B",
+      "choiceB": "Depreciation and transfer payments.",
+      "choiceC": "Foreign employees' compensation and export.",
+      "choiceD": "Government expenditure and government tax."
+    },
+    {
+      "questionNumber": 46,
+      "questionStatement": "Households' spending for consumption in determined by the following factors EXCEPT one. Which one is that?",
+      "choiceA": "Household's wealth.",
+      "choiceB": "The level of income tax.",
+      "choiceC": "The level of personal income",
+      "correctAnswer": "D",
+      "choiceD": "Level of education"
+    },
+    {
+      "questionNumber": 47,
+      "questionStatement": "The difference between real GDP and nominal GDP lies in that",
+      "choiceA": "real GDP is computed on the basis of expenditure approach",
+      "choiceB": "nominal GDP is more reliable than real GDP as it is measured at current prices",
+      "correctAnswer": "C",
+      "choiceC": "nominal GDP is computed on the basis of the base year price.",
+      "choiceD": "real GDP is computed at constant price"
+    },
+    {
+      "questionNumber": 48,
+      "questionStatement": "One of the following is NOT role and responsibility of the Commercial Bank of Ethiopia",
+      "choiceA": "put legal reserves in national banks",
+      "choiceB": "provide loans to investors",
+      "choiceC": "control money supply",
+      "correctAnswer": "D",
+      "choiceD": "accept deposits from households"
+    },
+    {
+      "questionNumber": 49,
+      "questionStatement": "GDP of a hypothetical economy for a given year measured at market price was 5000 million dollars. If the Net Factor Income was 200 million dollars. what was the ONE' of this economy during the same period?",
+      "choiceA": "4800 million dollars.",
+      "choiceB": "4800 dollars.",
+      "choiceC": "5200 dollars.",
+      "correctAnswer": "D",
+      "choiceD": "5200 million dollars."
+    },
+    {
+      "questionNumber": 50,
+      "questionStatement": "Which of the following statements is true about trade restrictions?",
+      "correctAnswer": "A",
+      "choiceA": "Specific tariffs are tariffs imposed on each unit imported.",
+      "choiceB": "Quotas are the newly emerging types of restrictions in international trade.",
+      "choiceC": "Compounded tariff is based on monetary value.",
+      "choiceD": "Ad valorem tariff is based on each unit imported."
+    },
+    {
+      "questionNumber": 51,
+      "questionStatement": "Which of the following is true about trade policies and strategies in Ethiopia since 1991?",
+      "choiceA": "Nationalization of the major exporting firms by government.",
+      "choiceB": "Excessive price control.",
+      "correctAnswer": "C",
+      "choiceC": "Government withdrew from retail trade.",
+      "choiceD": "Public ownership of the trading activities was emphasized."
+    },
+    {
+      "questionNumber": 52,
+      "questionStatement": "According to the theory of international trade, which of the following is true?",
+      "correctAnswer": "A",
+      "choiceA": "International trade increases world welfare but the benefits from trade are shared equally.",
+      "choiceB": "International trade keeps world welfare and the benefits from trade are shared equally.",
+      "choiceC": "International trade increases world welfare and the benefits from trade are shared equally.",
+      "choiceD": "International trade decreases world welfare and the benefits from trade are shared equally."
+    },
+    {
+      "questionNumber": 53,
+      "questionStatement": "Which of the following is NOT true about the historical development of the industrial sector in Ethiopia?",
+      "choiceA": "Ethiopia is far from being industrialized.",
+      "choiceB": "High levels of tariff protection during the imperial period.",
+      "choiceC": "Easy access to domestic credit during the imperial period.",
+      "correctAnswer": "D",
+      "choiceD": "Dominated by large scale establishments."
+    },
+    {
+      "questionNumber": 54,
+      "questionStatement": "Which of the following is always correct about heavy borrowing by government?",
+      "choiceA": "It leaves interest rate constant.",
+      "choiceB": "It results in an increase of real interest rate.",
+      "choiceC": "It results in a decrease of real interest rate. Frontier (PPF) for a country, producing to a position, away from the origin the most appropriate statement about this domestic",
+      "correctAnswer": "D",
+      "choiceD": "It crowds in private investment."
+    },
+    {
+      "questionNumber": 55,
+      "questionStatement": "Which of the following components has been negative in the Ethiopian National Income Accounts?",
+      "correctAnswer": "A",
+      "choiceA": "Consumption.",
+      "choiceB": "Investment.",
+      "choiceC": "Net factor income from abroad.",
+      "choiceD": "Government expenditure."
+    },
+    {
+      "questionNumber": 56,
+      "questionStatement": "The Nominal GDP of Ethiopia in the year 1999 E.æ was 458000 million birr. If the consumer price index of the year 1999 E.æ was 950, what was the real GDP of Ethiopia during the same year in million birr?",
+      "choiceA": "4821",
+      "choiceB": "48.21",
+      "correctAnswer": "C",
+      "choiceC": "482.l0",
+      "choiceD": "48210"
+    },
+    {
+      "questionNumber": 57,
+      "questionStatement": "Structural adjustment program refers to _________________",
+      "choiceA": "expansionary fiscal policy through government expenditure",
+      "choiceB": "the organization of institutions, economic activities in line with market economy",
+      "choiceC": "the organization of institutions, economic activities in line with planned economy",
+      "correctAnswer": "D",
+      "choiceD": "expansionary monetary policy through reserve requirements"
+    },
+    {
+      "questionNumber": 58,
+      "questionStatement": "Which of the following financial institutions has been dominant both in number of branches and capital in the Ethiopian banking system?",
+      "choiceA": "Ethiopian Saving and Mortgage.",
+      "correctAnswer": "B",
+      "choiceB": "Commercial Bank of Ethiopia.",
+      "choiceC": "National Bank of Ethiopia.",
+      "choiceD": "The Agricultural and Industrial Development Bank."
+    },
+    {
+      "questionNumber": 59,
+      "questionStatement": "Which one is generally true about the changes in the structure of Ethiopian economy after the reform?",
+      "correctAnswer": "A",
+      "choiceA": "The gap between imports and exports has narrowed significantly.",
+      "choiceB": "The gap in contribution to GDP between the agricultural sector and the service sector has narrowed.",
+      "choiceC": "Agricultural contribution to GDP has increased by more than 10% in the period.",
+      "choiceD": "The contribution of the industrial sector to GDP has substantially increased."
+    },
+    {
+      "questionNumber": 60,
+      "questionStatement": "What happens to the total revenue of a firm if the firm increases the price of its product that has price inelastic demand?",
+      "choiceA": "Total revenue remains unchanged.",
+      "choiceB": "Total revenue decreases.",
+      "choiceC": "Total revenue remains elastic.",
+      "correctAnswer": "D",
+      "choiceD": "Total revenue increases."
+    },
+    {
+      "questionNumber": 61,
+      "questionStatement": "Which of the following is the expected economic gain from regional economic integration?",
+      "choiceA": "Hindrance to factor mobility.",
+      "choiceB": "Deterioration of terms of trade.",
+      "correctAnswer": "C",
+      "choiceC": "Increased production arising from specialization.",
+      "choiceD": "Increased income inequality among nations."
+    },
+    {
+      "questionNumber": 62,
+      "questionStatement": "The most frequently used mode of payment in Ethiopia for imports is",
+      "choiceA": "direct payment",
+      "choiceB": "banker's transfer",
+      "correctAnswer": "C",
+      "choiceC": "letter of credit",
+      "choiceD": "bill of exchange"
+    },
+    {
+      "questionNumber": 63,
+      "questionStatement": "Which of the following is NOT true about a given production possibility Frontier (PPF)?",
+      "choiceA": "It is based on two products",
+      "choiceB": "The quantity of resources of given quality is fixed.",
+      "choiceC": "It is based on changing technology.",
+      "correctAnswer": "D",
+      "choiceD": "It is based on the assumption that the economy is operating at full employment."
+    },
+    {
+      "questionNumber": 64,
+      "questionStatement": "The Production Possibility clothing and food, shifts disproportionately. Which is economy?",
+      "choiceA": "The shift of the PPF is a sign of the development of a better technology in the clothing industry.",
+      "choiceB": "The shift of the PPF indicates that the development of better technologies has occurred in both industries but more in one of them than in the other.",
+      "choiceC": "The shift of the PPF is as a result of the development of a better technology of the food industry.",
+      "correctAnswer": "D",
+      "choiceD": "The direction of shift of the PPF indicates that there has occurred a development of better taste in the country for both clothing and food but disproportionately."
+    },
+    {
+      "questionNumber": 65,
+      "questionStatement": "The shutdown point of a perfectly competitive firm in the short run corresponds to the point where the market price is equal to the",
+      "choiceA": "average fixed cost of production",
+      "choiceB": "maximum of the average variable cost",
+      "choiceC": "average total cost",
+      "correctAnswer": "D",
+      "choiceD": "minimum of the average variable cost"
+    },
+    {
+      "questionNumber": 66,
+      "questionStatement": "Industrialization in Ethiopia is believed to suffer from all EXCEPT one of the following technology related problems:",
+      "correctAnswer": "A",
+      "choiceA": "dependence on local research and development with gradually increasing budget.",
+      "choiceB": "inability to use more labour intensive and capita] saving technologies amidst rising unemployment",
+      "choiceC": "dependence of manufacturing on technologies that require imported inputs",
+      "choiceD": "lack of institutional support services to provide accurate information on appropriate technology"
+    },
+    {
+      "questionNumber": 67,
+      "questionStatement": "Which one of the following statements most closely expresses the law of demand?",
+      "choiceA": "The demand for substitute goods is positively related with the price of the good.",
+      "correctAnswer": "B",
+      "choiceB": "When the price of a commodity increases, normally the quantity willingly purchased by consumers does not increase.",
+      "choiceC": "The law of demand holds as an increase in income normally induces consumers to buy more of a commodity.",
+      "choiceD": "The law of demand holds when excess supply reduces price."
+    },
+    {
+      "questionNumber": 68,
+      "questionStatement": "Keeping all other things the same, which of the following is true about the effect of rightward shift in supply curve on equilibrium price and equilibrium quantity?",
+      "correctAnswer": "A",
+      "choiceA": "Equilibrium quantity arid equilibrium price increase.",
+      "choiceB": "Equilibrium price increases while equilibrium quantity decreases.",
+      "choiceC": "Equilibrium price decreases while equilibrium quantity increases.",
+      "choiceD": "Equilibrium quantity and equilibrium price decrease."
+    },
+    {
+      "questionNumber": 69,
+      "questionStatement": "Which of the following is an issue most appropriate for macroeconomic analysis?",
+      "choiceA": "The behavior of households in waste disposal.",
+      "choiceB": "Leather demand in the foreign market.",
+      "choiceC": "The price of maize in Ethiopian cereals market.",
+      "correctAnswer": "D",
+      "choiceD": "Impacts of economic crisis on rural unemployment level."
+    },
+    {
+      "questionNumber": 70,
+      "questionStatement": "Household consumption expenditure is influenced negatively by both___________",
+      "choiceA": "The Level of personal income and income tax",
+      "choiceB": "Consumer's expectation of prices and consumer's income",
+      "correctAnswer": "C",
+      "choiceC": "The level of household indebtedness and income tax",
+      "choiceD": "The amount of household wealth and household size."
+    }
+  ]
+}

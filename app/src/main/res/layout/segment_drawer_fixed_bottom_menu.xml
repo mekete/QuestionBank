@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/darkWhite"
+    android:orientation="vertical"
+    android:padding="@dimen/card_margin"
+    tools:showIn="@layout/activity_question">
+
+    <TextView
+        android:id="@+id/nav_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:drawableLeft="@drawable/ic_contact_mail_24dp"
+        android:gravity="center_vertical"
+        android:text="    About Kerod"
+        android:textColor="@color/path_black" />
+
+    <TextView
+        android:id="@+id/nav_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:drawableLeft="@drawable/ic_settings_24dp"
+        android:gravity="center_vertical"
+        android:text="   Settings"
+        android:textColor="@color/path_black" />
+</LinearLayout>

@@ -1,0 +1,166 @@
+<resources>
+
+    <string name="question_bank">Question Bank</string>
+    <string name="facebook_app_id">270773860021164</string>
+    <string name="facebook_app_secret">deaaaf914713f07f39ec83be4a8e372f</string>
+
+    <string name="app_license">License</string>
+    <string name="reverse">Reverse</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="note_advanced_path">Try pressing the button</string>
+    <string name="title_activity_show_question">ShowQuestionActivity</string>
+    <string name="title_activity_exam_list">ExamListActivity</string>
+    <string name="title_activity_exam_home">ExamHomeActivity</string>
+    <string name="title_activity_attempt_summary">AttemptSummaryActivity</string>
+    <string name="title_activity_google_sign_in">GoogleSignInActivity</string>
+
+    <!--Google Sign in-->
+
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_google_sign_in">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">You are not logged in</string>
+
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading...</string>
+    <string name="title_item_list">ItemList</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!---->
+    <string name="pref_key_auto_navigate_to_next_question">pref_key_auto_navigate_to_next_question</string>
+    <string name="pref_key_first_time_launch">pref_key_first_time_launch</string>
+    <string name="pref_key_vibrate_on_wrong_attempt">pref_key_vibrate_on_wrong_attempt</string>
+    <!---->
+    <string name="pref_key_avatar_index">pref_key_avatar_index</string>
+    <string name="pref_key_class_category">pref_key_class_category</string>
+    <string name="pref_key_display_name">pref_key_display_name</string>
+    <string name="pref_key_first_name">pref_key_first_name</string>
+    <string name="pref_key_last_name">pref_key_last_name</string>
+    <string name="pref_key_email">pref_key_email</string>
+
+    <string name="pref_key_registration_key">pref_key_registration_key</string>
+    <string name="pref_key_notification_key">pref_key_notification_key</string>
+    <string name="pref_key_current_app_version">pref_key_current_app_version</string>
+    <string name="pref_key_current_database_version">pref_key_current_database_version</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_auto_navigate">Navigate to next question</string>
+    <string name="pref_description_auto_navigate">After you attempt a question, it will navigate to next automatically</string>
+    <string name="pref_title_vibrate_on_wrong_answer">Vibrate on incorrect attempt</string>
+    <string name="pref_description_vibrate_on_wrong_answer">If your attempt is wrong the app will vibrate </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_font_size">Font size</string>
+    <string-array name="pref_items_font_size">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="complete_your_profile">Complete your profile</string>
+    <string name="class_group">Class</string>
+    <!---->
+    <string name="nick_name">Display name</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="made_by_kerod">Made by Kerod</string>
+    <string name="facebook">Facebook</string>
+    <string name="email">Email</string>
+    <string name="google">Google</string>
+    <string name="register_now">Sign up now</string>
+    <string name="save">Save</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="password">Password</string>
+    <string name="login_now">Log in Now</string>
+    <string name="title_activity_facebook_login">FacebookLoginActivity</string>
+    <string name="alert_dialog_delete">Delete</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="title_activity_about_exam">AboutExamActivity</string>
+    <!---->
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula sem a malesuada rhoncus. Pellentesque ut dolor a dui porttitor porta lacinia non libero. Nunc volutpat arcu quis quam convallis molestie. Etiam ac tristique sem, id commodo justo. Phasellus congue tincidunt lectus, at dignissim ligula maximus eu. Quisque interdum nunc eget tellus bibendum suscipit. Phasellus feugiat ultricies posuere. Nullam porta accumsan velit, ut rutrum massa fermentum eu. Nunc ac bibendum nunc. Mauris eu ultricies ipsum. Ut id dolor dui. Pellentesque dictum dui vel tempus maximus. Vivamus non nisi quis libero scelerisque pretium. Ut eu tristique justo. Sed pellentesque placerat quam, ut ultricies turpis feugiat a. Aliquam a volutpat risus.
+
+Praesent tincidunt lorem sit amet mi consequat cursus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vitae blandit sapien. Curabitur est sapien, lobortis sit amet facilisis vel, faucibus eu quam. Nam tempus libero at tellus tempor laoreet. Pellentesque quam lorem, tincidunt in molestie eget, dictum vel risus. Nunc gravida convallis mattis.
+    </string>
+    <string name="about_exam">About Exam</string>
+    <string name="statistics">statistics</string>
+    <string name="title_activity_edit_account">EditAccountActivity</string>
+    <!---->
+
+    <string name="check_to_pass">I accept terms and conditions.</string>
+    <string name="error_message">Please accept terms and conditions first.</string>
+    <string name="launch_intro_activity">Launch intro activity</string>
+    <string name="lorem_ipsum">Lorem ipsum \n\ndolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="type_your_note_here">Type your note here</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="select_avatar">Select Avatar</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="add_shortcut">Add Shortcut</string>
+    <string name="title_activity_test_intro">TestIntroActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!---->
+    <string name="intro_antibiogram_title_one">What is antibiogram</string>
+    <string name="intro_antibiogram_title_two">What we did</string>
+    <string name="intro_antibiogram_title_three">What we did</string>
+    <string name="intro_antibiogram_title_four">What you should know</string>
+    <!---->
+    <string name="intro_antibiogram_body_one">Antibiograms are tables showing how susceptible a series of organisms are to different antimicrobials.\n
+Antibiograms summarise the cumulative proportions of pathogenic organisms that are susceptible to particular antimicrobials. This provides a profile of the susceptibilities of specific pathogenic bacteria to antimicrobial agents as tested in routine clinical microbiology practice</string>
+    <string name="intro_antibiogram_body_two">We analyse yearly our test results to get the most effective medicine for each of bactesrias from different samples</string>
+    <string name="intro_antibiogram_body_three">Be careful not to order</string>
+    <string name="intro_antibiogram_body_four">Now, you are all set</string>
+
+
+</resources>

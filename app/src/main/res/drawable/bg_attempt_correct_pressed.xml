@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/choice_color_correct_translucent" />
+    <stroke
+        android:width="@dimen/attempt_textview_border"
+        android:color="@color/choice_color_correct" />
+    <corners
+        android:bottomLeftRadius="@dimen/attempt_textview_height"
+        android:bottomRightRadius="@dimen/attempt_textview_height"
+        android:topLeftRadius="@dimen/attempt_textview_height"
+        android:topRightRadius="@dimen/attempt_textview_height" />
+
+</shape>

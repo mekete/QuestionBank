@@ -1,0 +1,365 @@
+{
+  "iconChar": "B",
+  "iconUrl": "www.google.ca",
+  "shortName": "BIO 1996 EC GRADE 10",
+  "fullName": "Biology exam 2016 Ethiopian AAA",
+  "grade": "10",
+  "subject": "Biology",
+  "numberOfSections": "1",
+  "numberOfQuestions": "40",
+  "allowedTime": 1234567890,
+  "bookletCode": "BLC-1234",
+  "version": "1",
+  "examGivenDate": "Apr 04",
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "questionStatement": "what is the energy currency of the cell?",
+      "choiceA": "Starch",
+      "choiceB": "DNA",
+      "correctAnswer": "C",
+      "choiceC": "ATP",
+      "choiceD": "Glucose"
+    },
+    {
+      "questionNumber": 2,
+      "questionStatement": "A  Lysosomes  CORRECT_ANSWER",
+      "correctAnswer": "A",
+      "choiceA": "Lysosomes",
+      "choiceB": "Ribosomes",
+      "choiceC": "Golgi apparatus",
+      "choiceD": "Chromosomes"
+    },
+    {
+      "questionNumber": 3,
+      "questionStatement": "A  Silviculture  ",
+      "choiceA": "Silviculture",
+      "choiceB": "Apiculture",
+      "choiceC": "Aquaculture",
+      "correctAnswer": "D",
+      "choiceD": "Pisciculture"
+    },
+    {
+      "questionNumber": 4,
+      "questionStatement": "Select the type of behavior which is innate.",
+      "correctAnswer": "A",
+      "choiceA": "Reflex action",
+      "choiceB": "Imprinting",
+      "choiceC": "Habituation",
+      "choiceD": "Conditioning"
+    },
+    {
+      "questionNumber": 5,
+      "questionStatement": "A  UUT  ",
+      "choiceA": "UUT",
+      "choiceB": "TTA",
+      "choiceC": "AAT",
+      "correctAnswer": "D",
+      "choiceD": "UUA"
+    },
+    {
+      "questionNumber": 6,
+      "questionStatement": "A  Biuret test  ",
+      "choiceA": "Biuret test",
+      "choiceB": "Starch test",
+      "correctAnswer": "C",
+      "choiceC": "Molisch test",
+      "choiceD": "Benedict’s test"
+    },
+    {
+      "questionNumber": 7,
+      "questionStatement": "A  wrinkled yellow   ",
+      "choiceA": "wrinkled yellow",
+      "correctAnswer": "B",
+      "choiceB": "Round yellow",
+      "choiceC": "round green",
+      "choiceD": "wrinkled green"
+    },
+    {
+      "questionNumber": 8,
+      "questionStatement": "Select the field of biology that is concerned with the study of cells.",
+      "choiceA": "Histology",
+      "choiceB": "Ecology",
+      "choiceC": "Morphology",
+      "correctAnswer": "D",
+      "choiceD": "Cytology"
+    },
+    {
+      "questionNumber": 9,
+      "questionStatement": "A  Euglena  ",
+      "choiceA": "Euglena",
+      "choiceB": "Amoeba",
+      "correctAnswer": "C",
+      "choiceC": "Bacteria",
+      "choiceD": "paramecium"
+    },
+    {
+      "questionNumber": 10,
+      "questionStatement": "A  Transfer RNA CORRECT_ANSWER",
+      "correctAnswer": "A",
+      "choiceA": "Transfer RNA",
+      "choiceB": "Ribosomal RNA",
+      "choiceC": "Deoxyribonucleic acid",
+      "choiceD": "Messenger RNA"
+    },
+    {
+      "questionNumber": 11,
+      "questionStatement": "A  Latent learning   ",
+      "choiceA": "Latent learning",
+      "choiceB": "Sensitization learning",
+      "choiceC": "Associative learning",
+      "correctAnswer": "D",
+      "choiceD": "Insight learning"
+    },
+    {
+      "questionNumber": 12,
+      "questionStatement": "What is a plasmid?",
+      "choiceA": "Material found in the cell memebrane",
+      "correctAnswer": "B",
+      "choiceB": "A stand of DNA in bacteria cell",
+      "choiceC": "The same as a virus",
+      "choiceD": "Material that is found in blood"
+    },
+    {
+      "questionNumber": 13,
+      "questionStatement": "to which of the following properties of life does the term irritability refer?",
+      "choiceA": "Homeostasis",
+      "correctAnswer": "B",
+      "choiceB": "Response to stimulus",
+      "choiceC": "Excretion",
+      "choiceD": "Metabolism"
+    },
+    {
+      "questionNumber": 14,
+      "questionStatement": "A  Genetic engineering   ",
+      "choiceA": "Genetic engineering",
+      "choiceB": "Inbreeding",
+      "choiceC": "Sexual hydridization",
+      "correctAnswer": "D",
+      "choiceD": "Protoplast fusion"
+    },
+    {
+      "questionNumber": 15,
+      "questionStatement": "A  Rinderpest   ",
+      "choiceA": "Rinderpest",
+      "choiceB": "Heart water",
+      "correctAnswer": "C",
+      "choiceC": "Trypanosomiasis",
+      "choiceD": "Blackleg"
+    },
+    {
+      "questionNumber": 16,
+      "questionStatement": "A  Second polar body  ",
+      "choiceA": "Second polar body",
+      "choiceB": "sperm",
+      "choiceC": "Egg",
+      "correctAnswer": "D",
+      "choiceD": "zygote"
+    },
+    {
+      "questionNumber": 17,
+      "questionStatement": "A  Ex-situ conservation CORRECT_ANSWER",
+      "correctAnswer": "A",
+      "choiceA": "Ex-situ conservation",
+      "choiceB": "Complementary in-situ and ex-situ conservation",
+      "choiceC": "In-situ conservation",
+      "choiceD": "Zoo conservation"
+    },
+    {
+      "questionNumber": 18,
+      "questionStatement": "A  Bacillus  ",
+      "choiceA": "Bacillus",
+      "correctAnswer": "B",
+      "choiceB": "Spirulina",
+      "choiceC": "Agrobacterium",
+      "choiceD": "Rhizobium"
+    },
+    {
+      "questionNumber": 19,
+      "questionStatement": "A  A far region   ",
+      "choiceA": "A far region",
+      "choiceB": "Somali region",
+      "choiceC": "Southern region",
+      "correctAnswer": "D",
+      "choiceD": "Gambella region"
+    },
+    {
+      "questionNumber": 20,
+      "questionStatement": "A  AA x AB  ",
+      "choiceA": "AA x AB",
+      "choiceB": "AA x BB",
+      "choiceC": "AA x BO",
+      "correctAnswer": "D",
+      "choiceD": "AO x BO"
+    },
+    {
+      "questionNumber": 21,
+      "questionStatement": "from which of the following do scientists usually formulate a hypothesis?",
+      "correctAnswer": "A",
+      "choiceA": "Observation",
+      "choiceB": "Prediction",
+      "choiceC": "Experiment",
+      "choiceD": "Theory"
+    },
+    {
+      "questionNumber": 22,
+      "questionStatement": "A  Amylase   ",
+      "choiceA": "Amylase",
+      "correctAnswer": "B",
+      "choiceB": "lipase",
+      "choiceC": "Amyloglucosidase",
+      "choiceD": "Trypsm"
+    },
+    {
+      "questionNumber": 23,
+      "questionStatement": "To which tropic level do green plants belong?",
+      "choiceA": "Second",
+      "choiceB": "Third",
+      "choiceC": "Zero",
+      "correctAnswer": "D",
+      "choiceD": "First"
+    },
+    {
+      "questionNumber": 24,
+      "questionStatement": "Which of the following crop species is NOT an oil crop?",
+      "choiceA": "Sesamum indicum",
+      "correctAnswer": "B",
+      "choiceB": "lens culinaris",
+      "choiceC": "Arachis hypogaea",
+      "choiceD": "Guizotia abyssinica"
+    },
+    {
+      "questionNumber": 25,
+      "questionStatement": "A  Neural plate   ",
+      "choiceA": "Neural plate",
+      "correctAnswer": "B",
+      "choiceB": "Mesoderm",
+      "choiceC": "Ectoderm",
+      "choiceD": "Endoderm"
+    },
+    {
+      "questionNumber": 26,
+      "questionStatement": "A  Human cultural diversity  CORRECT_ANSWER",
+      "correctAnswer": "A",
+      "choiceA": "Human cultural diversity",
+      "choiceB": "Commercial farming",
+      "choiceC": "Over-harvesting biological resources",
+      "choiceD": "Climate change"
+    },
+    {
+      "questionNumber": 27,
+      "questionStatement": "A  letter p CORRECT_ANSWER",
+      "correctAnswer": "A",
+      "choiceA": "letter p",
+      "choiceB": "Letter b",
+      "choiceC": "Letter q",
+      "choiceD": "letter d itself"
+    },
+    {
+      "questionNumber": 28,
+      "questionStatement": "A  Ecosystem   ",
+      "choiceA": "Ecosystem",
+      "choiceB": "Pyramid",
+      "correctAnswer": "C",
+      "choiceC": "Community",
+      "choiceD": "Niche"
+    },
+    {
+      "questionNumber": 29,
+      "questionStatement": "which of the following groups probably ate more of a herbivorous diet?",
+      "choiceA": "Homo Habilis",
+      "choiceB": "Cromagnon humans",
+      "choiceC": "Homo erectus",
+      "correctAnswer": "D",
+      "choiceD": "Australopithecus afarensis"
+    },
+    {
+      "questionNumber": 30,
+      "questionStatement": "A  11,200 years  ",
+      "choiceA": "11,200 years",
+      "choiceB": "50,000 years",
+      "correctAnswer": "C",
+      "choiceC": "16,800 years",
+      "choiceD": "28,000 years"
+    },
+    {
+      "questionNumber": 31,
+      "questionStatement": "A  Diphtheria, Tuberculosis, Cholera, Meningitis   ",
+      "choiceA": "Diphtheria, Tuberculosis, Cholera, Meningitis",
+      "choiceB": "Malaria, Trachoma, Syphilis, Tapeworm",
+      "choiceC": "Leprosy, Ringworm, pneumonia, Hookworm",
+      "correctAnswer": "D",
+      "choiceD": "Malaria, Leshmaniasis, Trypanosomiasis, Typhus"
+    },
+    {
+      "questionNumber": 32,
+      "questionStatement": "A  Hypotonic   ",
+      "choiceA": "Hypotonic",
+      "correctAnswer": "B",
+      "choiceB": "Hypertonic",
+      "choiceC": "Isoosmotic",
+      "choiceD": "Isotonic"
+    },
+    {
+      "questionNumber": 33,
+      "questionStatement": "A  High heat of fusion   ",
+      "choiceA": "High heat of fusion",
+      "correctAnswer": "B",
+      "choiceB": "Low density of the solid state",
+      "choiceC": "high surface tension",
+      "choiceD": "High latent heat of vaporization"
+    },
+    {
+      "questionNumber": 34,
+      "questionStatement": "A  Cross pollination technique  ",
+      "choiceA": "Cross pollination technique",
+      "choiceB": "Protoplast fusion technique",
+      "correctAnswer": "C",
+      "choiceC": "Recombinant DNA technique",
+      "choiceD": "DNA finger printing technique"
+    },
+    {
+      "questionNumber": 35,
+      "questionStatement": "A  All sons only   ",
+      "choiceA": "All sons only",
+      "choiceB": "All sons and daughter",
+      "correctAnswer": "C",
+      "choiceC": "All daughter only",
+      "choiceD": "Half of the sons and half of the daughters"
+    },
+    {
+      "questionNumber": 36,
+      "questionStatement": "which ecological interaction between two species results in a negative effect on both organisms?",
+      "correctAnswer": "A",
+      "choiceA": "Competition",
+      "choiceB": "Neutralismm",
+      "choiceC": "Mutualism",
+      "choiceD": "Predation"
+    },
+    {
+      "questionNumber": 37,
+      "questionStatement": "which of the following happen during the dark reaction of photosynthesis?",
+      "choiceA": "Oxygen is split from water",
+      "choiceB": "NADPH is produced",
+      "correctAnswer": "C",
+      "choiceC": "Carbon dioxide is fixed",
+      "choiceD": "ATP is produced"
+    },
+    {
+      "questionNumber": 39,
+      "questionStatement": "A  The cells will take up water and burst   ",
+      "choiceA": "The cells will take up water and burst",
+      "correctAnswer": "B",
+      "choiceB": "The Cells lose water and become flaccid",
+      "choiceC": "The cells become dry and impermeable",
+      "choiceD": "the cells actively pump out salts"
+    },
+    {
+      "questionNumber": 40,
+      "questionStatement": "A  Anaphase   ",
+      "choiceA": "Anaphase",
+      "choiceB": "prophase",
+      "choiceC": "Telophase",
+      "correctAnswer": "D",
+      "choiceD": "Metaphase"
+      <sub>2</sub>

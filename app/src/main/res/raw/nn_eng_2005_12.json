@@ -1,0 +1,1284 @@
+{
+  "examSummary": {
+    "iconChar": "E",
+    "iconUrl": "www.google.ca",
+    "shortName": "ENGLISH GRADE 12, 2005",
+    "fullName": "EUEE English 2005 Grade 12",
+    "grade": "12",
+    "subject": "English",
+    "numberOfSections": "1",
+    "numberOfQuestions": "120",
+    "allowedTime": 1234567890,
+    "bookletCode": "31",
+    "version": "1",
+    "examGivenDate": "June 2013"
+  },
+  "instructionList": [
+    {
+      "instructionCode": "instructionOne",
+      "category": "SECTION ONE: Word Order(1 - 5)",
+      "statement": "The following words are <b>NOT</b> in the proper order. When put in the right order, they make correct English sentences. From the given alternatives, choose the one that is correct and <b>blacken</b> the letter of your choice on the separate answer sheet provided.<br/>",
+      "startQuestion": 1,
+      "endQuestion": 4
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "category": "SECTION TWO: Paragraph Coherence(6-12)",
+      "statement": " When put in the correct order, sentences a-e in each of the questions from <b>6-12</b> make up a complete paragraph. From the alternatives <b>A-D</b> given in each case, choose the letter that contains the correct order of the sentences and <b>blacken</b> the corresponding letter in the separate answer sheet provided.<br/>",
+      "startQuestion": 6,
+      "endQuestion": 12
+    },
+    {
+      "instructionCode": "instructionThree",
+      "category": "SECTION THREE: Reading Comprehension (13 - 26)",
+      "statement": "Read the following passage carefully and answer the questions according to the information therein. Each question has four choices, A-D. Choose the best alternative and blacken the letter of your choice on the separate answer sheet provided.<br/><br/>1 When I was in junior high school, my parents gave me a typewriter. My friends Amy Neff and Carol Stein often walked with me to my after school. We closed my bedroom and spent the afternoon giggling - or rolling on the carpet, howling with lunatic laughter - as we tapped out silly limericks and satirical stories on my typewriter.Once we even wrote a play.<br/><br/>2 Our after-school typing was not homework. We rambled wherever our teenage imaginations took us; we explored words wildly for the pure fun of it, with no exams or report cards in mind. We practiced literacy risk-takings and problem solving, honed our language skills and learning perseverance, all with no fear of failure - because we were playing. Few children today have time for this kind of after-school play. There is too much homework. Parents concerns about overload have become a familiar story as schools all over the country pile on homework in a mis-aimed response to criticism that they were teaching too little. Some elementary teachers routinely assign time-consuming work in each of three or four academic subjects every night.<br/><br/>3 Amy Neff, one of the friends who helped me enjoy my typewriter in junior high, learned at a school meeting in May that in fifth grade her 10-year-old daughter would have an hour and a half to two hours of homework seven days a week, plus special projects. \"The idea is that, under avalanche of work, children should learn to organize their time efficiently,\" she wrote me in an e-mail message. \"Nobody has mentioned creativity: ideas and content of what is learned. Just doing LOTS, FAST!\"<br/><br/>4 The parents and grandparents of todays children had time \"playing  around\" with stamp collections or model airplanes, writing a fairy-What many people do not realize is that these kinds of interests and<br/><br/>5 Many successful adults have a childhood history of free wheel play.Louis Ignarro, a Nobel Prize winning Pharmacologist, had six successively complex chemistry sets and played with model rockets. When Letty Cottin Pogerbin, President of the Authors. Guild, an association of published writers, was 9, she spent afternoons writing and drawing for a monthly magazine she printed on a primitive press called hectograph, She charged friends and family 3 cents a copy and then mailed each copy with a 3-cent stamp. She recalls now, 'I never understood why the magazine did not make a profit.\" But that is just the point: when kids play, they are free to experiment and learn from experiences, without worrying about how well they are performing.<br/><br/>6 Though homework has a clear benefit in high school, there is no research showing that any amount of it advances the education of elementary school kids. They may be stuffing a great deal of information into their heads, but after an hour or two, children lose any eagerness or joy they have in learning. That is important because research has shown that when children enjoy it, their learning is deeper, richer, and longer-lasting.<br/><br/>7. Parents do have some recourse. They can meet with principals and teachers, organize other parents, and protest. Parents in several communities have prevailed upon school districts to enact homework ' limits. For their children, at least, there may still be time to indulge in the ancient and powerful medium for learning known as play.<br/><br/><b>Source: <i>Destinations: An Integrated Approach to Writing</i></b>",
+      "startQuestion": 13,
+      "endQuestion": 26
+    },
+    {
+      "instructionCode": "instructionFour",
+      "category": "SECTION FOUR: Vocabulary Completion (27 - 46)",
+      "statement": "Question 27-46 are incomplete sentences. There are four alternative words/phrases, A-D, given below each question.Choose the one that best completes each sentences and blacken the letter of your choice on the separate answer sheet.",
+      "startQuestion": 27,
+      "endQuestion": 46
+    },
+    {
+      "instructionCode": "instructionFive",
+      "category": "SECTION FOUR: Vocabulary Substitution (47 - 57)",
+      "statement": "Questions 47-57 each has an underlined word or phrase. There are four alternatives A-D given after each sentence. Choose one word or phrase that best keeps the meaning of the given sentenc if substituted for the underlined word or phrase and blacken the letter of your choice on the separate answersheet provided.",
+      "startQuestion": 47,
+      "endQuestion": 57
+    },
+    {
+      "instructionCode": "instructionSix",
+      "category": "SECTION FIVE: Grammar (58 - 85)",
+      "statement": "Questions 58-85 are incomplete sentences there are four alternative words or phrases, A-D, given below each question. Choose the word that best completes the sentence and blacken the letter of your choice on the separate answer sheet provided.",
+      "startQuestion": 58,
+      "endQuestion": 85
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "category": "SECTION SIX: Communicative Activities  (86 - 105)",
+      "statement": "Questions 86-105 are presented in a form of dialogue. The part said by one of the speakers is given, and a blank space is left for the other. For each of the blank spaces, four alternative answers, A-D, are given. Choose the one that is most appropriate to complete the dialog and blacken the letter of your choice on the separate answer sheet provided.",
+      "startQuestion": 86,
+      "endQuestion": 105
+    },
+    {
+      "instructionCode": "instructionEight",
+      "category": "SECTION SIX: Writing (106 - 120)",
+      "statement": "The following questions are related to different types of writing. Read each of them very carefully and choose the best answer from the four alternative answers, A-D, given. Then blacken the letter of your choice on the separate answer sheet provided.106. Which one of the following sentences is correctly punctuated?",
+      "startQuestion": 106,
+      "endQuestion": 120
+    }
+  ],
+  "questionList": [
+    {
+      "instructionCode": "instructionOne",
+      "startOfSection": true,
+      "questionNumber": 1,
+      "correctAnswer": "C",
+      "questionStatement": " world I the sail to around want",
+      "choiceA": "To sail around the world I want.",
+      "choiceB": "I want around the world to sail.",
+      "choiceC": "I want to sail around the world.",
+      "choiceD": "Around the world I want to sail."
+    },
+    {
+      "instructionCode": "instructionOne",
+      "questionNumber": 2,
+      "correctAnswer": "D",
+      "questionStatement": " get to at tea six up we o'clock drink",
+      "choiceA": "To drink at six o'clock tea we get up.",
+      "choiceB": "We get up at six o'clock to drink tea.",
+      "choiceC": "We drink up tea to get at six o'clock.",
+      "choiceD": "We get up to drink tea at six o'clock."
+    },
+    {
+      "instructionCode": "instructionOne",
+      "questionNumber": 3,
+      "correctAnswer": "A",
+      "questionStatement": " she in do the what you evenings know does",
+      "choiceA": "What she does do you know in the evenings?",
+      "choiceB": "In the evenings do you know what she does?",
+      "choiceC": "Do you in the evenings know what she does?",
+      "choiceD": "Do you know what she does in the evenings?"
+    },
+    {
+      "instructionCode": "instructionOne",
+      "questionNumber": 4,
+      "correctAnswer": "D",
+      "questionStatement": " looking have we over you all been for",
+      "choiceA": "We have been looking for you all over.",
+      "choiceB": "We all have been looking over for you.",
+      "choiceC": "You have been looking for we all over.",
+      "choiceD": "All over you have been looking for we."
+    },
+    {
+      "instructionCode": "instructionOne",
+      "questionNumber": 5,
+      "correctAnswer": "A",
+      "questionStatement": " him you like son like we and your seeing laugh",
+      "choiceA": "You like your son and we like seeing laugh him.",
+      "choiceB": "You laugh like seeing your son and we like him.",
+      "choiceC": "We like him laugh and your son like seeing him.",
+      "choiceD": "We like seeing him laugh like you and your son."
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "startOfSection": true,
+      "questionNumber": 6,
+      "correctAnswer": "C",
+      "questionStatement": " <b>SECTION TWO: Paragraph Coherence(6-12)<br/><br/>DIRECTIONS:</b> When put in the correct order, sentences a-e in each of the questions from <b>6-12</b> make up a complete paragraph. From the alternatives <b>A-D</b> given in each case, choose the letter that contains the correct order of the sentences and <b>blacken</b> the corresponding letter in the separate answer sheet provided.<br/><br/> a. But unfortunately it got so furious.<br/> b. Unlike we thought, it was a wild cat.<br/> c. I was playing hide and seek with friends.<br/> d. We were happy thinking we could take it home.<br/> e. Then my cousin and I discovered an abandoned cat.",
+      "choiceA": "e a b d c",
+      "choiceB": "e d a b c",
+      "choiceC": "c e a b d",
+      "choiceD": "c e d a b"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 7,
+      "correctAnswer": "D",
+      "questionStatement": " <br/> a. Idir, in our society, has a long history.<br/> b. The assistance includes material, financial and labour.<br/> c. Members contribute certain amount of money every month.<br/> d. Some idirs, nowadays, are involved in even more useful activities.<br/> e. Then they get assistance when the member or one of his family dies.",
+      "choiceA": "a d c e b",
+      "choiceB": "a c e b d",
+      "choiceC": "d a c e b",
+      "choiceD": "a c d c b"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 8,
+      "correctAnswer": "A",
+      "questionStatement": " <br/> a. It saves time and reduces potential expense.<br/> b. It also makes the communication easy and very quick.<br/> c. Effective communication is vital to any business anywhere in the world.<br/> d. For instance, mobile phones help to reduce travel and associated expenses.<br/> e. Information technology provides the tools for such communication.",
+      "choiceA": "d e a b c",
+      "choiceB": "c e a d b",
+      "choiceC": "c d a b e",
+      "choiceD": "c a b e d"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 9,
+      "correctAnswer": "B",
+      "questionStatement": " <br/> a. It has only one room.<br/> b. Konjit's house is a hut.<br/> c. The room is divided into three sections.<br/> e. The three sections are bedroom, kitchen and pantry.<br/> d. A bed and a big wooden box are in the bedroom section.",
+      "choiceA": "e b a d c",
+      "choiceB": "c a d b e",
+      "choiceC": "b a c d e",
+      "choiceD": "d e c b a"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 10,
+      "correctAnswer": "C",
+      "questionStatement": " <br/> a. I'm not very patient with people.<br/> b. I'm also good at mending things.<br/> c. I don't really want to work with lots of people.<br/> d. I help my neighbors when something is broken.<br/> e. I'm not good at languages but I'm good at science.",
+      "choiceA": "a c d b e",
+      "choiceB": "e b d a c",
+      "choiceC": "d b a e c",
+      "choiceD": "b d c a e"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 11,
+      "correctAnswer": "A",
+      "questionStatement": " <br/> a. One of my favorite things to do is wash my car.<br/> b. People say they can tell about a person by their shoes.<br/> c. Here is the thoughtful process I follow to wash my car.<br/> d. A clean car says I'm proud and I feel good about myself.<br/> e. I say that you can tell about a person by how clean his car is.",
+      "choiceA": "b e d a c",
+      "choiceB": "c a b d e",
+      "choiceC": "e b c d a",
+      "choiceD": "a d b e c"
+    },
+    {
+      "instructionCode": "instructionTwo",
+      "questionNumber": 12,
+      "correctAnswer": "B",
+      "questionStatement": " <br/> a. The first thing I do is work out.<br/> b. My morning ritual is the same every day.<br/> c. After that I put on my make up and leave home.<br/> d. When I have school, I have to do a lot of things.<br/> e. When I finish working out, I take a shOwer, fix my hair and get dressed.",
+      "choiceA": "a d c e b",
+      "choiceB": "d e b c a",
+      "choiceC": "e a b d c",
+      "choiceD": "b d a e c"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "startOfSection": true,
+      "questionNumber": 13,
+      "correctAnswer": "D",
+      "questionStatement": " The tone of the author can best be described as",
+      "choiceA": "dismissive",
+      "choiceB": "argumentative",
+      "choiceC": "emphatic",
+      "choiceD": "compassionate"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 14,
+      "correctAnswer": "D",
+      "questionStatement": " The author narrates her childhood experience to:",
+      "choiceA": "show that she had good friends to play with.",
+      "choiceB": "describe how she spent her after school hours.",
+      "choiceC": "show how, through play, they were learning.",
+      "choiceD": "tell us that she used a type writer to do her homework."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 15,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following words did the author use in paragraph 2 to refer to the development of their determined attitude through after-school play?",
+      "choiceA": "Literacy",
+      "choiceB": "Perseverance",
+      "choiceC": "Imagination",
+      "choiceD": "Risk-taking"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 16,
+      "correctAnswer": "B",
+      "questionStatement": " In paragraph 2, the author maintains that children learn best when:",
+      "choiceA": "they are given a lot of homework.",
+      "choiceB": "they have time for play after school.",
+      "choiceC": "schools do not give them homework.",
+      "choiceD": "they do homework with a type writer."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 17,
+      "correctAnswer": "B",
+      "questionStatement": " As used in paragraph 2, which one can be the best definition of honed?",
+      "choiceA": "knew",
+      "choiceB": "learned",
+      "choiceC": "improved",
+      "choiceD": "acquired"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 18,
+      "correctAnswer": "C",
+      "questionStatement": " As implied in paragraph 2, what is the criticism directed to elementary teachers?",
+      "choiceA": "They are teaching too little.",
+      "choiceB": "They are not giving enough homework.",
+      "choiceC": "They teach children a familiar story.",
+      "choiceD": "They do not assign interesting work to children."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 19,
+      "correctAnswer": "A",
+      "questionStatement": " One major issue the author mentioned about the parents and grandparents of today's children is that they:",
+      "choiceA": "had no fear of failure at School.",
+      "choiceB": "were not given homework to do after school.",
+      "choiceC": "had time for out of school interest and hobbies.",
+      "choiceD": "did not realize that after school play enhanced learning."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 20,
+      "correctAnswer": "C",
+      "questionStatement": " The <b>idea is</b> ...(paragraph 3). What does the word idea refer to?",
+      "choiceA": "special projects",
+      "choiceB": "too much homework",
+      "choiceC": "purpose of homework",
+      "choiceD": "Amy's purpose for the e-mail"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 21,
+      "correctAnswer": "B",
+      "questionStatement": " Elementary teachers responded to the criticism directed at them by:",
+      "choiceA": "giving special projects.",
+      "choiceB": "telling kids familiar stories.",
+      "choiceC": "giving too much homework.",
+      "choiceD": "teaching kids to organize their time efficiently."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 22,
+      "correctAnswer": "C",
+      "questionStatement": " The author looks at the issue of homework and after-school play from:",
+      "choiceA": "teachers' and parents' perspectives.",
+      "choiceB": "her own and her friends' perspectives.",
+      "choiceC": "school principals' and teachers' perspectives.",
+      "choiceD": "her friends', teachers', and parents' perspectives."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 23,
+      "correctAnswer": "D",
+      "questionStatement": " Who sent the author an e-mail message?",
+      "choiceA": "Amy Neff",
+      "choiceB": "Louis Ignarro",
+      "choiceC": "Carol Stein",
+      "choiceD": "Letty Cottin Pogrebin"
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 24,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following is true about homework?",
+      "choiceA": "It may advance learning in high school.",
+      "choiceB": "It stuffs kids' head with useful information.",
+      "choiceC": "It enhances kids' imagination and creativity.",
+      "choiceD": "It helps elementary school kids organize their time."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 25,
+      "correctAnswer": "B",
+      "questionStatement": " According to paragraph 7, which one is the <b>recourse</b> parents are reported to have?",
+      "choiceA": "Enacting homework limits.",
+      "choiceB": "Meeting with principals and teachers.",
+      "choiceC": "Protesting against children's overload.",
+      "choiceD": "Allowing their children to learn through play."
+    },
+    {
+      "instructionCode": "instructionThree",
+      "questionNumber": 26,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following is among the major issues raised by the author?",
+      "choiceA": "Exams and report cards are a threat to children' learning.",
+      "choiceB": "Too much play and too little homework advance kids' learning.",
+      "choiceC": "All successful adults have a childhood history of freewheeling play.",
+      "choiceD": "Through play, children experiment and learn from their experiences."
+    },
+    {
+      "instructionCode": "instructionFour",
+      "startOfSection": true,
+      "questionNumber": 27,
+      "correctAnswer": "C",
+      "questionStatement": "  Laptop computers are _________. They allow work to be done in many different locations.",
+      "choiceA": "potable",
+      "choiceB": "durable",
+      "choiceC": "portable",
+      "choiceD": "sizable"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 28,
+      "correctAnswer": "C",
+      "questionStatement": " Many people have a/an about flying and won't travel by plane.",
+      "choiceA": "hysteria",
+      "choiceB": "nostalgia",
+      "choiceC": "phobia",
+      "choiceD": "accident"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 29,
+      "correctAnswer": "C",
+      "questionStatement": " Children are naturally __________ about the world around them.",
+      "choiceA": "inquisitor",
+      "choiceB": "requisite",
+      "choiceC": "inquisitive",
+      "choiceD": "notorious"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 30,
+      "correctAnswer": "D",
+      "questionStatement": " Several students are __________ at the prospect of joining university next year.",
+      "choiceA": "incited",
+      "choiceB": "relaxed",
+      "choiceC": "surprised",
+      "choiceD": "excited"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 31,
+      "correctAnswer": "B",
+      "questionStatement": " The __________ placed a sticker on each piece of cake she checked for quality.",
+      "choiceA": "spectator",
+      "choiceB": "supervisor",
+      "choiceC": "inspector",
+      "choiceD": "director"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 32,
+      "correctAnswer": "C",
+      "questionStatement": " Linda __________ her request for a vacation to her boss.",
+      "choiceA": "emitted",
+      "choiceB": "permitted",
+      "choiceC": "submitted",
+      "choiceD": "omitted"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 33,
+      "correctAnswer": "B",
+      "questionStatement": " The hotel __________ brought our luggage to our rooms.",
+      "choiceA": "reporter",
+      "choiceB": "porter",
+      "choiceC": "supporter",
+      "choiceD": "importer"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 34,
+      "correctAnswer": "C",
+      "questionStatement": " Lensa, who is always worried about her weight, eats like a/an __________.",
+      "choiceA": "bird",
+      "choiceB": "ant",
+      "choiceC": "pig",
+      "choiceD": "elephant"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 35,
+      "correctAnswer": "A",
+      "questionStatement": " Have you ever __________ a situation or formed a wrong first impression?",
+      "choiceA": "misjudged",
+      "choiceB": "disrespected",
+      "choiceC": "mislaid",
+      "choiceD": "disrupted"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 36,
+      "correctAnswer": "A",
+      "questionStatement": " Ato Lema spent almost three years in prison for a crime he did not __________.",
+      "choiceA": "commit",
+      "choiceB": "commute",
+      "choiceC": "conduct",
+      "choiceD": "condemn"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 37,
+      "correctAnswer": "B",
+      "questionStatement": " Olantu was _______ to go to her new school. She did not know any of the students in there.",
+      "choiceA": "resilient",
+      "choiceB": "reluctant",
+      "choiceC": "restless",
+      "choiceD": "repellent"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 38,
+      "correctAnswer": "C",
+      "questionStatement": " As a child, I sometimes lied to my mother; This led her to_________ me even today.",
+      "choiceA": "mistreat",
+      "choiceB": "mistake",
+      "choiceC": "mistrust",
+      "choiceD": "mishandle"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 39,
+      "correctAnswer": "B",
+      "questionStatement": " He _________ in bed the whole day. He had a terrible headache.",
+      "choiceA": "lie",
+      "choiceB": "lay",
+      "choiceC": "lied",
+      "choiceD": "laid"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 40,
+      "correctAnswer": "C",
+      "questionStatement": " We cannot _________ AIDS by eating hot pepper.",
+      "choiceA": "protect",
+      "choiceB": "spread",
+      "choiceC": "prevent",
+      "choiceD": "project"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 41,
+      "correctAnswer": "A",
+      "questionStatement": " Children are supposed to _________ their parents.",
+      "choiceA": "obey",
+      "choiceB": "oblige",
+      "choiceC": "abide",
+      "choiceD": "obligate"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 42,
+      "correctAnswer": "B",
+      "questionStatement": " These people seem to be _________. They need additional protein and vitamins.",
+      "choiceA": "hungry",
+      "choiceB": "malnourished",
+      "choiceC": "starving",
+      "choiceD": "impoverished"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 43,
+      "correctAnswer": "D",
+      "questionStatement": " I appreciate you for the enormous _________. I felt so moved and encouraged.",
+      "choiceA": "completion",
+      "choiceB": "supplement",
+      "choiceC": "complement",
+      "choiceD": "compliment"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 44,
+      "correctAnswer": "B",
+      "questionStatement": " This time round, we'll need to send out the police in _________ clothes to catch the criminals.",
+      "choiceA": "simple",
+      "choiceB": "plain",
+      "choiceC": "casual",
+      "choiceD": "uniform"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 45,
+      "correctAnswer": "D",
+      "questionStatement": " There have been sporadic _________ in all comers of the city almost the whole year.",
+      "choiceA": "riots",
+      "choiceB": "stalks",
+      "choiceC": "rebellions",
+      "choiceD": "revolutions"
+    },
+    {
+      "instructionCode": "instructionFour",
+      "questionNumber": 46,
+      "correctAnswer": "C",
+      "questionStatement": " This year's beauty _________ is very stiff. It is difficult to predict the winner.",
+      "choiceA": "rivalry",
+      "choiceB": "contention",
+      "choiceC": "contest",
+      "choiceD": "competition"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "startOfSection": true,
+      "questionNumber": 47,
+      "correctAnswer": "D",
+      "questionStatement": " He is leaving. I think he has <u>a bigger fish to fry.</u>",
+      "choiceA": "something bigger to eat",
+      "choiceB": "additional cooking to do",
+      "choiceC": "some more money to collect",
+      "choiceD": "something more important to do"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 48,
+      "correctAnswer": "B",
+      "questionStatement": " He is <u>sure of himself</u> that he can finish it in time.",
+      "choiceA": "confidant",
+      "choiceB": "confident",
+      "choiceC": "confidante",
+      "choiceD": "confidential"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 49,
+      "correctAnswer": "C",
+      "questionStatement": " That was a concert where Teddy Afro <u>stole the show</u>but to many it wasn't surprising",
+      "choiceA": "sang others' songs",
+      "choiceB": "cheated the audience",
+      "choiceC": "got attention and praise",
+      "choiceD": "took advantage undeservedly"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 50,
+      "correctAnswer": "A",
+      "questionStatement": " Please, <u>bear with</u> me until I finish this. It is very urgent.",
+      "choiceA": "tolerate",
+      "choiceB": "encourage",
+      "choiceC": "help",
+      "choiceD": "advise"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 51,
+      "correctAnswer": "A",
+      "questionStatement": " It was just <u>a shot in the dark</u>. No wonder he got it all wrong.",
+      "choiceA": "a blind guess",
+      "choiceB": "a bad proposal",
+      "choiceC": "a silly mistake",
+      "choiceD": "a deliberate attack"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 52,
+      "correctAnswer": "A",
+      "questionStatement": " This one here is faulty. If you need it badly, we can give you <u>at a discount.</u>",
+      "choiceA": "for less money",
+      "choiceB": "without counting",
+      "choiceC": "as it is",
+      "choiceD": "for free"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 53,
+      "correctAnswer": "B",
+      "questionStatement": " Have you seen his handwriting? It Was so <u>illegible</u> everyone wondered what it meant.",
+      "choiceA": "ugly",
+      "choiceB": "invisible",
+      "choiceC": "untidy",
+      "choiceD": "unreadable"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 54,
+      "correctAnswer": "A",
+      "questionStatement": " She had a hard time <u>concealing</u> her emotions.",
+      "choiceA": "hiding",
+      "choiceB": "conceiving",
+      "choiceC": "sharing",
+      "choiceD": "correctng"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 55,
+      "correctAnswer": "D",
+      "questionStatement": " I couldn't still <u>make up my mind</u> about what to study at university ",
+      "choiceA": "limit",
+      "choiceB": "judge",
+      "choiceC": "plan",
+      "choiceD": "decide"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 56,
+      "correctAnswer": "A",
+      "questionStatement": " When the thief saw the police officer, his face went <u>as white as a sheet.</u>",
+      "choiceA": "terrified",
+      "choiceB": "emith",
+      "choiceC": "motivated",
+      "choiceD": "annoyed"
+    },
+    {
+      "instructionCode": "instructionFive",
+      "questionNumber": 57,
+      "correctAnswer": "D",
+      "questionStatement": " Stop shouting! I am trying to <u>get a grasp of</u> what is happening.",
+      "choiceA": "observe",
+      "choiceB": "absorb",
+      "choiceC": "report",
+      "choiceD": "understand"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "startOfSection": true,
+      "questionNumber": 58,
+      "correctAnswer": "B",
+      "questionStatement": " Last night, I ________ sleep well because I had been drinking too much coffee.",
+      "choiceA": "wouldn't",
+      "choiceB": "couldn't",
+      "choiceC": "can't",
+      "choiceD": "shouldn't"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 59,
+      "correctAnswer": "D",
+      "questionStatement": " The suspect told the police officer that he ________ the cashbox.",
+      "choiceA": "takes",
+      "choiceB": "has taken",
+      "choiceC": "took",
+      "choiceD": "had taken"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 60,
+      "correctAnswer": "B",
+      "questionStatement": " When I heard the news, I ________.",
+      "choiceA": "delighted",
+      "choiceB": "was delighted",
+      "choiceC": "was delighting",
+      "choiceD": "have been delighted"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 61,
+      "correctAnswer": "B",
+      "questionStatement": " If I saw anyone cheating on this exam. I certainly _________ report the case to the invigilator.",
+      "choiceA": "will",
+      "choiceB": "would",
+      "choiceC": "could",
+      "choiceD": "shall"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 62,
+      "correctAnswer": "A",
+      "questionStatement": " I will see you when I _________ back.",
+      "choiceA": "get",
+      "choiceB": "will get",
+      "choiceC": "got",
+      "choiceD": "would get"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 63,
+      "correctAnswer": "A",
+      "questionStatement": " Rains cause soil erosion, _________ away millions of tones of precious top soil every year.",
+      "choiceA": "carrying",
+      "choiceB": "have carried",
+      "choiceC": "carried",
+      "choiceD": "are carrying"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 64,
+      "correctAnswer": "A",
+      "questionStatement": " Jobs that call for strength and muscle no longer exist in the numbers that they once _________.",
+      "choiceA": "do",
+      "choiceB": "were",
+      "choiceC": "did",
+      "choiceD": "exist"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 65,
+      "correctAnswer": "B",
+      "questionStatement": " You _________ to do your homework before you went out.",
+      "choiceA": "are supposing",
+      "choiceB": "were supposed",
+      "choiceC": "supposed",
+      "choiceD": "were supposing"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 66,
+      "correctAnswer": "D",
+      "questionStatement": " Talent is like a plant that needs _________, watered, and pruned.",
+      "choiceA": "feeding",
+      "choiceB": "to feed",
+      "choiceC": "food",
+      "choiceD": "to be fed"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 67,
+      "correctAnswer": "C",
+      "questionStatement": " The rich aren't _________ the poor.",
+      "choiceA": "happier than",
+      "choiceB": "as happier than",
+      "choiceC": "as happier as",
+      "choiceD": "so happier than"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 68,
+      "correctAnswer": "D",
+      "questionStatement": " Whatever the discussion is about, no one __________ pays attention to my suggestion.",
+      "choiceA": "never",
+      "choiceB": "forever",
+      "choiceC": "ever",
+      "choiceD": "yet"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 69,
+      "correctAnswer": "B",
+      "questionStatement": " Sorry. You can't speak to Mahlet. She __________ a bath.",
+      "choiceA": "have",
+      "choiceB": "is having",
+      "choiceC": "does",
+      "choiceD": "has"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 70,
+      "correctAnswer": "A",
+      "questionStatement": " It's sad but __________ seems to care about the prisoners. Please make sure they have lunch.",
+      "choiceA": "nobody",
+      "choiceB": "everybody",
+      "choiceC": "anybody",
+      "choiceD": "somebody"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 71,
+      "correctAnswer": "D",
+      "questionStatement": " I feel that __________ loves me from the group, so I have to join another one.",
+      "choiceA": "everyone",
+      "choiceB": "someone",
+      "choiceC": "anyone",
+      "choiceD": "no one"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 72,
+      "correctAnswer": "A",
+      "questionStatement": " Either of them __________ to blame. They know the only key we have is with them.",
+      "choiceA": "is",
+      "choiceB": "are",
+      "choiceC": "has",
+      "choiceD": "have"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 73,
+      "correctAnswer": "C",
+      "questionStatement": " Should the machine fail, everybody __________ to evacuate and report to the operator.",
+      "choiceA": "is",
+      "choiceB": "will",
+      "choiceC": "has",
+      "choiceD": "have"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 74,
+      "correctAnswer": "B",
+      "questionStatement": " Most of the people I met were alert __________ the dangers of deforestation. They never allow anyone to cut down a tree.",
+      "choiceA": "of",
+      "choiceB": "to",
+      "choiceC": "on",
+      "choiceD": "at"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 75,
+      "correctAnswer": "B",
+      "questionStatement": " The movie was so _________ that everybody felt like they were in a different world.",
+      "choiceA": "thrilling",
+      "choiceB": "horrifying",
+      "choiceC": "confusing",
+      "choiceD": "instigating"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 76,
+      "correctAnswer": "C",
+      "questionStatement": " Her husband abuses her a lot and now she has decided to run away. She says there cannot be any _________ life.",
+      "choiceA": "cheaper",
+      "choiceB": "happier",
+      "choiceC": "poorer",
+      "choiceD": "tougher"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 77,
+      "correctAnswer": "B",
+      "questionStatement": " He fell off his horse a month ago and now he is on a _________ stick.",
+      "choiceA": "catching",
+      "choiceB": "supporting",
+      "choiceC": "walking",
+      "choiceD": "leaning"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 78,
+      "correctAnswer": "A",
+      "questionStatement": " Our departure is only a week away, but we haven't got our tickets _________. Isnt that something to worry about?",
+      "choiceA": "yet",
+      "choiceB": "still",
+      "choiceC": "now",
+      "choiceD": "still now"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 79,
+      "correctAnswer": "A",
+      "questionStatement": " In my life, I _________ had money counted in four digits. Poor me!",
+      "choiceA": "have never",
+      "choiceB": "haven't never",
+      "choiceC": "am never",
+      "choiceD": "am not have"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 80,
+      "correctAnswer": "A",
+      "questionStatement": " Caffeine _________ to cause withdrawal symptoms such as headache and irritability.",
+      "choiceA": "is known",
+      "choiceB": "has known",
+      "choiceC": "knows",
+      "choiceD": "know"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 81,
+      "correctAnswer": "C",
+      "questionStatement": " I was with her for dinner. She _________ the car which they claim disappeared around 7 pm.",
+      "choiceA": "won't have stolen",
+      "choiceB": "would have stolen",
+      "choiceC": "couldn't steal",
+      "choiceD": "can probably steal"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 82,
+      "correctAnswer": "A",
+      "questionStatement": " She came ___________ just to say hello. She was so kind.",
+      "choiceA": "by",
+      "choiceB": "on",
+      "choiceC": "in",
+      "choiceD": "for"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 83,
+      "correctAnswer": "B",
+      "questionStatement": " If you see any unattended bag, you ___________ immediately report to us.",
+      "choiceA": "may",
+      "choiceB": "must",
+      "choiceC": "will",
+      "choiceD": "ought to"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " They started early ___________ get there before noon.",
+      "choiceA": "so as to",
+      "choiceB": "because to",
+      "choiceC": "so that",
+      "choiceD": "so that to"
+    },
+    {
+      "instructionCode": "instructionSix",
+      "questionNumber": 85,
+      "correctAnswer": "D",
+      "questionStatement": " Applications are accepted only if you submit them no ___________ than the end of this month. That is the deadline.",
+      "choiceA": "later",
+      "choiceB": "faster",
+      "choiceC": "after",
+      "choiceD": "sooner"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "startOfSection": true,
+      "questionNumber": 86,
+      "correctAnswer": "D",
+      "questionStatement": "Secretary: May I help you? <br/><b>Visitor</b>: _________________________________ ",
+      "choiceA": "Why do you ask?",
+      "choiceB": "What kind of help?",
+      "choiceC": "What do you mean?",
+      "choiceD": "Can I see the boss, please?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 87,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Kuku:</b> _______________________________________<br/><b>Lili:</b> Delicious! The cook must be great.",
+      "choiceA": "Was the cook so good?",
+      "choiceB": "Did you enjoy the dinner?",
+      "choiceC": "What was the dinner like?",
+      "choiceD": "What does the dinner like?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 88,
+      "correctAnswer": "A",
+      "questionStatement": " <b>Student:</b> _______________________________________<br/><b>Friend:</b> Certainly. Imagine he wasn't in our group!",
+      "choiceA": "Do they like Gebre?",
+      "choiceB": "Isn't Gebre so entertaining?",
+      "choiceC": "Isn't Gebre always laughing?",
+      "choiceD": "Is Gebre doing our assignment?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 89,
+      "correctAnswer": "A",
+      "questionStatement": " <b>Belay:</b> Everybody should contribute. This is for the good of the community.<br/><b>Kiros:</b> _______________________________________",
+      "choiceA": "I can't agree more.",
+      "choiceB": "Can eVerybody afford it?",
+      "choiceC": "Health centres are important.",
+      "choiceD": "Each of us is to pay birr 5000."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 90,
+      "correctAnswer": "B",
+      "questionStatement": " <b>Brother:</b> Life is getting more and more expensive here. Shall we leave for another place?<br/><b>Sister:</b> _______________________________________",
+      "choiceA": "How much do you earn now?",
+      "choiceB": "I guess it is the same everywhere.",
+      "choiceC": "How much do you need for your food?",
+      "choiceD": "True! Everybody is complaining these days."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 91,
+      "correctAnswer": "A",
+      "questionStatement": " <b>Nana:</b> Dad is getting us a new TV set. I am excited.<br/><b>Chala:</b> ________________________________________________",
+      "choiceA": "I can't believe that!",
+      "choiceB": "Is your dad rich enough?",
+      "choiceC": "How much is he going to pay?",
+      "choiceD": "Many people around do not have a TV set"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 92,
+      "correctAnswer": "D",
+      "questionStatement": " <b>Tola:</b> Let's go out for a drink.<br/><b>Bereket:</b> ____________________________________________",
+      "choiceA": "Who else is coming?",
+      "choiceB": "Why do you like drinks?",
+      "choiceC": "Drinks are means of socializing.",
+      "choiceD": "I would rather like going to the theatre."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 93,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Alem:</b> ____________________________________________<br/><b>Thomas:</b> No way! I'll need it tomorrow.",
+      "choiceA": "Do you need your money back soon?",
+      "choiceB": "When should I pay you back the money?",
+      "choiceC": "Can I pay you back the money next week?",
+      "choiceD": "Do you need your money back tomorrow?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 94,
+      "correctAnswer": "D",
+      "questionStatement": " <b>Bontu:</b> Did you know she took your camera?<br/><b>Chaltu:</b> ____________________________________________",
+      "choiceA": "I know she is very bad.",
+      "choiceB": "Cameras need care to handle.",
+      "choiceC": "This is not just ordinary camera.",
+      "choiceD": "How dare she? She didn't ask me for it."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 95,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Lilu:</b> Hi Beza. It's me.<br/><b>Beza:</b> Hello, Lilu! Where ___________ all day?",
+      "choiceA": "were you",
+      "choiceB": "are you",
+      "choiceC": "have you been",
+      "choiceD": "had you been"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 96,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Tamrat:</b> Well, let's go to the cinema<br/><b>Hailu:</b> _______________________________________",
+      "choiceA": "Do we have time to study?",
+      "choiceB": "When did we go there last?",
+      "choiceC": "Ok. Which film do you want to?",
+      "choiceD": "Sylvester Stallone is a very great actor."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 97,
+      "correctAnswer": "A",
+      "questionStatement": " <b>Teacher:</b> What are your favorite things to do at weekends?<br/><b>Student:</b> _______________________________________",
+      "choiceA": "1 like sight-seeing.",
+      "choiceB": "I don't quite like shopping.",
+      "choiceC": "I'm going swimming this weekend.",
+      "choiceD": "I'm not doing anything this weekend."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 98,
+      "correctAnswer": "B",
+      "questionStatement": " <b>Abebe:</b> Why did you go to Gambella?<br/><b>Kibret:</b> _______________________________________",
+      "choiceA": "It is very hot there.",
+      "choiceB": "To visit my birth place.",
+      "choiceC": "It is a rapidly growing town",
+      "choiceD": "The people are very friendly"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 99,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Teacher:</b> What was the weather like here yesterday?<br/><b>Student:</b> _______________________________________",
+      "choiceA": "It rains every day.",
+      "choiceB": "I think it is a lovely day.",
+      "choiceC": "It was sunny and warm.",
+      "choiceD": "I did not go out yesterday."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 100,
+      "correctAnswer": "A",
+      "questionStatement": " <b>Teacher:</b> How do you like your younger sister?<br/><b>Student:</b> _______________________________________",
+      "choiceA": "She's a smart girl.",
+      "choiceB": "She's my favorite.",
+      "choiceC": "She's still at school.",
+      "choiceD": "She's not old enough for marriage."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 101,
+      "correctAnswer": "D",
+      "questionStatement": " <b>You:</b> Good morning, ___________________________<br/><b>Guest:</b> No, thanks.",
+      "choiceA": "Can I help?",
+      "choiceB": "What's the matter?",
+      "choiceC": "How do you do?",
+      "choiceD": "Can I have coffee please?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 102,
+      "correctAnswer": "D",
+      "questionStatement": " <b>Teacher:</b> _______________________________________<br/><b>Student:</b> I get out of bed.",
+      "choiceA": "What time do you get up?",
+      "choiceB": "Do you ever get up before six?",
+      "choiceC": "Who gets up first in your family?",
+      "choiceD": "What do you do first in the morning?"
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 103,
+      "correctAnswer": "C",
+      "questionStatement": " <b>Abera:</b> Excuse me. Can you tell me the time, please?<br/><b>Bekele:</b> _______________________________________",
+      "choiceA": "It's after breakfast.",
+      "choiceB": "There is no time around here.",
+      "choiceC": "I'm sorry. I don't have a watch.",
+      "choiceD": "Never mind. I don't have a watch."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 104,
+      "correctAnswer": "D",
+      "questionStatement": " <b>Passenger 1:</b> Excuse me, I think those seats facing the front are ours<br/><b>Passenger 2:</b> _______________________________________",
+      "choiceA": "Oh, I'm sorry. We know they were reserved.",
+      "choiceB": "Oh, what a shame! I like seats facing the front.",
+      "choiceC": "I'm afraid the seats are not comfortable enough.",
+      "choiceD": "Oh, I'm sorry. We did not know they were reserved."
+    },
+    {
+      "instructionCode": "instructionSeven",
+      "questionNumber": 105,
+      "correctAnswer": "D",
+      "questionStatement": " <b>Father:</b> I think you'll pass this examination with very good grades. You have been studying hard over the last months.<br/><b>Son:</b> _______________________________________",
+      "choiceA": "I haven't decided yet my field of study.",
+      "choiceB": "I can't tell you about my excitement, Dad.",
+      "choiceC": "I think I won't pass the exam. I did not study hard, actually.",
+      "choiceD": "I don't think I'll pass the exam. I did not study hard enough."
+    },
+    {
+      "instructionCode": "instructionEight",
+      "startOfSection": true,
+      "questionNumber": 106,
+      "correctAnswer": "D",
+      "questionStatement": " Which one of the following sentences is correctly punctuated?",
+      "choiceA": "What is the population of Ethiopia?, the teacher asked.",
+      "choiceB": "What is the population of Ethiopia, the teacher asked?",
+      "choiceC": "What is the population of Ethiopia? the teacher asked.",
+      "choiceD": "What is the population of Ethiopia, the teacher asked."
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 107,
+      "correctAnswer": "B",
+      "questionStatement": " <i>Love to you all!</i> Which part of a letter does this line go in?",
+      "choiceA": "Body",
+      "choiceB": "Closing",
+      "choiceC": "Salutation",
+      "choiceD": "Introduction"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 108,
+      "correctAnswer": "C",
+      "questionStatement": " \" A.cording to government records, the number of men working or looking for work fell to a record low in the early part-of 2012. But I don't think this reflects the realities of everyday life.\" This is most likely the introductory part of a writing that is:",
+      "choiceA": "Narrative",
+      "choiceB": "Argumentative",
+      "choiceC": "Expository",
+      "choiceD": "Description"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 109,
+      "correctAnswer": "A",
+      "questionStatement": " <i>Once upon a time there Was an emperor who loved to spend his money on expensive things.</i> This is most likely an introductory part of a writing that is:",
+      "choiceA": "Narrative",
+      "choiceB": "Descriptive",
+      "choiceC": "Expository",
+      "choiceD": "Argumentative"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 110,
+      "correctAnswer": "B",
+      "questionStatement": "\"Walk along the road in front of the post office until you come to the football field. Behind the football field there is a street with a vegetable market. There is a cafÃ© opposite the vegetable market. I'm living in the villa located just next to the market.\" This is. most likely taken from a piece of writing that is:",
+      "choiceA": "Descriptive",
+      "choiceB": "Expository",
+      "choiceC": "Narrative",
+      "choiceD": "Argumentative"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 111,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following is <b>correctly</b> spelt?",
+      "choiceA": "restaurant",
+      "choiceB": "extention",
+      "choiceC": "cafteria",
+      "choiceD": "vollyball"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 112,
+      "correctAnswer": "A",
+      "questionStatement": " <i>We then found both lying on the floor soaked in their own blood. There was no question that the shot was from a short distance as something that looked like content of the head lay close to what used to be the skull. The police officer stood thunderstruck.</i> ... This is taken from a piece of writing that is most likely:",
+      "choiceA": "Narrative",
+      "choiceB": "Argumentative",
+      "choiceC": "Descriptive",
+      "choiceD": "Expository"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 113,
+      "correctAnswer": "B",
+      "questionStatement": " <i>One of the reservations that people have about this one is that it has radioactive elements in it. Very important is, however, if it has these elements in the amount that could be harmful to the user. Personally, I say this cannot be.</i> ... This is taken from a piece of writing that is most likely:",
+      "choiceA": "Descriptive",
+      "choiceB": "Argumentative",
+      "choiceC": "Narrative",
+      "choiceD": "Expository"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 114,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following words is <b>correctly</b> spelt?",
+      "choiceA": "scent",
+      "choiceB": "conscent",
+      "choiceC": "omniscent",
+      "choiceD": "reminescent"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 115,
+      "correctAnswer": "A",
+      "questionStatement": " Which one of the following sentences has a correct punctuation?",
+      "choiceA": "Mamo said, Every dog has its day; however, I didn't understand what it meant.",
+      "choiceB": "Mamo said, every dog has its day; however, I didn't understand what it meant.",
+      "choiceC": "Mamo said, Every dog has its day; however, I didn't understand what it meant.",
+      "choiceD": "Mamo said, every dog has its day; however, I didn't understand what it meant."
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 116,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following sentences is <b>correctly</b> punctuated?",
+      "choiceA": "We visit three places: Jimma; Oromia, Shire; Tigray, and Dessie; Amhara.",
+      "choiceB": "We visit three places: Jimma, Oromia; Shire, Tigray; and Dessie, Amhara.",
+      "choiceC": "We visit three places, Jimma; Oromia, Shire; Tigray, and Dessie; Amhara.",
+      "choiceD": "We visit three places: Jimma, Oromia; Shire, Tigray; and, Dessie, Amhara."
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 117,
+      "correctAnswer": "B",
+      "questionStatement": " Which one of the following is most likely an instruction on how to operate a camera?",
+      "choiceA": "Use fashlight only in daylight.",
+      "choiceB": "Remove battery when not in use.",
+      "choiceC": "Do not give your camera to anyone.",
+      "choiceD": "Keep cameras out of reach of children."
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 118,
+      "correctAnswer": "B",
+      "questionStatement": " <i>Not suitable for children under 18!</i> This is most likely a warning:",
+      "choiceA": "in a movie",
+      "choiceB": "on a box of whisky",
+      "choiceC": "in an X-ray room",
+      "choiceD": "on a pack of cigarettes"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 119,
+      "correctAnswer": "D",
+      "questionStatement": " The most appropriate closing to a memo you send to a colleague working in the same office with you would be:",
+      "choiceA": "Bye,",
+      "choiceB": "Faithfully,",
+      "choiceC": "Good bye,",
+      "choiceD": "Truly yours,"
+    },
+    {
+      "instructionCode": "instructionEight",
+      "questionNumber": 120,
+      "correctAnswer": "D",
+      "questionStatement": " <i>We regret having to report delays in dispatching our order of ...</i> This is a typical example of a line taken from a letter of:",
+      "choiceA": "dispatch",
+      "choiceB": "delivery",
+      "choiceC": "collection",
+      "choiceD": "complaint"
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "examSummary": {
+    "iconChar": "B",
+    "iconUrl": "www.google.ca",
+    "shortName": "CIVIC G12 2007",
+    "fullName": "EUEE Civic and Ethical Education 2007 Grade 12",
+    "grade": "100",
+    "subject": "Biology",
+    "numberOfSections": "1",
+    "numberOfQuestions": "100",
+    "allowedTime": 1234567890,
+    "bookletCode": "52",
+    "version": "1",
+    "examGivenDate": "Ginbot 2007 June2015"
+  },
+  "questionList": [
+    {
+      "questionNumber": 1,
+      "correctAnswer": "A",
+      "questionStatement": " When was me Organization of African Union (OAU) transformed into African Union (AU)?",
+      "choiceA": "2002",
+      "choiceB": "2004",
+      "choiceC": "2006",
+      "choiceD": "2009"
+    },
+    {
+      "questionNumber": 2,
+      "correctAnswer": "B",
+      "questionStatement": " Which African countries joined the League of Nations besides Ethiopia?",
+      "choiceA": "Kenya and Tunisia.",
+      "choiceB": "Liberia and South Africa.",
+      "choiceC": "Algeria and Egypt.",
+      "choiceD": "Ghana and Nigeria."
+    },
+    {
+      "questionNumber": 3,
+      "correctAnswer": "D",
+      "questionStatement": " Who was the leader of the black civil rights' movement killed in April was after addressing his last speech?",
+      "choiceA": "Rosa Parks.",
+      "choiceB": "Allan John.",
+      "choiceC": "Mohandas Gandhi.",
+      "choiceD": "Martin Luther King."
+    },
+    {
+      "questionNumber": 4,
+      "correctAnswer": "A",
+      "questionStatement": " What is meant by treating others the way you want to be treated as well as impartial treatment of people?",
+      "choiceA": "Fairness",
+      "choiceB": "Truthfulness",
+      "choiceC": "Honest",
+      "choiceD": "Courage"
+    },
+    {
+      "questionNumber": 5,
+      "correctAnswer": "C",
+      "questionStatement": " When did Ethiopia become the member of the League of Nations?",
+      "choiceA": "1920",
+      "choiceB": "1921",
+      "choiceC": "1923",
+      "choiceD": "1925"
+    },
+    {
+      "questionNumber": 6,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is a peaceful way of settling disputes with the involvement third party?",
+      "choiceA": "Arbitration",
+      "choiceB": "Negotiation",
+      "choiceC": "Mediation",
+      "choiceD": "Litigation"
+    },
+    {
+      "questionNumber": 7,
+      "correctAnswer": "C",
+      "questionStatement": " Which one of the following can best define a democratic constitution?",
+      "choiceA": "it give ultimate power to the concerned people.",
+      "choiceB": "it establishes different social classes of a given society.",
+      "choiceC": "it reflect the psychological and moral values of the society.",
+      "choiceD": "it is a legal law subjugated to some other laws of the country."
+    },
+    {
+      "questionNumber": 8,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the Following attributes refers to a person who is ready to listen In others' views?",
+      "choiceA": "Civility",
+      "choiceB": "Open mindedness",
+      "choiceC": "Honest",
+      "choiceD": "Civic-mindedness"
+    },
+    {
+      "questionNumber": 9,
+      "correctAnswer": "B",
+      "questionStatement": " Why the Kyoto Protocol is so significant?",
+      "choiceA": "Because it is directed at fighting international crimes.",
+      "choiceB": "Because it is adopted to reduce greenhouse gas emissions.",
+      "choiceC": "Because its main agenda on equitable use of international rives.",
+      "choiceD": "Because it is made to find solutions for refugees throughout the the world."
+    },
+    {
+      "questionNumber": 10,
+      "correctAnswer": "D",
+      "questionStatement": " Which right is different from the others?",
+      "choiceA": "Right to Life",
+      "choiceB": "Right to Liberty",
+      "choiceC": "The right to the security of persons.",
+      "choiceD": "The right to assembly and demonstration."
+    },
+    {
+      "questionNumber": 11,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following peoples' movement was the first to join the Tigray Peoples' Liberation Front to create the Ethiopian Peoples' Revolutionary, Democratic Front.",
+      "choiceA": "The Oromo Peoples' Democratic Movement.",
+      "choiceB": "The Ethiopian Peoples' Democratic Movement.",
+      "choiceC": "The South Nations ,Nationalities, and peoples' Movement.",
+      "choiceD": "The Ethiopian Democratic Officers' Revolutionary Movement."
+    },
+    {
+      "questionNumber": 12,
+      "correctAnswer": "B",
+      "questionStatement": " Where did Ethiopia play a role in peace keeping mission?",
+      "choiceA": "Angola",
+      "choiceB": "Congo",
+      "choiceC": "North Korea.",
+      "choiceD": "South Africa."
+    },
+    {
+      "questionNumber": 13,
+      "correctAnswer": "C",
+      "questionStatement": " It is underscored that the chance of the vulnerability of women to HIV/AIDS twenty times compared to men. What is the main reason for this problem?",
+      "choiceA": "This is because women are exposed for abduction.",
+      "choiceB": "This is because women usually use sharp iron tools compared to men.",
+      "choiceC": "This is because women have easily vulnerable tissues during sexual intercourse.",
+      "choiceD": "This is because women are naturally weaker and easily exposed for any diseases."
+    },
+    {
+      "questionNumber": 14,
+      "correctAnswer": "C",
+      "questionStatement": " Which strategy is devised to achieve the development of Ethiopia?",
+      "choiceA": "The tourism sector must develop first and then the industrial sector.",
+      "choiceB": "Both the agricultural and the industrial sectors must develop together",
+      "choiceC": "The agricultural sector must develop first followed by the industrial sector.",
+      "choiceD": "The industrial sector must develop first followed by the agricultural sector."
+    },
+    {
+      "questionNumber": 15,
+      "correctAnswer": "D",
+      "questionStatement": " What form of democracy has recently been adopted by the Ethiopian Government?",
+      "choiceA": "Neo-liberalism.",
+      "choiceB": "Social democracy.",
+      "choiceC": "Liberal democracy.",
+      "choiceD": "Developmental democracy."
+    },
+    {
+      "questionNumber": 16,
+      "correctAnswer": "B",
+      "questionStatement": " What is the correct constitutional name for one of the member states in the Federal Democratic Republic of Ethiopia?",
+      "choiceA": "The Afar Regional State.",
+      "choiceB": "The Afar National State.",
+      "choiceC": "The Afar Regional National State.",
+      "choiceD": "The Afar National Regional State."
+    },
+    {
+      "questionNumber": 17,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is the best manifestation of corruption?",
+      "choiceA": "Dowry.",
+      "choiceB": "Cheap labor.",
+      "choiceC": "Nepotism.",
+      "choiceD": "Holiday banquet."
+    },
+    {
+      "questionNumber": 18,
+      "correctAnswer": "D",
+      "questionStatement": " What types of rights are exclusively reserved only to citizens in a state?",
+      "choiceA": "Civil rights.",
+      "choiceB": "Moral rights.",
+      "choiceC": "Human rights.",
+      "choiceD": "Political rights."
+    },
+    {
+      "questionNumber": 19,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following refers to a kind of a person who is unwilling to understand the qualities of other cultures and considering his or her own culture as superior to others?",
+      "choiceA": "Civic-minded",
+      "choiceB": "Ethnocentric",
+      "choiceC": "Tolerant",
+      "choiceD": "Open minded"
+    },
+    {
+      "questionNumber": 20,
+      "correctAnswer": "A",
+      "questionStatement": " Who used the crowned Lion of Judah as the emblem of the Ethiopian flag during his reign?",
+      "choiceA": "Haileselasaie I.",
+      "choiceB": "Menelik II.",
+      "choiceC": "Tekle-Giorgis.",
+      "choiceD": "Yohannes IV."
+    },
+    {
+      "questionNumber": 21,
+      "correctAnswer": "D",
+      "questionStatement": " Why is constitutionalism valued as a fundamental constitutional principle? Because it",
+      "choiceA": "makes citizens subservient to government.",
+      "choiceB": "enables a government to exercise its will over the people.",
+      "choiceC": "binds the government to act in accordance with constitution.",
+      "choiceD": "allows government to exercise extra-constitutional authorities."
+    },
+    {
+      "questionNumber": 22,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following can best explain a legitimate government?",
+      "choiceA": "It safeguards the right of interest groups.",
+      "choiceB": "It fails to uphold transparency and accountability.",
+      "choiceC": "It can function beyond the limit of the constitution.",
+      "choiceD": "It receives its mandate or governing from the people."
+    },
+    {
+      "questionNumber": 23,
+      "correctAnswer": "C",
+      "questionStatement": " What kind of party system is currently followed by Ethiopia?",
+      "choiceA": "Single Party system.",
+      "choiceB": "Two Dominant Party Systems.",
+      "choiceC": "Multi-Party system.",
+      "choiceD": "One Dominant Party."
+    },
+    {
+      "questionNumber": 24,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about Ethiopian languages as stipulated in the constitution of the Federal Democratic Republic of Ethiopia.",
+      "choiceA": "Amharic shall be state language of the country.",
+      "choiceB": "Amharic shall be the working language of member states.",
+      "choiceC": "Regional States can have their own respective working language.",
+      "choiceD": "All Ethiopian languages shall be recognized based on the size of their speakers."
+    },
+    {
+      "questionNumber": 25,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about the current Ethiopian court system?",
+      "choiceA": "The empowerment of judges who are directed by the law.",
+      "choiceB": "The existence of a judiciary system that is controlled by the government.",
+      "choiceC": "The absence of recognition to traditional courts operating based on religious principles.",
+      "choiceD": "The absence of the recognition to tradition courts operating based on unwritten laws."
+    },
+    {
+      "questionNumber": 26,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is put in correct order of sequence regarding scientific method of research?",
+      "choiceA": "Data Collection --- Hypothesis --- Analysis --- Evaluation of Results --- Conclusion.",
+      "choiceB": "Analysis --- Evaluation of Results --- Data Collection --- Hypothesis --- Conclusion.",
+      "choiceC": "Hypothesis --- Data Collection --- Analysis --- Evaluation of Results --- Conclusion.",
+      "choiceD": "Analysis --- Hypothesis --- Data Collection --- Conclusion --- Evaluation of Results."
+    },
+    {
+      "questionNumber": 27,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about the Millennium Goals of Ethiopia?",
+      "choiceA": "Federating Ethiopia with Djibuti.",
+      "choiceB": "Finding solution for Sudan-South Sudan civil war.",
+      "choiceC": "Decreasing the death of mother's and child on birth.",
+      "choiceD": "Making the Horn of Africa free from any war and conflict."
+    },
+    {
+      "questionNumber": 28,
+      "correctAnswer": "B",
+      "questionStatement": " What form of government best represents the commonness of extra-constitutional power by those who assume state power?",
+      "choiceA": "Aristocracy.",
+      "choiceB": "Democracy.",
+      "choiceC": "Oligarchy",
+      "choiceD": "Dictatorship."
+    },
+    {
+      "questionNumber": 29,
+      "correctAnswer": "D",
+      "questionStatement": " Which government body is responsible for appointment judges of the Federal Courts of Ethiopia?",
+      "choiceA": "The Head of the State.",
+      "choiceB": "The Council of Ministers.",
+      "choiceC": "The President of the supreme Court.",
+      "choiceD": "The House of Peoples Representatives."
+    },
+    {
+      "questionNumber": 30,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is correct about the conduct and accountability of the Government as stipulated in Article 12 of the Current Ethiopian Constitution?",
+      "choiceA": "The conduct of affairs of the government shall be secretive.",
+      "choiceB": "The government shall defend the failure of public officials.",
+      "choiceC": "An elected representative has the right to access national secret.",
+      "choiceD": "In case of loss of confidence, the people have the right to recall an elected representative"
+    },
+    {
+      "questionNumber": 31,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following approaches has a direct role in preventing corruption?",
+      "choiceA": "Ethical regulations.",
+      "choiceB": "Registration of properties of citizens.",
+      "choiceC": "Laws related to financial administration and auditing systems.",
+      "choiceD": "The emergence of groups interested in accumulating wealth at others' expense."
+    },
+    {
+      "questionNumber": 32,
+      "correctAnswer": "D",
+      "questionStatement": " How and when can the current Ethiopian Constitution be amended?",
+      "choiceA": "When two-thirds of the country's population votes to approve the proposed amendment.",
+      "choiceB": "When the Prime Minister and the president agrees to approve the proposed amendment.",
+      "choiceC": "When the Regional State Administration and State Councils jointly approve a proposed amendment by a majority.",
+      "choiceD": "When the House of Peoples' Representatives and the House of the federation in a joint session, approve a proposed amendment by a two thirds majority."
+    },
+    {
+      "questionNumber": 33,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following statements can best describe the federal Democratic Republic of Ethiopia?",
+      "choiceA": "Ordinary laws at the Federal level are made by the parliament",
+      "choiceB": "At the Federal level, the higher executive powers are given to Parliament.",
+      "choiceC": "Ordinary laws at the Regional level are made by the state Administration.",
+      "choiceD": "At the Regional level the State Council is the highest organ of executive power."
+    },
+    {
+      "questionNumber": 34,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following best expresses the concept of arbitration as a way of conflict resolution?",
+      "choiceA": "It in an proceeding by a party in parties against another in a court of law.",
+      "choiceB": "It is a means of applying legal principles to s controversy for final solution.",
+      "choiceC": "It involves direct discussion between or among the parties to reach an agreement.",
+      "choiceD": "Is a method of non-binding dispute resolution involving a neutral third putty."
+    },
+    {
+      "questionNumber": 35,
+      "correctAnswer": "A",
+      "questionStatement": " What basic principle is underlined in due process of law?",
+      "choiceA": "An accused person has the right to be represented by a legal counsel.",
+      "choiceB": "An accused person can be considered guilty as soon as he/she comes under control.",
+      "choiceC": "Supporting unequal accessibility of court and tribunals to any person committee crime.",
+      "choiceD": "An accused person suspected for matters no national security has the right to a quick public trial."
+    },
+    {
+      "questionNumber": 36,
+      "correctAnswer": "D",
+      "questionStatement": " What makes the Presidential Democratic system different from the parliamentary one?",
+      "choiceA": "The President is elected from the winning party.",
+      "choiceB": "Once elected, the President has unlimited power.",
+      "choiceC": "The President heads the executive branch of the government.",
+      "choiceD": "The check and balance between the three branch of government"
+    },
+    {
+      "questionNumber": 37,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about a federal state structure?",
+      "choiceA": "It is conducive he too small Shiites.",
+      "choiceB": "it is suitable for multi-ethnic society.",
+      "choiceC": "It is characterized by centrally controlled power.",
+      "choiceD": "It is impossible organize units based on natural boundaries."
+    },
+    {
+      "questionNumber": 38,
+      "correctAnswer": "A",
+      "questionStatement": " What constitutional rights are given to the regional states of the FDRE?",
+      "choiceA": "The right to have their own anthem as a symbol of their state.",
+      "choiceB": "The right to recruit and train their own defence force to keep security.",
+      "choiceC": "The right to formulate and establish their own external relations.",
+      "choiceD": "The power to control the Supreme Court of the central government."
+    },
+    {
+      "questionNumber": 39,
+      "correctAnswer": "C",
+      "questionStatement": " What is the objective of the Ethiopian foreign policy?",
+      "choiceA": "Promoting relation with states standing for religious fanatic.",
+      "choiceB": "Respecting conventions which challenge Ethiopia's interest.",
+      "choiceC": "Establishing a geographically defined relations with some countries.",
+      "choiceD": "Creating economic and cultural ties with countries supporting Ethiopia's enemy."
+    },
+    {
+      "questionNumber": 40,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about Ordinary Laws?",
+      "choiceA": "They are above the Constitution.",
+      "choiceB": "They are enacted through a proclamation.",
+      "choiceC": "They can contradict with the Constitution.",
+      "choiceD": "They are made by B Constituent Assembly."
+    },
+    {
+      "questionNumber": 41,
+      "correctAnswer": "A",
+      "questionStatement": " What does habeas corpus refer to?",
+      "choiceA": "An accused person has the right to it quick public trial.",
+      "choiceB": "A person shall not be accused again for a single crime already treated.",
+      "choiceC": "A self- incriminating person has no burden to prove his or her innocence.",
+      "choiceD": "A person arrested by a police man has the right to know why he or she is arrested."
+    },
+    {
+      "questionNumber": 42,
+      "correctAnswer": "D",
+      "questionStatement": " What does state sovereignty imply?",
+      "choiceA": "Superiority of one state over the other.",
+      "choiceB": "Non-interaction among sovereign states.",
+      "choiceC": "Non-intervention in the domestic affairs of states.",
+      "choiceD": "Unquestionabiliy of domestic rules and decisions."
+    },
+    {
+      "questionNumber": 43,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following can be describe parliamentary structure of government?",
+      "choiceA": "The head of the government is the president.",
+      "choiceB": "The role of the head of the government is ceremonial.",
+      "choiceC": "The prime minister is elected by popular vote of citizens.",
+      "choiceD": "The head of the government is responsible to the legislature."
+    },
+    {
+      "questionNumber": 44,
+      "correctAnswer": "A",
+      "questionStatement": " What does the phrase <b>justice delayed is justice denied</b> express?",
+      "choiceA": "It express that justice coming late is unacceptable.",
+      "choiceB": "It emphasizes the right to be tired with out undue delay.",
+      "choiceC": "The need to reject possible appeal time to higher court.",
+      "choiceD": "The need to disapprove the time spent before the trial begins"
+    },
+    {
+      "questionNumber": 45,
+      "correctAnswer": "A",
+      "questionStatement": " In democracy society a good citizenship is the active side of one's character. Which of the following statements best reflects the message of the phrase in the quotation mark?",
+      "choiceA": "One must apply the principles of citizenship in his or her conduct.",
+      "choiceB": "The character of good citizenship cannot be acquired through learning.",
+      "choiceC": "Theoretical knowledge is the science aspect of good citizen ship.",
+      "choiceD": "Good citizenship is an art to be practice through civic commitment."
+    },
+    {
+      "questionNumber": 46,
+      "correctAnswer": "B",
+      "questionStatement": " What is correct regarding deliberate transmission of HIV/AIDS?",
+      "choiceA": "It is considered as a suicide.",
+      "choiceB": "It can be taken as a serious crime of homicide.",
+      "choiceC": "It can be seen as part of the HIV/AIDS victims' attempt to share his/her pain.",
+      "choiceD": "It can be taken as part of the HIV/AIDS patient's effort exploit his/her rights and duties."
+    },
+    {
+      "questionNumber": 47,
+      "correctAnswer": "D",
+      "questionStatement": " What is meant by morality?",
+      "choiceA": "It is a way of behaving according to legal laws.",
+      "choiceB": "It is system that tells a person to act against nature.",
+      "choiceC": "It is principles which are similar throughout the world.",
+      "choiceD": "It is a standard examining the rightness and wrongness of our acts."
+    },
+    {
+      "questionNumber": 48,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is an expected duty of a patriot citizen?",
+      "choiceA": "Sacrificing personal interest for the common good.",
+      "choiceB": "Giving access state's secret to neighbouring countries.",
+      "choiceC": "Avoiding of criticizing government polices based on evidence.",
+      "choiceD": "Keep away from taking part in voluntary activities so as to save time."
+    },
+    {
+      "questionNumber": 49,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following sentence is correct about co-operation and competition among nations?",
+      "choiceA": "Co-operation crops up tension resulting from competition for resource.",
+      "choiceB": "Countries co-operate to protect and reserve their natural and cultural heritages.",
+      "choiceC": "Co-operation between two nations lasts along when it is based on unequal benefits.",
+      "choiceD": "Countries co-operate for inequitable use of natural resources, such as cross-boundary Rivers."
+    },
+    {
+      "questionNumber": 50,
+      "correctAnswer": "B",
+      "questionStatement": " Which principle of the Hippocratic Oath is currently recognized in Ethiopia ?",
+      "choiceA": "Giving priority to patients who are elder",
+      "choiceB": "Assisting patients and keeping their secret",
+      "choiceC": "Insulting fellow physicians when they make error on job",
+      "choiceD": "Providing assistance to patients who prefer to commit suicide."
+    },
+    {
+      "questionNumber": 51,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about the features of federal form of states, such as Ethiopia ?",
+      "choiceA": "The power of the central government is indivisible.",
+      "choiceB": "The regional governments are supreme in their own spheres.",
+      "choiceC": "The power of the regional government is given by the national government.",
+      "choiceD": "The existence of the local units depends on the willingness of the central government."
+    },
+    {
+      "questionNumber": 52,
+      "correctAnswer": "D",
+      "questionStatement": " How can the concept of negotiation be best explained as a way of conflict resolution?",
+      "choiceA": "It is a proceeding by a party or parties against another in a court of law.",
+      "choiceB": "It is a means of applying legal principles to a controversy for final solution.",
+      "choiceC": "Is a method of non-binding dispute resolution involving a neutral third party.",
+      "choiceD": "It involves direct discussion between or among the parties to reach an agreement."
+    },
+    {
+      "questionNumber": 53,
+      "correctAnswer": "C",
+      "questionStatement": " What is the principle of the constitution of the Federal Democratic Republic of Ethiopia in relation to religion ?",
+      "choiceA": "There shall be state religion.",
+      "choiceB": "state and religion are inseparable.",
+      "choiceC": "All religions of the land are equal in status.",
+      "choiceD": "Government shall intervene in the affairs of religion."
+    },
+    {
+      "questionNumber": 54,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following statements is correct about rule of Law?",
+      "choiceA": "Rule of Law is natural law acquired by virtue of being human.",
+      "choiceB": "To practice rule of law, government must be the source of power.",
+      "choiceC": "The existence of constitutionalism guarantees the prevalence of rule of law.",
+      "choiceD": "The main major purpose of rule of law is to limit popular sovereignty."
+    },
+    {
+      "questionNumber": 55,
+      "correctAnswer": "D",
+      "questionStatement": " When does the Ethiopian government apply legal limitation on the right to freedom of expression?",
+      "choiceA": "When a citizen criticizes against the government.",
+      "choiceB": "When a citizen propagates in support of an opposition party.",
+      "choiceC": "When a citizens makes propaganda with out the knowledge of the government.",
+      "choiceD": "When a citizen makes a propaganda harming the honor and reputation of individuals."
+    },
+    {
+      "questionNumber": 56,
+      "correctAnswer": "C",
+      "questionStatement": " What does referendum refer to?",
+      "choiceA": "A power referred to a government to give final decision on some problems.",
+      "choiceB": "The veto power given to the chief executive to decide on some political matters.",
+      "choiceC": "The direct participation of people in giving decision on some political matters.",
+      "choiceD": "The direct participation of peoples' representatives in the politics of a country."
+    },
+    {
+      "questionNumber": 57,
+      "correctAnswer": "C",
+      "questionStatement": " Which specific right of any accused person is violated if the trial goes with an unintentional absence of the accused?",
+      "choiceA": "The right to a fair and public hearing.",
+      "choiceB": "The right to be tried with out undue delay.",
+      "choiceC": "The right to a fair trial in his or her presence.",
+      "choiceD": "The right to have free assistance of an interpreter."
+    },
+    {
+      "questionNumber": 58,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is the best recommendation for person who for the first time made HIV/AIDS blood test and informed that he is not victim?",
+      "choiceA": "To be sure he should be retested.",
+      "choiceB": "He should be abstained from having sex.",
+      "choiceC": "As he is sure that he is not victim he should marry a wife.",
+      "choiceD": "Since he is sure that he is not victim he should continue his past habits."
+    },
+    {
+      "questionNumber": 59,
+      "correctAnswer": "B",
+      "questionStatement": " Which the following powers and functions belongs In the Regional Governments of Federal Democratic Republic of Ethiopia?",
+      "choiceA": "Formulation of foreign policy.",
+      "choiceB": "Declaring stale of emergency in the country",
+      "choiceC": "Negotiating and ratifying international agreements.",
+      "choiceD": "Formulating policy on land use and natural resources."
+    },
+    {
+      "questionNumber": 60,
+      "correctAnswer": "D",
+      "questionStatement": " What is the purpose of learning Civic education in academic institution of Ethiopia?",
+      "choiceA": "To forge active participation in support the ruling party.",
+      "choiceB": "To produce a personality of passive consent in the action of others.",
+      "choiceC": "To effect the personality of just any kind of civic participation or a subject people.",
+      "choiceD": "To effect the personality of civic participation of informed and responsible citizens."
+    },
+    {
+      "questionNumber": 61,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following does not develop the habit of saving among individuals.",
+      "choiceA": "The act of spending money wisely.",
+      "choiceB": "Balancing the needs and wants of individuals.",
+      "choiceC": "Thinking and planning about the me of our features.",
+      "choiceD": "The encouragement of extravagance behaviour of individuals."
+    },
+    {
+      "questionNumber": 62,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is <b>INCORRECT</b> about saving in relation to locally produced items.",
+      "choiceA": "Wastage of a lot inputs harms a development of a country.",
+      "choiceB": "Avoiding wastage during production is one means of saving money.",
+      "choiceC": "Buying locally produced items help to save money when they are cheaper.",
+      "choiceD": "Wastage of inputs is the main cause for decreasing cost of production."
+    },
+    {
+      "questionNumber": 63,
+      "correctAnswer": "A",
+      "questionStatement": " In which form form of government is the removal of chief executive through the process of None-Vote of confidence?",
+      "choiceA": "Presidential.",
+      "choiceB": "Parliamentary.",
+      "choiceC": "Semi-Presidential.",
+      "choiceD": "Quasi-Presidential."
+    },
+    {
+      "questionNumber": 64,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following qualities is expected from a person to be a patriotic citizen?",
+      "choiceA": "The person should not be law abiding.",
+      "choiceB": "The person should not be loyal to his her country.",
+      "choiceC": "The person should work for his or her parochial interest.",
+      "choiceD": "The person should be self-evident and defend his or her constitutional rights."
+    },
+    {
+      "questionNumber": 65,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about the personal qualities of a good leader?",
+      "choiceA": "A one who falls pray to their own doing.",
+      "choiceB": "A one who is aware of how much he does not know.",
+      "choiceC": "A one who has ability to influence others without logic.",
+      "choiceD": "A one who rationalises unethical behaviour based upon current needs."
+    },
+    {
+      "questionNumber": 66,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following statements is correct about group rights in the current Ethiopian context?",
+      "choiceA": "They are not treated as universal rights.",
+      "choiceB": "They are made to eliminate rights belonging to an individual.",
+      "choiceC": "They are made to favour the disadvantaged groups at others expense.",
+      "choiceD": "They are made to facilitate the realization of discrimination among peoples of the State."
+    },
+    {
+      "questionNumber": 67,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following statement goes with the principle of equality within diversity?",
+      "choiceA": "Equality with diversity erodes national unity.",
+      "choiceB": "Ethnocentrism promotes equality within diversity.",
+      "choiceC": "Equality with diversity is an obstacle for national development.",
+      "choiceD": "All citizens are equal before the law regardless of cultural backgrounds."
+    },
+    {
+      "questionNumber": 68,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about the characteristics of undemocratic government 7",
+      "choiceA": "It believes in accountability to empower people.",
+      "choiceB": "I does not give recognition to talented people.",
+      "choiceC": "It believes that government is the source of unquestionable.",
+      "choiceD": "It believes that legitimate power resides in the people and government"
+    },
+    {
+      "questionNumber": 69,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following is correct about corruption?",
+      "choiceA": "it reduces public confidence in the government.",
+      "choiceB": "All acts of corruption results in the payment of bribes.",
+      "choiceC": "Civil servants commit corruption in 3 more systematic way than government officials.",
+      "choiceD": "The fight against corruption can be successful through preventive action: than curative measures."
+    },
+    {
+      "questionNumber": 70,
+      "correctAnswer": "D",
+      "questionStatement": " What is true about ethics?",
+      "choiceA": "Ethics is the same as feelings.",
+      "choiceB": "Ethics is the same as religion.",
+      "choiceC": "Ethics means strictly following the law.",
+      "choiceD": "Ethics is following and doing culturally accepted norms and practices."
+    },
+    {
+      "questionNumber": 71,
+      "correctAnswer": "A",
+      "questionStatement": " In the context of economic globalization, what efforts have been made by Ethiopian government to promote foreign direct investment?",
+      "choiceA": "The provision of land without lease.",
+      "choiceB": "To let investors remit part of their country.",
+      "choiceC": "The decline to give a tax holiday for foreign direct investors.",
+      "choiceD": "The provision of limited information on the possible profitable ventures."
+    },
+    {
+      "questionNumber": 72,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following factors is responsible for promoting job satisfaction?",
+      "choiceA": "Lack of interest in the work.",
+      "choiceB": "Career growth through short term training.",
+      "choiceC": "Long hours of work and low financial.",
+      "choiceD": "Insecurity of work and unhealthy working conditions."
+    },
+    {
+      "questionNumber": 73,
+      "correctAnswer": "D",
+      "questionStatement": " What is the possible threat to international peace and security?",
+      "choiceA": "Afforestation.",
+      "choiceB": "Increasing price of oil.",
+      "choiceC": "Increasing desertification.",
+      "choiceD": "Growing arms race between nations."
+    },
+    {
+      "questionNumber": 74,
+      "correctAnswer": "D",
+      "questionStatement": " What is the possible benefit that one can get from fulfilling his/her responsibility?",
+      "choiceA": "The inability to exploit his/her rights.",
+      "choiceB": "Lack of confidence and self-accomplishment.",
+      "choiceC": "The development of a sense of dependence upon others.",
+      "choiceD": "The achievement of being valued by the concerned society."
+    },
+    {
+      "questionNumber": 75,
+      "correctAnswer": "C",
+      "questionStatement": "Which of the following is correct about citizens combating challenges of international magnitude that affects humanity?",
+      "choiceA": "Being unaware of politics and current affairs.",
+      "choiceB": "Disinclination to work together in tackling problems.",
+      "choiceC": "Acquiring knowledge and the skills as per the global reality.",
+      "choiceD": "unwilling to co-operate with the world to eliminate the problem."
+    },
+    {
+      "questionNumber": 76,
+      "correctAnswer": "B",
+      "questionStatement": " What is the role of the judiciary organ in the current Ethiopia context?",
+      "choiceA": "Drafting the constitution when it is required.",
+      "choiceB": "Restoring justice whenever the law is violated.",
+      "choiceC": "Encouraging controversies in order to resolve them.",
+      "choiceD": "Defending biased court officials and self-centred lawyers."
+    },
+    {
+      "questionNumber": 77,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following ideas refers to an attempt to exterminate clan, family or people?",
+      "choiceA": "Genocide.",
+      "choiceB": "Drug trafficking.",
+      "choiceC": "Aggression.",
+      "choiceD": "Corruption."
+    },
+    {
+      "questionNumber": 78,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is considered as a criminal offence inrelation to taxation?",
+      "choiceA": "Having license for your shop.",
+      "choiceB": "Unwillingness to reveal the appropriate income.",
+      "choiceC": "An attorney in a court for a person committed a crime.",
+      "choiceD": "Assisting custom officials in an effort In combat contraband trade."
+    },
+    {
+      "questionNumber": 79,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is correct about the Ethiopian flag?",
+      "choiceA": "It is in recent fabrication.",
+      "choiceB": "It serves as symbol of unity.",
+      "choiceC": "It is a purely colonial legacy.",
+      "choiceD": "It has insignificant historical value."
+    },
+    {
+      "questionNumber": 80,
+      "correctAnswer": "B",
+      "questionStatement": " which of the following is correct about Drug use and trafficking?",
+      "choiceA": "Drug users cannot stop taking drugs.",
+      "choiceB": "Drug users involve in robbery and then.",
+      "choiceC": "Drug users are highly respected among their society.",
+      "choiceD": "Drug users are committed to fight illegal weapon trafficking."
+    },
+    {
+      "questionNumber": 81,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following statements is correct about the principle of rule if law?",
+      "choiceA": "All laws have equal power.",
+      "choiceB": "Every citizen is subject to the law.",
+      "choiceC": "No a law is superior to mother law.",
+      "choiceD": "Laws are monopolized by a government."
+    },
+    {
+      "questionNumber": 82,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following is correct about human rights?",
+      "choiceA": "They are acquired after birth.",
+      "choiceB": "They are created and maintained by states.",
+      "choiceC": "They are natural and enjoyed by all human kind.",
+      "choiceD": "They are exercised based on one's political achievement."
+    },
+    {
+      "questionNumber": 83,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an obligation of n citizen as per the constitution of the Federal Democratic Republic of Ethiopian?",
+      "choiceA": "Valuing gender disparity.",
+      "choiceB": "Respecting the government as the source of power.",
+      "choiceC": "Respecting the constitution as the supreme law of the land.",
+      "choiceD": "Fighting for and upholding the inequality of groups and individuals."
+    },
+    {
+      "questionNumber": 84,
+      "correctAnswer": "C",
+      "questionStatement": " What is the primary justification for adopting the federal system in Ethiopia?",
+      "choiceA": "To avoid tyrannical rule from the center.",
+      "choiceB": "To suppress local initiatives and interests across the state.",
+      "choiceC": "To accommodate all the centrifugal forces within one nation.",
+      "choiceD": "To look for ways or having greater weight against external force."
+    },
+    {
+      "questionNumber": 85,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following ideas agrees with the principle of multiculturalism?",
+      "choiceA": "It undermines peoples to promote their Cultural distinctions.",
+      "choiceB": "It believes that the prevalence of diversity is an obstacle for unity.",
+      "choiceC": "It believes that no culture is superior or inferior to any other culture.",
+      "choiceD": "It underscores that the very purpose of politics is to affirm group indifferences."
+    },
+    {
+      "questionNumber": 86,
+      "correctAnswer": "B",
+      "questionStatement": " What benefit can be gained from utilizing locally produced goods than the exported ones in a country?",
+      "choiceA": "Promoting imbalance import-export trade.",
+      "choiceB": "Proper and efficient exploitation of resources.",
+      "choiceC": "Keeping country's domestic factories out of business.",
+      "choiceD": "Alienation of a given country from an international trade."
+    },
+    {
+      "questionNumber": 87,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is Correct about a good leader?",
+      "choiceA": "He/she strives to attain persona] gains.",
+      "choiceB": "He/she creates vision and inspires others to achieve goals.",
+      "choiceC": "He/she depends on threats and coercion to meet his/her goals.",
+      "choiceD": "He/she sets a plan to keep his/her position and struggles to achieve it."
+    },
+    {
+      "questionNumber": 88,
+      "correctAnswer": "A",
+      "questionStatement": " which one or the following can best describe the personal quality of a versatile leader?",
+      "choiceA": "The quality of being flexible, resourceful and an all rounded one.",
+      "choiceB": "The quality of realizing what is achievable based on known facts.",
+      "choiceC": "The quality or inspiring others and committing to the objective of the task.",
+      "choiceD": "The presence of good ability to set appropriate courses of action through plan."
+    },
+    {
+      "questionNumber": 89,
+      "correctAnswer": "C",
+      "questionStatement": " What is the advantage of citizens' participation in making and evaluating public policies?",
+      "choiceA": "It develops a sense of betrayal among citizens.",
+      "choiceB": "it promotes suspicion between government and citizens.",
+      "choiceC": "It enables citizens to formulate and implement sustainable and effective policies.",
+      "choiceD": "It enables government to know the feeling and reactions of citizens towards Various issues."
+    },
+    {
+      "questionNumber": 90,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is <b>INCORRECT</b> about the role played by governmental and non-governmental organizations in promoting citizens participation in policy making?",
+      "choiceA": "They raise awareness of the community.",
+      "choiceB": "They organize venue for expressing views.",
+      "choiceC": "They arrange and facilitate discussions to identify local problems.",
+      "choiceD": "They arrange debates which promote unsubstantiated judgement of policies."
+    },
+    {
+      "questionNumber": 91,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is the reason for adopting the principle of equality for the current Ethiopian society?",
+      "choiceA": "To encourage gender discrepancy.",
+      "choiceB": "To eradicate citizens' economic inequality.",
+      "choiceC": "To enable the society to have a similar culture.",
+      "choiceD": "To develop the different cultures of the country."
+    },
+    {
+      "questionNumber": 92,
+      "correctAnswer": "D",
+      "questionStatement": " What is the consequence of corruption in a country?",
+      "choiceA": "It eliminates societal moral values.",
+      "choiceB": "It increases foreign direct investment.",
+      "choiceC": "It reduces expenditure for public services.",
+      "choiceD": "It reduces investment and the rate of growth."
+    },
+    {
+      "questionNumber": 93,
+      "correctAnswer": "A",
+      "questionStatement": " Which of the following goes with the notion of constitutional patriotism in the current Ethiopian context?",
+      "choiceA": "Citizens' commitment to the state's development.",
+      "choiceB": "Citizens' commitment to conquer neighbouring countries.",
+      "choiceC": "Citizens' indulgence to cultural and religious fundamentalism.",
+      "choiceD": "Citizens' determination to fight the virtue of tolerance in the state."
+    },
+    {
+      "questionNumber": 94,
+      "correctAnswer": "D",
+      "questionStatement": " What is true about cultural relativism?",
+      "choiceA": "Societal norms form tire basis of morality.",
+      "choiceB": "Morality does not differ front culture to culture.",
+      "choiceC": "The moral values of one culture can be judged to be better than that of the other.",
+      "choiceD": "There are universally agreed moral principles by which we judge our action."
+    },
+    {
+      "questionNumber": 95,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following Contributes for creating favourable Condition for corruption?",
+      "choiceA": "The presence of measurement of corruption.",
+      "choiceB": "The emergence of rent-seeking political elites.",
+      "choiceC": "The devotion of the government to apply harsh penalties.",
+      "choiceD": "Citizens' unreserved commitment For combating corrupted officials."
+    },
+    {
+      "questionNumber": 96,
+      "correctAnswer": "C",
+      "questionStatement": " Which of the following statements agrees with the principle of fairness?",
+      "choiceA": "Everybody should benefit according to his/her age.",
+      "choiceB": "It is unfair to consider ageism when sharing benefits.",
+      "choiceC": "Benefits should be distributed as per burdens discharged.",
+      "choiceD": "Benefits should be shared regardless one's responsibilities."
+    },
+    {
+      "questionNumber": 97,
+      "correctAnswer": "A",
+      "questionStatement": " What can be an outcome of fair distribution of benefits and burdens among citizen of a state?",
+      "choiceA": "The cultivation of the sense of 'weness' among citizens.",
+      "choiceB": "The elimination of economically and socially stratified groups.",
+      "choiceC": "The development of citizens' subordination to the government.",
+      "choiceD": "The cultivation of shared feeling towards international politics."
+    },
+    {
+      "questionNumber": 98,
+      "correctAnswer": "D",
+      "questionStatement": " Which of the following is an indicator of poverty in a country.",
+      "choiceA": "Low illiteracy rate.",
+      "choiceB": "Low infant mortality rate",
+      "choiceC": "Very low population size.",
+      "choiceD": "Low average life expectancy."
+    },
+    {
+      "questionNumber": 99,
+      "correctAnswer": "B",
+      "questionStatement": " Which of the following is an attribute of patriotism?",
+      "choiceA": "Developing rent-seeking behaviour.",
+      "choiceB": "Playing the role of whistle blowers.",
+      "choiceC": "Recognizing and accepting cultural indifferences.",
+      "choiceD": "Respecting heritages on the basis of ethno-centrism."
+    },
+    {
+      "questionNumber": 100,
+      "correctAnswer": "D",
+      "questionStatement": " What can be a consequence of economic dependency of developing nations?",
+      "choiceA": "The development of self sustained economy of developing nations.",
+      "choiceB": "The increment of the stagnation of the economies of developed nations.",
+      "choiceC": "The emerging of balanced economic relationship between the developed and developing nations.",
+      "choiceD": "The occurrence of technological and financial penetration by the developed nations at the expense of the developing ones.;"
+    }
+  ]
+}
