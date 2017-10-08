@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:paddingTop="16dp"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    >
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     <TextView
         android:id="@+id/textView"
@@ -18,12 +18,13 @@
         android:gravity="center_horizontal"
         android:padding="6dp"
         android:paddingTop="10dp"
-         android:textAllCaps="true"
-        android:textSize="16sp"
+        android:text="@string/question_bank"
+        android:textAllCaps="true"
         android:textColor="@color/white"
+        android:textSize="16sp"
         android:textStyle="bold" />
 
-    <net.kerod.android.icladdis.widget.StepPagerStrip
+    <net.kerod.android.questionbank.widget.StepPagerStrip
         android:id="@+id/strip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,27 +40,29 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
+
         <View
             android:layout_width="match_parent"
             android:layout_height="5dp"
             android:layout_alignParentTop="true"
             android:layout_alignTop="@+id/container"
             android:layout_marginTop="50dp"
-            android:background="#ccc"/>
+            android:background="#ccc" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="5dp"
-            android:layout_alignParentBottom="true"
             android:layout_alignBottom="@+id/container"
+            android:layout_alignParentBottom="true"
             android:layout_marginBottom="50dp"
-            android:background="#ccc"/>
+            android:background="#ccc" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:foregroundTintMode="@color/colorPrimaryDark"
-            android:padding="8dip"  />
+            android:padding="8dip" />
     </RelativeLayout>
 
 </LinearLayout>

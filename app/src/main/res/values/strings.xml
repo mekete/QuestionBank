@@ -79,6 +79,7 @@
         <item>360</item>
         <item>-1</item>
     </string-array>
+    <string name="click_again_to_exit">Tap again to exit</string>
 
     <string name="pref_title_system_sync_settings">System sync settings</string>
 
@@ -145,7 +146,7 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <string name="intro_antibiogram_body_two">We analyse yearly our test results to get the most effective medicine for each of bactesrias from different samples</string>
     <string name="intro_antibiogram_body_three">Be careful not to order</string>
     <string name="intro_antibiogram_body_four">Now, you are all set</string>
-<!---->
+    <!---->
     <string name="login">Log In</string>
     <string name="login_with_facebook_or_g_mail">Login with your Facebook or Gmail account</string>
     <string name="contact_default_telephone">(+251) 447 1818</string>
@@ -154,7 +155,7 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <string name="reminder_info_not_to_mis_use_antibiogram">Please understand the risks of misusing this information by reading the introduction\n(you can access it via the help menu at top right)</string>
 
     <string name="log_in_now">Log in Now</string>
-     <string name="password_reset_instruction_sent_via_email">We have sent you instructions to reset your password!</string>
+    <string name="password_reset_instruction_sent_via_email">We have sent you instructions to reset your password!</string>
     <string name="problem_resetting_password">Sorry, there is a problem in reseting your password.</string>
     <string name="dont_have_account">Don\'t have account?</string>
     <string name="already_registered">Already registered?</string>
@@ -177,13 +178,13 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <string name="pref_key_first_time_launch">pref_key_first_time_launch</string>
     <string name="pref_key_vibrate_on_wrong_attempt">pref_key_vibrate_on_wrong_attempt</string>
     <!---->
-     <string name="pref_key_class_category">pref_key_class_category</string>
+    <string name="pref_key_class_category">pref_key_class_category</string>
     <string name="pref_key_display_name">pref_key_display_name</string>
 
 
-  <string name="pref_key_user_uid">pref_key_user_uid</string>
+    <string name="pref_key_user_uid">pref_key_user_uid</string>
     <string name="pref_key_user_role">pref_key_user_role</string>
-     <string name="pref_key_first_to_view_antibiogram">pref_key_first_to_view_antibiogram</string>
+    <string name="pref_key_first_to_view_antibiogram">pref_key_first_to_view_antibiogram</string>
     <string name="pref_key_first_name">pref_key_first_name</string>
     <string name="pref_key_last_name">pref_key_last_name</string>
     <string name="pref_key_email">pref_key_email</string>
@@ -196,5 +197,22 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <string name="pref_key_version_code">pref_key_version_code</string>
     <string name="pref_key_antibiogram_prepared_date">pref_key_antibiogram_prepared_date</string>
     <string name="pref_key_avatar_index">pref_key_avatar_index</string>
+    <string name="questions_not_loaded_yet">Questions not loaded yet</string>
+    <string name="statistics_not_available">Your progress statistics will be available only after you attempt</string>
+    <string name="share_app_to_a_friend">Share app to a friend</string>
+    <!---->
+
+
+    <string name="share_app_content" translatable="false"> <![CDATA[
+I am using a simple Ethiopian Calendar app.
+\nThe app is easy to use, has small size, and supports date conversion.
+\nDownload it for free from Google Play store!
+\nhttps://play.google.com/store/apps/details?id=com.shalom.calendar]]></string>
+    <string name="share_app_content_sms" translatable="false"> <![CDATA[
+I invite you to try a free, simple and stylish Ethiopian app:
+\nhttps://play.google.com/store/apps/details?id=com.shalom.calendar]]></string>
+    <string name="question_tag_tricky">TRICKY</string>
+    <string name="question_tag_vague">VAGUE</string>
+    <string name="question_tag_try_later">TRY LATER</string>
 
 </resources>

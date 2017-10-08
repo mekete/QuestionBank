@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+
     tools:openDrawer="start">
 
     <include
@@ -21,7 +22,7 @@
         android:fitsSystemWindows="true"
         app:menu="@menu/menu_show_question_drawer">
 
-        <include layout="@layout/segment_drawer_fixed_bottom_menu" />
+        <include layout="@layout/segment_drawer_bottom_share_menu" />
     </android.support.design.widget.NavigationView>
 
 </android.support.v4.widget.DrawerLayout>

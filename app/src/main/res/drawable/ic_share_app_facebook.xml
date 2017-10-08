@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/app_share_icon_size"
+    android:height="@dimen/app_share_icon_size"
+    android:viewportHeight="65"
+    android:viewportWidth="65">
+    <path
+        android:name="Primary"
+        android:fillColor="@color/colorBrokenWhite"
+        android:pathData="m32.5 -0c17.95 0 32.5 14.55 32.5 32.5c0 17.95 -14.55 32.5 -32.5 32.5c-17.95 0 -32.5 -14.55 -32.5 -32.5c0 -17.95 14.55 -32.5 32.5 -32.5z" />
+    <path
+        android:name="Icon"
+        android:fillColor="@color/colorShareFacebook"
+        android:pathData="m41 17.2c0 1.79 0 3.58 0 5.37c-1.29 0 -2.58 0 -3.87 0c0 0.04 0 0.08 0 0.12c-0.25 0 -0.5 0 -0.75 0c-0.28 0.09 -0.53 0.28 -0.88 0.36c-0.21 0.36 -0.6 0.66 -0.75 1.07c-0.37 1.04 -0.13 3.67 -0.13 5.01c2.04 0 4.08 0 6.13 0c-0.25 1.95 -0.5 3.9 -0.75 5.84c-1.79 0 -3.58 0 -5.38 0c0 5.01 0 10.02 0 15.03c-2.08 0 -4.17 0 -6.25 0c0 -5.01 0 -10.02 0 -15.03c-1.79 0 -3.58 0 -5.37 0c0 -1.95 0 -3.9 0 -5.84c1.79 0 3.58 0 5.37 0c-0.02 -2.01 -0.3 -5.49 0.25 -7.04c0.92 -2.61 2.57 -4.07 5.37 -4.89c0.25 0 0.5 0 0.75 0c1.61 -0.44 4.52 -0.01 6.25 0z" />
+</vector>

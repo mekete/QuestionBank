@@ -210,4 +210,14 @@ public class DeviceUtil {
         Log.e("CCCC", " .heightPixels : " + displayMetrics.heightPixels + " >>> widthPixels : " + displayMetrics.widthPixels + " \n >>> density : " + displayMetrics.density + ">>> ydpi : " + displayMetrics.scaledDensity + " >>> densityDpi : " + displayMetrics.densityDpi + " \n >>> xdpi : " + displayMetrics.xdpi + ">>> ydpi : " + displayMetrics.ydpi);
         return smallestPixel;//displayMetrics.widthPixels;
     }
+
+    public static boolean isAppInstalled(String packageName) {
+        PackageManager packageManager = ApplicationManager.getAppContext().getPackageManager();
+        try {
+            packageManager.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
+    }
 }

@@ -14,12 +14,11 @@ import android.os.Bundle;
 import android.os.SystemClock;
 import android.os.Vibrator;
 import android.support.annotation.NonNull;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.ShareCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPropertyAnimatorListenerAdapter;
@@ -31,6 +30,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,7 +39,9 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.OvershootInterpolator;
+import android.widget.Button;
 import android.widget.Chronometer;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -62,16 +64,21 @@ import net.kerod.android.questionbank.adapter.QuestionAdapter;
 import net.kerod.android.questionbank.manager.ApplicationManager;
 import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
+import net.kerod.android.questionbank.model.FirebaseModel;
 import net.kerod.android.questionbank.model.Instruction;
 import net.kerod.android.questionbank.model.Question;
 import net.kerod.android.questionbank.model.UserAttempt;
 import net.kerod.android.questionbank.model.UserAttemptSummary;
 import net.kerod.android.questionbank.utility.Constants;
+import net.kerod.android.questionbank.utility.DeviceUtil;
+import net.kerod.android.questionbank.utility.GraphicsUtil;
+import net.kerod.android.questionbank.utility.SocialUtil;
+import net.kerod.android.questionbank.utility.StringUtil;
 import net.kerod.android.questionbank.widget.AnimatorUtils;
 import net.kerod.android.questionbank.widget.ClipRevealFrame;
 import net.kerod.android.questionbank.widget.CustomView;
 import net.kerod.android.questionbank.widget.MessageBottomSheetDialog;
-import net.steamcrafted.loadtoast.LoadToast;
+import net.kerod.android.questionbank.widget.toast.LoadToast;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -95,6 +102,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private UserAttemptSummary mAttemptSummary = ApplicationManager.CurrentSession.getSelectedExamAttemptSummary();
     private final DatabaseReference mAttemptDatabaseReference = UserAttempt.getDatabaseReference(mUserId, mCurrentExam.getUid());
     //
+    private View mMainContent;
     private DrawerLayout mDrawer;
     private RelativeLayout mRootLayout;
     private ClipRevealFrame mArcRevealFrame; //parent of mArcLayout
@@ -126,8 +134,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         setContentView(R.layout.activity_question);
         mInterpolator = new FastOutSlowInInterpolator();
         mMenuFragmentManager = getSupportFragmentManager();
+        mMainContent = findViewById(R.id.main_content);
+        mLoadToast = LoadToast.createLoadToast(this, getString(R.string.loading));
         //
-        initLoadToast();
         initProgress();
         initToolbarAndDrawer();
         initArcLayout();
@@ -187,14 +196,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mCronExamTimeTaken.start();
     }
 
-    private void initLoadToast() {
-        mLoadToast = new LoadToast(this)
-                .setText("Sending...")
-                .setTranslationY(200)
-                .setTextColor(ContextCompat.getColor(QuestionActivity.this,R.color.colorPrimaryDark))
-                .setBackgroundColor(ContextCompat.getColor(QuestionActivity.this,R.color.colorAccent))
-                .setProgressColor(ContextCompat.getColor(QuestionActivity.this,R.color.colorPrimary));
-    }
 
     private void loadExamQuestions() {
         mLoadToast.setText("Loading questions...");
@@ -243,10 +244,13 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     private void openAttemptSummary() {
-        Intent intent = new Intent(QuestionActivity.this, AttemptSummaryActivity.class);
-        startActivity(intent);
+        if (mQuestionList.size() > 0) {
+            Intent intent = new Intent(QuestionActivity.this, AttemptSummaryActivity.class);
+            startActivity(intent);
+        } else {
+            CustomView.makeSnackBar(mMainContent, getString(R.string.questions_not_loaded_yet), CustomView.SnackBarStyle.INFO).setAction("OK", null).show();
+        }
     }
-
 
     private void openAboutExam() {
         Intent intent = new Intent(QuestionActivity.this, AboutExamActivity.class);
@@ -299,10 +303,10 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private void remindToReadInstruction(View v, final Question currentQuestion) {
 
         try {
-            if(currentQuestion.getQuestionNumber()>25 && currentQuestion.getQuestionNumber()<30 ){
-                Log.e(TAG, "START OF SECTION ::: : "+currentQuestion.getQuestionNumber()+"\n:::: "+currentQuestion.getStartOfSection() );
+            if (currentQuestion.getQuestionNumber() > 25 && currentQuestion.getQuestionNumber() < 30) {
+                Log.e(TAG, "START OF SECTION ::: : " + currentQuestion.getQuestionNumber() + "\n:::: " + currentQuestion.getStartOfSection());
             }
-            if (currentQuestion.getQuestionNumber()==12 || currentQuestion.getStartOfSection()) {
+            if (currentQuestion.getQuestionNumber() == 12 || currentQuestion.getStartOfSection()) {
                 CustomView.makeSnackBar(v, "Read instruction for this question.", CustomView.SnackBarStyle.INFO).setAction("Read now", new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -315,7 +319,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 //
             }
         } catch (Exception e) {
-            Log.e(TAG, "\n\n>>>>>>>>\nremindToReadInstruction: "+e );
+            Log.e(TAG, "\n\n>>>>>>>>\nremindToReadInstruction: " + e);
             e.printStackTrace();
         }
     }
@@ -341,7 +345,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         int color = correctAttempt ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
         colorizeAttempt(webViewArray, clickedIndex, correctAttempt);
         showFab(color);
-        if(SettingsManager.isVibrateOnWrongAttempt() && !correctAttempt){
+        if (SettingsManager.isVibrateOnWrongAttempt() && !correctAttempt) {
             Vibrator vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vibe.vibrate(VIBRATION_DURATION_IN_MILLS);
         }
@@ -446,6 +450,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 if (remark != null) {
                     Log.e(TAG, ">>>>>>> mmm Check Attempr: ");
                     attempt.setRemark(remark);
+                    CustomView.makeSnackBar(view, "Your remark is saved.", CustomView.SnackBarStyle.SUCCESS).show();
+
                 }
                 Log.e(TAG, ">>>>>>> nnn Check Attempr: ");
                 attemptReference.setValue(attempt);
@@ -565,7 +571,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         //final TextView aboutExam = (TextView) findViewById(R.id.nav_about_exam);
-        final TextView setting = (TextView) findViewById(R.id.nav_setting);
         //
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -588,20 +593,71 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mDrawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        setting.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mDrawer.closeDrawer(GravityCompat.START);
-                Log.e(TAG, "onClick: " + "VVVVVVVVVVV----------------");
-                Intent intent = new Intent(QuestionActivity.this, SettingsActivity.class);
-                startActivity(intent);
-            }
-        });
+//        final TextView setting = (TextView) findViewById(R.id.nav_setting);
+//        setting.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                mDrawer.closeDrawer(GravityCompat.START);
+//                Log.e(TAG, "onClick: " + "VVVVVVVVVVV----------------");
+//                Intent intent = new Intent(QuestionActivity.this, SettingsActivity.class);
+//                startActivity(intent);
+//            }
+//        });
         //
 
         //
 
         mNavigationView.setNavigationItemSelectedListener(this);
+        prepareShare();
+    }
+
+    private void prepareShare() {
+        final View viewShareFacebook = findViewById(R.id.txtv_share_facebook);
+        final View viewShareWhatsApp = findViewById(R.id.txtv_share_whats_app);
+        final View viewShareViber = findViewById(R.id.txtv_share_viber);
+        final View viewShareEmail = findViewById(R.id.txtv_share_email);
+        final View viewSharePlay = findViewById(R.id.txtv_share_play);
+        final View viewShareSms = findViewById(R.id.txtv_share_sms);
+        final View viewShareOther = findViewById(R.id.imgv_share_other);
+
+        View.OnClickListener actionShareApp = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mDrawer.closeDrawer(GravityCompat.START);
+                if (view == viewShareFacebook) {
+                    SocialUtil.shareFacebookAppInvite(QuestionActivity.this);
+                } else if (view == viewShareWhatsApp) {
+                    SocialUtil.shareIntent(QuestionActivity.this, SocialUtil.PACKAGE_WHATS_APP, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareViber) {
+                    SocialUtil.shareIntent(QuestionActivity.this, SocialUtil.PACKAGE_VIBER, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareEmail) {
+                    SocialUtil.shareEmail(QuestionActivity.this, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareSms) {
+                    SocialUtil.shareSms(QuestionActivity.this, SocialUtil.SHARE_BODY_SMS);
+                } else if (view == viewSharePlay) {
+                    SocialUtil.shareGooglePlay(QuestionActivity.this);
+                } else if (view == viewShareOther) {
+                    SocialUtil.shareOther(QuestionActivity.this, SocialUtil.SHARE_BODY);
+                }
+            }
+        };
+
+
+        viewShareFacebook.setOnClickListener(actionShareApp);
+        viewSharePlay.setOnClickListener(actionShareApp);
+        viewShareSms.setOnClickListener(actionShareApp);
+        viewShareOther.setOnClickListener(actionShareApp);
+        //
+        if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_WHATS_APP)) {
+            viewShareWhatsApp.setVisibility(View.VISIBLE);
+            viewShareWhatsApp.setOnClickListener(actionShareApp);
+        } else if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_VIBER)) {
+            viewShareViber.setVisibility(View.VISIBLE);
+            viewShareViber.setOnClickListener(actionShareApp);
+        } else {
+            viewShareEmail.setVisibility(View.VISIBLE);
+            viewShareEmail.setOnClickListener(actionShareApp);
+        }
 
     }
 
@@ -637,16 +693,16 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
         View headerView = mNavigationView.inflateHeaderView(R.layout.drawer_question_header);
         CircleImageView imgvUserProfile = (CircleImageView) headerView.findViewById(R.id.imgv_user_photo);
-         imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingsManager.getAvatarIndex()] );
+        imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingsManager.getAvatarIndex()]);
 
         TextView txtvUserName = (TextView) headerView.findViewById(R.id.txtv_user_name);
         TextView txtvUserEmail = (TextView) headerView.findViewById(R.id.txtv_user_email);
         txtvUserName.setText(SettingsManager.getDisplayName());
         txtvUserEmail.setText(SettingsManager.getEmail());
         //
-        imgvUserProfile.setOnClickListener(actionEDitProfile );
-        txtvUserName.setOnClickListener(actionEDitProfile );
-        txtvUserEmail.setOnClickListener(actionEDitProfile );
+        imgvUserProfile.setOnClickListener(actionEditProfile);
+        txtvUserName.setOnClickListener(actionEditProfile);
+        txtvUserEmail.setOnClickListener(actionEditProfile);
 
     }
 
@@ -658,7 +714,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
 
-    View.OnClickListener actionEDitProfile=new View.OnClickListener() {
+    View.OnClickListener actionEditProfile = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             mDrawer.closeDrawer(GravityCompat.START);
@@ -785,7 +841,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             }
             Log.e(TAG, "onClick: " + "2222 mRevelItemCLickListener");
             hideRevealMenu(mFabCenterX, mFabCenterY, mFabDistanceFromRoot, mFabRadius);//added for better
-
+            mFab.setSelected(false);
+            //
             if (view.getId() == R.id.fab_favorite) {
                 Log.e(TAG, "onClick: " + "3333 mRevelItemCLickListener");
                 saveUserAction(view, null, null, true, null, null);
@@ -801,9 +858,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Answer :: ", " \n " + mCurrentQuestion.getCorrectAnswer() + ": " + getChoiceStatement(mCurrentQuestion.getCorrectAnswer()));
             } else if (view.getId() == R.id.fab_note) {
                 Log.e(TAG, "onClick: " + "7777 mRevelItemCLickListener");
-//                final DatabaseReference attemptReference = mAttemptDatabaseReference.child(mCurrentQuestion.getUid());
-//                NoteBottomSheetDialog.createAndShow(attemptReference, QuestionActivity.this, view, "   ");
-                //
+                RemarkBottomSheetDialog.createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
+
             }
 
         }
@@ -973,7 +1029,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private int indexMenuInstruction = 1;
     private int indexMenuAllQuestion = 2;
     private int indexMenuDeleteExam = 3;
-    private int indexMenuAboutExam = 4;
+    private int indexCreateShortCut = 4;
+    private int indexMenuAboutExam = 5;
 
     private void initMenuFragment() {
         MenuParams menuParams = new MenuParams();
@@ -993,18 +1050,21 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         MenuObject menuInstruction = new MenuObject("Instruction");
         MenuObject menuAllQuestion = new MenuObject("Questions");
         MenuObject menuDeleteExam = new MenuObject("Delete history");
+        MenuObject menuAddShortCut = new MenuObject("Add shortcut");
         MenuObject menuAboutExam = new MenuObject("About Exam");
         //
         menuClose.setResource(R.drawable.ic_close_24dp);
         menuInstruction.setResource(R.drawable.ic_info_outline_24dp);
         menuAllQuestion.setResource(R.drawable.ic_list_24dp);
         menuDeleteExam.setResource(R.drawable.ic_cloud_off_24dp);
+        menuAddShortCut.setResource(R.drawable.ic_add_shortcut);
         menuAboutExam.setResource(R.drawable.ic_copyright_24dp);
         //
         menuObjects.add(menuClose);
         menuObjects.add(menuInstruction);
         menuObjects.add(menuAllQuestion);
         menuObjects.add(menuDeleteExam);
+        menuObjects.add(menuAddShortCut);
         menuObjects.add(menuAboutExam);
         return menuObjects;
     }
@@ -1021,19 +1081,52 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             } else if (position == indexMenuAboutExam) {//about exam
                 openAboutExam();
                 //MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "About the exam", mCurrentExam.getAboutExam());
+            } else if (position == indexCreateShortCut) {//about exam
+                int subjectImageResource = GraphicsUtil.getImageResourceForSubject(mCurrentExam.getSubject());
+                addShortcut(mCurrentExam.getUid(), mCurrentExam.getShortName(), subjectImageResource);
             } else if (position == indexMenuInstruction) {
-                String instructionUid = mCurrentQuestion.getInstructionCode();
-                if (instructionUid != null) {
-                    showInstruction(instructionUid);
-                } else if (mCurrentQuestion.getInstructionCode() != null) {// && (mCurrentExam.getDefaultInstruction() == null)) {
-                    MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Instruction", mCurrentExam.getDefaultInstruction());
+                if (mCurrentQuestion != null) {
+                    String instructionUid = mCurrentQuestion.getInstructionCode();
+                    if (instructionUid != null) {
+                        showInstruction(instructionUid);
+                    } else if (mCurrentQuestion.getInstructionCode() != null) {// && (mCurrentExam.getDefaultInstruction() == null)) {
+                        MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Instruction", mCurrentExam.getDefaultInstruction());
+                    } else {
+                        MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Instruction", "Choose the correct answer from the give choices.");
+                    }
                 } else {
-                    MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Instruction", "Choose the correct answer from the give choices.");
+                    CustomView.makeSnackBar(mMainContent, getString(R.string.questions_not_loaded_yet), CustomView.SnackBarStyle.INFO).setAction("OK", null).show();
                 }
+
 
             }
         }
     };
+
+    private void addShortcut(String examUid, String examShortName, int iconDrawableId) {
+        //
+//        if (SettingsManager.isLauncherIconAdded(examUid)) {
+//            return;
+//        }
+        Intent shortcutIntent = new Intent(getApplicationContext(), ExamHomeActivity.class);
+        shortcutIntent.setAction(Intent.ACTION_MAIN);
+//        shortcutIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//        shortcutIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        shortcutIntent.putExtra(FirebaseModel.FIELD_UID, examUid);
+        //shortcutIntent.setData(ContentUris.withAppendedId(BASE_URI, rowId));
+
+        Intent addIntent = new Intent();
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, shortcutIntent);
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, examShortName);
+
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE, Intent.ShortcutIconResource.fromContext(getApplicationContext(), iconDrawableId));
+        addIntent.putExtra("duplicate", false);
+        addIntent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+        getApplicationContext().sendBroadcast(addIntent);
+        SettingsManager.setLauncherIconAdded(examUid, true);
+        CustomView.makeSnackBar(mMainContent, "Shortcut added to your home screen", CustomView.SnackBarStyle.SUCCESS).show();
+
+    }
 
     private void showInstruction(String instructionUid) {
 
@@ -1082,5 +1175,31 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     // //--------end-yalantis-menu
+    private static class RemarkBottomSheetDialog {
+        private static final String TAG = "ContactBottomSheetDialo";
 
+        private RemarkBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
+            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_save_remark, null);
+            final EditText txteRemark =   viewGroup.findViewById(R.id.txte_remark);
+            Button btnnSave =  viewGroup.findViewById(R.id.btnn_save_remark);
+            btnnSave.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String remark = txteRemark.getText().toString().trim();
+                    if (!StringUtil.isNullOrEmpty(remark) && StringUtil.isValidEmail(remark)) {
+                        loadToast.show();
+                        activity.saveUserAction(mainContent, -1, null, null, null, remark);
+                        dialog.hide();
+                    }
+                }
+            });
+            dialog.setContentView(viewGroup);
+            dialog.show();
+        }
+
+        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            new RemarkBottomSheetDialog(activity, loadToast, mainContent);
+        }
+    }
 }

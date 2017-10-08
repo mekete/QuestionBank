@@ -61,10 +61,7 @@ public class ExamHomeActivity extends AppCompatActivity {
         query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange:query.getRef()  :::: " + query.getRef()
-                        + "\n>>>> dataSnapshot       :: " + "" + dataSnapshot + "\n\n"
-                        + "\n>>>> dataSnapshotValue  :: " + "" + dataSnapshot.getValue() + "\n\n"
-                );
+
                 try {
                     mCurrentExam = dataSnapshot.getValue(Exam.class);
                     if (mCurrentExam != null) {
@@ -72,10 +69,7 @@ public class ExamHomeActivity extends AppCompatActivity {
                         ApplicationManager.CurrentSession.setSelectedExamWithSummary(mCurrentExam);
                         initComponents();
                         initFab();
-                    } else {
-                        Log.e(TAG, "onDataChange:\n\n NULLLLLLLLLLLLLLLLLLLLLLLLLLLLL ");
                     }
-
                 } catch (Exception e) {
                     Log.e(TAG, "\n\n\n\n\n------------\n\n\n\n\n EXCEPTION ::::  " + e + "\n\n\n\n\n");
                     e.printStackTrace();
@@ -141,7 +135,11 @@ public class ExamHomeActivity extends AppCompatActivity {
         btnnAboutExam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View fab) {
-                Intent intent = new Intent(ExamHomeActivity.this, AboutExamActivity.class);
+//                Intent intent = new Intent(ExamHomeActivity.this, AboutExamActivity.class);
+//                startActivity(intent);
+//                finish();
+
+                Intent intent = new Intent(ExamHomeActivity.this, QuestionActivity.class);
                 startActivity(intent);
                 finish();
 

@@ -2,6 +2,7 @@ package net.kerod.android.questionbank;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -37,7 +38,7 @@ public class AboutExamActivity extends AppCompatActivity {
     private TextView mTxtvExamShortName;
     private TextView mTxtvExamFullName;
     private ImageView mImgvSponsorCompany;
-    private  CircleImageView mCimgSubjectIcon;
+    private CircleImageView mCimgSubjectIcon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,13 +51,13 @@ public class AboutExamActivity extends AppCompatActivity {
     }
 
     private void initFab() {
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_continue);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//               onBackPressed();
-//            }
-//        });
+        FloatingActionButton fab = findViewById(R.id.fab_continue);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
 
     }
 
@@ -64,26 +65,26 @@ public class AboutExamActivity extends AppCompatActivity {
         mTxtvAboutExam = (TextView) findViewById(R.id.txtv_about_exam);
         mTxtvExamShortName = (TextView) findViewById(R.id.txtv_exam_short_name);
         mTxtvExamFullName = (TextView) findViewById(R.id.txtv_exam_full_name);
-        mCimgSubjectIcon= (CircleImageView) findViewById(R.id.cimg_subject_icon);
+        mCimgSubjectIcon = (CircleImageView) findViewById(R.id.cimg_subject_icon);
         mImgvSponsorCompany = (ImageView) findViewById(R.id.imgv_sponsor_company);
         mCimgSubjectIcon.setImageResource(GraphicsUtil.getImageResourceForSubject(mCurrentExam.getSubject()));
         mCimgSubjectIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(mIsTheTitleVisible ){
+                if (mIsTheTitleVisible) {
                     onBackPressed();
                 }
             }
         });
 
         mTxtvAboutExam.setText(
-                "Number of Question\n\t"+mCurrentExam.getNumberOfQuestions()+
-                "\n\nAllowed Time\n\t"+mCurrentExam.getAllowedTime()+
-                        "\n\nExam Date\n\t"+mCurrentExam.getExamGivenDate()+
-                        "\n\nTotal Downloads\n\t"+27+
-                        "\n\nVersion\n\t"+"1.0.3"+
-                        "\n\nSponsored by\n\t"+"KerodApps"+
-                        "\n\nFlagged questions\n\t"+"9 "+
+                "Number of Question\n\t" + mCurrentExam.getNumberOfQuestions() +
+                        "\n\nAllowed Time\n\t" + mCurrentExam.getAllowedTime() +
+                        "\n\nExam Date\n\t" + mCurrentExam.getExamGivenDate() +
+                        "\n\nTotal Downloads\n\t" + 27 +
+                        "\n\nVersion\n\t" + "1.0.3" +
+                        "\n\nSponsored by\n\t" + "KerodApps" +
+                        "\n\nFlagged questions\n\t" + "9 " +
                         "\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
         );
         mTxtvExamShortName.setText(mCurrentExam.getShortName());
@@ -91,7 +92,7 @@ public class AboutExamActivity extends AppCompatActivity {
         mImgvSponsorCompany.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ContactBottomSheetDialog.createAndShow("(+251) 91 227 3495","kerod.apps@gmail.com",AboutExamActivity.this);
+                ContactBottomSheetDialog.createAndShow("(+251) 91 227 3495", "kerod.apps@gmail.com", AboutExamActivity.this);
                 //open website
             }
         });

@@ -34,6 +34,7 @@ import net.kerod.android.questionbank.model.Question;
 import net.kerod.android.questionbank.model.UserAttempt;
 import net.kerod.android.questionbank.utility.Constants;
 import net.kerod.android.questionbank.widget.ArcProgress;
+import net.kerod.android.questionbank.widget.CustomView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,7 +45,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
     private final DatabaseReference mAttemptDatabaseReference = UserAttempt.getDatabaseReference(FirebaseAuth.getInstance().getCurrentUser().getUid(), mCurrentExam.getUid());
     //final DatabaseReference attemptReference = mAttemptDatabaseReference.child(mCurrentQuestion.getUid());
     private RelativeLayout mRellProgressContainer;
-     private RecyclerView mRecyclerView;
+    private RecyclerView mRecyclerView;
     //
     final List<UserAttempt> mAttemptListAll = new ArrayList<>();
     final List<UserAttempt> mAttemptListCorrect = new ArrayList<>();
@@ -60,7 +61,6 @@ public class AttemptSummaryActivity extends AppCompatActivity {
         initRecyclerView();
         initBottomNavigation();
     }
-
 
 
     private void initToolbar() {
@@ -167,7 +167,11 @@ public class AttemptSummaryActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.item_info:
-                StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+                if (totalCount > 0) {
+                    StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+                } else {
+                    CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
+                }
 
         }
         return super.onOptionsItemSelected(item);

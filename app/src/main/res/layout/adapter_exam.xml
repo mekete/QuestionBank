@@ -11,8 +11,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cimg_subject_icon"
-        android:layout_width="@dimen/avatar_diameter"
-        android:layout_height="@dimen/avatar_diameter"
+        android:layout_width="@dimen/subject_icon_small_diameter"
+        android:layout_height="@dimen/subject_icon_small_diameter"
         android:layout_margin="8dp" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

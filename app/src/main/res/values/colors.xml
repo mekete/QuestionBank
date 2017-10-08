@@ -48,6 +48,17 @@
     <!--<color name="primaryWhite">#fafafa</color>-->
 
 
+
+    <!--share colors-->
+    <color name="colorShareFacebook">#3b5998</color>
+    <color name="colorSharePlay">#99cc00</color>
+    <color name="colorShareViber">#80539e</color>
+    <color name="colorShareWhatsApp">#00a859</color>
+    <color name="colorShareSms">#ffc107</color>
+    <color name="colorShareEmail">#db4437</color>
+    <color name="colorShareOther">#fff</color>
+
+
     <color name="transparent">#ddffffff</color>
     <color name="google">#d50000</color>
     <color name="google_translucent">#99d50000</color>
@@ -62,6 +73,8 @@
     <color name="revealBackground">#cc000000</color>
     <!--<color name="revealBackground">#cccccccc</color>-->
 
+
+    <color name="colorBlack">#333333</color>
     <color name="light_grey">#cccccc</color>
     <color name="dark_grey">#555555</color>
     <color name="grey">#888888</color>
@@ -105,9 +118,9 @@
 <!--slide intro -->
 
     <color name="colorError">#FFD5007C</color>
-    <color name="colorWarning">#B99D02</color>
+    <color name="colorWarning">#efd023</color>
     <color name="colorInfo">@color/colorPrimary</color>
-    <color name="colorSuccess">#0ea923</color>
+    <color name="colorSuccess">@color/choice_color_correct</color>
     <!---->
     <color name="first_slide_background">#E91E63</color>
     <color name="first_slide_buttons">#880E4F</color>

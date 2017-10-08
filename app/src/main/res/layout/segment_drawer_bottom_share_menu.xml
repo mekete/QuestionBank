@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnrl_about_app"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtv_settings"
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/card_margin_half"
+        android:padding="@dimen/card_margin_half"
+        android:text="@string/share_app_to_a_friend"
+        android:textColor="@color/colorBrokenWhite" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/txtv_share_facebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareFacebook"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            app:srcCompat="@drawable/ic_share_app_facebook" />
+
+        <ImageButton
+            android:id="@+id/txtv_share_whats_app"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareWhatsApp"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_share_app_whats_app" />
+
+        <ImageButton
+            android:id="@+id/txtv_share_viber"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareViber"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_share_app_viber" />
+
+        <ImageButton
+            android:id="@+id/txtv_share_sms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareSms"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            app:srcCompat="@drawable/ic_share_app_sms2" />
+
+        <ImageButton
+            android:id="@+id/txtv_share_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareEmail"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_share_app_email" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:id="@+id/txtv_share_play"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorSharePlay"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            app:srcCompat="@drawable/ic_share_app_play" />
+
+        <ImageButton
+            android:id="@+id/imgv_share_other"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorShareOther"
+            android:gravity="center"
+            android:paddingBottom="@dimen/card_margin"
+            android:paddingTop="@dimen/card_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBrokenWhite"
+            app:srcCompat="@drawable/ic_share_app_other" />
+
+    </LinearLayout>
+</LinearLayout>

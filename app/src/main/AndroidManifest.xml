@@ -52,7 +52,7 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             </intent-filter>
         </activity>
         <activity
@@ -102,6 +102,10 @@
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".IntroActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".EmailPasswordActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -119,24 +123,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="net.kerod.android.questionbank.QuestionActivity" />
         </activity>
-        <activity
-            android:name=".TempIntroActivity"
-            android:label="@string/title_activity_intro"
-            android:theme="@style/IntroTheme" />
         <!--  -->
-        <activity
-            android:name=".SplashActivity"
-            android:theme="@style/SplashScreenTheme">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        </activity>
-        <activity
-            android:name=".TestIntroActivity"
-            android:label="@string/title_activity_test_intro"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

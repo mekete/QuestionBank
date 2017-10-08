@@ -120,7 +120,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/ic_arrow_forward_24dp" />
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_play_arrow" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cimg_subject_icon"
