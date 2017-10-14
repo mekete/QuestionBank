@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_register_organism"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/card_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <!-- title-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_marginTop="0dip"
+        android:background="@color/white"
+        app:cardCornerRadius="@dimen/card_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/card_margin"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/card_margin"
+                android:text="@string/add_tags_or_labels" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radb_source_urine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_tricky"
+                    android:textColor="@color/brokenWhite" />
+
+
+                <CheckBox
+                    android:id="@+id/radb_source_blood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_difficult"
+                    android:textColor="@color/brokenWhite" />
+
+                <CheckBox
+                    android:id="@+id/radb_source_non_urine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_try_later"
+                    android:textColor="@color/brokenWhite" />
+
+                <CheckBox
+                    android:id="@+id/ckbx_tag_easy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_easy"
+                    android:textColor="@color/brokenWhite" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/card_border_radius"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radb_source_urine2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_vague"
+                    android:textColor="@color/brokenWhite" />
+
+
+                <CheckBox
+                    android:id="@+id/radb_source_blood2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_needs_help"
+                    android:textColor="@color/brokenWhite" />
+
+                <CheckBox
+                    android:id="@+id/radb_source_non_urine2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/card_border_radius"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_time_taking"
+                    android:textColor="@color/brokenWhite" />
+
+                <CheckBox
+                    android:id="@+id/ckbx_tag_easy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_toggle_button"
+                    android:button="@null"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="@dimen/card_border_radius"
+                    android:paddingTop="@dimen/card_border_radius"
+                    android:text="@string/question_tag_irrelevant"
+                    android:textColor="@color/brokenWhite" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

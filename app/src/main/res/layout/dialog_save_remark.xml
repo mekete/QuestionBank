@@ -29,71 +29,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/card_margin"
-                android:text="Remark for this question" />
+                android:gravity="left"
+                android:text="@string/add_note_or_remark" />
 
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:orientation="horizontal">
-
-                <CheckBox
-                    android:id="@+id/radb_source_urine"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_toggle_button"
-                    android:button="@null"
-                    android:layout_marginRight="@dimen/card_margin"
-                    android:checked="true"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:maxLines="1"
-                    android:paddingBottom="@dimen/card_border_radius"
-                    android:paddingTop="@dimen/card_border_radius"
-                    android:text="@string/question_tag_tricky"
-                    android:textColor="@color/brokenWhite" />
-
-
-                <CheckBox
-                    android:id="@+id/radb_source_blood"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                      android:layout_weight="1"
-                    android:background="@drawable/bg_toggle_button"
-                    android:button="@null"
-                    android:layout_marginRight="@dimen/card_margin"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:maxLines="1"
-                    android:paddingBottom="@dimen/card_border_radius"
-                    android:paddingTop="@dimen/card_border_radius"
-                    android:text="@string/question_tag_vague"
-                    android:textColor="@color/brokenWhite" />
-
-                <CheckBox
-                    android:id="@+id/radb_source_non_urine"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="@drawable/bg_toggle_button"
-                    android:button="@null"
-                    android:checked="true"
-                    android:ellipsize="end"
-                    android:fontFamily="sans-serif-condensed"
-                    android:gravity="center"
-                    android:maxLines="1"
-                    android:paddingBottom="@dimen/card_border_radius"
-                    android:paddingTop="@dimen/card_border_radius"
-                    android:text="@string/question_tag_try_later"
-                    android:textColor="@color/brokenWhite" />
-            </LinearLayout>
 
 
             <EditText
+                android:layout_marginTop="@dimen/card_margin"
                 android:id="@+id/txte_remark"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -101,7 +43,6 @@
                 android:gravity="left|top"
                 android:minLines="3"
                 android:padding="@dimen/card_margin" />
-
 
             <Button
                 android:id="@+id/btnn_save_remark"

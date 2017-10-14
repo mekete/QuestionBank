@@ -214,5 +214,20 @@ I invite you to try a free, simple and stylish Ethiopian app:
     <string name="question_tag_tricky">TRICKY</string>
     <string name="question_tag_vague">VAGUE</string>
     <string name="question_tag_try_later">TRY LATER</string>
+    <string name="question_tag_easy">EASY</string>
+    <string name="remark_and_tags">Remark and tags</string>
+    <string name="question_tag_difficult">DIFFICULT</string>
+    <string name="question_tag_needs_help">NEED HELP</string>
+    <string name="question_tag_time_taking">TIME TAKING</string>
+    <string name="question_tag_irrelevant">IRRELEVANT</string>
+    <string name="add_tags_or_labels">Add Bookmark</string>
+    <string name="add_note_or_remark">Add note or remark</string>
+    <string name="report_error">Report error</string>
+    <string name="report_error_detail">If you feel the question is unclear, has mistakes or is erraneous, please describe the problem. You may also suggest a better option.</string>
+    <string name="report">Report</string>
+    <string name="all_exams">All Exams</string>
+    <string name="bookmarked">Bookmarks</string>
+    <string name="bookmarked_questions">Bookmarked questions</string>
+    <string name="notes">Notes</string>
 
 </resources>

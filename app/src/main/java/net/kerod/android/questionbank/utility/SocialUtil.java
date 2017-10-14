@@ -65,7 +65,18 @@ public class SocialUtil {
             context.startActivity(intent);
         }
     }
-
+    public static void shareEmail(@NonNull Context context, String subject,String message, String receiverEmail) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:"));
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+//                    intent.setType( "plain/text");
+//                    intent.setType( "message/rfc822");
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{receiverEmail});
+        intent.putExtra(Intent.EXTRA_TEXT, message);
+        if (intent.resolveActivity(context.getPackageManager()) != null) {
+            context.startActivity(intent);
+        }
+    }
     public static void shareSms(Activity activity, String message) {
         ShareCompat.IntentBuilder builder = ShareCompat.IntentBuilder.from(activity);
         Intent shareIntent;

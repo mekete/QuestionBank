@@ -23,10 +23,10 @@
         <android.support.design.widget.FloatingActionButton
             app:backgroundTint="@color/colorPrimary"
 
-            android:id="@+id/fab_favorite"
+            android:id="@+id/fab_tags"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_favorite_outline" />
+            app:srcCompat="@drawable/ic_bookmark_border" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_answer"

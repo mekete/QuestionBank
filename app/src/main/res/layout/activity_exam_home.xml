@@ -24,7 +24,7 @@
     <!--</android.support.design.widget.AppBarLayout>-->
 
     <include layout="@layout/content_exam_home" />
-    <include layout="@layout/segment_reveal_empty" />
+    <!--<include layout="@layout/segment_reveal_empty" />-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"

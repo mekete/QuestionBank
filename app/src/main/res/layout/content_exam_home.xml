@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_exam_home"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,11 +14,55 @@
     <LinearLayout
 
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_marginTopPercent="10%"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="70%">
+
+        <Button
+            android:id="@+id/btnn_all_exams"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_home_all_exam"
+            android:text="@string/all_exams"
+            android:gravity="right|center_vertical"
+            android:padding="@dimen/card_margin"
+             android:textAllCaps="true"
+            android:textColor="@color/primaryWhite" />
+
+        <Button
+            android:id="@+id/btnn_bookmarks"
+            android:layout_width="wrap_content"
+            android:text="@string/bookmarked"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_home_bookmark"
+            android:gravity="left|center_vertical"
+            android:padding="@dimen/card_margin"
+             android:textAllCaps="true"
+            android:textColor="#222"  />
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
-        app:layout_marginTopPercent="5%">
+        app:layout_marginTopPercent="30%">
 
         <TextView
             android:id="@+id/txtv_main_title"
@@ -32,83 +75,27 @@
             android:text="@string/question_bank"
             android:textAllCaps="true"
             android:textColor="#222"
-            android:textSize="24sp"
-
-            />
+            android:textSize="24sp"  />
 
         <TextView
+            android:id="@+id/txtv_sub_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/made_by_kerod"
             android:textAllCaps="true"
-            android:textColor="#222"
-            android:visibility="gone" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:layout_centerHorizontal="true"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="2"
-        app:layout_heightPercent="9%"
-        app:layout_marginTopPercent="25%"
-        app:layout_widthPercent="80%">
+            android:textColor="#222" />
 
 
     </LinearLayout>
 
 
-    <LinearLayout
-        android:id="@+id/lnrl_email_input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:orientation="vertical"
-        app:layout_marginTopPercent="40%"
-        app:layout_widthPercent="80%">
-
-        <!--<android.support.design.widget.TextInputLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:theme="@style/EditTextHint">-->
-
-        <!--<EditText-->
-        <!--android:id="@+id/txtv_login_email"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:ems="10"-->
-        <!--android:hint="@string/email"-->
-        <!--android:inputType="textEmailAddress" />-->
-        <!--</android.support.design.widget.TextInputLayout>-->
-
-        <!--<android.support.design.widget.TextInputLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:theme="@style/EditTextHint">-->
-
-        <!--<EditText-->
-        <!--android:id="@+id/txtv_login_password"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:ems="10"-->
-        <!--android:hint="@string/password"-->
-        <!--android:inputType="textPassword" />-->
-        <!--</android.support.design.widget.TextInputLayout>-->
-
-    </LinearLayout>
 
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cimg_subject_icon"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:src="@drawable/cimg_subject_aptitude"
@@ -119,31 +106,19 @@
         android:textColor="@color/primaryWhite"
         app:civ_border_color="@android:color/white"
         app:civ_border_width="1dp"
-        app:layout_marginTopPercent="20%" />
+        app:layout_marginTopPercent="45%" />
 
     <Button
         android:id="@+id/btnn_about_exam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-         android:background="@drawable/bg_login_email"
-        app:layout_marginTopPercent="65%"
-        app:layout_widthPercent="60%"
+        android:background="@drawable/bg_login_email"
         android:text="Continue"
+        android:textColor="@color/brokenWhite"
+        app:layout_marginTopPercent="75%"
+        app:layout_widthPercent="70%" />
 
-        android:textColor="@color/brokenWhite"  />
-
-
-    <Button
-        android:id="@+id/btnn_add_shortcut"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:paddingTop="@dimen/card_margin"
-        android:text="@string/add_shortcut"
-        android:textColor="#555"
-        android:visibility="gone"
-        app:layout_marginTopPercent="60%" />
 
 
     <LinearLayout
@@ -152,7 +127,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        app:layout_marginTopPercent="85%">
+        app:layout_marginTopPercent="90%">
 
         <TextView
             android:id="@+id/txtv_start_over"
@@ -162,7 +137,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="sans-serif"
-            android:text="MADE BY KEROD"
+            android:text="MADE BY KEROD APPS"
             android:textAllCaps="true"
 
             android:textColor="@color/colorPrimaryDark" />

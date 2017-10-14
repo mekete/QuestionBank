@@ -137,6 +137,12 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mMainContent = findViewById(R.id.main_content);
         mLoadToast = LoadToast.createLoadToast(this, getString(R.string.loading));
         //
+//        Bundle bundle=getIntent().getExtras();
+//        if (bundle!=null  ) {//it is launched not from exam list but from subject icon,
+//            String examUid = getIntent().getExtras().getString(FirebaseModel.FIELD_UID);
+//            fetchExam(examUid);
+//            Log.e(TAG, "onCreate: EXAM UID :::: " + getIntent().getExtras().getString(FirebaseModel.FIELD_UID));
+//        }
         initProgress();
         initToolbarAndDrawer();
         initArcLayout();
@@ -209,8 +215,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 mFinishedLoadingQuestions = true;
                 Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange:query.getRef()  :::: " + query.getRef());
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                    //Log.e(TAG, "\n\n\n\n\n------------ current.getKey() current: " + current);
-                    //Log.e(TAG, "\n\n\n\n\n------------ current.getKey() getKey: " + current.getKey());
                     try {
                         Question question = snapshot.getValue(Question.class);
                         question.setUid(snapshot.getKey());
@@ -230,7 +234,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 }
                 mAdapter.notifyDataSetChanged();
                 flipToLastSeenQuestion();
-                showFabForHistory(mUserId, mCurrentQuestion);
+                Log.e(TAG, "CALLINF showFabForHistory  " + mCurrentQuestion.getQuestionNumber() +
+                        "  VVVVV \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
+                //showFabForHistory(mUserId, mCurrentQuestion);
                 startTimer();
             }
 
@@ -270,16 +276,10 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     private void flipToLastSeenQuestion() {
         int selectedQuestion = getIntent().getIntExtra(TAG_SELECTED_QUESTION, -1);
-        Log.e(TAG, "initFlipView:>>>>>>>>>\n>>>>>>>> selectedQuestion :::: " + selectedQuestion);
         if (selectedQuestion > 0 && mFlipView != null && mQuestionList != null) {
             mFlipView.flipTo(selectedQuestion - 1);
         } else if (mAttemptSummary != null && mAttemptSummary.getLastOpenedQuestionIndex() > 0 && mFlipView != null) {
-            Log.e(TAG, "\n\n\n>>>>>>\nflipToLastSeenQuestion opening  setLastOpenedQuestionIndex: " + (mAttemptSummary.getLastOpenedQuestionIndex()));
-
             mFlipView.flipTo(mAttemptSummary.getLastOpenedQuestionIndex());
-            Log.e(TAG, "startTimer:mAttemptSummary not null but time is null null ????  " + mAttemptSummary);
-        } else {
-            Log.e(TAG, "\n\n\n\n>>>>>>QQQQstartTimer:mAttemptSummary null ????  " + mAttemptSummary);
         }
     }
 
@@ -288,9 +288,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         @Override
         public void onFlippedToPage(FlipView v, int position, long id) {
             mCurrentQuestion = mQuestionList.get(position);
-            Log.e(TAG, ">>>>>>> On page flip Page:>>>>  " + position + "   " + " Question Number ::: " + mCurrentQuestion.getQuestionNumber());
-            Log.e(TAG, "mOnFlipListener ::: mCurrentQuestion.getCorrectAnswer()::: " + mCurrentQuestion.getCorrectAnswer());
-
+            Log.e(TAG, "CALLING showFabForHistory  " + mCurrentQuestion.getQuestionNumber() +
+                    "  VVVVV \n\n\n\n>>>>>>> dataSnapshot NOT AVAIL:: ");
             showFabForHistory(mUserId, mCurrentQuestion);
             updateProgress();
             saveExamSummary();
@@ -354,19 +353,22 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     }
 
-    private void showFabForHistory(final String userUid, Question selectedQuestion) {
+    private void showFabForHistory(final String userUid, final Question selectedQuestion) {
         mCurrentQuestionAttempted = false;
         Query query = UserAttempt.getDatabaseReference(userUid, selectedQuestion.getExamUid(), selectedQuestion.getUid());
         query.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 UserAttempt attempt = dataSnapshot.getValue(UserAttempt.class);
-
+                Log.e(TAG, "showFabForHistory ::: onDataChange: Question " + selectedQuestion.getQuestionNumber() +
+                        "  :::::: 00000\n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
                 if (attempt != null && mCurrentQuestion.getUid().equals(dataSnapshot.getKey())) {
                     mCurrentQuestionAttempted = true;
                     int color = attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
+                    Log.e(TAG, "showFabForHistory ::: onDataChange:11111 \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
                     showFab(color);
                 } else {
+                    Log.e(TAG, "showFabForHistory ::: onDataChange:222222 \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
                     hideFab();
                 }
             }
@@ -407,7 +409,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     }
 
-    public void saveUserAction(final View view, final Integer attemptChoiceIndex, final Boolean scoreCorrect, final Boolean markedFavorite, final Boolean markedVague, final String remark) {
+    public void saveUserAction(final View coordinatorLayout,  final Integer attemptChoiceIndex, final Boolean scoreCorrect, final Boolean markedFavorite, final Boolean markedVague, final String remark) {
         Log.e(TAG, ">>>>>>> aaaa Check Attempr: ");
         final DatabaseReference attemptReference = mAttemptDatabaseReference.child(mCurrentQuestion.getUid());
         attemptReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -439,18 +441,18 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 if (markedFavorite != null) {
                     Log.e(TAG, ">>>>>>> jjj Check Attempr: ");
                     attempt.setMarkedAsFavorite(markedFavorite);
-                    CustomView.makeSnackBar(view, "The question is tagged as favorite.", CustomView.SnackBarStyle.SUCCESS).show();
+                    CustomView.makeSnackBar(coordinatorLayout, "The question is tagged as favorite.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (markedVague != null) {
                     Log.e(TAG, ">>>>>>> kkk Check Attempr: ");
                     attempt.setMarkedAsError(markedVague);
-                    //Snackbar.make(view, "The question is tagged as vague.", Snackbar.LENGTH_LONG).show();
-                    CustomView.makeSnackBar(view, "The question is tagged as vague.", CustomView.SnackBarStyle.SUCCESS).show();
+                    //Snackbar.make(coordinatorLayout, "The question is tagged as vague.", Snackbar.LENGTH_LONG).show();
+                    CustomView.makeSnackBar(coordinatorLayout, "Your report has been sent. Thank you.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (remark != null) {
                     Log.e(TAG, ">>>>>>> mmm Check Attempr: ");
                     attempt.setRemark(remark);
-                    CustomView.makeSnackBar(view, "Your remark is saved.", CustomView.SnackBarStyle.SUCCESS).show();
+                    CustomView.makeSnackBar(coordinatorLayout, "Your remark is saved.", CustomView.SnackBarStyle.SUCCESS).show();
 
                 }
                 Log.e(TAG, ">>>>>>> nnn Check Attempr: ");
@@ -667,23 +669,24 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-//        if (id == R.id.nav_share) {
-//            // Handle the camera action
-//        } else
-        if (id == R.id.nav_favorite) {
+        if (id == R.id.nav_all_exams) {
+            Intent intent = new Intent(QuestionActivity.this, ExamListActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_tagged_questions) {
 
-        } else if (id == R.id.nav_account) {
-            navigateToEditAccount();
-            //FirebaseAuth.getInstance().signOut();
-            finish();
-        } else if (id == R.id.nav_all) {
+        } else if (id == R.id.nav_settings) {
+            Intent intent = new Intent(QuestionActivity.this, SettingsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_give_us_tip) {
+            SocialUtil.shareEmail(this, "Question Bank App", "", "kerod.apps@gmail.com");
+
+        } else if (id == R.id.nav_about_us) {
             openAttemptSummary();
         } else {
             mDrawer.closeDrawer(GravityCompat.START);
             return false;
         }
-        //setting and contact us are not handled here!
-        mDrawer.closeDrawer(GravityCompat.START);
+         mDrawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
@@ -732,7 +735,10 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         if (mDrawer.isDrawerOpen(GravityCompat.START)) {
             mDrawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            //super.onBackPressed();
+            finish();
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
+
         }
     }
 
@@ -766,6 +772,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                         ApplicationManager.CurrentSession.setSelectedExam(null);
                         ApplicationManager.CurrentSession.setSelectedExamAttemptSummary(null);
                         MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Delete Successful", "All your score, tags and remarks made on the exam are deleted completely.");
+                        finish();
                     }
                 });
 
@@ -843,12 +850,15 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             hideRevealMenu(mFabCenterX, mFabCenterY, mFabDistanceFromRoot, mFabRadius);//added for better
             mFab.setSelected(false);
             //
-            if (view.getId() == R.id.fab_favorite) {
+            if (view.getId() == R.id.fab_tags) {
                 Log.e(TAG, "onClick: " + "3333 mRevelItemCLickListener");
-                saveUserAction(view, null, null, true, null, null);
+                //saveUserAction(view, null, null, true, null, null);
+                TagsBottomSheetDialog.createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
+
             } else if (view.getId() == R.id.fab_error) {
                 Log.e(TAG, "onClick: " + "4444 mRevelItemCLickListener");
-                saveUserAction(view, null, null, null, true, null);
+                ReportErrorBottomSheetDialog .createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
+
             } else if (view.getId() == R.id.fab_share) {
                 Log.e(TAG, "onClick: " + "55555 mRevelItemCLickListener");
                 shareQuestion();
@@ -1181,13 +1191,13 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         private RemarkBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
             final BottomSheetDialog dialog = new BottomSheetDialog(activity);
             final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_save_remark, null);
-            final EditText txteRemark =   viewGroup.findViewById(R.id.txte_remark);
-            Button btnnSave =  viewGroup.findViewById(R.id.btnn_save_remark);
+            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
+            Button btnnSave = viewGroup.findViewById(R.id.btnn_save_remark);
             btnnSave.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     String remark = txteRemark.getText().toString().trim();
-                    if (!StringUtil.isNullOrEmpty(remark) && StringUtil.isValidEmail(remark)) {
+                    if (!StringUtil.isNullOrEmpty(remark)) {
                         loadToast.show();
                         activity.saveUserAction(mainContent, -1, null, null, null, remark);
                         dialog.hide();
@@ -1200,6 +1210,62 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
         public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
             new RemarkBottomSheetDialog(activity, loadToast, mainContent);
+        }
+    }
+
+    private static class ReportErrorBottomSheetDialog {
+        private static final String TAG = "ContactBottomSheetDialo";
+
+        private ReportErrorBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
+            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_report_error, null);
+            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
+            Button btnnReport = viewGroup.findViewById(R.id.btnn_report);
+            btnnReport.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String remark = txteRemark.getText().toString().trim();
+                    if (!StringUtil.isNullOrEmpty(remark)) {
+                        activity.saveUserAction(mainContent, null, null, null, true, null);
+                        //loadToast.show();
+                         dialog.hide();
+                    }
+                }
+            });
+            dialog.setContentView(viewGroup);
+            dialog.show();
+        }
+
+        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            new ReportErrorBottomSheetDialog(activity, loadToast, mainContent);
+        }
+    }
+
+    private static class TagsBottomSheetDialog {
+        private static final String TAG = "ContactBottomSheetDialo";
+
+        private TagsBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
+            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_add_tags, null);
+//            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
+//            Button btnnSave = viewGroup.findViewById(R.id.btnn_save_remark);
+//            btnnSave.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    String remark = txteRemark.getText().toString().trim();
+//                    if (!StringUtil.isNullOrEmpty(remark) && StringUtil.isValidEmail(remark)) {
+//                        loadToast.show();
+//                        activity.saveUserAction(mainContent, -1, null, null, null, remark);
+//                        dialog.hide();
+//                    }
+//                }
+//            });
+            dialog.setContentView(viewGroup);
+            dialog.show();
+        }
+
+        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
+            new TagsBottomSheetDialog(activity, loadToast, mainContent);
         }
     }
 }
