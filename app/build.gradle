@@ -12,7 +12,7 @@ android {
         targetSdkVersion 26
         //
         int code = 1
-        int subVersion = 0
+        int subVersion = 1
         versionName "1.0.${subVersion}.${code}"
         versionCode code
         setProperty("archivesBaseName", "${appName}-$versionName")
@@ -93,6 +93,7 @@ dependencies {
 //    compile 'com.google.firebase:firebase-appindexing:10.2.0'
 //    compile "com.google.firebase:firebase-appindexing:${firebaseVersion}"
 //    compile "com.google.firebase:firebase-config:${firebaseVersion}"
+
     compile "com.google.firebase:firebase-messaging:${firebaseVersion}"
     compile "com.google.firebase:firebase-crash:${firebaseVersion}"
     compile "com.google.firebase:firebase-analytics:${firebaseVersion}"

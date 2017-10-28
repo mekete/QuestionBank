@@ -66,7 +66,7 @@
         </activity>
         <activity
             android:name=".ExamListActivity"
-            android:launchMode="singleInstance"
+            android:launchMode="singleTop"
             android:label="@string/question_bank"
             android:theme="@style/SplashScreenTheme">
 

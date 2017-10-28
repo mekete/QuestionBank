@@ -42,7 +42,7 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
     public static final int NUMBER_OF_CHOICES = 4;
 
     public interface AttemptCallback {
-        void onAttempt(MathView[] webViewArray, int choiceIndex);
+        void onAttempt(View[] webViewArray, int choiceIndex);
     }
 
 

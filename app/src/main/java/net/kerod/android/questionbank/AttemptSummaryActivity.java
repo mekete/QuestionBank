@@ -205,6 +205,13 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mAttemptListShowing.addAll(mAttemptListAll);
                         mAdapter.notifyDataSetChanged();
                         return true;
+//                    case R.id.item_stat:
+//                        if (totalCount > 0) {
+//                            StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+//                        } else {
+//                            CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
+//                        }
+//                        return true;
                 }
             }
             return false;

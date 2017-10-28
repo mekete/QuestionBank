@@ -86,7 +86,6 @@ import java.util.Date;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import io.github.kexanie.library.MathView;
 import se.emilsjolander.flipview.FlipView;
 import se.emilsjolander.flipview.OverFlipMode;
 
@@ -327,7 +326,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private QuestionAdapter.AttemptCallback mAttemptCallback = new QuestionAdapter.AttemptCallback() {
 
         @Override
-        public void onAttempt(final MathView[] webViewArray, final int clickedIndex) {
+        public void onAttempt(final View[] webViewArray, final int clickedIndex) {
             Log.e(TAG, "\n\n\n\n\nonTou attempt Callback: GGGGGGGGGGG :::::");
             //colorize it only if it is not attempted previously (first time attempt). Else, already colored on page flipped
             if (!mCurrentQuestionAttempted) {
@@ -337,7 +336,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     };
 
 
-    private void showFabAndAttemptForAction(MathView[] webViewArray, int clickedIndex, final String userUid, Question selectedQuestion) {
+    private void showFabAndAttemptForAction(View[] webViewArray, int clickedIndex, final String userUid, Question selectedQuestion) {
         mCurrentQuestionAttempted = true; //clicking a choice will not have effect for the current question afterwards
         //
         boolean correctAttempt = (Question.getChoiceLetterIndex(mCurrentQuestion.getCorrectAnswer()) == clickedIndex);
@@ -469,7 +468,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
 
-    private void colorizeAttempt(MathView[] webViewArray, int attemptedChoiceIndex, boolean correctAttempt) {
+    private void colorizeAttempt(View[] webViewArray, int attemptedChoiceIndex, boolean correctAttempt) {
         //clearChoiceColor(webViewArray);
         if (attemptedChoiceIndex < 0 || attemptedChoiceIndex > QuestionAdapter.NUMBER_OF_CHOICES) {
             Log.e(TAG, "\n----------------------------\n" + "111 colorizeAttempt: clickedIndex " + attemptedChoiceIndex);

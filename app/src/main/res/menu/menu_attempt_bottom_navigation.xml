@@ -15,5 +15,9 @@
         android:icon="@drawable/ic_incorrect_full"
         android:title="Incorrect" />
 
+    <!--<item-->
+        <!--android:id="@+id/item_stat"-->
+        <!--android:icon="@drawable/ic_assessment_24dp"-->
+        <!--android:title="Stat" />-->
 
 </menu>
