@@ -23,6 +23,10 @@
 -keep class android.support.v4.app.** { *; }
 -keep interface android.support.v4.app.** { *; }
 
+
+-keep class se.emilsjolander.flipview.** { *; }
+
+
 -keepclasseswithmembers class * {
     @retrofit2.http.* <methods>;
 }
@@ -42,9 +46,6 @@
 -dontwarn org.joda.time.**
 -dontwarn org.shaded.apache.**
 -dontwarn org.ietf.jgss.**
-
-#model classes
--keepclassmembers class net.kerod.android.questionbank.model.** {*;}
 
 
 -dontwarn java.nio.file.*
@@ -79,6 +80,29 @@
 -keep class net.minidev.json.** { *; }
 -keep class com.madrobot.beans.** { *; }
 -keep class java.beans.** { *; }
--keep class org.cheffo.jeplite.** { *; }
+-keep class org.cheffo.jeplite.**
+-keep class io.grpc.**
+-keep class com.sun.**
+-keep class net.minidev.json.**
+
+-keep class net.minidev.json.** { *; }
+-keep public class com.bumptech.glide.**{ public protected *; }
+-keep public class  net.kerod.android.questionbank.model.**
+-keep public class net.kerod.android.questionbank.widget.**
+
+-dontwarn com.x5.**
+-keep class com.x5.template.** { *; }
 -keep class com.x5.util.** { *; }
--dontwarn com.x5.util.**
+
+
+-keep class   sun.misc.**
+-keep class  java.beans.**
+-keep class com.madrobot.beans.**
+-keep class io.grpc.override.**
+-keep class  io.grpc.netty.**
+
+-keep class io.grpc.grpclb.**
+-keep class javax.naming.directory.**
+-keep class com.sun.jndi.dns.**
+-keep class org.conscrypt.**
+-keep class org.robovm.apple.foundation.**
