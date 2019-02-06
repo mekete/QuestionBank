@@ -46,8 +46,6 @@ public class ApplicationManager extends Application {
         private static UserAttemptSummary selectedExamAttemptSummary;
 
         //
-
-
         public static Question getSelectedQuestion() {
             return selectedQuestion;
         }
@@ -72,12 +70,13 @@ public class ApplicationManager extends Application {
         public static void setSelectedExam(Exam selectedExam) {
             CurrentSession.selectedExam = selectedExam;
         }
+
         public static void setSelectedExamWithSummary(Exam selectedExam) {
             CurrentSession.selectedExam = selectedExam;
-            CurrentSession.selectedExamAttemptSummary=null;//we need to make sure that prev data is cleared
+            CurrentSession.selectedExamAttemptSummary = null;//we need to make sure that prev data is cleared
             //
             String userUid = FirebaseAuth.getInstance().getCurrentUser().getUid();
-            loadUserAttemptSummary(userUid,   selectedExam);
+            loadUserAttemptSummary(userUid, selectedExam);
         }
 
         public static UserAttemptSummary getSelectedExamAttemptSummary() {
@@ -91,14 +90,15 @@ public class ApplicationManager extends Application {
         public static String getUserUid() {
             return "abebe";
         }
-        private static  void loadUserAttemptSummary(String userUid, final Exam selectedExam){
+
+        private static void loadUserAttemptSummary(String userUid, final Exam selectedExam) {
             Query query = UserAttemptSummary.getDatabaseReference(userUid, selectedExam.getUid());
             query.addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
-                   selectedExamAttemptSummary = dataSnapshot.getValue(UserAttemptSummary.class);
-                    if(selectedExamAttemptSummary==null){
-                        selectedExamAttemptSummary=new UserAttemptSummary();
+                    selectedExamAttemptSummary = dataSnapshot.getValue(UserAttemptSummary.class);
+                    if (selectedExamAttemptSummary == null) {
+                        selectedExamAttemptSummary = new UserAttemptSummary();
                         selectedExamAttemptSummary.setTotalCount(selectedExam.getNumberOfQuestions());
                     }
                 }
@@ -110,8 +110,6 @@ public class ApplicationManager extends Application {
             });
         }
     }
-
-
 
 
 }

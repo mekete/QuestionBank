@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.percentlayout.widget.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/content_exam_home"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#bbffffff"
@@ -20,39 +21,35 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:weightSum="2"
-        app:layout_marginTopPercent="10%"
-        app:layout_heightPercent="8%"
-        app:layout_widthPercent="70%">
+        android:background="@drawable/bg_home_company"
+        app:layout_heightPercent="32%"
+        app:layout_marginTopPercent="5%"
+        app:layout_widthPercent="84%" >
 
-        <Button
-            android:id="@+id/btnn_all_exams"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/bg_home_all_exam"
-            android:text="@string/all_exams"
-            android:gravity="right|center_vertical"
-            android:padding="@dimen/card_margin"
-             android:textAllCaps="true"
-            android:textColor="@color/primaryWhite" />
+        <!--<Button-->
+            <!--android:id="@+id/btnn_all_exams"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/bg_home_all_exam"-->
+            <!--android:gravity="right|center_vertical"-->
+            <!--android:padding="@dimen/card_margin"-->
+            <!--android:text="@string/all_exams"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="@color/primaryWhite" />-->
 
-        <Button
-            android:id="@+id/btnn_bookmarks"
-            android:layout_width="wrap_content"
-            android:text="@string/bookmarked"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/bg_home_bookmark"
-            android:gravity="left|center_vertical"
-            android:padding="@dimen/card_margin"
-             android:textAllCaps="true"
-            android:textColor="#222"  />
+        <!--<Button-->
+            <!--android:id="@+id/btnn_bookmarks"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/bg_home_bookmark"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:padding="@dimen/card_margin"-->
+            <!--android:text="@string/bookmarked"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="#222" />-->
     </LinearLayout>
-
-
-
-
-
 
 
     <LinearLayout
@@ -62,7 +59,7 @@
 
         android:layout_centerHorizontal="true"
         android:orientation="vertical"
-        app:layout_marginTopPercent="30%">
+        app:layout_marginTopPercent="45%">
 
         <TextView
             android:id="@+id/txtv_main_title"
@@ -72,10 +69,11 @@
             android:layout_gravity="center_horizontal"
             android:fontFamily="sans-serif-condensed"
             android:padding="5dp"
+            android:maxLines="2"
             android:text="@string/question_bank"
             android:textAllCaps="true"
-            android:textColor="#222"
-            android:textSize="24sp"  />
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txtv_sub_title"
@@ -84,21 +82,19 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/made_by_kerod"
             android:textAllCaps="true"
-            android:textColor="#222" />
+            android:textColor="#777" />
 
 
     </LinearLayout>
 
 
-
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/cimg_subject_icon"
-        android:layout_width="136dp"
-        android:layout_height="136dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:src="@drawable/cimg_subject_aptitude"
+        tools:src="@drawable/cimg_subject_aptitude"
 
 
         android:text="@string/login_now"
@@ -106,7 +102,7 @@
         android:textColor="@color/primaryWhite"
         app:civ_border_color="@android:color/white"
         app:civ_border_width="1dp"
-        app:layout_marginTopPercent="45%" />
+        app:layout_marginTopPercent="63%" />
 
     <Button
         android:id="@+id/btnn_about_exam"
@@ -116,42 +112,41 @@
         android:background="@drawable/bg_login_email"
         android:text="Continue"
         android:textColor="@color/brokenWhite"
-        app:layout_marginTopPercent="75%"
+        app:layout_marginTopPercent="85%"
         app:layout_widthPercent="70%" />
 
 
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_marginTopPercent="90%">-->
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        app:layout_marginTopPercent="90%">
+        <!--<TextView-->
+            <!--android:id="@+id/txtv_start_over"-->
 
-        <TextView
-            android:id="@+id/txtv_start_over"
+            <!--style="@style/Base.TextAppearance.AppCompat.Medium"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:text="MADE BY KEROD APPS"-->
+            <!--android:textAllCaps="true"-->
 
-            style="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:fontFamily="sans-serif"
-            android:text="MADE BY KEROD APPS"
-            android:textAllCaps="true"
+            <!--android:textColor="@color/colorPrimaryDark" />-->
 
-            android:textColor="@color/colorPrimaryDark" />
-
-        <TextView
-            android:id="@+id/txtv_continue"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:fontFamily="sans-serif-light"
-            android:text="www.kerod.net"
-            android:textAllCaps="false"
-            android:textColor="@color/colorPrimary" />
-    </LinearLayout>
+        <!--<TextView-->
+            <!--android:id="@+id/txtv_continue"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:fontFamily="sans-serif-light"-->
+            <!--android:text="www.kerod.net"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+    <!--</LinearLayout>-->
 
 
-</android.support.percent.PercentRelativeLayout>
+</androidx.percentlayout.widget.PercentRelativeLayout>

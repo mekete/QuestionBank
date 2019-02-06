@@ -94,6 +94,7 @@
             android:textColor="@color/colorBrokenWhite"
             android:visibility="gone"
             app:srcCompat="@drawable/ic_share_app_email" />
+        <!--app:srcCompat="@drawable/ic_share_app_play" />-->
 
         <ImageButton
             android:visibility="gone"
@@ -107,7 +108,7 @@
             android:paddingTop="@dimen/card_margin"
             android:textAllCaps="true"
             android:textColor="@color/colorBrokenWhite"
-            app:srcCompat="@drawable/ic_share_app_play" />
+            app:srcCompat="@drawable/ic_play_circle_outline" />
 
         <ImageButton
             android:id="@+id/imgv_share_other"

@@ -176,6 +176,7 @@ Antibiograms summarise the cumulative proportions of pathogenic organisms that a
     <!---->
     <string name="pref_key_auto_navigate_to_next_question">pref_key_auto_navigate_to_next_question</string>
     <string name="pref_key_first_time_launch">pref_key_first_time_launch</string>
+    <string name="pref_key_first_time_to_see_question">pref_key_first_time_to_see_question</string>
     <string name="pref_key_vibrate_on_wrong_attempt">pref_key_vibrate_on_wrong_attempt</string>
     <!---->
     <string name="pref_key_class_category">pref_key_class_category</string>
@@ -229,5 +230,10 @@ I invite you to try a free, simple and stylish Ethiopian app:
     <string name="bookmarked">Bookmarks</string>
     <string name="bookmarked_questions">Bookmarked questions</string>
     <string name="notes">Notes</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="update_toast_message">Click UPDATE button\non the Google Play app\nto get the latest version.</string>
+    <string name="filter">Filter</string>
 
 </resources>

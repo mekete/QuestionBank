@@ -3,13 +3,22 @@ apply plugin: 'com.android.application'
 android {
     def appName = "QuestionBank"
 
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+
+    buildToolsVersion '28.0.3'
+    compileSdkVersion 28
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     defaultConfig {
+
         applicationId "net.kerod.android.questionbank"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 28
+        multiDexEnabled true
+
         //
         int code = 1
         int subVersion = 1
@@ -17,10 +26,8 @@ android {
         versionCode code
         setProperty("archivesBaseName", "${appName}-$versionName")
         //
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
-
-
 
 
     }
@@ -47,80 +54,124 @@ android {
         }
     }
 
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/compiler_main.kotlin_module'
+    }
 }
 
 
-
 ext {
-    supportLibVersion = "26.0.1"//"""25.2.0"
+    //supportLibVersion = "28.0.1"
+    googleMaterialLibVersion = "1.0.0"//"""1.0.0-alpha1"
+    androidxVersion = "1.0.0"//"1.0.0-rc02"
+    androidxConstraintLayoutVersion = "2.0.0-alpha2"
+    constraintLayoutVersion = "1.1.2"
+    archComponentsVersion = "1.0.0"
     espressoVersion = "2.2.2"
-    constraintLayoutVersion = "1.0.2"
     androidTestVersion = "0.4"
     hamcrestVersion = "1.3"
     junitVersion = "4.12"
-    playServicesVersion = "9.8.0"
-    firebaseVersion = "9.8.0"//8.4.0
+    //
+    playServicesVersion = "15.0.0"
+    firebaseVersion = "16.0.1"
+    firebaseUiVersion = "4.2.0"
+    leakCanaryVersion = "1.5.1"
+    crashlyticsVersion = "2.9.7"
+    iTextVersion = "5.5.10"
+    easyDeviceInfoVersion = "2.4.1"
+
 
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-
-    compile "com.android.support:recyclerview-v7:${supportLibVersion}"
-    compile "com.android.support:support-vector-drawable:${supportLibVersion}"
-    compile "com.android.support:animated-vector-drawable:${supportLibVersion}"
-    compile "com.android.support:appcompat-v7:${supportLibVersion}"
-    compile "com.android.support:cardview-v7:${supportLibVersion}"
-    compile "com.android.support:support-v4:${supportLibVersion}"
-    compile "com.android.support:customtabs:${supportLibVersion}"
-    compile "com.android.support:percent:${supportLibVersion}"
-    compile "com.android.support:design:${supportLibVersion}"
-    compile "com.android.support:palette-v7:${supportLibVersion}"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
     //
-    compile "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}"
-//
-    compile "com.google.android.gms:play-services-auth:${playServicesVersion}"//google sign in
-//    compile "com.google.android.gms:play-services-location:${playServicesVersion}"
-//    compile "com.google.android.gms:play-services-gcm:${playServicesVersion}"
-//    compile "com.google.android.gms:play-services-maps:${playServicesVersion}"
-//    compile "com.google.android.gms:play-services-ads:${playServicesVersion}"
+    implementation "androidx.constraintlayout:constraintlayout:${androidxConstraintLayoutVersion}"
+    implementation "androidx.appcompat:appcompat:${androidxVersion}"
+    implementation "androidx.asynclayoutinflater:asynclayoutinflater:${androidxVersion}"
+    implementation "androidx.cardview:cardview:${androidxVersion}"
+    implementation "androidx.collection:collection:${androidxVersion}"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:${androidxVersion}"
+    implementation "androidx.cursoradapter:cursoradapter:${androidxVersion}"
+    implementation "androidx.browser:browser:${androidxVersion}"
+    implementation "androidx.customview:customview:${androidxVersion}"
     //
-    compile "com.google.firebase:firebase-core:${firebaseVersion}"
-    compile "com.google.firebase:firebase-database:${firebaseVersion}"
-    compile "com.google.firebase:firebase-storage:${firebaseVersion}"
-    compile "com.google.firebase:firebase-auth:${firebaseVersion}"
+    implementation "androidx.recyclerview:recyclerview-selection:${androidxVersion}"
+    implementation "androidx.recyclerview:recyclerview:${androidxVersion}"
+    implementation "androidx.vectordrawable:vectordrawable:${androidxVersion}"
+    implementation "androidx.vectordrawable:vectordrawable-animated:${androidxVersion}"
+    implementation "androidx.percentlayout:percentlayout:${androidxVersion}"
+
+    //GooglePlayServiced
+    implementation "com.google.android.gms:play-services-base:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-auth:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-maps:${playServicesVersion}"
+    //implementation "com.google.android.gms:play-services-ads-identifier:${playServicesVersion}"
+    //implementation "com.google.android.gms:play-services-appinvite:${playServicesVersion}"
+    //implementation "com.google.android.gms:play-services-gcm:${playServicesVersion}"
+    //implementation "com.google.android.gms:play-services-base:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-location:${playServicesVersion}"
+    implementation "com.google.android.gms:play-services-awareness:${playServicesVersion}"
     //
-//    compile 'com.google.firebase:firebase-appindexing:10.2.0'
-//    compile "com.google.firebase:firebase-appindexing:${firebaseVersion}"
-//    compile "com.google.firebase:firebase-config:${firebaseVersion}"
+    //https://firebase.google.com/docs/android/setup
+    implementation "com.google.firebase:firebase-core:16.0.3"//         Analytics
+    implementation "com.google.firebase:firebase-firestore:17.1.0"//         Cloud Firestore
+    implementation "com.google.firebase:firebase-storage:16.0.1"//         Storage
+    implementation "com.google.firebase:firebase-auth:16.0.3"//         Authentication
+    implementation "com.google.firebase:firebase-messaging:17.3.0"//         Cloud Messaging
+//    implementation "com.google.firebase:firebase-config:16.0.0"//         Remote Config
+//    implementation "com.google.firebase:firebase-invites:16.0.3"//         Invites and Dynamic Links
+//    implementation "com.google.firebase:firebase-appindexing:16.0.1"//         App Indexing
+//    implementation "com.google.firebase:firebase-perf:16.1.0"//         Performance Monitoring
+//    implementation "com.google.firebase:firebase-functions:16.1.0"
+    implementation "com.google.firebase:firebase-database:16.0.1"//         Realtime Database
+    implementation "com.crashlytics.sdk.android:crashlytics:${crashlyticsVersion}"
 
-    compile "com.google.firebase:firebase-messaging:${firebaseVersion}"
-    compile "com.google.firebase:firebase-crash:${firebaseVersion}"
-    compile "com.google.firebase:firebase-analytics:${firebaseVersion}"
+
+    implementation "com.firebaseui:firebase-ui-database:${firebaseUiVersion}"
+    implementation "com.firebaseui:firebase-ui-firestore:${firebaseUiVersion}"
+    implementation "com.firebaseui:firebase-ui-auth:${firebaseUiVersion}"
+    implementation "com.firebaseui:firebase-ui-storage:${firebaseUiVersion}"
+
+
+
+    implementation 'androidx.percentlayout:percentlayout:1.0.0-rc02'
+
+    //ThirdPartyLibraries
+    implementation 'com.squareup.okhttp3:okhttp:3.8.0'
     //
-    
 
+    implementation 'com.itextpdf:itextpdf:5.5.13'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
+    //ThirdPartyLibraries
+    implementation 'com.squareup.okhttp3:okhttp:3.8.0'
+    //
 
+    implementation 'com.itextpdf:itextpdf:5.5.13'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
 
-    compile  'com.firebaseui:firebase-ui-database:0.4.0'
-//    compile  'com.firebaseui:firebase-ui-storage:0.6.0'
-    compile  'de.hdodenhof:circleimageview:2.1.0'
-    compile  'com.google.code.gson:gson:2.6.2'
-//    compile 'com.github.bumptech.glide:glide:3.6.0'
-//    compile 'com.getbase:floatingactionbutton:1.10.1'
-//    compile 'net.danlew:android.joda:2.9.7'
-//    compile 'com.diogobernardino:williamchart:2.2'
-//    compile 'com.pnikosis:materialish-progress:1.7'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
-    compile 'com.squareup.okhttp3:okhttp:3.4.1'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-//    compile 'com.squareup.picasso:picasso:2.5.2'
-//    compile 'net.steamcrafted:load-toast:1.0.10'
-    compile 'com.ogaclejapan.arclayout:library:1.1.0@aar'
-    compile 'se.emilsjolander:android-flipview:1.1.0'
-    compile 'io.github.kexanie.library:MathView:0.0.4'
-    compile 'com.yalantis:contextmenu:1.0.7'
-    compile 'com.facebook.android:facebook-android-sdk:4.20.0'
-//    compile 'agency.tango.android:material-intro-screen:0.0.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+//    implementation 'com.squareup.picasso:picasso:2.5.2'
+//    implementation 'net.steamcrafted:load-toast:1.0.10'
+    implementation 'com.ogaclejapan.arclayout:library:1.1.0@aar'
+    implementation 'se.emilsjolander:android-flipview:1.1.0'
+    implementation 'io.github.kexanie.library:MathView:0.0.6'
+    implementation 'com.yalantis:contextmenu:1.0.7'
+    implementation 'com.facebook.android:facebook-android-sdk:4.20.0'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
 }
+
+
 apply plugin: 'com.google.gms.google-services'

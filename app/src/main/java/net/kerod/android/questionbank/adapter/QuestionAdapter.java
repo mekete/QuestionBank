@@ -2,6 +2,9 @@ package net.kerod.android.questionbank.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
+
+import androidx.annotation.RequiresApi;
+import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -9,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.BaseAdapter;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -23,9 +27,8 @@ import net.kerod.android.questionbank.utility.Constants;
 
 import java.util.List;
 
-import io.github.kexanie.library.MathView;
 
-public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
+public class QuestionAdapter extends BaseAdapter {
     private static final String TAG = "QuestionAdapter";
     private static final int TEXT_ZOOM = 112;
     //
@@ -53,7 +56,6 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
     public void setAttemptCallback(AttemptCallback attemptCallback) {
         this.attemptCallback = attemptCallback;
     }
-
 
     private LayoutInflater inflater;
 
@@ -90,11 +92,20 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
         if (convertView == null) {
             holder = new ViewHolder();
             convertView = inflater.inflate(R.layout.adapter_question, parent, false);
-            holder.mViewStatement = (MathView) convertView.findViewById(R.id.math_statement);
-            holder.mViewStatement.getSettings().setTextZoom(TEXT_ZOOM);
+            holder.mViewStatement = convertView.findViewById(R.id.math_statement);
+//            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+//                holder.mViewStatement.setOutlineProvider(new ViewOutlineProvider() {
+//                    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+//                    @Override
+//                    public void getOutline(View view, Outline outline) {
+//                        outline.setRect(0,40,view.getWidth(),view.getHeight());
+//                    }
+//                });
+//             }
+//            holder.mViewStatement.getSettings().setTextZoom(TEXT_ZOOM);
             for (int choiceIndex = 0; choiceIndex < NUMBER_OF_CHOICES; choiceIndex++) {
-                holder.mViewChoices[choiceIndex] = (MathView) convertView.findViewById(choiceViewId[choiceIndex]);
-                holder.mViewChoices[choiceIndex].getSettings().setTextZoom(TEXT_ZOOM);
+                holder.mViewChoices[choiceIndex] = convertView.findViewById(choiceViewId[choiceIndex]);
+//                holder.mViewChoices[choiceIndex].getSettings().setTextZoom(TEXT_ZOOM);
             }
             convertView.setTag(holder);
             mViewHolderCacheForActivity = holder;
@@ -102,8 +113,8 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-        holder.mQuestion=mQuestionList.get(position);
-        holder.mViewStatement.setText(holder.mQuestion.getStatement());
+        holder.mQuestion = mQuestionList.get(position);
+        holder.mViewStatement.setText(Html.fromHtml(holder.mQuestion.getStatement()));
 
         String[] choiceStatements = {holder.mQuestion.getChoiceA(), holder.mQuestion.getChoiceB(), holder.mQuestion.getChoiceC(), holder.mQuestion.getChoiceD()};
         for (int i = 0; i < NUMBER_OF_CHOICES; i++) {
@@ -123,11 +134,11 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
                 }
             });
         }
-        showAttemptColor( holder.mViewChoices,  holder.mQuestion);
+        showAttemptColor(holder.mViewChoices, holder.mQuestion);
         return convertView;
     }
 
-    private void showAttemptColor( final MathView[] mWebViewArray, final Question selectedQuestion) {
+    private void showAttemptColor(final View[] mWebViewArray, final Question selectedQuestion) {
         Query query = UserAttempt.getDatabaseReference(mUserId, selectedQuestion.getExamUid(), selectedQuestion.getUid());
         query.addValueEventListener(new ValueEventListener() {
             @Override
@@ -135,10 +146,14 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
                 UserAttempt attempt = dataSnapshot.getValue(UserAttempt.class);
 
                 if (attempt != null && selectedQuestion.getUid().equals(dataSnapshot.getKey())) {
-                   // mCurrentQuestionAttempted = true;//when choice is clicked, it will have no effect as it is already attempted
+                    // mCurrentQuestionAttempted = true;//when choice is clicked, it will have no effect as it is already attempted
                     int color = attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
                     colorizeAttempt(mWebViewArray, attempt.getAttemptChoiceIndex(), color);
                     //showFab(color);
+
+                    if (selectedQuestion.getQuestionNumber() == 1) {
+                        Log.e(TAG, "\n>>>>>>> choiveIndex:: " + attempt.getAttemptChoiceIndex()+"\n\n Score ::"+attempt.getScore());
+                    }
                 } else {
                     colorizeAttempt(mWebViewArray, 0, Constants.COLOR_CHOICE_BACKGROUND_NEUTRAL);
                     //hideFab();
@@ -152,20 +167,17 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
         });
     }
 
-    private void colorizeAttempt(MathView[] mWebViewArray, int attemptedChoiceIndex, int color) {
+    private void colorizeAttempt(View[] mWebViewArray, int attemptedChoiceIndex, int color) {
         //clearChoiceColor(mWebViewArray);
         if (attemptedChoiceIndex < 0 || attemptedChoiceIndex > QuestionAdapter.NUMBER_OF_CHOICES) {
-            Log.e(TAG, "\n----------------------------\n" + "111 colorizeAttempt: clickedIndex " + attemptedChoiceIndex);
             return;
         }
         for (int i = 0; i < QuestionAdapter.NUMBER_OF_CHOICES; i++) {
-            if(i==attemptedChoiceIndex){
-                Log.e(TAG, "\n----------------------------\n" + "222 colorizeAttempt: ");
+            if (i == attemptedChoiceIndex) {
                 mWebViewArray[i].setBackgroundColor(color);
-                Log.e(TAG, "\n----------------------------\n" + "333 colorizeAttempt: " + (color == Constants.COLOR_CHOICE_BACKGROUND_CORRECT? "Color.GREEN" : " Color.RED") + " " +  attemptedChoiceIndex);
                 mWebViewArray[i].setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
 
-            }else {
+            } else {
                 mWebViewArray[i].setBackgroundColor(Color.WHITE);
             }
         }
@@ -174,13 +186,12 @@ public class QuestionAdapter extends BaseAdapter {//implements OnClickListener {
 
     public static class ViewHolder {
         Question mQuestion;
-        MathView mViewStatement;
-        MathView[] mViewChoices = new MathView[NUMBER_OF_CHOICES];
+        TextView mViewStatement;
+        TextView[] mViewChoices = new TextView[NUMBER_OF_CHOICES];
 
-        public MathView[] getViewChoices() {
+        public View[] getViewChoices() {
             return mViewChoices;
         }
-
 
 
     }

@@ -20,7 +20,7 @@
         app:arc_origin="center"
         app:arc_radius="@dimen/layout_radius_tumblr">
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             app:backgroundTint="@color/colorPrimary"
 
             android:id="@+id/fab_tags"
@@ -28,28 +28,28 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_bookmark_border" />
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_answer"
             app:backgroundTint="@color/colorPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_check_24dp" />
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_note"
             app:backgroundTint="@color/colorPrimary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_assignment_24dp" />
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_error"
             app:backgroundTint="@color/colorPrimary"
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_error_outline_32dp" />
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_share"
             app:backgroundTint="@color/colorPrimary"
             android:layout_width="wrap_content"
@@ -61,7 +61,7 @@
 
 
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/center_item"
         android:layout_width="wrap_content"
         app:backgroundTint="@color/light_grey"

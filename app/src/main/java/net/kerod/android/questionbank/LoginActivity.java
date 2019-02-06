@@ -4,11 +4,11 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -43,8 +43,7 @@ import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.google.firebase.crash.FirebaseCrash;
-import com.google.firebase.database.DataSnapshot;
+ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
@@ -256,8 +255,8 @@ public class LoginActivity extends AppCompatActivity {
             }
             return bundle;
         } catch (JSONException e) {
-            FirebaseCrash.report(e);
-            FirebaseCrash.log("Just to see why it failed to log");
+            //FirebaseCrash.report(e);
+            //FirebaseCrash.log("Just to see why it failed to log");
 
             Log.d(TAG, "Error parsing JSON");
             return null;
@@ -422,8 +421,8 @@ public class LoginActivity extends AppCompatActivity {
                     registerAppUserIfNeeded(userUid, userName, displayName, profilePicUrl, credential.getProvider());
 
                 } else {
-                    FirebaseCrash.report(task.getException());
-                    FirebaseCrash.log("Just to see why it failed to log");
+//                    FirebaseCrash.report(task.getException());
+//                    FirebaseCrash.log("Just to see why it failed to log");
                     mLoadToast.error();
                     Toast.makeText(LoginActivity.this, "Authentication failed.", Toast.LENGTH_LONG).show();
                     finish();
@@ -453,7 +452,7 @@ public class LoginActivity extends AppCompatActivity {
                                 SettingsManager.setUserRole(AppUser.USER_ROLE_APP_USER);
                                 onBackPressed();
                             } else {
-                                FirebaseCrash.report(new Exception("App user task registration failed!!!!"));
+                                //FirebaseCrash.report(new Exception("App user task registration failed!!!!"));
                                 //we have to recheck this method every time login required
                             }
                         }
@@ -505,7 +504,7 @@ public class LoginActivity extends AppCompatActivity {
                                 CustomView.makeSnackBar(mMainContent, "Sorry, there is problem!\n" + task.getException().getMessage(), CustomView.SnackBarStyle.WARNING).show();
                             } else {
                                 CustomView.makeSnackBar(mMainContent, getString(R.string.auth_unknown_problem_occurred), CustomView.SnackBarStyle.WARNING).show();
-                                FirebaseCrash.report(new Exception("task.getException() is null. " + getString(R.string.auth_unknown_problem_occurred)));
+                                //FirebaseCrash.report(new Exception("task.getException() is null. " + getString(R.string.auth_unknown_problem_occurred)));
                             }
                         } else {
                             registerAppUserIfNeeded(task.getResult().getUser().getUid(), email, email, DEFAULT_PROFILE_PIC_URL, AppUser.AUTH_PROVIDER_EMAIL);
@@ -541,7 +540,7 @@ public class LoginActivity extends AppCompatActivity {
                                 CustomView.makeSnackBar(mMainContent, "Sorry, there is problem!\n" + task.getException().getMessage(), CustomView.SnackBarStyle.WARNING).show();
                             } else {
                                 CustomView.makeSnackBar(mMainContent, getString(R.string.auth_unknown_problem_occurred), CustomView.SnackBarStyle.WARNING).show();
-                                FirebaseCrash.report(new Exception("task.getException() is null during login. " + getString(R.string.auth_unknown_problem_occurred)));
+                                //FirebaseCrash.report(new Exception("task.getException() is null during login. " + getString(R.string.auth_unknown_problem_occurred)));
                             }
                             //
                         } else {

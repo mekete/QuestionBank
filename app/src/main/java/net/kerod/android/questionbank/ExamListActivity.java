@@ -3,13 +3,15 @@ package net.kerod.android.questionbank;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
@@ -17,10 +19,12 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.yalantis.contextmenu.lib.ContextMenuDialogFragment;
 
 import net.kerod.android.questionbank.adapter.ExamAdapter;
 import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
+import net.kerod.android.questionbank.utility.AppUtil;
 import net.kerod.android.questionbank.widget.CustomView;
 import net.kerod.android.questionbank.widget.toast.LoadToast;
 
@@ -31,12 +35,14 @@ public class ExamListActivity extends AppCompatActivity {
     private static final String TAG = "ExamListActivity";
     public static final String EXAM_LIST_NODE = "examList";
     private LoadToast mLoadToast;
+    private View mMainContent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exam_list);
         mLoadToast = LoadToast.createLoadToast(this, getString(R.string.loading));
+        mMainContent = findViewById(R.id.main_content);
         initToolbar();
         initFab();
         initRecyclerView();
@@ -56,9 +62,9 @@ public class ExamListActivity extends AppCompatActivity {
             SettingsManager.setVersionCode(BuildConfig.VERSION_CODE);
         } else if (!SettingsManager.isAgreedTermsOfService()) {
             showWelComeDialog();
-        } else {
-            checkForUpdate();
         }
+        AppUtil.checkForUpdate(this, mMainContent);
+
     }
 
     public void showIntroActivity() {
@@ -94,9 +100,6 @@ public class ExamListActivity extends AppCompatActivity {
 
     }
 
-    private void checkForUpdate() {
-        //
-    }
 
     // -------------------------- ------------------------------ -----------------
     private void initFab() {
@@ -226,6 +229,26 @@ public class ExamListActivity extends AppCompatActivity {
 //                REQUEST_CATEGORY,
 //                transitionBundle);
 //    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_exam_list, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()) {
+            case R.id.mnit_filter:
+                CustomView.makeToast(this, "Cool...", CustomView.SnackBarStyle.DEFAULT).show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     boolean backButtonPressedBefore = false;
 
     @Override

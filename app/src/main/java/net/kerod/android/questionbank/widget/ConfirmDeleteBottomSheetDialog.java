@@ -2,7 +2,7 @@ package net.kerod.android.questionbank.widget;
 
 import android.content.Context;
 import android.content.DialogInterface;
-import android.support.design.widget.BottomSheetDialog;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;

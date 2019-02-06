@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/crdv_choice_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -50,9 +50,9 @@
                     app:engine="KaTeX"
                     app:text="aa \\(ax^2 + bx + c = 0\\) " />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/crdv_choice_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -72,9 +72,9 @@
                     app:engine="KaTeX"
                     app:text="bb \\(ax^2 + bx + c = 0\\) " />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/crdv_choice_c"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,9 +95,9 @@
                     app:engine="KaTeX"
                     app:text="cc \\(ax^2 + bx + c = 0\\) " />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/crdv_choice_d"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                     app:engine="KaTeX"
                     app:text="dd \\(ax^2 + bx + c = 0\\) " />
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
 
         </LinearLayout>

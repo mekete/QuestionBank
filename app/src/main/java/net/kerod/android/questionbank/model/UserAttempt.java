@@ -21,7 +21,7 @@ public class UserAttempt extends FirebaseModel {
 //    private String questionUid;
     //current user activity
     private Integer questionNumber;//we need it to show on
-    private Boolean markedAsFavorite=false;
+    private String bookMark="";
     private Boolean markedAsError=false;
     private Integer attemptChoiceIndex;
     private Integer attemptScoreColor = Constants.COLOR_CHOICE_BACKGROUND_GERY;
@@ -41,8 +41,8 @@ public class UserAttempt extends FirebaseModel {
 
     }
 
-    public UserAttempt(Boolean markedAsFavorite, Boolean markedAsError, String remark, Long totalTimeUsed, Long lastOpenedTime, Boolean score) {
-        this.markedAsFavorite = markedAsFavorite;
+    public UserAttempt(String bookMark, Boolean markedAsError, String remark, Long totalTimeUsed, Long lastOpenedTime, Boolean score) {
+        this.bookMark = bookMark;
         this.markedAsError = markedAsError;
         this.remark = remark;
         this.totalTimeUsed = totalTimeUsed;
@@ -71,12 +71,12 @@ public class UserAttempt extends FirebaseModel {
     //
 
 
-    public Boolean getMarkedAsFavorite() {
-        return markedAsFavorite;
+    public String getBookMark() {
+        return bookMark;
     }
 
-    public void setMarkedAsFavorite(Boolean markedAsFavorite) {
-        this.markedAsFavorite = markedAsFavorite;
+    public void setBookMark(String bookMark) {
+        this.bookMark = bookMark;
     }
 
     public Boolean getMarkedAsError() {

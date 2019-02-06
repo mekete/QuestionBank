@@ -10,7 +10,7 @@
     android:padding="@dimen/card_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
     <!-- title-->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/card_margin"
@@ -40,7 +40,7 @@
                 android:orientation="horizontal">
 
                 <CheckBox
-                    android:id="@+id/radb_source_urine"
+                    android:id="@+id/ckbx_tag_tricky"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -58,7 +58,7 @@
 
 
                 <CheckBox
-                    android:id="@+id/radb_source_blood"
+                    android:id="@+id/ckbx_tag_difficult"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -75,7 +75,7 @@
                     android:textColor="@color/brokenWhite" />
 
                 <CheckBox
-                    android:id="@+id/radb_source_non_urine"
+                    android:id="@+id/ckbx_tag_try_later"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -117,7 +117,7 @@
                 android:orientation="horizontal">
 
                 <CheckBox
-                    android:id="@+id/radb_source_urine2"
+                    android:id="@+id/ckbx_tag_vague"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -135,7 +135,7 @@
 
 
                 <CheckBox
-                    android:id="@+id/radb_source_blood2"
+                    android:id="@+id/ckbx_tag_help_needed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -152,7 +152,7 @@
                     android:textColor="@color/brokenWhite" />
 
                 <CheckBox
-                    android:id="@+id/radb_source_non_urine2"
+                    android:id="@+id/ckbx_tag_time_taking"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/card_border_radius"
@@ -169,7 +169,7 @@
                     android:textColor="@color/brokenWhite" />
 
                 <CheckBox
-                    android:id="@+id/ckbx_tag_easy2"
+                    android:id="@+id/ckbx_tag_irrelevant"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -189,6 +189,6 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>

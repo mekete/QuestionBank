@@ -1,9 +1,8 @@
 package net.kerod.android.questionbank.utility;
 
 import android.content.res.Resources;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
-import net.kerod.android.questionbank.QuestionActivity;
 import net.kerod.android.questionbank.R;
 import net.kerod.android.questionbank.manager.ApplicationManager;
 

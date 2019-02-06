@@ -2,7 +2,7 @@ package net.kerod.android.questionbank.widget.toast;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateInterpolator;

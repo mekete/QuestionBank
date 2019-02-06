@@ -1,10 +1,8 @@
 package net.kerod.android.questionbank.widget;
 
 import android.content.DialogInterface;
-import android.support.design.widget.BottomSheetBehavior;
-import android.support.design.widget.BottomSheetDialog;
-import android.text.Html;
-import android.util.Log;
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
@@ -54,7 +52,7 @@ public class NoteBottomSheetDialog {
                 @Override
                 public void onShow(DialogInterface dialogInterface) {
                     BottomSheetDialog bottomSheetDialog = (BottomSheetDialog) dialogInterface;
-                    FrameLayout bottomSheet = (FrameLayout) bottomSheetDialog.findViewById(android.support.design.R.id.design_bottom_sheet);
+                    FrameLayout bottomSheet = (FrameLayout) bottomSheetDialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
                     BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_COLLAPSED);
                 }
             });

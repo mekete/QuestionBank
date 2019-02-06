@@ -2,9 +2,13 @@ package net.kerod.android.questionbank.widget;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
+import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.core.content.ContextCompat;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +17,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import net.kerod.android.questionbank.R;
+
+import java.lang.reflect.Field;
 
 
 public class CustomView {
@@ -48,11 +54,11 @@ public class CustomView {
                     snackBarView.dismiss();
                 }
             });
-            snackBarView.setActionTextColor(ContextCompat.getColor(layout.getContext(),style.textColor));
+            snackBarView.setActionTextColor(ContextCompat.getColor(layout.getContext(), style.textColor));
         }
 
         //
-        TextView textView =  (snackBarView.getView()).findViewById(android.support.design.R.id.snackbar_text);
+        TextView textView = (snackBarView.getView()).findViewById(com.google.android.material.R.id.snackbar_text);
         textView.setTextColor(ContextCompat.getColor(layout.getContext(), style.textColor));
         View view = snackBarView.getView();
         view.setBackgroundColor(ContextCompat.getColor(layout.getContext(), style.backgroundColor));
@@ -73,7 +79,7 @@ public class CustomView {
         textView.setTextColor(style.textColor);
         layout.setBackgroundColor(ContextCompat.getColor(layout.getContext(), style.backgroundColor));
 
-        if (SnackBarStyle.ERROR == style||SnackBarStyle.WARNING == style||SnackBarStyle.INFO == style||SnackBarStyle.INDEFINITE_SUCCESS == style) {
+        if (SnackBarStyle.ERROR == style || SnackBarStyle.WARNING == style || SnackBarStyle.INFO == style || SnackBarStyle.INDEFINITE_SUCCESS == style) {
             toast.setDuration(Toast.LENGTH_LONG);
         } else {//if (SnackBarStyle.SUCCESS == style || SnackBarStyle.INFO_SHORT == style) {
             toast.setDuration(Toast.LENGTH_SHORT);
@@ -82,7 +88,29 @@ public class CustomView {
         toast.setView(layout);
         return toast;
     }
-//
+
+    //
+    public static void disableShiftMode(BottomNavigationView view) {
+        BottomNavigationMenuView menuView = (BottomNavigationMenuView) view.getChildAt(0);
+        try {
+            Field shiftingMode = menuView.getClass().getDeclaredField("mShiftingMode");
+            shiftingMode.setAccessible(true);
+            shiftingMode.setBoolean(menuView, false);
+            shiftingMode.setAccessible(false);
+            for (int i = 0; i < menuView.getChildCount(); i++) {
+                BottomNavigationItemView item = (BottomNavigationItemView) menuView.getChildAt(i);
+//                //noinspection RestrictedApi
+//                item.setShiftingMode(false);
+//                // set once again checked value, so view will be updated
+//                //noinspection RestrictedApi
+//                item.setChecked(item.getItemData().isChecked());
+            }
+        } catch (NoSuchFieldException e) {
+            Log.e("BNVHelper", "Unable to get shift mode field", e);
+        } catch (IllegalAccessException e) {
+            Log.e("BNVHelper", "Unable to change value of shift mode", e);
+        }
+    }
 
 
 }

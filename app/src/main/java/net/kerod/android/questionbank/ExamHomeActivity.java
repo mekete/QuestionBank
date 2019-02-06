@@ -2,8 +2,8 @@ package net.kerod.android.questionbank;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -118,13 +118,13 @@ public class ExamHomeActivity extends AppCompatActivity {
         CircleImageView imgv = (CircleImageView) findViewById(R.id.cimg_subject_icon);
         imgv.setImageResource(GraphicsUtil.getImageResourceForSubject(mCurrentExam.getSubject()));
         //
-        Button btnnAllExams = (Button) findViewById(R.id.btnn_all_exams);
-        btnnAllExams.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View fab) {
-                onBackPressed();
-            }
-        });
+//        Button btnnAllExams = (Button) findViewById(R.id.btnn_all_exams);
+//        btnnAllExams.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View fab) {
+//                onBackPressed();
+//            }
+//        });
         //
         Button btnnAboutExam = (Button) findViewById(R.id.btnn_about_exam);
         btnnAboutExam.setOnClickListener(new View.OnClickListener() {

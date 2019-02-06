@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/recv_exam"
     android:layout_width="match_parent"
@@ -15,4 +15,4 @@
     app:layoutManager="LinearLayoutManager"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-</android.support.v7.widget.RecyclerView>
+</androidx.recyclerview.widget.RecyclerView>

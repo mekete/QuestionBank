@@ -1,10 +1,10 @@
 package net.kerod.android.questionbank;
 
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -102,10 +102,10 @@ public class AboutExamActivity extends AppCompatActivity {
 
 
     private void initToolbar() {
-        mToolbar = (Toolbar) findViewById(R.id.main_toolbar);
-        mTitle = (TextView) findViewById(R.id.txtv_collapsed_bar_title);
-        mTitleContainer = (LinearLayout) findViewById(R.id.main_linearlayout_title);
-        mAppBarLayout = (AppBarLayout) findViewById(R.id.main_appbar);
+        mToolbar =  findViewById(R.id.main_toolbar);
+        mTitle =  findViewById(R.id.txtv_collapsed_bar_title);
+        mTitleContainer =  findViewById(R.id.main_linearlayout_title);
+        mAppBarLayout = findViewById(R.id.main_appbar);
         //
         mAppBarLayout.addOnOffsetChangedListener(offsetChangedListener);
         mToolbar.inflateMenu(R.menu.menu_about_exam);

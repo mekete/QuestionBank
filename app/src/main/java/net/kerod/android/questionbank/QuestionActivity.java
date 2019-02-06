@@ -13,24 +13,23 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.os.Vibrator;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomSheetDialog;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.ShareCompat;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPropertyAnimatorListenerAdapter;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import androidx.fragment.app.FragmentManager;
+import androidx.core.app.ShareCompat;
+import androidx.core.view.GravityCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,9 +38,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 import android.view.animation.OvershootInterpolator;
-import android.widget.Button;
 import android.widget.Chronometer;
-import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -73,11 +70,13 @@ import net.kerod.android.questionbank.utility.Constants;
 import net.kerod.android.questionbank.utility.DeviceUtil;
 import net.kerod.android.questionbank.utility.GraphicsUtil;
 import net.kerod.android.questionbank.utility.SocialUtil;
-import net.kerod.android.questionbank.utility.StringUtil;
 import net.kerod.android.questionbank.widget.AnimatorUtils;
 import net.kerod.android.questionbank.widget.ClipRevealFrame;
 import net.kerod.android.questionbank.widget.CustomView;
 import net.kerod.android.questionbank.widget.MessageBottomSheetDialog;
+import net.kerod.android.questionbank.widget.RemarkBottomSheetDialog;
+import net.kerod.android.questionbank.widget.ReportErrorBottomSheetDialog;
+import net.kerod.android.questionbank.widget.TagsBottomSheetDialog;
 import net.kerod.android.questionbank.widget.toast.LoadToast;
 
 import java.util.ArrayList;
@@ -148,13 +147,11 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         initFlipView();
         initMenuFragment();
         showLoggedInUserProfile();
-        //
 
     }
 
     @Override
     protected void onResume() {
-
         super.onResume();
         loadExamQuestions();
     }
@@ -165,7 +162,10 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         super.onPause();
         if (mFinishedLoadingQuestions) {
             mCronExamTimeTaken.stop();
-            saveExamSummary();
+            if (ApplicationManager.CurrentSession.getSelectedExam() != null) {//if the exam is deleted, it will throw NPE
+
+                saveExamSummary();
+            }
         }
     }
 
@@ -174,16 +174,12 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         super.onNewIntent(intent);
 
         int selectedQuestion = intent.getIntExtra(TAG_SELECTED_QUESTION, -1);
-        Log.e(TAG, "initFlipView:>>>>>>>>>\n>>>>>>>> selectedQuestion :::: " + selectedQuestion);
         if (selectedQuestion > 0 && mFlipView != null && mQuestionList != null) {
             mFlipView.flipTo(selectedQuestion - 1);
         } else if (mAttemptSummary != null && mAttemptSummary.getLastOpenedQuestionIndex() > 0 && mFlipView != null) {
-            Log.e(TAG, "\n\n\n>>>>>>\nflipToLastSeenQuestion opening  setLastOpenedQuestionIndex: " + (mAttemptSummary.getLastOpenedQuestionIndex()));
 
             mFlipView.flipTo(mAttemptSummary.getLastOpenedQuestionIndex());
-            Log.e(TAG, "startTimer:mAttemptSummary not null but time is null null ????  " + mAttemptSummary);
         } else {
-            Log.e(TAG, "\n\n\n\n>>>>>>QQQQstartTimer:mAttemptSummary null ????  " + mAttemptSummary);
         }
     }
 
@@ -192,7 +188,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             mExamPrevTimeTaken = mAttemptSummary.getTotalTimeUsed();
             Log.e(TAG, "startTimer:mAttemptSummary \n11111C COOOOOOOOOOOOOOOOOOOOOOOOOL  " + mAttemptSummary.getTotalTimeUsed());
         } else {
-            // Log.e(TAG, "startTimer:mAttemptSummary \n22222C NOT ---- COOOOOOOOOOOOOOOOL  " + mAttemptSummary.getTotalTimeUsed());
 
         }
 
@@ -212,18 +207,17 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 mLoadToast.success();
                 mQuestionList.clear();
                 mFinishedLoadingQuestions = true;
-                Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange:query.getRef()  :::: " + query.getRef());
+
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     try {
                         Question question = snapshot.getValue(Question.class);
                         question.setUid(snapshot.getKey());
                         mQuestionList.add(question);
                     } catch (Exception e) {
-                        Log.e(TAG, "\n\n\n\n\n------------ EXCEPTION ::::  " + e);
                         e.printStackTrace();
                     }
                 }
-                Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange: mQuestionList.size() :::: " + mQuestionList.size());
+
                 if (mQuestionList.size() > 0) {
                     Collections.sort(mQuestionList);
                     mCurrentQuestion = mQuestionList.get(0);
@@ -232,10 +226,11 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
                 }
                 mAdapter.notifyDataSetChanged();
+                if (SettingsManager.isFirstTimeToSeeQuestionActivity()) {
+                    mFlipView.peakNext(true);
+                    SettingsManager.setFirstTimeToSeeQuestionActivity(false);
+                }
                 flipToLastSeenQuestion();
-                Log.e(TAG, "CALLINF showFabForHistory  " + mCurrentQuestion.getQuestionNumber() +
-                        "  VVVVV \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
-                //showFabForHistory(mUserId, mCurrentQuestion);
                 startTimer();
             }
 
@@ -287,8 +282,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         @Override
         public void onFlippedToPage(FlipView v, int position, long id) {
             mCurrentQuestion = mQuestionList.get(position);
-            Log.e(TAG, "CALLING showFabForHistory  " + mCurrentQuestion.getQuestionNumber() +
-                    "  VVVVV \n\n\n\n>>>>>>> dataSnapshot NOT AVAIL:: ");
             showFabForHistory(mUserId, mCurrentQuestion);
             updateProgress();
             saveExamSummary();
@@ -327,8 +320,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
         @Override
         public void onAttempt(final View[] webViewArray, final int clickedIndex) {
-            Log.e(TAG, "\n\n\n\n\nonTou attempt Callback: GGGGGGGGGGG :::::");
-            //colorize it only if it is not attempted previously (first time attempt). Else, already colored on page flipped
             if (!mCurrentQuestionAttempted) {
                 showFabAndAttemptForAction(webViewArray, clickedIndex, mUserId, mCurrentQuestion);
             }
@@ -359,15 +350,12 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 UserAttempt attempt = dataSnapshot.getValue(UserAttempt.class);
-                Log.e(TAG, "showFabForHistory ::: onDataChange: Question " + selectedQuestion.getQuestionNumber() +
-                        "  :::::: 00000\n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
+
                 if (attempt != null && mCurrentQuestion.getUid().equals(dataSnapshot.getKey())) {
                     mCurrentQuestionAttempted = true;
                     int color = attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
-                    Log.e(TAG, "showFabForHistory ::: onDataChange:11111 \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
                     showFab(color);
                 } else {
-                    Log.e(TAG, "showFabForHistory ::: onDataChange:222222 \n\n\n\n>>>>>>> dataSnapshot:: " + dataSnapshot);
                     hideFab();
                 }
             }
@@ -408,60 +396,47 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     }
 
-    public void saveUserAction(final View coordinatorLayout,  final Integer attemptChoiceIndex, final Boolean scoreCorrect, final Boolean markedFavorite, final Boolean markedVague, final String remark) {
-        Log.e(TAG, ">>>>>>> aaaa Check Attempr: ");
+
+    public void saveUserAction(final View coordinatorLayout, final Integer attemptChoiceIndex, final Boolean scoreCorrect, final Boolean markedFavorite, final Boolean markedVague, final String remark) {
         final DatabaseReference attemptReference = mAttemptDatabaseReference.child(mCurrentQuestion.getUid());
         attemptReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.e(TAG, ">>>>>>> bbb Check Attempr: ");
                 UserAttempt attempt = dataSnapshot.getValue(UserAttempt.class);
                 if (attempt == null) {
-                    Log.e(TAG, ">>>>>>> ccc Check Attempr: ");
                     if (attemptChoiceIndex == null) {
-                        Log.e(TAG, ">>>>>>> ddd Check Attempr: ");
                         return;//we have to save progress only after we save the score of the user
                     } else {
                         attempt = new UserAttempt();
                         attempt.setAttemptChoiceIndex(attemptChoiceIndex);
                         attempt.setQuestionNumber(mCurrentQuestion.getQuestionNumber());
                     }
-                    Log.e(TAG, ">>>>>>> eee Check Attempr: ");
 
                 }
                 // ---------------------------------------------------------------------------------
 
 
                 if (scoreCorrect != null) {
-                    Log.e(TAG, ">>>>>>> iii Check Attempr: ");
                     attempt.setScore(scoreCorrect);
                     attempt.setAttemptScoreColor(scoreCorrect ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT);
                 }
                 if (markedFavorite != null) {
-                    Log.e(TAG, ">>>>>>> jjj Check Attempr: ");
-                    attempt.setMarkedAsFavorite(markedFavorite);
                     CustomView.makeSnackBar(coordinatorLayout, "The question is tagged as favorite.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (markedVague != null) {
-                    Log.e(TAG, ">>>>>>> kkk Check Attempr: ");
                     attempt.setMarkedAsError(markedVague);
-                    //Snackbar.make(coordinatorLayout, "The question is tagged as vague.", Snackbar.LENGTH_LONG).show();
                     CustomView.makeSnackBar(coordinatorLayout, "Your report has been sent. Thank you.", CustomView.SnackBarStyle.SUCCESS).show();
                 }
                 if (remark != null) {
-                    Log.e(TAG, ">>>>>>> mmm Check Attempr: ");
                     attempt.setRemark(remark);
                     CustomView.makeSnackBar(coordinatorLayout, "Your remark is saved.", CustomView.SnackBarStyle.SUCCESS).show();
 
                 }
-                Log.e(TAG, ">>>>>>> nnn Check Attempr: ");
                 attemptReference.setValue(attempt);
-                //Log.e(TAG, "\n\n\n\n\n------------ current.getKey() onDataChange: " + dataSnapshot.getKey());
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                Log.e(TAG, ">>>>>>> ooo Check Attempr: ");
             }
         });
 
@@ -578,7 +553,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             actionBar.setTitle(mCurrentExam.getShortName());
             actionBar.setSubtitle(mCurrentExam.getFullName());
         }
-        mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawer, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
 //        {
 //            @Override
@@ -636,7 +611,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 } else if (view == viewShareSms) {
                     SocialUtil.shareSms(QuestionActivity.this, SocialUtil.SHARE_BODY_SMS);
                 } else if (view == viewSharePlay) {
-                    SocialUtil.shareGooglePlay(QuestionActivity.this);
+                    SocialUtil.shareGooglePlay(QuestionActivity.this,null);
                 } else if (view == viewShareOther) {
                     SocialUtil.shareOther(QuestionActivity.this, SocialUtil.SHARE_BODY);
                 }
@@ -685,7 +660,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             mDrawer.closeDrawer(GravityCompat.START);
             return false;
         }
-         mDrawer.closeDrawer(GravityCompat.START);
+        mDrawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
@@ -790,21 +765,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             startActivity(shareIntent);
         }
     }
-//    private   void shareQuestion( ){
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-//            Intent sendIntent = new Intent();
-//            sendIntent.setAction(Intent.ACTION_SEND);
-//            sendIntent.putExtra(Intent.EXTRA_TEXT, mCurrentQuestion.getStatement());
-//            sendIntent.setType("text/plain");
-//            this.startActivity(sendIntent);
-//        }else {
-//            Intent intent = new Intent(Intent.ACTION_SEND);
-//            intent.setType("text/*");
-//            intent.putExtra(Intent.EXTRA_TEXT, "Content");
-////            BottomSheet share = BottomSheet.createShareBottomSheet(MainActivity.this, intent, "Title");
-////            share.show();
-//        }
-//    }
 
 
     //----------------------
@@ -827,10 +787,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mFabDistanceFromRoot = radiusFromFabToRoot;
         mFabRadius = radiusOfFab;
         if (view.isSelected()) {
-            Log.e(TAG, "\nAAAAAA 222 hideRevealMenu ");
             hideRevealMenu(x, y, radiusFromFabToRoot, radiusOfFab);
         } else {
-            Log.e(TAG, "\nAAAAAA 111 showRevealMenu ");
             showRevealMenu(x, y, radiusOfFab, radiusFromFabToRoot);
         }
         view.setSelected(!view.isSelected());
@@ -839,36 +797,23 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     View.OnClickListener mRevelItemCLickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Log.e(TAG, "onClick: " + "0000 mRevelItemCLickListener");
             if (view == mFab || view == mArcRevealFrame) {
-                Log.e(TAG, "onClick: " + "1111 mRevelItemCLickListener");
                 onRevealFabClick(mFab);
                 return;
             }
-            Log.e(TAG, "onClick: " + "2222 mRevelItemCLickListener");
             hideRevealMenu(mFabCenterX, mFabCenterY, mFabDistanceFromRoot, mFabRadius);//added for better
             mFab.setSelected(false);
             //
             if (view.getId() == R.id.fab_tags) {
-                Log.e(TAG, "onClick: " + "3333 mRevelItemCLickListener");
-                //saveUserAction(view, null, null, true, null, null);
-                TagsBottomSheetDialog.createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
-
+                TagsBottomSheetDialog.createAndShow(QuestionActivity.this, mCurrentQuestion, mMainContent);
             } else if (view.getId() == R.id.fab_error) {
-                Log.e(TAG, "onClick: " + "4444 mRevelItemCLickListener");
-                ReportErrorBottomSheetDialog .createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
-
+                ReportErrorBottomSheetDialog.createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
             } else if (view.getId() == R.id.fab_share) {
-                Log.e(TAG, "onClick: " + "55555 mRevelItemCLickListener");
                 shareQuestion();
             } else if (view.getId() == R.id.fab_answer) {
-                Log.e(TAG, "onClick: " + "6666 mRevelItemCLickListener");
-                Log.e(TAG, "onClick: mCurrentQuestion.getCorrectAnswer()::: " + mCurrentQuestion.getCorrectAnswer());
                 MessageBottomSheetDialog.createAndShow(QuestionActivity.this, "Answer :: ", " \n " + mCurrentQuestion.getCorrectAnswer() + ": " + getChoiceStatement(mCurrentQuestion.getCorrectAnswer()));
             } else if (view.getId() == R.id.fab_note) {
-                Log.e(TAG, "onClick: " + "7777 mRevelItemCLickListener");
                 RemarkBottomSheetDialog.createAndShow(QuestionActivity.this, mLoadToast, mMainContent);
-
             }
 
         }
@@ -1184,87 +1129,37 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     // //--------end-yalantis-menu
-    private static class RemarkBottomSheetDialog {
-        private static final String TAG = "ContactBottomSheetDialo";
 
-        private RemarkBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
-            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_save_remark, null);
-            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
-            Button btnnSave = viewGroup.findViewById(R.id.btnn_save_remark);
-            btnnSave.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    String remark = txteRemark.getText().toString().trim();
-                    if (!StringUtil.isNullOrEmpty(remark)) {
-                        loadToast.show();
-                        activity.saveUserAction(mainContent, -1, null, null, null, remark);
-                        dialog.hide();
-                    }
+
+
+
+    public void saveQuestionBookMarks(final String bookMark) {
+
+        final DatabaseReference bookMarkReference = UserAttempt.getDatabaseReference(mUserId, mCurrentExam.getUid(), mCurrentQuestion.getUid());
+
+        bookMarkReference.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                UserAttempt attempt = dataSnapshot.getValue(UserAttempt.class);
+                if (attempt == null) {
+                    attempt = new UserAttempt();
                 }
-            });
-            dialog.setContentView(viewGroup);
-            dialog.show();
-        }
-
-        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            new RemarkBottomSheetDialog(activity, loadToast, mainContent);
-        }
-    }
-
-    private static class ReportErrorBottomSheetDialog {
-        private static final String TAG = "ContactBottomSheetDialo";
-
-        private ReportErrorBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
-            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_report_error, null);
-            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
-            Button btnnReport = viewGroup.findViewById(R.id.btnn_report);
-            btnnReport.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    String remark = txteRemark.getText().toString().trim();
-                    if (!StringUtil.isNullOrEmpty(remark)) {
-                        activity.saveUserAction(mainContent, null, null, null, true, null);
-                        //loadToast.show();
-                         dialog.hide();
+                attempt.setBookMark(bookMark);
+                bookMarkReference.setValue(attempt).addOnCompleteListener(new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        if (!task.isSuccessful()) {
+                            CustomView.makeSnackBar(mMainContent, "Sorry, Your bookmark is not saved.\nAre you connected to internet?", CustomView.SnackBarStyle.WARNING).show();
+                        }
                     }
-                }
-            });
-            dialog.setContentView(viewGroup);
-            dialog.show();
-        }
+                });
+            }
 
-        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            new ReportErrorBottomSheetDialog(activity, loadToast, mainContent);
-        }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+
     }
 
-    private static class TagsBottomSheetDialog {
-        private static final String TAG = "ContactBottomSheetDialo";
-
-        private TagsBottomSheetDialog(@NonNull final QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            final BottomSheetDialog dialog = new BottomSheetDialog(activity);
-            final View viewGroup = LayoutInflater.from(activity).inflate(R.layout.dialog_add_tags, null);
-//            final EditText txteRemark = viewGroup.findViewById(R.id.txte_remark);
-//            Button btnnSave = viewGroup.findViewById(R.id.btnn_save_remark);
-//            btnnSave.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    String remark = txteRemark.getText().toString().trim();
-//                    if (!StringUtil.isNullOrEmpty(remark) && StringUtil.isValidEmail(remark)) {
-//                        loadToast.show();
-//                        activity.saveUserAction(mainContent, -1, null, null, null, remark);
-//                        dialog.hide();
-//                    }
-//                }
-//            });
-            dialog.setContentView(viewGroup);
-            dialog.show();
-        }
-
-        public static void createAndShow(@NonNull QuestionActivity activity, final LoadToast loadToast, final View mainContent) {
-            new TagsBottomSheetDialog(activity, loadToast, mainContent);
-        }
-    }
 }

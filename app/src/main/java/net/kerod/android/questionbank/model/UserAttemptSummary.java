@@ -33,6 +33,7 @@ public class UserAttemptSummary extends FirebaseModel {//uid is same as that of 
         return getDatabaseReference(FirebaseAuth.getInstance().getCurrentUser().getUid(), ApplicationManager.CurrentSession.getSelectedExam().getUid());
     }
 
+
     public String getExamUid() {
         return examUid;
     }

@@ -5,14 +5,15 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ShareCompat;
+import androidx.annotation.NonNull;
+import androidx.core.app.ShareCompat;
 
 import com.facebook.share.model.AppInviteContent;
 import com.facebook.share.widget.AppInviteDialog;
 
 import net.kerod.android.questionbank.R;
 import net.kerod.android.questionbank.manager.ApplicationManager;
+import net.kerod.android.questionbank.widget.CustomView;
 
 /**
  * Created by makata on 8/20/17.
@@ -26,9 +27,14 @@ public class SocialUtil {
 
     public static final String FACEBOOK_APP_INVITE_ID = "162782194297114";
 
-    public static void shareGooglePlay(Activity activity) {
+
+
+    public static void shareGooglePlay(Activity activity, String toastText) {
         try {
-            //CustomView.makeToast(CONTEXT,CONTEXT. getString(R.string.give_us_five_star), CustomView.SnackBarStyle.INFO).show();
+            if(toastText!=null){
+                CustomView.makeToast(activity, toastText, CustomView.SnackBarStyle.INFO).show();
+
+            }
             String url = "market://details?id=" + activity.getPackageName();
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
             activity.startActivity(intent);
@@ -38,6 +44,7 @@ public class SocialUtil {
             activity.startActivity(intent);
         }
     }
+
 
     public static void shareFacebookAppInvite(Activity activity) {
         // https://developers.facebook.com/quickstarts/162772290964771/?platform=app-links-host

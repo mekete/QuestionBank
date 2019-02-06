@@ -2,7 +2,7 @@ package net.kerod.android.questionbank.manager;
 
 import android.content.Context;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 
 import net.kerod.android.questionbank.R;
@@ -126,6 +126,15 @@ public class SettingsManager {
 
     public static void setFirstTimeLaunch(boolean value) {
         PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_first_time_launch), value).commit();
+    }
+
+
+    public static boolean isFirstTimeToSeeQuestionActivity() {
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(context.getString(R.string.pref_key_first_time_to_see_question), true);
+    }
+
+    public static void setFirstTimeToSeeQuestionActivity(boolean value) {
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_first_time_to_see_question), value).commit();
     }
 
 
