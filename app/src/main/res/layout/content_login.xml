@@ -8,10 +8,10 @@
     android:background="#bbffffff"
     android:orientation="vertical"
 
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
@@ -116,11 +116,11 @@
         app:layout_marginTopPercent="40%"
         app:layout_widthPercent="80%">
 
-        <!--<android.support.design.widget.TextInputLayout-->
+        <!--<com.google.android.material.textfield.TextInputLayout-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:theme="@style/EditTextHint">-->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -131,9 +131,9 @@
                 android:ems="10"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -144,9 +144,9 @@
                 android:ems="10"
                 android:hint="@string/password"
                 android:inputType="textPassword" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -158,7 +158,7 @@
                 android:hint="@string/repeat_password"
                 android:inputType="textPassword"
                 android:visibility="gone" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
     </LinearLayout>
@@ -166,12 +166,12 @@
 
     <Button
         android:id="@+id/btnn_forgot_password"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/lnrl_email_input"
         android:paddingTop="@dimen/card_margin"
         android:text="@string/forgot_password"
-        style="@style/Widget.AppCompat.Button.Borderless"
         android:textColor="#555"
         app:layout_marginLeftPercent="10%" />
 
@@ -214,12 +214,12 @@
             app:layout_marginTopPercent="90%" />
 
         <TextView
-            android:layout_marginTop="@dimen/card_margin"
             android:id="@+id/txtv_log_in_or_sign_up"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/card_margin"
             android:text="@string/sign_up_now"
             android:textAllCaps="true"
             android:textColor="@color/colorPrimary" />

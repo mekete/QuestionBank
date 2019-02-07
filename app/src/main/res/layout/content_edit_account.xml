@@ -55,7 +55,7 @@
         android:orientation="vertical"
         app:layout_marginTopPercent="15%">
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -66,13 +66,13 @@
                 android:ems="10"
                 android:hint="@string/nick_name"
                 android:inputType="textPersonName" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <!--<android.support.design.widget.TextInputLayout-->
+        <!--<com.google.android.material.textfield.TextInputLayout-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
         <!--android:theme="@style/EditTextHint">-->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -83,7 +83,7 @@
                 android:ems="10"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             style="@style/TextAppearance.Design.Hint"
