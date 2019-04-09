@@ -4,6 +4,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.Exclude;
 
 import net.kerod.android.questionbank.manager.ApplicationManager;
 
@@ -20,6 +22,31 @@ public class UserAttemptSummary extends FirebaseModel {//uid is same as that of 
     private Long totalTimeUsed;
     private Long lastOpenedTime;
     private String remark;
+
+
+    private static final String FIRESTORE_DOCUMENT_NAME = "userAttemptSummary";
+
+    public static CollectionReference getCollectionReference() {
+        //return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME);//.document("2017_01_01");
+        return getCollectionReference(FirebaseAuth.getInstance().getCurrentUser().getUid(), ApplicationManager.CurrentSession.getSelectedExam().getUid());
+    }
+    public static CollectionReference getCollectionReference(String userUid, String examUid) {
+        return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME).document(userUid).collection(examUid);//.document("2017_01_01");
+    }
+
+    public static String createDocumentUid() {
+        return getCollectionReference().document().getId();
+    }
+
+    @Override @Exclude
+    public String getTitle() {
+        return ""+examUid;
+    }
+
+    @Override @Exclude
+    public String getSubTitle() {
+        return ""+totalTimeUsed;
+    }
 
     public static DatabaseReference getDatabaseReference(String userUid, String examUid) {
         return FirebaseDatabase.getInstance().getReference()

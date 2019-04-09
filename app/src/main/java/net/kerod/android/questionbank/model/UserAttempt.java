@@ -4,6 +4,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.Exclude;
 
 import net.kerod.android.questionbank.manager.ApplicationManager;
 import net.kerod.android.questionbank.utility.Constants;
@@ -13,13 +15,7 @@ import net.kerod.android.questionbank.utility.Constants;
 public class UserAttempt extends FirebaseModel {
 
     public static final String TAG = "UserAttempt";
-    //UserAction/userName_jhghjgj/examUid_hghzjcg/exam-info
-    //UserAction/userName_jhghjgj/examUid_hghzjcg/question-info/question-uid
-    //
-//    private String userUid;
-//    private String examUid;
-//    private String questionUid;
-    //current user activity
+
     private Integer questionNumber;//we need it to show on
     private String bookMark="";
     private Boolean markedAsError=false;
@@ -50,6 +46,29 @@ public class UserAttempt extends FirebaseModel {
         this.score = score;
     }
 
+    private static final String FIRESTORE_DOCUMENT_NAME = "userAttempt";
+
+    public static CollectionReference getCollectionReference() {
+        //return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME);//.document("2017_01_01");
+        return getCollectionReference(FirebaseAuth.getInstance().getCurrentUser().getUid(), ApplicationManager.CurrentSession.getSelectedExam().getUid());
+    }
+    public static CollectionReference getCollectionReference(String userUid, String examUid) {
+        return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME).document(userUid).collection(examUid);//.document("2017_01_01");
+    }
+
+    public static String createDocumentUid() {
+        return getCollectionReference().document().getId();
+    }
+
+    @Override @Exclude
+    public String getTitle() {
+        return ""+questionNumber;
+    }
+
+    @Override @Exclude
+    public String getSubTitle() {
+        return ""+attemptChoiceIndex;
+    }
 
     public static DatabaseReference getDatabaseReference(String userUid, String examUid) {
         return FirebaseDatabase.getInstance().getReference()

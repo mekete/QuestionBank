@@ -3,6 +3,8 @@ package net.kerod.android.questionbank.model;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.Exclude;
 
 @IgnoreExtraProperties
 public class Exam extends FirebaseModel {
@@ -50,6 +52,25 @@ public class Exam extends FirebaseModel {
     //
     public static DatabaseReference getDatabaseReference() {
         return FirebaseDatabase.getInstance().getReference().child(Exam.TAG.toLowerCase());
+    }
+    private static final String FIRESTORE_DOCUMENT_NAME = "instruction";
+
+    public static CollectionReference getCollectionReference() {
+        return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME);//.document("2017_01_01");
+    }
+
+    public static String createDocumentUid() {
+        return getCollectionReference().document().getId();
+    }
+
+    @Override @Exclude
+    public String getTitle() {
+        return subject;
+    }
+
+    @Override @Exclude
+    public String getSubTitle() {
+        return fullName;
     }
 
     //

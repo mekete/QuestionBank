@@ -25,6 +25,7 @@ import net.kerod.android.questionbank.adapter.ExamAdapter;
 import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
 import net.kerod.android.questionbank.utility.AppUtil;
+import net.kerod.android.questionbank.utility.FirestoreMigrator;
 import net.kerod.android.questionbank.widget.CustomView;
 import net.kerod.android.questionbank.widget.toast.LoadToast;
 
@@ -51,6 +52,12 @@ public class ExamListActivity extends AppCompatActivity {
 
 
     private void setUpApp() {
+//        FirestoreMigrator.backUpAppUser();
+//        FirestoreMigrator.backUpExam();
+//        FirestoreMigrator.backUpInstruction();
+//        FirestoreMigrator.backUpQuestion();
+
+
         if (SettingsManager.isFirstTimeLaunch()) {
             //do some db thing!
             //showWelComeDialog();//if so, call showIntroActivity() on dialog dismmiss

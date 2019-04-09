@@ -219,7 +219,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 }
 
                 if (mQuestionList.size() > 0) {
-                    Collections.sort(mQuestionList);
+                    //Collections.sort(mQuestionList);
                     mCurrentQuestion = mQuestionList.get(0);
                     mProgressQuestion.setText("1/" + mQuestionList.size());
                     mCurrentQuestion = mQuestionList.get(0);
@@ -509,7 +509,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mFab.setBackgroundTintList(ColorStateList.valueOf(color));
         //mFab.setRippleColor();BackgroundTintList(ColorStateList.valueOf(color));
         mFabBackGround.setVisibility(View.VISIBLE);
-        mFab.setVisibility(View.VISIBLE);
+        mFab.show( );
         //mFab.setBackgroundTintList(new ColorStateList());
         mFab.setScaleX(0f);
         mFab.setScaleY(0f);
@@ -534,7 +534,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                         if (isFinishing() || isDestroyed()) {
                             return;
                         }
-                        mFab.setVisibility(View.GONE);
+                        mFab.hide( );
                         mFabBackGround.setVisibility(View.GONE);
                     }
                 })

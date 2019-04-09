@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
 
 android {
     def appName = "QuestionBank"
@@ -81,11 +82,11 @@ ext {
     hamcrestVersion = "1.3"
     junitVersion = "4.12"
     //
-    playServicesVersion = "15.0.0"
+    playServicesVersion = "16.0.0"
     firebaseVersion = "16.0.1"
-    firebaseUiVersion = "4.2.0"
+    firebaseUiVersion = "4.3.2"
     leakCanaryVersion = "1.5.1"
-    crashlyticsVersion = "2.9.7"
+    crashlyticsVersion = "2.9.9"
     iTextVersion = "5.5.10"
     easyDeviceInfoVersion = "2.4.1"
 
@@ -123,11 +124,13 @@ dependencies {
     implementation "com.google.android.gms:play-services-awareness:${playServicesVersion}"
     //
     //https://firebase.google.com/docs/android/setup
-    implementation "com.google.firebase:firebase-core:16.0.3"//         Analytics
-    implementation "com.google.firebase:firebase-firestore:17.1.0"//         Cloud Firestore
-    implementation "com.google.firebase:firebase-storage:16.0.1"//         Storage
-    implementation "com.google.firebase:firebase-auth:16.0.3"//         Authentication
-    implementation "com.google.firebase:firebase-messaging:17.3.0"//         Cloud Messaging
+    implementation "com.google.firebase:firebase-core:16.0.8"     //         Analytics
+    implementation "com.google.firebase:firebase-firestore:18.2.0"//         Cloud Firestore
+    implementation "com.google.firebase:firebase-storage:16.0.1"  //         Storage
+    implementation "com.google.firebase:firebase-auth:16.2.0"     //         Authentication
+    implementation "com.google.firebase:firebase-messaging:17.5.0"//         Cloud Messaging
+
+
 //    implementation "com.google.firebase:firebase-config:16.0.0"//         Remote Config
 //    implementation "com.google.firebase:firebase-invites:16.0.3"//         Invites and Dynamic Links
 //    implementation "com.google.firebase:firebase-appindexing:16.0.1"//         App Indexing
