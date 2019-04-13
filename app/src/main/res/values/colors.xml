@@ -12,11 +12,11 @@
     <color name="choice_color_untried_grey">#888888</color>
 
     <!-- blue grey -->
-    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#455a64</color>
+    <color name="colorPrimary">#607D8B</color>
     <color name="colorPrimaryLight">#FF6593A9</color>
     <color name="colorPrimaryTranslucent">#99607d8b</color>
     <color name="colorPrimaryTransparent">#55607d8b</color>
-    <color name="colorPrimaryDark">#455a64</color>
     <color name="primaryWhite">#eceff1</color>
     <color name="colorAccent">#CDDC39</color>
     <color name="colorAccentTranslucent">#99CDDC39</color>
@@ -110,6 +110,10 @@
     <color name="path_green">#5FB336</color>
     <color name="path_purple">#49098A</color>
     <!--google sign in-->
+    <color name="blue_grey_100">#CFD8DC</color>
+    <color name="blue_grey_200">#B0BEC5</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="blue_grey_400">#78909C</color>
     <color name="blue_grey_500">#607D8B</color>
     <color name="blue_grey_600">#546E7A</color>
     <color name="blue_grey_700">#455A64</color>

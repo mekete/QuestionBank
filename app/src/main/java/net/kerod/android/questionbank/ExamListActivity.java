@@ -110,39 +110,11 @@ public class ExamListActivity extends AppCompatActivity {
 
     // -------------------------- ------------------------------ -----------------
     private void initFab() {
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
-                //Intent intent = new Intent(ExamListActivity.this, EditAccountActivity.class);
-//                Intent intent = new Intent(ExamListActivity.this, TestIntroActivity.class);
-//                startActivity(intent);
-            }
-        });
 
-        FloatingActionButton fabUpload = (FloatingActionButton) findViewById(R.id.fab_upload);
-        fabUpload.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
-//                Intent intent = new Intent(ExamListActivity.this, TempIntroActivity.class);
-//                startActivity(intent);
-            }
-        });
-        FloatingActionButton fabScore = (FloatingActionButton) findViewById(R.id.fab_score);
-        fabScore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action", null).show();
-                Intent intent = new Intent(ExamListActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
     private void initToolbar() {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setTitle(getTitle());
         //
