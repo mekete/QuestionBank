@@ -42,12 +42,13 @@
             android:layout_height="wrap_content"
 
             android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="92dp">
+            android:paddingRight="@dimen/bottom_question_progress_bar_right_margin">
 
             <TextView
                 android:id="@+id/txtv_progress_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
                 android:text="12 of 100"
                 android:textColor="@color/brokenWhite" />
@@ -57,6 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
                 android:text="23:25"
 
                 android:textColor="@color/brokenWhite" />

@@ -10,6 +10,7 @@
 
     <!---->
     <dimen name="bottom_question_action_height">64dp</dimen>
+    <dimen name="bottom_question_progress_bar_right_margin">96dp</dimen>
 
     <dimen name="fab_actual_margin_right">16dp</dimen>
     <dimen name="fab_actual_margin_bottom">32dp</dimen>

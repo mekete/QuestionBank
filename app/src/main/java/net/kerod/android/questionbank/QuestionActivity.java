@@ -513,6 +513,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             mFab.setScaleX(0f);
             mFab.setScaleY(0f);
             mFab.setAlpha(0f);
+            mFab.setBackgroundTintList(ColorStateList.valueOf(color));
             mFab.show();
             ViewCompat.animate(mFab)
                     .scaleX(1)
