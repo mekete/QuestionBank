@@ -13,22 +13,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.os.Vibrator;
-import androidx.annotation.NonNull;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
-import androidx.fragment.app.FragmentManager;
-import androidx.core.app.ShareCompat;
-import androidx.core.view.GravityCompat;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -45,6 +29,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -80,10 +66,22 @@ import net.kerod.android.questionbank.widget.TagsBottomSheetDialog;
 import net.kerod.android.questionbank.widget.toast.LoadToast;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ShareCompat;
+import androidx.core.view.GravityCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 import de.hdodenhof.circleimageview.CircleImageView;
 import se.emilsjolander.flipview.FlipView;
 import se.emilsjolander.flipview.OverFlipMode;
@@ -490,38 +488,56 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     //-------flip view
     private void initArcLayout() {
-        mRootLayout = (RelativeLayout) findViewById(R.id.root_layout);
-        mArcRevealFrame = (ClipRevealFrame) findViewById(R.id.arc_reveal_frame);
-        mArcLayout = (ArcLayout) findViewById(R.id.arc_layout);
+        mRootLayout = findViewById(R.id.root_layout);
+        mArcRevealFrame = findViewById(R.id.arc_reveal_frame);
+        mArcLayout = findViewById(R.id.arc_layout);
         mCenterItem = findViewById(R.id.center_item);
 
         mCenterItem.setOnClickListener(mRevelItemCLickListener);
         for (int i = 0, size = mArcLayout.getChildCount(); i < size; i++) {
             mArcLayout.getChildAt(i).setOnClickListener(mRevelItemCLickListener);
         }
-        mFab = (FloatingActionButton) findViewById(fab);
-        mFabBackGround = (TextView) findViewById(R.id.fab_bg);
+        mFab = findViewById(fab);
+        mFabBackGround = findViewById(R.id.fab_bg);
         mFab.setOnClickListener(mRevelItemCLickListener);
         mArcRevealFrame.setOnClickListener(mRevelItemCLickListener);
     }
 
     private void showFab(int color) {
-        mFab.setBackgroundTintList(ColorStateList.valueOf(color));
-        //mFab.setRippleColor();BackgroundTintList(ColorStateList.valueOf(color));
-        mFabBackGround.setVisibility(View.VISIBLE);
-        mFab.show( );
-        //mFab.setBackgroundTintList(new ColorStateList());
-        mFab.setScaleX(0f);
-        mFab.setScaleY(0f);
-        ViewCompat.animate(mFab)
-                .scaleX(1)
-                .scaleY(1)
-                .setInterpolator(mInterpolator)
-                .setListener(null)
-                .start();
+        if (ViewCompat.isLaidOut(mFab) || (View.VISIBLE == mFab.getVisibility() && mFab.getRippleColorStateList().getDefaultColor() == color)) {
+            mFab.setBackgroundTintList(ColorStateList.valueOf(color));
+            mFab.show();
+            mFabBackGround.setVisibility(View.VISIBLE);
+            return;
+        } else {
+            mFab.setScaleX(0f);
+            mFab.setScaleY(0f);
+            mFab.setAlpha(0f);
+            mFab.show();
+            ViewCompat.animate(mFab)
+                    .scaleX(1)
+                    .scaleY(1)
+                    .alpha(1)
+                    .setInterpolator(mInterpolator)
+                    .setListener(new ViewPropertyAnimatorListenerAdapter() {
+                        @SuppressLint("NewApi")
+                        @Override
+                        public void onAnimationEnd(View view) {
+
+                            mFabBackGround.setVisibility(View.VISIBLE);
+                        }
+                    })
+                    .start();
+
+        }
+
     }
 
     void hideFab() {
+        if (View.GONE == mFab.getVisibility() || View.INVISIBLE == mFab.getVisibility()) {
+            return;
+        }
+
         ViewCompat.animate(mFab)
                 .scaleX(0f)
                 .scaleY(0f)
@@ -534,8 +550,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                         if (isFinishing() || isDestroyed()) {
                             return;
                         }
-                        mFab.hide( );
-                        mFabBackGround.setVisibility(View.GONE);
+                        mFab.hide();
+                        mFabBackGround.setVisibility(View.INVISIBLE);
                     }
                 })
                 .start();
@@ -543,8 +559,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     private void initToolbarAndDrawer() {
 
-        mNavigationView = (NavigationView) findViewById(R.id.nav_view);
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mNavigationView = findViewById(R.id.nav_view);
+        mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         //final TextView aboutExam = (TextView) findViewById(R.id.nav_about_exam);
         //
@@ -568,18 +584,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
         mDrawer.addDrawerListener(toggle);
         toggle.syncState();
-
-//        final TextView setting = (TextView) findViewById(R.id.nav_setting);
-//        setting.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                mDrawer.closeDrawer(GravityCompat.START);
-//                Log.e(TAG, "onClick: " + "VVVVVVVVVVV----------------");
-//                Intent intent = new Intent(QuestionActivity.this, SettingsActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-        //
 
         //
 
@@ -611,7 +615,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 } else if (view == viewShareSms) {
                     SocialUtil.shareSms(QuestionActivity.this, SocialUtil.SHARE_BODY_SMS);
                 } else if (view == viewSharePlay) {
-                    SocialUtil.shareGooglePlay(QuestionActivity.this,null);
+                    SocialUtil.shareGooglePlay(QuestionActivity.this, null);
                 } else if (view == viewShareOther) {
                     SocialUtil.shareOther(QuestionActivity.this, SocialUtil.SHARE_BODY);
                 }
@@ -1129,8 +1133,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     // //--------end-yalantis-menu
-
-
 
 
     public void saveQuestionBookMarks(final String bookMark) {
