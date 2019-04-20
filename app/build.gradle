@@ -96,6 +96,8 @@ ext {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //
+    implementation "com.google.android.material:material:${googleMaterialLibVersion}"
+
     implementation "androidx.constraintlayout:constraintlayout:${androidxConstraintLayoutVersion}"
     implementation "androidx.appcompat:appcompat:${androidxVersion}"
     implementation "androidx.asynclayoutinflater:asynclayoutinflater:${androidxVersion}"
