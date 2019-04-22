@@ -258,9 +258,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     private void initFlipView() {
-        mFlipView = (FlipView) findViewById(R.id.flip_view);
+        mFlipView =  findViewById(R.id.flip_view);
         mFlipView.setOnFlipListener(mOnFlipListener);
-        mFlipView.peakNext(false);
+        mFlipView.peakNext(true);
         mFlipView.setOverFlipMode(OverFlipMode.RUBBER_BAND);
         //
         mAdapter = new QuestionAdapter(this, mQuestionList);
@@ -509,7 +509,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         mFab.setBackgroundTintList(ColorStateList.valueOf(color));
         //mFab.setRippleColor();BackgroundTintList(ColorStateList.valueOf(color));
         mFabBackGround.setVisibility(View.VISIBLE);
-        mFab.setVisibility(View.VISIBLE);
+        mFab.show();//setVisibility(View.VISIBLE);
         //mFab.setBackgroundTintList(new ColorStateList());
         mFab.setScaleX(0f);
         mFab.setScaleY(0f);
@@ -534,7 +534,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                         if (isFinishing() || isDestroyed()) {
                             return;
                         }
-                        mFab.setVisibility(View.GONE);
+                        mFab.hide();//setVisibility(View.GONE);
                         mFabBackGround.setVisibility(View.GONE);
                     }
                 })
