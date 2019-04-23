@@ -82,11 +82,11 @@ import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.FragmentManager;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 import se.emilsjolander.flipview.FlipView;
 import se.emilsjolander.flipview.OverFlipMode;
 
-import static net.kerod.android.questionbank.R.id.fab;
 
 public class QuestionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -256,9 +256,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     private void initFlipView() {
-        mFlipView = (FlipView) findViewById(R.id.flip_view);
+        mFlipView = findViewById(R.id.flip_view);
         mFlipView.setOnFlipListener(mOnFlipListener);
-        mFlipView.peakNext(false);
+        mFlipView.peakNext(true);
         mFlipView.setOverFlipMode(OverFlipMode.RUBBER_BAND);
         //
         mAdapter = new QuestionAdapter(this, mQuestionList);
@@ -341,6 +341,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     }
 
+    int mUserAttemptColor = -1;
+
     private void showFabForHistory(final String userUid, final Question selectedQuestion) {
         mCurrentQuestionAttempted = false;
         Query query = UserAttempt.getDatabaseReference(userUid, selectedQuestion.getExamUid(), selectedQuestion.getUid());
@@ -351,8 +353,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
                 if (attempt != null && mCurrentQuestion.getUid().equals(dataSnapshot.getKey())) {
                     mCurrentQuestionAttempted = true;
-                    int color = attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
-                    showFab(color);
+                    mUserAttemptColor = attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT;
+                    showFab(mUserAttemptColor);
                 } else {
                     hideFab();
                 }
@@ -497,14 +499,15 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         for (int i = 0, size = mArcLayout.getChildCount(); i < size; i++) {
             mArcLayout.getChildAt(i).setOnClickListener(mRevelItemCLickListener);
         }
-        mFab = findViewById(fab);
+        mFab = findViewById(R.id.fab);
         mFabBackGround = findViewById(R.id.fab_bg);
         mFab.setOnClickListener(mRevelItemCLickListener);
         mArcRevealFrame.setOnClickListener(mRevelItemCLickListener);
     }
 
     private void showFab(int color) {
-        if (ViewCompat.isLaidOut(mFab) || (View.VISIBLE == mFab.getVisibility() && mFab.getRippleColorStateList().getDefaultColor() == color)) {
+        if (color!=-1 || ViewCompat.isLaidOut(mFab) || (View.VISIBLE == mFab.getVisibility() && mFab.getRippleColorStateList().getDefaultColor() == color) ) {
+
             mFab.setBackgroundTintList(ColorStateList.valueOf(color));
             mFab.show();
             mFabBackGround.setVisibility(View.VISIBLE);
@@ -883,6 +886,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             public void onAnimationEnd(Animator animation) {
                 super.onAnimationEnd(animation);
                 mArcRevealFrame.setVisibility(View.INVISIBLE);
+                if (mFab.getVisibility() == View.INVISIBLE || mFab.getVisibility() == View.GONE) {
+                    showFab(mUserAttemptColor);
+                }
             }
         });
 

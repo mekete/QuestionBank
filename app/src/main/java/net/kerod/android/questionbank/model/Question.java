@@ -3,6 +3,8 @@ package net.kerod.android.questionbank.model;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.Exclude;
 
 import net.kerod.android.questionbank.manager.ApplicationManager;
 
@@ -28,13 +30,32 @@ public class Question extends FirebaseModel {
     private Integer markedAsErrorCount;
 
     //
+    private static final String FIRESTORE_DOCUMENT_NAME = "question";
+
+    public static CollectionReference getCollectionReference() {
+        return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME);//.document("2017_01_01");
+    }
+
+    public static String createDocumentUid() {
+        return getCollectionReference().document().getId();
+    }
+
+    @Override @Exclude
+    public String getTitle() {
+        return ""+questionNumber;
+    }
+
+    @Override @Exclude
+    public String getSubTitle() {
+        return statement;
+    }
+
+
     public static DatabaseReference getDatabaseReference() {
         return getDatabaseReference(ApplicationManager.CurrentSession.getSelectedExam().getUid());
 
     }
-//    public static DatabaseReference getExamDatabaseReference() {
-//        return FirebaseDatabase.getInstance().getReference().child(TAG.toLowerCase());
-//    }
+
     public static DatabaseReference getDatabaseReference(String examUid) {
         return FirebaseDatabase.getInstance().getReference()
                 .child(Exam.TAG.toLowerCase())
@@ -158,10 +179,10 @@ public class Question extends FirebaseModel {
         return -1;
 
     }
-    public Double getSortOrder() {
-
-        if(sortOrder==null && questionNumber!=null){
-            return new Double(questionNumber);
-        } return sortOrder;
-    }
+//    public Double getSortOrder() {
+//
+//        if(sortOrder==null && questionNumber!=null){
+//            return new Double(questionNumber);
+//        } return sortOrder;
+//    }
 }

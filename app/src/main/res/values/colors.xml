@@ -11,15 +11,48 @@
 
     <color name="choice_color_untried_grey">#888888</color>
 
+
+    <color name="blue_grey_100">#B6D5E2</color>
+    <color name="blue_grey_200">#7DA9BC</color>
+    <color name="blue_grey_300">#59A1C1</color>
+    <color name="blue_grey_400">#2F81A4</color>
+    <color name="blue_grey_500">#175c7a</color>
+    <color name="blue_grey_600">#12475E</color>
+    <color name="blue_grey_700">#0B3446</color>
+    <color name="blue_grey_800">#0D3546</color>
+    <color name="blue_grey_900">#09232E</color>
+
+    <!--<color name="colorPrimary">#c0ca33</color>-->
+    <!--<color name="colorPrimaryDark">#afb927</color>-->
+    <!--<color name="colorPrimaryLight">#d4e157</color>-->
+    <!--<color name="colorPrimaryTranslucent">#aac0ca33</color>-->
+    <!--<color name="colorPrimaryTransparent">#55c0ca33</color>-->
+    <!--<color name="primaryWhite">#F3F4E2</color>-->
+
+    <color name="colorPrimary">#2F81A4</color>
+    <color name="colorPrimaryDark">#175c7a</color>
+    <color name="colorPrimaryLight">#59A1C1</color>
+    <color name="colorPrimaryTranslucent">#aa2F81A4</color>
+    <color name="colorPrimaryTransparent">#552F81A4</color>
+    <color name="primaryWhite">#B6D5E2</color>
+
+
+    <!---->
+    <color name="colorAccent">#afb927</color>
+    <color name="colorAccentDark">#9e9d24</color>
+    <color name="colorAccentTranslucent">#aac0ca33</color>
+    <color name="colorAccentTransparent">#55c0ca33</color>
+    <color name="colorAccent400">#d4e157</color>
+    <!--<color name="colorAccent100">#f0f4c3</color>-->
     <!-- blue grey -->
-    <color name="colorPrimary">#607d8b</color>
-    <color name="colorPrimaryLight">#FF6593A9</color>
-    <color name="colorPrimaryTranslucent">#99607d8b</color>
-    <color name="colorPrimaryTransparent">#55607d8b</color>
-    <color name="colorPrimaryDark">#455a64</color>
-    <color name="primaryWhite">#eceff1</color>
-    <color name="colorAccent">#CDDC39</color>
-    <color name="colorAccentTranslucent">#99CDDC39</color>
+    <!--<color name="colorPrimaryDark">#455a64</color>-->
+    <!--<color name="colorPrimary">#607D8B</color>-->
+    <!--<color name="colorPrimaryLight">#FF6593A9</color>-->
+    <!--<color name="colorPrimaryTranslucent">#99607d8b</color>-->
+    <!--<color name="colorPrimaryTransparent">#55607d8b</color>-->
+    <!--<color name="primaryWhite">#eceff1</color>-->
+    <!--<color name="colorAccent">#CDDC39</color>-->
+    <!--<color name="colorAccentTranslucent">#99CDDC39</color>-->
     <!--<color name="colorAccent">#3d5afe</color>-->
     <!--<color name="colorAccentTranslucent">#cc3d5afe</color>-->
 
@@ -110,11 +143,15 @@
     <color name="path_green">#5FB336</color>
     <color name="path_purple">#49098A</color>
     <!--google sign in-->
-    <color name="blue_grey_500">#607D8B</color>
-    <color name="blue_grey_600">#546E7A</color>
-    <color name="blue_grey_700">#455A64</color>
-    <color name="blue_grey_800">#37474F</color>
-    <color name="blue_grey_900">#263238</color>
+    <!--<color name="blue_grey_100">#CFD8DC</color>-->
+    <!--<color name="blue_grey_200">#B0BEC5</color>-->
+    <!--<color name="blue_grey_300">#90A4AE</color>-->
+    <!--<color name="blue_grey_400">#78909C</color>-->
+    <!--<color name="blue_grey_500">#607D8B</color>-->
+    <!--<color name="blue_grey_600">#546E7A</color>-->
+    <!--<color name="blue_grey_700">#455A64</color>-->
+    <!--<color name="blue_grey_800">#37474F</color>-->
+    <!--<color name="blue_grey_900">#263238</color>-->
 <!--slide intro -->
 
     <color name="colorError">#FFD5007C</color>

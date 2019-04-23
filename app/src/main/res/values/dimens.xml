@@ -1,4 +1,5 @@
 <resources>
+
     <dimen name="attempt_textview_height">60dp</dimen>
     <dimen name="attempt_textview_width">60dp</dimen>
     <dimen name="attempt_textview_radius">30dp</dimen>
@@ -7,8 +8,17 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-    <dimen name="fab_margin_show_question_right">16dp</dimen>
-    <dimen name="fab_margin_show_question_bottom">8dp</dimen>
+    <!---->
+    <dimen name="bottom_question_action_height">64dp</dimen>
+    <dimen name="bottom_question_progress_bar_right_margin">96dp</dimen>
+
+    <dimen name="fab_actual_margin_right">16dp</dimen>
+    <dimen name="fab_actual_margin_bottom">32dp</dimen>
+
+    <dimen name="fab_white_margin_right">8dp</dimen>
+    <dimen name="fab_white_margin_bottom">24dp</dimen>
+    <dimen name="fab_white_margin_diameter">72dp</dimen>
+
 
     <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="nav_header_height">160dp</dimen>

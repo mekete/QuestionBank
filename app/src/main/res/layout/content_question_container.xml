@@ -18,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -32,21 +33,24 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="@dimen/fab_margin_show_question_right"
-        android:layout_marginRight="@dimen/fab_margin_show_question_right"
-        android:visibility="gone"
+        android:layout_marginBottom="32dp"
+        android:layout_marginRight="@dimen/fab_actual_margin_right"
+        android:visibility="invisible"
+
+        android:scaleX="0"
+        android:scaleY="0"
         app:srcCompat="@drawable/ic_add_24dp" />
 
 
     <TextView
         android:id="@+id/fab_bg"
-        android:layout_width="72dp"
-        android:layout_height="72dp"
+        android:layout_width="@dimen/fab_white_margin_diameter"
+        android:layout_height="@dimen/fab_white_margin_diameter"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="@dimen/fab_margin_show_question_bottom"
-        android:layout_marginRight="@dimen/fab_margin_show_question_bottom"
+        android:layout_marginBottom="@dimen/fab_white_margin_bottom"
+        android:layout_marginRight="@dimen/fab_white_margin_right"
         android:background="@drawable/bg_white_fab_border"
         android:backgroundTint="@color/darkWhite"
         android:visibility="gone" />

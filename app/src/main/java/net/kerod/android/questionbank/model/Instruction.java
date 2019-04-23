@@ -3,6 +3,8 @@ package net.kerod.android.questionbank.model;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.Exclude;
 
 import net.kerod.android.questionbank.manager.ApplicationManager;
 
@@ -18,7 +20,25 @@ public class Instruction extends FirebaseModel {
     private Integer startQuestion;
     private Integer endQuestion;
 
+    private static final String FIRESTORE_DOCUMENT_NAME = "instruction";
 
+    public static CollectionReference getCollectionReference() {
+        return getFirestoreInstance().collection(FIRESTORE_DOCUMENT_NAME);//.document("2017_01_01");
+    }
+
+    public static String createDocumentUid() {
+        return getCollectionReference().document().getId();
+    }
+
+    @Override @Exclude
+    public String getTitle() {
+        return category;
+    }
+
+    @Override @Exclude
+    public String getSubTitle() {
+        return statement;
+    }
 
     //
 

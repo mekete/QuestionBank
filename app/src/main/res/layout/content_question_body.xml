@@ -3,18 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    android:layout_height="match_parent">
 
 
     <se.emilsjolander.flipview.FlipView
+        android:layout_marginTop="?attr/actionBarSize"
         android:id="@+id/flip_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/lnrl_bottom_status"
-        android:background="#ffffff"
-        app:orientation="horizontal"></se.emilsjolander.flipview.FlipView>
+        app:orientation="horizontal" />
 
     <include layout="@layout/segment_reveal_menu" />
 
@@ -22,7 +20,7 @@
     <LinearLayout
         android:id="@+id/lnrl_bottom_status"
         android:layout_width="match_parent"
-        android:layout_height="46dp"
+        android:layout_height="@dimen/bottom_question_action_height"
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
         android:orientation="vertical">
@@ -33,23 +31,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/card_margin"
-            android:maxHeight="2dp"
-            android:minHeight="2dp"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="92dp"
-            android:progressTint="@color/primaryWhite" />
+            android:progressTint="@color/colorAccent" />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
             android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="92dp">
+            android:paddingRight="@dimen/bottom_question_progress_bar_right_margin">
 
             <TextView
                 android:id="@+id/txtv_progress_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
                 android:layout_alignParentLeft="true"
                 android:text="12 of 100"
                 android:textColor="@color/brokenWhite" />
@@ -59,7 +58,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
                 android:text="23:25"
+
                 android:textColor="@color/brokenWhite" />
         </RelativeLayout>
     </LinearLayout>
