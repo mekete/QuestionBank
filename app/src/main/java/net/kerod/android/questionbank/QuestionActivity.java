@@ -122,7 +122,7 @@ public class QuestionActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_question_container);
+        setContentView(R.layout.activity_question);
         mInterpolator = new FastOutSlowInInterpolator();
         mMenuFragmentManager = getSupportFragmentManager();
         mMainContent = findViewById(R.id.main_content);

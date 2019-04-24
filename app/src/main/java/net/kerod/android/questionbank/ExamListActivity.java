@@ -51,7 +51,7 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question);
+        setContentView(R.layout.activity_exam_list);
         mLoadToast = LoadToast.createLoadToast(this, getString(R.string.loading));
         mMainContent = findViewById(R.id.main_content);
         initToolbarAndDrawer();
