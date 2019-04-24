@@ -21,6 +21,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -33,6 +34,7 @@ import net.kerod.android.questionbank.adapter.ExamAdapter;
 import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
 import net.kerod.android.questionbank.utility.AppUtil;
+import net.kerod.android.questionbank.utility.Constants;
 import net.kerod.android.questionbank.utility.DeviceUtil;
 import net.kerod.android.questionbank.utility.FirestoreMigrator;
 import net.kerod.android.questionbank.utility.SocialUtil;
@@ -41,6 +43,8 @@ import net.kerod.android.questionbank.widget.toast.LoadToast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class ExamListActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "ExamListActivity";
@@ -58,6 +62,7 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
         initFab();
         initRecyclerView();
         setUpApp();
+        showLoggedInUserProfile();
     }
 
 
@@ -362,5 +367,36 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
 
         return true;
     }
+    //
+    private void showLoggedInUserProfile() {
+
+        View headerView = mNavigationView.inflateHeaderView(R.layout.drawer_question_header);
+        CircleImageView imgvUserProfile = (CircleImageView) headerView.findViewById(R.id.imgv_user_photo);
+        imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingsManager.getAvatarIndex()]);
+
+        TextView txtvUserName = (TextView) headerView.findViewById(R.id.txtv_user_name);
+        TextView txtvUserEmail = (TextView) headerView.findViewById(R.id.txtv_user_email);
+        txtvUserName.setText(SettingsManager.getDisplayName());
+        txtvUserEmail.setText(SettingsManager.getEmail());
+        //
+        imgvUserProfile.setOnClickListener(actionEditProfile);
+        txtvUserName.setOnClickListener(actionEditProfile);
+        txtvUserEmail.setOnClickListener(actionEditProfile);
+
+    }
+
+    View.OnClickListener actionEditProfile = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mDrawer.closeDrawer(GravityCompat.START);
+            navigateToEditAccount();
+        }
+    };
+
+    private void navigateToEditAccount() {
+        Intent intent = new Intent(ExamListActivity.this, EditAccountActivity.class);
+        startActivity(intent);
+    }
+
 
 }
