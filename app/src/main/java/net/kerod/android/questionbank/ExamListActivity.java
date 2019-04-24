@@ -3,12 +3,20 @@ package net.kerod.android.questionbank;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
+
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,14 +33,16 @@ import net.kerod.android.questionbank.adapter.ExamAdapter;
 import net.kerod.android.questionbank.manager.SettingsManager;
 import net.kerod.android.questionbank.model.Exam;
 import net.kerod.android.questionbank.utility.AppUtil;
+import net.kerod.android.questionbank.utility.DeviceUtil;
 import net.kerod.android.questionbank.utility.FirestoreMigrator;
+import net.kerod.android.questionbank.utility.SocialUtil;
 import net.kerod.android.questionbank.widget.CustomView;
 import net.kerod.android.questionbank.widget.toast.LoadToast;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExamListActivity extends AppCompatActivity {
+public class ExamListActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private static final String TAG = "ExamListActivity";
     public static final String EXAM_LIST_NODE = "examList";
     private LoadToast mLoadToast;
@@ -41,10 +51,10 @@ public class ExamListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exam_list);
+        setContentView(R.layout.activity_question);
         mLoadToast = LoadToast.createLoadToast(this, getString(R.string.loading));
         mMainContent = findViewById(R.id.main_content);
-        initToolbar();
+        initToolbarAndDrawer();
         initFab();
         initRecyclerView();
         setUpApp();
@@ -71,6 +81,93 @@ public class ExamListActivity extends AppCompatActivity {
             showWelComeDialog();
         }
         AppUtil.checkForUpdate(this, mMainContent);
+
+    }
+
+
+    private NavigationView mNavigationView;
+    private Toolbar mToolbar;
+    private DrawerLayout mDrawer;
+
+    private void initToolbarAndDrawer() {
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle(getTitle());
+        //
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            //actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setTitle("Available Exams");
+        }
+
+        mNavigationView = findViewById(R.id.nav_view);
+        mToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
+        //final TextView aboutExam = (TextView) findViewById(R.id.nav_about_exam);
+        //
+
+        mDrawer = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawer, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+
+
+        mDrawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        //
+
+        mNavigationView.setNavigationItemSelectedListener(this);
+        prepareShare();
+    }
+
+
+    private void prepareShare() {
+        final View viewShareFacebook = findViewById(R.id.txtv_share_facebook);
+        final View viewShareWhatsApp = findViewById(R.id.txtv_share_whats_app);
+        final View viewShareViber = findViewById(R.id.txtv_share_viber);
+        final View viewShareEmail = findViewById(R.id.txtv_share_email);
+        final View viewSharePlay = findViewById(R.id.txtv_share_play);
+        final View viewShareSms = findViewById(R.id.txtv_share_sms);
+        final View viewShareOther = findViewById(R.id.imgv_share_other);
+
+        View.OnClickListener actionShareApp = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mDrawer.closeDrawer(GravityCompat.START);
+                if (view == viewShareFacebook) {
+                    SocialUtil.shareFacebookAppInvite(ExamListActivity.this);
+                } else if (view == viewShareWhatsApp) {
+                    SocialUtil.shareIntent(ExamListActivity.this, SocialUtil.PACKAGE_WHATS_APP, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareViber) {
+                    SocialUtil.shareIntent(ExamListActivity.this, SocialUtil.PACKAGE_VIBER, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareEmail) {
+                    SocialUtil.shareEmail(ExamListActivity.this, SocialUtil.SHARE_BODY);
+                } else if (view == viewShareSms) {
+                    SocialUtil.shareSms(ExamListActivity.this, SocialUtil.SHARE_BODY_SMS);
+                } else if (view == viewSharePlay) {
+                    SocialUtil.shareGooglePlay(ExamListActivity.this, null);
+                } else if (view == viewShareOther) {
+                    SocialUtil.shareOther(ExamListActivity.this, SocialUtil.SHARE_BODY);
+                }
+            }
+        };
+
+
+        viewShareFacebook.setOnClickListener(actionShareApp);
+        viewSharePlay.setOnClickListener(actionShareApp);
+        viewShareSms.setOnClickListener(actionShareApp);
+        viewShareOther.setOnClickListener(actionShareApp);
+        //
+        if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_WHATS_APP)) {
+            viewShareWhatsApp.setVisibility(View.VISIBLE);
+            viewShareWhatsApp.setOnClickListener(actionShareApp);
+        } else if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_VIBER)) {
+            viewShareViber.setVisibility(View.VISIBLE);
+            viewShareViber.setOnClickListener(actionShareApp);
+        } else {
+            viewShareEmail.setVisibility(View.VISIBLE);
+            viewShareEmail.setOnClickListener(actionShareApp);
+        }
 
     }
 
@@ -113,18 +210,7 @@ public class ExamListActivity extends AppCompatActivity {
 
     }
 
-    private void initToolbar() {
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
-        //
-        ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) {
-            //actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setTitle("Question Bank");
-            actionBar.setSubtitle("Available Exams");
-        }
-    }
+
 
 
     private void initRecyclerView() {
@@ -248,4 +334,33 @@ public class ExamListActivity extends AppCompatActivity {
             }, 2000);
         }
     }
+
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_all_exams) {
+            Intent intent = new Intent(this, ExamListActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_tagged_questions) {
+
+        } else if (id == R.id.nav_settings) {
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_give_us_tip) {
+            SocialUtil.shareEmail(this, "Question Bank App", "", "kerod.apps@gmail.com");
+
+
+        } else {
+            mDrawer.closeDrawer(GravityCompat.START);
+            return false;
+        }
+        mDrawer.closeDrawer(GravityCompat.START);
+
+        return true;
+    }
+
 }

@@ -10,7 +10,7 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/content_question_container"
+        layout="@layout/activity_exam_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

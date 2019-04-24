@@ -27,10 +27,20 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ShareCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
+import androidx.fragment.app.FragmentManager;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -69,26 +79,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.ShareCompat;
-import androidx.core.view.GravityCompat;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.ViewPropertyAnimatorListenerAdapter;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.FragmentManager;
-import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
-
-import de.hdodenhof.circleimageview.CircleImageView;
 import se.emilsjolander.flipview.FlipView;
 import se.emilsjolander.flipview.OverFlipMode;
 
 
-public class QuestionActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class QuestionActivity extends AppCompatActivity {
 
     private static final int VIBRATION_DURATION_IN_MILLS = 200;
     private static final String TAG = "ShowQuestionActivity";
@@ -99,7 +94,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private final DatabaseReference mAttemptDatabaseReference = UserAttempt.getDatabaseReference(mUserId, mCurrentExam.getUid());
     //
     private View mMainContent;
-    private DrawerLayout mDrawer;
     private RelativeLayout mRootLayout;
     private ClipRevealFrame mArcRevealFrame; //parent of mArcLayout
     private ArcLayout mArcLayout;
@@ -117,17 +111,18 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     private List<Question> mQuestionList = new ArrayList<>();
     private Question mCurrentQuestion;
     private Long mStartTimeStamp;
-    private NavigationView mNavigationView;
     private Toolbar mToolbar;
     private boolean mCurrentQuestionAttempted = false;
     private long mExamPrevTimeTaken = 0;
     private boolean mFinishedLoadingQuestions = false;
     private LoadToast mLoadToast;
 
+    private static final OvershootInterpolator overshootInterpolator = new OvershootInterpolator();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_question);
+        setContentView(R.layout.content_question_container);
         mInterpolator = new FastOutSlowInInterpolator();
         mMenuFragmentManager = getSupportFragmentManager();
         mMainContent = findViewById(R.id.main_content);
@@ -144,7 +139,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         initArcLayout();
         initFlipView();
         initMenuFragment();
-        showLoggedInUserProfile();
 
     }
 
@@ -506,7 +500,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     }
 
     private void showFab(int color) {
-        if (color!=-1 || ViewCompat.isLaidOut(mFab) || (View.VISIBLE == mFab.getVisibility() && mFab.getRippleColorStateList().getDefaultColor() == color) ) {
+        if (color != -1 || ViewCompat.isLaidOut(mFab) || (View.VISIBLE == mFab.getVisibility() && mFab.getRippleColorStateList().getDefaultColor() == color)) {
 
             mFab.setBackgroundTintList(ColorStateList.valueOf(color));
             mFab.show();
@@ -561,38 +555,20 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
                 .start();
     }
 
+
     private void initToolbarAndDrawer() {
 
-        mNavigationView = findViewById(R.id.nav_view);
         mToolbar = findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         //final TextView aboutExam = (TextView) findViewById(R.id.nav_about_exam);
         //
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setTitle(mCurrentExam.getShortName());
             actionBar.setSubtitle(mCurrentExam.getFullName());
         }
-        mDrawer = findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawer, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
-//        {
-//            @Override
-//            public void onDrawerOpened(View drawerView) {
-////                 setting.bringToFront();
-////                aboutExam.bringToFront();
-//                mDrawer.requestLayout();
-//            }
-//        }
-                ;
-
-
-        mDrawer.addDrawerListener(toggle);
-        toggle.syncState();
-
-        //
-
-        mNavigationView.setNavigationItemSelectedListener(this);
-        prepareShare();
+        //prepareShare();
     }
 
     private void prepareShare() {
@@ -607,7 +583,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         View.OnClickListener actionShareApp = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mDrawer.closeDrawer(GravityCompat.START);
                 if (view == viewShareFacebook) {
                     SocialUtil.shareFacebookAppInvite(QuestionActivity.this);
                 } else if (view == viewShareWhatsApp) {
@@ -645,51 +620,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.nav_all_exams) {
-            Intent intent = new Intent(QuestionActivity.this, ExamListActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_tagged_questions) {
-
-        } else if (id == R.id.nav_settings) {
-            Intent intent = new Intent(QuestionActivity.this, SettingsActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_give_us_tip) {
-            SocialUtil.shareEmail(this, "Question Bank App", "", "kerod.apps@gmail.com");
-
-        } else if (id == R.id.nav_about_us) {
-            openAttemptSummary();
-        } else {
-            mDrawer.closeDrawer(GravityCompat.START);
-            return false;
-        }
-        mDrawer.closeDrawer(GravityCompat.START);
-
-        return true;
-    }
-
-    //
-    private void showLoggedInUserProfile() {
-
-        View headerView = mNavigationView.inflateHeaderView(R.layout.drawer_question_header);
-        CircleImageView imgvUserProfile = (CircleImageView) headerView.findViewById(R.id.imgv_user_photo);
-        imgvUserProfile.setImageResource(Constants.AVATAR_RESOURCE_IDS[SettingsManager.getAvatarIndex()]);
-
-        TextView txtvUserName = (TextView) headerView.findViewById(R.id.txtv_user_name);
-        TextView txtvUserEmail = (TextView) headerView.findViewById(R.id.txtv_user_email);
-        txtvUserName.setText(SettingsManager.getDisplayName());
-        txtvUserEmail.setText(SettingsManager.getEmail());
-        //
-        imgvUserProfile.setOnClickListener(actionEditProfile);
-        txtvUserName.setOnClickListener(actionEditProfile);
-        txtvUserEmail.setOnClickListener(actionEditProfile);
-
-    }
 
     public void launchWebView(String url, String title) {
         Intent intent = new Intent(this, WebViewActivity.class);
@@ -702,7 +632,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
     View.OnClickListener actionEditProfile = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            mDrawer.closeDrawer(GravityCompat.START);
             navigateToEditAccount();
         }
     };
@@ -714,14 +643,8 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
     @Override
     public void onBackPressed() {
-        if (mDrawer.isDrawerOpen(GravityCompat.START)) {
-            mDrawer.closeDrawer(GravityCompat.START);
-        } else {
-            //super.onBackPressed();
-            finish();
-            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
-
-        }
+        finish();
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_right);
     }
 
 
@@ -860,12 +783,11 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         animSet.playSequentially(childAnimList);
         animSet.start();
         //
-        final OvershootInterpolator interpolator = new OvershootInterpolator();
         ViewCompat.animate(mFab).
                 rotation(135f).
                 withLayer().
                 setDuration(300).
-                setInterpolator(interpolator).
+                setInterpolator(overshootInterpolator).
                 start();
     }
 
@@ -1124,6 +1046,7 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -1134,6 +1057,9 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
 
                 }
                 break;
+            case android.R.id.home:
+                onBackPressed();
+                return true;
 
         }
         return super.onOptionsItemSelected(item);
@@ -1168,7 +1094,6 @@ public class QuestionActivity extends AppCompatActivity implements NavigationVie
             public void onCancelled(DatabaseError databaseError) {
             }
         });
-
     }
 
 }
