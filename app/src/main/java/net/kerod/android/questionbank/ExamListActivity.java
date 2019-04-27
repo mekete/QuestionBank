@@ -91,14 +91,12 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
 
 
     private NavigationView mNavigationView;
-    private Toolbar mToolbar;
     private DrawerLayout mDrawer;
 
     private void initToolbarAndDrawer() {
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
+        Toolbar mToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
         //
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -107,13 +105,13 @@ public class ExamListActivity extends AppCompatActivity implements NavigationVie
         }
 
         mNavigationView = findViewById(R.id.nav_view);
-        mToolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(mToolbar);
+        //setSupportActionBar(mToolbar);
+        mToolbar.setTitle(getTitle());
         //final TextView aboutExam = (TextView) findViewById(R.id.nav_about_exam);
         //
 
         mDrawer = findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawer, mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawer,  mToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
 
         mDrawer.addDrawerListener(toggle);

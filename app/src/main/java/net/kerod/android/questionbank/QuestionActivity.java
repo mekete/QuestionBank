@@ -457,19 +457,22 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     private void initProgress() {
-        mPrgbExamQuestionsProgress = (ProgressBar) findViewById(R.id.prog_question);
-        mCronExamTimeTaken = (Chronometer) findViewById(R.id.txtv_time_used);
+        mPrgbExamQuestionsProgress =  findViewById(R.id.prog_question);
+        mCronExamTimeTaken =  findViewById(R.id.txtv_time_used);
+//        mCronExamTimeTaken.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
+//            @Override
+//            public void onChronometerTick(Chronometer chronometer) {
+//                long duration=SystemClock.elapsedRealtime()-chronometer.getBase();
+//                chronometer.setText("");
+//            }
+//        });
+
         //
-        mProgressQuestion = (TextView) findViewById(R.id.txtv_progress_count);
+        mProgressQuestion = findViewById(R.id.txtv_progress_count);
         mPrgbExamQuestionsProgress.setProgress(1);
         mProgressQuestion.setText("1/" + mQuestionList.size());
-        mProgressQuestion.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openAttemptSummary();
-            }
-        });
-        mCronExamTimeTaken.setText("00:00");
+        mProgressQuestion.setOnClickListener(v -> openAttemptSummary());
+        mCronExamTimeTaken.setText("  00:00  ");
     }
 
     private void updateProgress() {

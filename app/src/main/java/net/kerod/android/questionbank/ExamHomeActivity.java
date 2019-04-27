@@ -32,7 +32,7 @@ public class ExamHomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exam_home);
+        setContentView(R.layout.content_exam_home);
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {//it is launched not from exam list but from subject icon,
             String examUid = getIntent().getExtras().getString(FirebaseModel.FIELD_UID);
@@ -40,8 +40,7 @@ public class ExamHomeActivity extends AppCompatActivity {
             Log.e(TAG, "onCreate: EXAM UID :::: " + getIntent().getExtras().getString(FirebaseModel.FIELD_UID));
         } else if (mCurrentExam != null) {
             initComponents();
-            initFab();
-        }
+         }
     }
 
     void fetchExam(final String examUid) {
@@ -58,8 +57,7 @@ public class ExamHomeActivity extends AppCompatActivity {
                         mCurrentExam.setUid(examUid);
                         ApplicationManager.CurrentSession.setSelectedExamWithSummary(mCurrentExam);
                         initComponents();
-                        initFab();
-                    }
+                     }
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -99,19 +97,6 @@ public class ExamHomeActivity extends AppCompatActivity {
 
     }
 
-    private void initFab() {
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View fab) {
-                if (FirebaseAuth.getInstance().getCurrentUser() == null) {
-                    Intent intent = new Intent(ExamHomeActivity.this, LoginActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
-            }
-        });
-    }
 
     private void initComponents() {
 

@@ -7,11 +7,11 @@
 
 
     <se.emilsjolander.flipview.FlipView
-        android:layout_marginTop="?attr/actionBarSize"
         android:id="@+id/flip_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/lnrl_bottom_status"
+        android:layout_marginTop="?attr/actionBarSize"
         app:orientation="horizontal" />
 
     <include layout="@layout/segment_reveal_menu" />
@@ -39,23 +39,36 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/bottom_question_progress_bar_right_margin">
 
             <TextView
                 android:id="@+id/txtv_progress_count"
                 android:layout_width="wrap_content"
+                android:paddingTop="@dimen/card_margin_half"
+                android:paddingBottom="@dimen/card_margin_half"
+                android:paddingLeft="@dimen/card_margin_double"
+                android:paddingRight="@dimen/card_margin_double"
+
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
+                android:background="@drawable/bg_exam_timer"
                 android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
                 android:text="12 of 100"
                 android:textColor="@color/brokenWhite" />
 
             <Chronometer
                 android:id="@+id/txtv_time_used"
                 android:layout_width="wrap_content"
+                android:paddingTop="@dimen/card_margin_half"
+                android:paddingBottom="@dimen/card_margin_half"
+                android:paddingLeft="@dimen/card_margin_double"
+                android:paddingRight="@dimen/card_margin_double"
+
+                android:background="@drawable/bg_exam_timer"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"

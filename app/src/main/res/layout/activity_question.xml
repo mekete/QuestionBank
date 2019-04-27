@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     android:id="@+id/main_content"
-    tools:context="net.kerod.android.questionbank.QuestionActivity">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.AppBarOverlay" />
+
 
     </com.google.android.material.appbar.AppBarLayout>
+
 
     <include layout="@layout/content_question_body" />
 
@@ -30,29 +31,33 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="32dp"
         android:layout_marginRight="@dimen/fab_actual_margin_right"
-        android:visibility="invisible"
-
+        android:layout_marginBottom="32dp"
         android:scaleX="0"
+
         android:scaleY="0"
-        app:srcCompat="@drawable/ic_add_24dp" />
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_add_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/fab_actual_margin_right" />
 
 
     <TextView
         android:id="@+id/fab_bg"
         android:layout_width="@dimen/fab_white_margin_diameter"
         android:layout_height="@dimen/fab_white_margin_diameter"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="bottom|end"
-        android:layout_marginBottom="@dimen/fab_white_margin_bottom"
         android:layout_marginRight="@dimen/fab_white_margin_right"
+        android:layout_marginBottom="@dimen/fab_white_margin_bottom"
         android:background="@drawable/bg_white_fab_border"
         android:backgroundTint="@color/darkWhite"
-        android:visibility="gone" />
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/fab_white_margin_right" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -3,14 +3,18 @@ package net.kerod.android.questionbank;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -64,9 +68,10 @@ public class AttemptSummaryActivity extends AppCompatActivity {
 
 
     private void initToolbar() {
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        toolbar.setTitle(getTitle());
+
+
+        Toolbar mToolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
         //
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -81,7 +86,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
     int totalCount = 0;
 
     void initRecyclerView() {
-        mRecyclerView = (RecyclerView) findViewById(R.id.recv_question_grid);
+        mRecyclerView = findViewById(R.id.recv_question_grid);
         final Query query = Question.getDatabaseReference(mCurrentExam.getUid());
         query.addValueEventListener(new ValueEventListener() {
             @Override
@@ -167,14 +172,18 @@ public class AttemptSummaryActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.item_info:
-                if (totalCount > 0) {
-                    StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
-                } else {
-                    CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
-                }
+                showStatistics();
 
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void showStatistics() {
+        if (totalCount > 0) {
+            StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+        } else {
+            CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
+        }
     }
 
     @Override
@@ -206,11 +215,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mAdapter.notifyDataSetChanged();
                         return true;
 //                    case R.id.item_stat:
-//                        if (totalCount > 0) {
-//                            StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
-//                        } else {
-//                            CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
-//                        }
+//                        showStatistics();
 //                        return true;
                 }
             }
@@ -221,8 +226,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
 
 
     protected void initBottomNavigation() {
-        //mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
@@ -242,27 +246,17 @@ public class AttemptSummaryActivity extends AppCompatActivity {
             if (dialog == null) {
                 dialog = new BottomSheetDialog(context);
                 View viewGroup = LayoutInflater.from(context).inflate(R.layout.dialog_attempt_summary, null);
-                txtvTitle = (TextView) viewGroup.findViewById(R.id.txtv_dialog_title);
-                //txtvBody = (TextView) viewGroup.findViewById(R.id.txtv_dialog_body);
-                mArcpCorrect = (ArcProgress) viewGroup.findViewById(R.id.arcp_correct);
-                mArcpInCorrect = (ArcProgress) viewGroup.findViewById(R.id.arcp_incorrect);
-                mArcpTime = (ArcProgress) viewGroup.findViewById(R.id.arcp_total_correct);
-                //txtvInstruction.setText("    "+selectedInstruction.getSortOrder());
-                dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                    @Override
-                    public void onDismiss(DialogInterface dialog) {
-                        dialog = null;
-                    }
-                });
+                txtvTitle = viewGroup.findViewById(R.id.txtv_dialog_title);
+                mArcpCorrect = viewGroup.findViewById(R.id.arcp_correct);
+                mArcpInCorrect = viewGroup.findViewById(R.id.arcp_incorrect);
+                mArcpTime = viewGroup.findViewById(R.id.arcp_total_correct);
+                dialog.setOnDismissListener(dialog -> dialog = null);
                 dialog.setContentView(viewGroup);//
                 //
-                dialog.setOnShowListener(new DialogInterface.OnShowListener() {
-                    @Override
-                    public void onShow(DialogInterface dialogInterface) {
-                        BottomSheetDialog bottomSheetDialog = (BottomSheetDialog) dialogInterface;
-                        FrameLayout bottomSheet = (FrameLayout) bottomSheetDialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
-                        BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_COLLAPSED);
-                    }
+                dialog.setOnShowListener(dialogInterface -> {
+                    BottomSheetDialog bottomSheetDialog = (BottomSheetDialog) dialogInterface;
+                    FrameLayout bottomSheet = bottomSheetDialog.findViewById(com.google.android.material.R.id.design_bottom_sheet);
+                    BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_COLLAPSED);
                 });
             }
 //            int correctCount= ApplicationManager.CurrentSession.getSelectedExamAttemptSummary().getCorrectCount();
