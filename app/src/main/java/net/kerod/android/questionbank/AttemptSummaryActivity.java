@@ -160,23 +160,23 @@ public class AttemptSummaryActivity extends AppCompatActivity {
             }
         });
     }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_attempt_summary, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.item_info:
-                showStatistics();
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//
+//
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu_attempt_summary, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.item_info:
+//                showStatistics();
+//
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     private void showStatistics() {
         if (totalCount > 0) {
@@ -214,9 +214,9 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mAttemptListShowing.addAll(mAttemptListAll);
                         mAdapter.notifyDataSetChanged();
                         return true;
-//                    case R.id.item_stat:
-//                        showStatistics();
-//                        return true;
+                    case R.id.item_stat:
+                        showStatistics();
+                        return true;
                 }
             }
             return false;
