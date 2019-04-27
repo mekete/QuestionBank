@@ -86,6 +86,12 @@ public class AttemptSummaryActivity extends AppCompatActivity {
     int incorrectCount = 0;
     int totalCount = 0;
 
+    @Override
+    protected void onStop() {
+        StatisticsBottomSheetDialog.destroy();
+        super.onStop();
+    }
+
     void initRecyclerView() {
         mRecyclerView = findViewById(R.id.recv_question_grid);
         final Query query = Question.getDatabaseReference(mCurrentExam.getUid());
@@ -112,17 +118,13 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mAttemptListAll.clear();
                         mAttemptListCorrect.clear();
                         mAttemptListIncorrect.clear();
-                        Log.e(TAG, "\n\n\n\n>>>>>>> 222 initRecyclerView :::: ");
 
                         for (Question question : questionList) {
-                            Log.e(TAG, "\n\n\n\n>>>>>>> 333 initRecyclerView :::: ");
 
                             DataSnapshot snapshot = dataSnapshot.child(question.getUid());
                             if (snapshot == null || snapshot.getValue(UserAttempt.class) == null) {
                                 mAttemptListAll.add(new UserAttempt(question.getQuestionNumber(), Constants.COLOR_CHOICE_BACKGROUND_GERY));
-                                Log.e(TAG, "\n\n\n\n>>>>>>> 444 initRecyclerView :::: ");
                             } else {
-                                Log.e(TAG, "\n\n\n\n>>>>>>> 555 initRecyclerView :::: snapshot length ::: " + snapshot.getChildrenCount());
                                 UserAttempt attempt = snapshot.getValue(UserAttempt.class);
                                 attempt.setQuestionNumber(question.getQuestionNumber());
                                 attempt.setAttemptScoreColor(attempt.getScore() ? Constants.COLOR_CHOICE_BACKGROUND_CORRECT : Constants.COLOR_CHOICE_BACKGROUND_INCORRECT);
@@ -146,7 +148,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mRecyclerView.setAdapter(mAdapter);
                         Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange: 7777 mQuestionList.size() :::: " + mAttemptListShowing.size());
                         //handleRecyclerScroll( );
-                        if(getIntent().getBooleanExtra(ARG_SHOW_STATISTICS,false)){
+                        if (getIntent().getBooleanExtra(ARG_SHOW_STATISTICS, false)) {
                             showStatistics();
                         }
                     }
@@ -167,7 +169,13 @@ public class AttemptSummaryActivity extends AppCompatActivity {
 
     private void showStatistics() {
         if (totalCount > 0) {
-            StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+            try {
+                StatisticsBottomSheetDialog.createAndShow(AttemptSummaryActivity.this, correctCount, incorrectCount, totalCount);
+            } catch (Exception ex) {
+                Log.e(TAG, "\nshowStatistics:>>>>>\n " + ex.getMessage() + "\n");
+                ex.printStackTrace();
+
+            }
         } else {
             CustomView.makeSnackBar(findViewById(R.id.main_content), getString(R.string.statistics_not_available), CustomView.SnackBarStyle.INFO).show();
         }
@@ -246,9 +254,7 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                     BottomSheetBehavior.from(bottomSheet).setState(BottomSheetBehavior.STATE_COLLAPSED);
                 });
             }
-//            int correctCount= ApplicationManager.CurrentSession.getSelectedExamAttemptSummary().getCorrectCount();
-//            int incorrectCount= ApplicationManager.CurrentSession.getSelectedExamAttemptSummary().getIncorrectCount();
-//            int totalCount= ApplicationManager.CurrentSession.getSelectedExam().getNumberOfQuestions();
+
             mArcpCorrect.setProgress(correctCount * 100 / totalCount);
             mArcpInCorrect.setProgress(incorrectCount * 100 / totalCount);
             mArcpTime.setProgress(((totalCount - correctCount - incorrectCount) * 100) / totalCount);
@@ -260,6 +266,13 @@ public class AttemptSummaryActivity extends AppCompatActivity {
             dialog.show();
         }
 
+        public static void destroy() {
+            if (dialog != null) {
+                dialog.dismiss();
+                dialog = null;
+            }
+
+        }
 
         public static boolean isVisible() {
             return dialog != null && dialog.isShowing();
@@ -267,4 +280,6 @@ public class AttemptSummaryActivity extends AppCompatActivity {
         }
 
     }
+
+
 }
