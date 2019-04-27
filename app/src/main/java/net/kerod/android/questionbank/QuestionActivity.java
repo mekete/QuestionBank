@@ -235,9 +235,11 @@ public class QuestionActivity extends AppCompatActivity {
 
     }
 
-    private void openAttemptSummary() {
+    private void openAttemptSummary(boolean showStatistics) {
         if (mQuestionList.size() > 0) {
             Intent intent = new Intent(QuestionActivity.this, AttemptSummaryActivity.class);
+            intent.putExtra(AttemptSummaryActivity.ARG_SHOW_STATISTICS, showStatistics);
+
             startActivity(intent);
         } else {
             CustomView.makeSnackBar(mMainContent, getString(R.string.questions_not_loaded_yet), CustomView.SnackBarStyle.INFO).setAction("OK", null).show();
@@ -457,8 +459,8 @@ public class QuestionActivity extends AppCompatActivity {
     }
 
     private void initProgress() {
-        mPrgbExamQuestionsProgress =  findViewById(R.id.prog_question);
-        mCronExamTimeTaken =  findViewById(R.id.txtv_time_used);
+        mPrgbExamQuestionsProgress = findViewById(R.id.prog_question);
+        mCronExamTimeTaken = findViewById(R.id.txtv_time_used);
 //        mCronExamTimeTaken.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
 //            @Override
 //            public void onChronometerTick(Chronometer chronometer) {
@@ -471,7 +473,8 @@ public class QuestionActivity extends AppCompatActivity {
         mProgressQuestion = findViewById(R.id.txtv_progress_count);
         mPrgbExamQuestionsProgress.setProgress(1);
         mProgressQuestion.setText("1/" + mQuestionList.size());
-        mProgressQuestion.setOnClickListener(v -> openAttemptSummary());
+        mProgressQuestion.setOnClickListener(v -> openAttemptSummary(false));
+        mCronExamTimeTaken.setOnClickListener(v -> openAttemptSummary(true));
         mCronExamTimeTaken.setText("  00:00  ");
     }
 
@@ -965,7 +968,7 @@ public class QuestionActivity extends AppCompatActivity {
             if (position == indexMenuClose) {
                 return;
             } else if (position == indexMenuAllQuestion) {
-                openAttemptSummary();
+                openAttemptSummary(false);
             } else if (position == indexMenuDeleteExam) {
                 showDeleteHistoryDialog();
             } else if (position == indexMenuAboutExam) {//about exam

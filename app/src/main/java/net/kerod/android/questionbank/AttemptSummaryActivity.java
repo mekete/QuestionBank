@@ -45,6 +45,7 @@ import java.util.List;
 
 public class AttemptSummaryActivity extends AppCompatActivity {
     private static final String TAG = "AttemptSummaryActivity";
+    public static final String ARG_SHOW_STATISTICS = "showStatistics";
     private Exam mCurrentExam = ApplicationManager.CurrentSession.getSelectedExam();
     private final DatabaseReference mAttemptDatabaseReference = UserAttempt.getDatabaseReference(FirebaseAuth.getInstance().getCurrentUser().getUid(), mCurrentExam.getUid());
     //final DatabaseReference attemptReference = mAttemptDatabaseReference.child(mCurrentQuestion.getUid());
@@ -145,6 +146,9 @@ public class AttemptSummaryActivity extends AppCompatActivity {
                         mRecyclerView.setAdapter(mAdapter);
                         Log.e(TAG, "\n\n\n\n>>>>>>>onDataChange: 7777 mQuestionList.size() :::: " + mAttemptListShowing.size());
                         //handleRecyclerScroll( );
+                        if(getIntent().getBooleanExtra(ARG_SHOW_STATISTICS,false)){
+                            showStatistics();
+                        }
                     }
 
                     @Override
@@ -160,23 +164,6 @@ public class AttemptSummaryActivity extends AppCompatActivity {
             }
         });
     }
-//
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.menu_attempt_summary, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()) {
-//            case R.id.item_info:
-//                showStatistics();
-//
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
 
     private void showStatistics() {
         if (totalCount > 0) {
