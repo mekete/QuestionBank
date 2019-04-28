@@ -30,7 +30,7 @@
     <!--<color name="primaryWhite">#F3F4E2</color>-->
 
     <color name="colorPrimary">#2F81A4</color>
-    <color name="colorPrimaryDark">#175c7a</color>
+    <color name="colorPrimaryDark">#175C7A</color>
     <color name="colorPrimaryLight">#59A1C1</color>
     <color name="colorPrimaryTranslucent">#aa2F81A4</color>
     <color name="colorPrimaryTransparent">#552F81A4</color>
