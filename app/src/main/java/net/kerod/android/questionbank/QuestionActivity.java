@@ -577,75 +577,7 @@ public class QuestionActivity extends AppCompatActivity {
         //prepareShare();
     }
 
-    private void prepareShare() {
-        final View viewShareFacebook = findViewById(R.id.txtv_share_facebook);
-        final View viewShareWhatsApp = findViewById(R.id.txtv_share_whats_app);
-        final View viewShareViber = findViewById(R.id.txtv_share_viber);
-        final View viewShareEmail = findViewById(R.id.txtv_share_email);
-        final View viewSharePlay = findViewById(R.id.txtv_share_play);
-        final View viewShareSms = findViewById(R.id.txtv_share_sms);
-        final View viewShareOther = findViewById(R.id.imgv_share_other);
 
-        View.OnClickListener actionShareApp = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (view == viewShareFacebook) {
-                    SocialUtil.shareFacebookAppInvite(QuestionActivity.this);
-                } else if (view == viewShareWhatsApp) {
-                    SocialUtil.shareIntent(QuestionActivity.this, SocialUtil.PACKAGE_WHATS_APP, SocialUtil.SHARE_BODY);
-                } else if (view == viewShareViber) {
-                    SocialUtil.shareIntent(QuestionActivity.this, SocialUtil.PACKAGE_VIBER, SocialUtil.SHARE_BODY);
-                } else if (view == viewShareEmail) {
-                    SocialUtil.shareEmail(QuestionActivity.this, SocialUtil.SHARE_BODY);
-                } else if (view == viewShareSms) {
-                    SocialUtil.shareSms(QuestionActivity.this, SocialUtil.SHARE_BODY_SMS);
-                } else if (view == viewSharePlay) {
-                    SocialUtil.shareGooglePlay(QuestionActivity.this, null);
-                } else if (view == viewShareOther) {
-                    SocialUtil.shareOther(QuestionActivity.this, SocialUtil.SHARE_BODY);
-                }
-            }
-        };
-
-
-        viewShareFacebook.setOnClickListener(actionShareApp);
-        viewSharePlay.setOnClickListener(actionShareApp);
-        viewShareSms.setOnClickListener(actionShareApp);
-        viewShareOther.setOnClickListener(actionShareApp);
-        //
-        if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_WHATS_APP)) {
-            viewShareWhatsApp.setVisibility(View.VISIBLE);
-            viewShareWhatsApp.setOnClickListener(actionShareApp);
-        } else if (DeviceUtil.isAppInstalled(SocialUtil.PACKAGE_VIBER)) {
-            viewShareViber.setVisibility(View.VISIBLE);
-            viewShareViber.setOnClickListener(actionShareApp);
-        } else {
-            viewShareEmail.setVisibility(View.VISIBLE);
-            viewShareEmail.setOnClickListener(actionShareApp);
-        }
-
-    }
-
-
-    public void launchWebView(String url, String title) {
-        Intent intent = new Intent(this, WebViewActivity.class);
-        intent.putExtra(Constants.INTENT_TITLE, title);
-        intent.putExtra(Constants.INTENT_URL, url);
-        startActivity(intent);
-    }
-
-
-    View.OnClickListener actionEditProfile = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            navigateToEditAccount();
-        }
-    };
-
-    private void navigateToEditAccount() {
-        Intent intent = new Intent(QuestionActivity.this, EditAccountActivity.class);
-        startActivity(intent);
-    }
 
     @Override
     public void onBackPressed() {
