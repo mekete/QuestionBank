@@ -67,6 +67,7 @@
         <activity
             android:name=".ExamListActivity"
             android:launchMode="singleTop"
+            android:screenOrientation="portrait"
             android:label="@string/question_bank"
             android:theme="@style/SplashScreenTheme">
 
@@ -96,28 +97,34 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
+            android:screenOrientation="portrait"
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
         <activity
             android:name=".LoginActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".IntroActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EmailPasswordActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".AboutExamActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_about_exam"
             android:theme="@style/ThemeAboutExam" />
         <activity
             android:name=".EditAccountActivity"
             android:label="@string/title_activity_edit_account"
             android:parentActivityName=".QuestionActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan">
             <meta-data
