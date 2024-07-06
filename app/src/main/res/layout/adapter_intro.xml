@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:padding="@dimen/pager_margin" >
 
     <LinearLayout
@@ -19,6 +17,7 @@
             android:id="@+id/txtv_title"
             style="@style/Base.TextAppearance.AppCompat.Button"
             android:layout_width="match_parent"
+            android:gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:text="card 001, Long press to Select"
             android:textAllCaps="true"
@@ -49,25 +48,26 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="4"
-            android:background="@color/white"
-            app:cardCornerRadius="@dimen/card_border_radius">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@color/white"-->
+<!--            app:cardCornerRadius="@dimen/card_border_radius">-->
 
-            <LinearLayout
-                style="@style/Widget.CardContent"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+<!--            <LinearLayout-->
+<!--                style="@style/Widget.CardContent"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
 
-                <TextView
-                    android:id="@+id/txtv_message"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"  />
+<!--                <TextView-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:id="@+id/txtv_message"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"  />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
-        </androidx.cardview.widget.CardView>
+<!--        </androidx.cardview.widget.CardView>-->
     </LinearLayout>
 </LinearLayout>

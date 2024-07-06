@@ -29,10 +29,10 @@ public class IntroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
-        mIntroList.add(new IntroTemplate(getString(R.string.intro_antibiogram_title_one), getString(R.string.intro_antibiogram_body_one), R.drawable.img_antibiogram_one));
-        mIntroList.add(new IntroTemplate(getString(R.string.intro_antibiogram_title_two),getString(R.string.intro_antibiogram_body_two), R.drawable.img_antibiogram_two));
-        mIntroList.add(new IntroTemplate(getString(R.string.intro_antibiogram_title_three), getString(R.string.intro_antibiogram_body_three), R.drawable.img_antibiogram_two));
-        mIntroList.add(new IntroTemplate(getString(R.string.intro_antibiogram_title_four), getString(R.string.intro_antibiogram_body_four), R.drawable.img_antibiogram_one));
+        mIntroList.add(new IntroTemplate(getString(R.string.intro_exam_title_one), getString(R.string.intro_exam_body_one), R.drawable.img_intro_one));
+        mIntroList.add(new IntroTemplate(getString(R.string.intro_exam_title_two),getString(R.string.intro_exam_body_two), R.drawable.img_intro_two));
+        mIntroList.add(new IntroTemplate(getString(R.string.intro_exam_title_three), getString(R.string.intro_exam_body_three), R.drawable.img_intro_three));
+        mIntroList.add(new IntroTemplate(getString(R.string.intro_exam_title_four), getString(R.string.intro_exam_body_four), R.drawable.img_intro_four));
         initViewPager();
         resizePagerTabStrip(mIntroList.size());
 

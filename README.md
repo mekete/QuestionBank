@@ -15,7 +15,7 @@ This app is designed to help Ethiopian students prepare for their exams by provi
 
 To install the Ethiopian Students Exam Practice App on your Android device, follow these steps:
 
-1. **Download the APK**: [https://github.com/mekete/QuestionBank/blob/main/media/app_demo.apk]
+1. **Download the APK**: [https://github.com/mekete/QuestionBank/blob/master/media/app_demo.apk]
 2. **Enable Unknown Sources**: Go to Settings > Security > Enable "Unknown sources".
 3. **Install the App**: Open the downloaded APK file and follow the on-screen instructions to install the app.
 
@@ -30,17 +30,17 @@ To install the Ethiopian Students Exam Practice App on your Android device, foll
 
 ### Screenshots
 
-![Login](media/login.png)
+![Login](./media/login.png)
 _Login screen_
 
-![Main Menu](media/main_menu.png)
+![Main Menu](./media/main_menu.png)
 _Main Menu of the app_
 
-![question](media/question.png)
+![question](./media/question.png)
 _Question screen showing a sample question_
 
 ### Video
 
 Check out our demo video to see the app in action:
-[![App Demo](vid_demo.mp4)](vid_demo.mp4)
+![App Demo](./media/demo_vid.gif)
 _App Demo Video_

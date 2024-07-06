@@ -176,11 +176,11 @@ public class SettingsManager {
     // -------------------------------------------------------------------------
 
     public static void setAntibiogramPreparedDate(String value) {
-        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(context.getString(R.string.pref_key_antibiogram_prepared_date), value).commit();
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putString(context.getString(R.string.pref_key_exam_prepared_date), value).commit();
     }
 
     public static String getAntibiogramPreparedDate() {
-        return PreferenceManager.getDefaultSharedPreferences(context).getString(context.getString(R.string.pref_key_antibiogram_prepared_date), Constants.EMPTY_STRING);
+        return PreferenceManager.getDefaultSharedPreferences(context).getString(context.getString(R.string.pref_key_exam_prepared_date), Constants.EMPTY_STRING);
     }
 
 
@@ -212,11 +212,11 @@ public class SettingsManager {
     }
 
     public static boolean isFirstTimeToViewAntibiogram() {
-        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(context.getString(R.string.pref_key_first_to_view_antibiogram), true);
+        return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(context.getString(R.string.pref_key_first_to_view_exam), true);
     }
 
     public static void setFirstTimeToViewAntibiogram(boolean value) {
-        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_first_to_view_antibiogram), value).commit();
+        PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean(context.getString(R.string.pref_key_first_to_view_exam), value).commit();
     }
 
 

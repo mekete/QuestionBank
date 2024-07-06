@@ -21,7 +21,7 @@ public class IntroAdapter extends PagerAdapter {
     private List<IntroTemplate> mIntroList;
     private View mViewGroup;
     private ImageView mImgvIntro;
-    private TextView mTxtvMessage;
+//    private TextView mTxtvMessage;
     private TextView mTxtvTitle;
 
     public IntroAdapter(Activity activity, List<IntroTemplate> introList) {
@@ -36,10 +36,10 @@ public class IntroAdapter extends PagerAdapter {
         final IntroTemplate currentIntro = mIntroList.get(position);
         mViewGroup = LayoutInflater.from(mActivity).inflate(R.layout.adapter_intro, container, false);
         mImgvIntro = (ImageView) mViewGroup.findViewById(R.id.imgv_card);
-        mTxtvMessage = (TextView) mViewGroup.findViewById(R.id.txtv_message);
+//        mTxtvMessage = (TextView) mViewGroup.findViewById(R.id.txtv_message);
         mTxtvTitle = (TextView) mViewGroup.findViewById(R.id.txtv_title);
         //
-        mTxtvMessage.setText(currentIntro.getMessage());
+//        mTxtvMessage.setText(currentIntro.getMessage());
         mTxtvTitle.setText(currentIntro.getTitle() );
         mImgvIntro.setImageResource(currentIntro.getImageResourceId());
         container.addView(mViewGroup);
