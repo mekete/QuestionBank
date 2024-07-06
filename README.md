@@ -36,8 +36,11 @@ _Login screen_
 ![Main Menu](./media/main_menu.png)
 _Main Menu of the app_
 
-![question](./media/question.png)
+![question](./media/question1.png)
 _Question screen showing a sample question_
+
+![question](./media/question2.png)
+_Designed to interact with a question_
 
 ### Video
 
